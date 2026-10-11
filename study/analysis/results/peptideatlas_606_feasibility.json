@@ -1,0 +1,61 @@
+{
+ "columns_matching_localisation_or_site_confidence_pattern": {
+  "atlas_build": [
+   "probability_threshold",
+   "is_ptm_build"
+  ],
+  "biosequence_property_set": [
+   "category",
+   "has_signal_peptide_probability"
+  ],
+  "biosequence": [
+   "iscore"
+  ],
+  "contact": [
+   "is_at_local_facility"
+  ],
+  "modified_peptide_instance": [
+   "best_probability",
+   "best_adjusted_probability"
+  ],
+  "peptide_instance": [
+   "predicted_proteotypic_score",
+   "best_probability",
+   "best_adjusted_probability",
+   "empirical_proteotypic_score"
+  ],
+  "protein_identification": [
+   "probability",
+   "confidence"
+  ],
+  "sample": [
+   "anatomical_site_term",
+   "sample_category_id"
+  ]
+ },
+ "modified_peptide_instances": 3097865,
+ "with_phospho_token": 2908370,
+ "null_counts_in_modified_peptide_instance": {
+  "best_adjusted_probability": 3097865,
+  "n_adjusted_observations": 1
+ },
+ "phospho_tokens_by_residue": {
+  "S": 2420951,
+  "T": 558273,
+  "A": 447926,
+  "Y": 111329
+ },
+ "phospho_tokens_total": 3538479,
+ "share_on_residues_other_than_STY": 0.1265871579285902,
+ "peptide_by_phospho_count_groups": 384770,
+ "groups_with_more_than_one_placement": 197562,
+ "share_groups_with_more_than_one_placement": 0.5134547911739481,
+ "peptide_instance_n_protein_mappings": {
+  "2 or more": 370940,
+  "1": 10312
+ },
+ "build": {
+  "is_ptm_build": "Y",
+  "description": "Human Phosphoproteome 2025-12; phosphopeptide enrichment samples (atlas_build.tsv)"
+ }
+}

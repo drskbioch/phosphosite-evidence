@@ -1,0 +1,46 @@
+G5-0037 S1 human D1 0.7108 [0.6704, 0.7534] att -0.139 smd_x 0.01 smd_z 0.428
+G5-0038 S1 human D5 0.6516 [0.6168, 0.6907] att -0.429 smd_x 0.059 smd_z 0.015
+G5-0039 S1 human D4 0.644 [0.6092, 0.6761] att -0.468 smd_x 0.005 smd_z 0.013
+G5-0113 S2 human D1 0.472 [0.461, 0.4842] att 0.007 smd_x 0.008 smd_z 0.427
+G5-0114 S2 human D5 0.4737 [0.4622, 0.4855] att 0.004 smd_x 0.069 smd_z 0.021
+G5-0115 S2 human D4 0.4753 [0.4644, 0.4878] att 0.0 smd_x 0.002 smd_z 0.019
+G5-0117 S2 mouse D1 0.4319 [0.4186, 0.4446] att 0.008 smd_x -0.003 smd_z 0.311
+G5-0118 S2 mouse D5 0.4161 [0.4033, 0.4298] att 0.044 smd_x 0.082 smd_z 0.017
+G5-0119 S2 mouse D4 0.4144 [0.4004, 0.4277] att 0.048 smd_x -0.004 smd_z 0.017
+G5-0121 S2 rat D1 0.1394 [0.1088, 0.1718] att 0.053 smd_x 0.017 smd_z 0.436
+G5-0122 S2 rat D5 0.1103 [0.0863, 0.1479] att 0.251 smd_x 0.193 smd_z 0.009
+G5-0123 S2 rat D4 0.1235 [0.0954, 0.1566] att 0.162 smd_x 0.02 smd_z 0.004
+G5-0189 S3 human D1 0.1352 [0.1279, 0.1413] att 0.007 smd_x 0.01 smd_z 0.424
+G5-0190 S3 human D5 0.1419 [0.1353, 0.1485] att -0.042 smd_x 0.054 smd_z 0.015
+G5-0191 S3 human D4 0.1426 [0.1371, 0.1487] att -0.047 smd_x 0.005 smd_z 0.013
+G5-0193 S3 mouse D1 0.0901 [0.0835, 0.0968] att 0.07 smd_x 0.006 smd_z 0.384
+G5-0194 S3 mouse D5 0.0896 [0.0834, 0.0957] att 0.075 smd_x 0.076 smd_z 0.018
+G5-0195 S3 mouse D4 0.0897 [0.0837, 0.095] att 0.074 smd_x 0.001 smd_z 0.016
+G5-0197 S3 rat D1 0.032 [0.0163, 0.0517] att -0.574 smd_x 0.016 smd_z 0.511
+G5-0198 S3 rat D5 0.0357 [0.0177, 0.0569] att -0.753 smd_x 0.282 smd_z 0.012
+G5-0199 S3 rat D4 0.0595 [0.0449, 0.0799] att -1.927 smd_x 0.007 smd_z 0.005
+G5-0265 S4 human D1 0.1041 [0.0991, 0.1091] att -0.035 smd_x 0.01 smd_z 0.428
+G5-0266 S4 human D5 0.1109 [0.106, 0.1166] att -0.102 smd_x 0.059 smd_z 0.015
+G5-0267 S4 human D4 0.112 [0.1074, 0.1174] att -0.114 smd_x 0.005 smd_z 0.013
+G5-0269 S4 mouse D1 0.1784 [0.1721, 0.1856] att 0.011 smd_x 0.006 smd_z 0.406
+G5-0270 S4 mouse D5 0.1844 [0.1774, 0.1913] att -0.023 smd_x 0.087 smd_z 0.017
+G5-0271 S4 mouse D4 0.1848 [0.1772, 0.1917] att -0.025 smd_x 0.003 smd_z 0.016
+G5-0273 S4 rat D1 0.2009 [0.1755, 0.2193] att -0.002 smd_x 0.012 smd_z 0.528
+G5-0274 S4 rat D5 0.2208 [0.1997, 0.2421] att -0.101 smd_x 0.295 smd_z 0.011
+G5-0275 S4 rat D4 0.2067 [0.1857, 0.234] att -0.031 smd_x 0.005 smd_z 0.004
+human abundance_vs_index_V50 0.37
+human abundance_vs_S1 0.078
+human abundance_vs_S2 0.213
+human abundance_vs_S3 0.066
+human abundance_vs_S4 -0.059
+human abundance_vs_S5 0.303
+mouse abundance_vs_index_V50 0.195
+mouse abundance_vs_S2 0.211
+mouse abundance_vs_S3 0.037
+mouse abundance_vs_S4 -0.037
+mouse abundance_vs_S5 0.188
+rat abundance_vs_index_V50 0.231
+rat abundance_vs_S2 0.147
+rat abundance_vs_S3 -0.126
+rat abundance_vs_S4 -0.114
+rat abundance_vs_S5 0.078

@@ -1,0 +1,535 @@
+contrast_id,block,task,signal,signal_label,population,design,index,tier_rule,variation,decision_bearing,status,note
+G1-0001,G1,"B,C",S1,domain overlap,P-all (human),D0,V50,study-cluster rule (884),,yes,planned,
+G1-0002,G1,"B,C",S1,domain overlap,P-all (human),D1,V50,study-cluster rule (884),,yes,planned,
+G1-0003,G1,"B,C",S1,domain overlap,P-all (human),D2,V50,study-cluster rule (884),,yes,planned,
+G1-0004,G1,"B,C",S2,conservation,P-all,D0,V50,study-cluster rule (884),,yes,planned,
+G1-0005,G1,"B,C",S2,conservation,P-all,D1,V50,study-cluster rule (884),,yes,planned,
+G1-0006,G1,"B,C",S2,conservation,P-all,D2,V50,study-cluster rule (884),,yes,planned,
+G1-0007,G1,"B,C",S3,disorder,P-all,D0,V50,study-cluster rule (884),,yes,planned,
+G1-0008,G1,"B,C",S3,disorder,P-all,D1,V50,study-cluster rule (884),,yes,planned,
+G1-0009,G1,"B,C",S3,disorder,P-all,D2,V50,study-cluster rule (884),,yes,planned,
+G1-0010,G1,"B,C",S4,kinase motif (sequence),P-all,D0,V50,study-cluster rule (884),,yes,planned,
+G1-0011,G1,"B,C",S4,kinase motif (sequence),P-all,D1,V50,study-cluster rule (884),,yes,planned,
+G1-0012,G1,"B,C",S4,kinase motif (sequence),P-all,D2,V50,study-cluster rule (884),,yes,planned,
+G1-0013,G1,"B,C",S5,kinase motif (lookup),P-all,D0,V50,study-cluster rule (884),,no,planned,"database lookup: reported, not decision-bearing"
+G1-0014,G1,"B,C",S5,kinase motif (lookup),P-all,D1,V50,study-cluster rule (884),,no,planned,"database lookup: reported, not decision-bearing"
+G1-0015,G1,"B,C",S5,kinase motif (lookup),P-all,D2,V50,study-cluster rule (884),,no,planned,"database lookup: reported, not decision-bearing"
+G2-0016,G2,"B,C",S2,conservation,P-human,D0,V50,study-cluster rule (884),,yes,planned,
+G2-0017,G2,"B,C",S2,conservation,P-human,D1,V50,study-cluster rule (884),,yes,planned,
+G2-0018,G2,"B,C",S2,conservation,P-human,D2,V50,study-cluster rule (884),,yes,planned,
+G2-0019,G2,"B,C",S3,disorder,P-human,D0,V50,study-cluster rule (884),,yes,planned,
+G2-0020,G2,"B,C",S3,disorder,P-human,D1,V50,study-cluster rule (884),,yes,planned,
+G2-0021,G2,"B,C",S3,disorder,P-human,D2,V50,study-cluster rule (884),,yes,planned,
+G2-0022,G2,"B,C",S4,kinase motif (sequence),P-human,D0,V50,study-cluster rule (884),,yes,planned,
+G2-0023,G2,"B,C",S4,kinase motif (sequence),P-human,D1,V50,study-cluster rule (884),,yes,planned,
+G2-0024,G2,"B,C",S4,kinase motif (sequence),P-human,D2,V50,study-cluster rule (884),,yes,planned,
+G2-0025,G2,"B,C",S5,kinase motif (lookup),P-human,D0,V50,study-cluster rule (884),,no,planned,
+G2-0026,G2,"B,C",S5,kinase motif (lookup),P-human,D1,V50,study-cluster rule (884),,no,planned,
+G2-0027,G2,"B,C",S5,kinase motif (lookup),P-human,D2,V50,study-cluster rule (884),,no,planned,
+G3-0028,G3,"B,C",S1,domain overlap,P-annot,D0,V50,study-cluster rule (884),,no,planned,diagnostic only (D6): population defined from the outcome
+G3-0029,G3,"B,C",S1,domain overlap,P-annot,D1,V50,study-cluster rule (884),,no,planned,diagnostic only (D6): population defined from the outcome
+G3-0030,G3,"B,C",S1,domain overlap,P-annot,D2,V50,study-cluster rule (884),,no,planned,diagnostic only (D6): population defined from the outcome
+G4-0031,G4,D,S1,domain overlap,P-all,D3,V0,study-cluster rule (884),index variant,yes,planned,
+G4-0032,G4,D,S1,domain overlap,P-all,D3,V20,study-cluster rule (884),index variant,yes,planned,
+G4-0033,G4,D,S1,domain overlap,P-all,D3,V100,study-cluster rule (884),index variant,yes,planned,
+G4-0034,G4,D,S1,domain overlap,P-all,D3,VT2025,study-cluster rule (884),index variant,yes,planned,
+G4-0035,G4,D,S1,domain overlap,P-all,D3,VT2026,study-cluster rule (884),index variant,yes,planned,VT2026 is the reference-year sensitivity
+G5-0036,G5,E,S1,domain overlap,P-abund (human),D0,V50,study-cluster rule (884),,yes,planned,
+G5-0037,G5,E,S1,domain overlap,P-abund (human),D1,V50,study-cluster rule (884),,yes,planned,
+G5-0038,G5,E,S1,domain overlap,P-abund (human),D5,V50,study-cluster rule (884),,yes,planned,
+G5-0039,G5,E,S1,domain overlap,P-abund (human),D4,V50,study-cluster rule (884),,yes,planned,
+G5-0040,G5,E,S1,domain overlap,P-abund (mouse),D0,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0041,G5,E,S1,domain overlap,P-abund (mouse),D1,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0042,G5,E,S1,domain overlap,P-abund (mouse),D5,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0043,G5,E,S1,domain overlap,P-abund (mouse),D4,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0044,G5,E,S1,domain overlap,P-abund (rat),D0,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0045,G5,E,S1,domain overlap,P-abund (rat),D1,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0046,G5,E,S1,domain overlap,P-abund (rat),D5,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0047,G5,E,S1,domain overlap,P-abund (rat),D4,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G6-0048,G6,F,S1,domain overlap,P-S,D0,V50,study-cluster rule (884),,yes,planned,
+G6-0049,G6,F,S1,domain overlap,P-S,D1,V50,study-cluster rule (884),,yes,planned,
+G6-0050,G6,F,S1,domain overlap,P-T,D0,V50,study-cluster rule (884),,yes,planned,
+G6-0051,G6,F,S1,domain overlap,P-T,D1,V50,study-cluster rule (884),,yes,planned,
+G6-0052,G6,F,S1,domain overlap,P-Y,D0,V50,study-cluster rule (884),,yes,planned,
+G6-0053,G6,F,S1,domain overlap,P-Y,D1,V50,study-cluster rule (884),,yes,planned,
+G7-0054,G7,F,S1,domain overlap,P-all,D0,V50,study-cluster rule (884),drop_cluster_1,yes,planned,
+G7-0055,G7,F,S1,domain overlap,P-all,D1,V50,study-cluster rule (884),drop_cluster_1,yes,planned,
+G7-0056,G7,F,S1,domain overlap,P-all,D0,V50,study-cluster rule (884),drop_cluster_2,yes,planned,
+G7-0057,G7,F,S1,domain overlap,P-all,D1,V50,study-cluster rule (884),drop_cluster_2,yes,planned,
+G7-0058,G7,F,S1,domain overlap,P-all,D0,V50,study-cluster rule (884),drop_cluster_3,yes,planned,
+G7-0059,G7,F,S1,domain overlap,P-all,D1,V50,study-cluster rule (884),drop_cluster_3,yes,planned,
+G7-0060,G7,F,S1,domain overlap,P-all,D0,V50,study-cluster rule (884),drop_cluster_4,yes,planned,
+G7-0061,G7,F,S1,domain overlap,P-all,D1,V50,study-cluster rule (884),drop_cluster_4,yes,planned,
+G7-0062,G7,F,S1,domain overlap,P-all,D0,V50,study-cluster rule (884),drop_cluster_5,yes,planned,
+G7-0063,G7,F,S1,domain overlap,P-all,D1,V50,study-cluster rule (884),drop_cluster_5,yes,planned,
+G7-0064,G7,F,S1,domain overlap,P-all,D0,V50,study-cluster rule (884),drop_cluster_6,yes,planned,
+G7-0065,G7,F,S1,domain overlap,P-all,D1,V50,study-cluster rule (884),drop_cluster_6,yes,planned,
+G7-0066,G7,F,S1,domain overlap,P-all,D0,V50,study-cluster rule (884),drop_cluster_7,yes,planned,
+G7-0067,G7,F,S1,domain overlap,P-all,D1,V50,study-cluster rule (884),drop_cluster_7,yes,planned,
+G7-0068,G7,F,S1,domain overlap,P-all,D0,V50,study-cluster rule (884),drop_cluster_8,yes,planned,
+G7-0069,G7,F,S1,domain overlap,P-all,D1,V50,study-cluster rule (884),drop_cluster_8,yes,planned,
+G7-0070,G7,F,S1,domain overlap,P-all,D0,V50,study-cluster rule (884),drop_cluster_9,yes,planned,
+G7-0071,G7,F,S1,domain overlap,P-all,D1,V50,study-cluster rule (884),drop_cluster_9,yes,planned,
+G7-0072,G7,F,S1,domain overlap,P-all,D0,V50,study-cluster rule (884),drop_cluster_10,yes,planned,
+G7-0073,G7,F,S1,domain overlap,P-all,D1,V50,study-cluster rule (884),drop_cluster_10,yes,planned,
+G7-0074,G7,F,S1,domain overlap,P-all,D0,V50,study-cluster rule (884),drop_consortium_7_PMIDs,yes,planned,
+G7-0075,G7,F,S1,domain overlap,P-all,D1,V50,study-cluster rule (884),drop_consortium_7_PMIDs,yes,planned,
+G8-0076,G8,F,S1,domain overlap,P-all,D0,V50,GOLD depth>=5 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=5;gold_das=2,yes,planned,
+G8-0077,G8,F,S1,domain overlap,P-all,D1,V50,GOLD depth>=5 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=5;gold_das=2,yes,planned,
+G8-0078,G8,F,S1,domain overlap,P-all,D0,V50,GOLD depth>=5 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=5;gold_das=3,yes,planned,
+G8-0079,G8,F,S1,domain overlap,P-all,D1,V50,GOLD depth>=5 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=5;gold_das=3,yes,planned,
+G8-0080,G8,F,S1,domain overlap,P-all,D0,V50,GOLD depth>=10 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=10;gold_das=2,yes,planned,
+G8-0081,G8,F,S1,domain overlap,P-all,D1,V50,GOLD depth>=10 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=10;gold_das=2,yes,planned,
+G8-0082,G8,F,S1,domain overlap,P-all,D0,V50,GOLD depth>=10 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=10;gold_das=3,yes,planned,
+G8-0083,G8,F,S1,domain overlap,P-all,D1,V50,GOLD depth>=10 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=10;gold_das=3,yes,planned,
+G8-0084,G8,F,S1,domain overlap,P-all,D0,V50,GOLD depth>=20 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=20;gold_das=2,yes,planned,
+G8-0085,G8,F,S1,domain overlap,P-all,D1,V50,GOLD depth>=20 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=20;gold_das=2,yes,planned,
+G8-0086,G8,F,S1,domain overlap,P-all,D0,V50,GOLD depth>=20 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=20;gold_das=3,yes,planned,
+G8-0087,G8,F,S1,domain overlap,P-all,D1,V50,GOLD depth>=20 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=20;gold_das=3,yes,planned,
+G9-0088,G9,H,S1,domain overlap,PSP∩site table (human),D0,V50,study-cluster rule (884),PSP LT-supported vs MS-only,yes,planned,mouse/rat only if intersection allows strata
+G9-0089,G9,H,S1,domain overlap,PSP∩site table (human),D1,V50,study-cluster rule (884),PSP LT-supported vs MS-only,yes,planned,mouse/rat only if intersection allows strata
+G9-0090,G9,H,S1,domain overlap,PSP∩site table (human),D4,V50,study-cluster rule (884),PSP LT-supported vs MS-only,yes,planned,mouse/rat only if intersection allows strata
+G9-0091,G9,H,S1,domain overlap,PSP∩site table (human),D0,V50,study-cluster rule (884),PSP evidence category high (n>=5) vs low (n=1),yes,planned,mouse/rat only if intersection allows strata
+G9-0092,G9,H,S1,domain overlap,PSP∩site table (human),D1,V50,study-cluster rule (884),PSP evidence category high (n>=5) vs low (n=1),yes,planned,mouse/rat only if intersection allows strata
+G9-0093,G9,H,S1,domain overlap,PSP∩site table (human),D4,V50,study-cluster rule (884),PSP evidence category high (n>=5) vs low (n=1),yes,planned,mouse/rat only if intersection allows strata
+G9-0094,G9,H,S1,domain overlap,measure-specific,D0,V50,study-cluster rule (884),PeptideAtlas confidence categories,yes,conditional,stop if not downloadable
+G9-0095,G9,H,S1,domain overlap,measure-specific,D1,V50,study-cluster rule (884),PeptideAtlas confidence categories,yes,conditional,stop if not downloadable
+G9-0096,G9,H,S1,domain overlap,measure-specific,D4,V50,study-cluster rule (884),PeptideAtlas confidence categories,yes,conditional,stop if not downloadable
+G9-0097,G9,H,S1,domain overlap,measure-specific,D0,V50,study-cluster rule (884),UniProt MOD_RES experimental vs inferred ECO,yes,conditional,optional
+G9-0098,G9,H,S1,domain overlap,measure-specific,D1,V50,study-cluster rule (884),UniProt MOD_RES experimental vs inferred ECO,yes,conditional,optional
+G9-0099,G9,H,S1,domain overlap,measure-specific,D4,V50,study-cluster rule (884),UniProt MOD_RES experimental vs inferred ECO,yes,conditional,optional
+G10-0100,G10,I,S1,domain overlap,"PSP human sites, proteins with both kinds",within-protein fixed effects,none (within protein),study-cluster rule (884),LT-supported vs MS-only,yes,planned,
+G12-0101,G12,"B,C",S1,domain overlap,P-all,D0,V50,"depth-only (GOLD depth>=10, SILVER 3-9, BRONZE<=2)",,yes,planned,
+G12-0102,G12,"B,C",S1,domain overlap,P-all,D1,V50,"depth-only (GOLD depth>=10, SILVER 3-9, BRONZE<=2)",,yes,planned,
+G13-0103,G13,"B,C",S1,domain overlap,P-all,D0,V50,study-cluster rule (500),cluster_threshold=500,yes,planned,cluster merges and tiers identical to 884 in b_cluster_rule_info.json
+G13-0104,G13,"B,C",S1,domain overlap,P-all,D1,V50,study-cluster rule (500),cluster_threshold=500,yes,planned,cluster merges and tiers identical to 884 in b_cluster_rule_info.json
+G13-0105,G13,"B,C",S1,domain overlap,P-all,D0,V50,study-cluster rule (1000),cluster_threshold=1000,yes,planned,cluster merges and tiers identical to 884 in b_cluster_rule_info.json
+G13-0106,G13,"B,C",S1,domain overlap,P-all,D1,V50,study-cluster rule (1000),cluster_threshold=1000,yes,planned,cluster merges and tiers identical to 884 in b_cluster_rule_info.json
+G4-0107,G4,D,S2,conservation,P-all,D3,V0,study-cluster rule (884),index variant,yes,planned,
+G4-0108,G4,D,S2,conservation,P-all,D3,V20,study-cluster rule (884),index variant,yes,planned,
+G4-0109,G4,D,S2,conservation,P-all,D3,V100,study-cluster rule (884),index variant,yes,planned,
+G4-0110,G4,D,S2,conservation,P-all,D3,VT2025,study-cluster rule (884),index variant,yes,planned,
+G4-0111,G4,D,S2,conservation,P-all,D3,VT2026,study-cluster rule (884),index variant,yes,planned,VT2026 is the reference-year sensitivity
+G5-0112,G5,E,S2,conservation,P-abund (human),D0,V50,study-cluster rule (884),,yes,planned,
+G5-0113,G5,E,S2,conservation,P-abund (human),D1,V50,study-cluster rule (884),,yes,planned,
+G5-0114,G5,E,S2,conservation,P-abund (human),D5,V50,study-cluster rule (884),,yes,planned,
+G5-0115,G5,E,S2,conservation,P-abund (human),D4,V50,study-cluster rule (884),,yes,planned,
+G5-0116,G5,E,S2,conservation,P-abund (mouse),D0,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0117,G5,E,S2,conservation,P-abund (mouse),D1,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0118,G5,E,S2,conservation,P-abund (mouse),D5,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0119,G5,E,S2,conservation,P-abund (mouse),D4,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0120,G5,E,S2,conservation,P-abund (rat),D0,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0121,G5,E,S2,conservation,P-abund (rat),D1,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0122,G5,E,S2,conservation,P-abund (rat),D5,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0123,G5,E,S2,conservation,P-abund (rat),D4,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G6-0124,G6,F,S2,conservation,P-S,D0,V50,study-cluster rule (884),,yes,planned,
+G6-0125,G6,F,S2,conservation,P-S,D1,V50,study-cluster rule (884),,yes,planned,
+G6-0126,G6,F,S2,conservation,P-T,D0,V50,study-cluster rule (884),,yes,planned,
+G6-0127,G6,F,S2,conservation,P-T,D1,V50,study-cluster rule (884),,yes,planned,
+G6-0128,G6,F,S2,conservation,P-Y,D0,V50,study-cluster rule (884),,yes,planned,
+G6-0129,G6,F,S2,conservation,P-Y,D1,V50,study-cluster rule (884),,yes,planned,
+G7-0130,G7,F,S2,conservation,P-all,D0,V50,study-cluster rule (884),drop_cluster_1,yes,planned,
+G7-0131,G7,F,S2,conservation,P-all,D1,V50,study-cluster rule (884),drop_cluster_1,yes,planned,
+G7-0132,G7,F,S2,conservation,P-all,D0,V50,study-cluster rule (884),drop_cluster_2,yes,planned,
+G7-0133,G7,F,S2,conservation,P-all,D1,V50,study-cluster rule (884),drop_cluster_2,yes,planned,
+G7-0134,G7,F,S2,conservation,P-all,D0,V50,study-cluster rule (884),drop_cluster_3,yes,planned,
+G7-0135,G7,F,S2,conservation,P-all,D1,V50,study-cluster rule (884),drop_cluster_3,yes,planned,
+G7-0136,G7,F,S2,conservation,P-all,D0,V50,study-cluster rule (884),drop_cluster_4,yes,planned,
+G7-0137,G7,F,S2,conservation,P-all,D1,V50,study-cluster rule (884),drop_cluster_4,yes,planned,
+G7-0138,G7,F,S2,conservation,P-all,D0,V50,study-cluster rule (884),drop_cluster_5,yes,planned,
+G7-0139,G7,F,S2,conservation,P-all,D1,V50,study-cluster rule (884),drop_cluster_5,yes,planned,
+G7-0140,G7,F,S2,conservation,P-all,D0,V50,study-cluster rule (884),drop_cluster_6,yes,planned,
+G7-0141,G7,F,S2,conservation,P-all,D1,V50,study-cluster rule (884),drop_cluster_6,yes,planned,
+G7-0142,G7,F,S2,conservation,P-all,D0,V50,study-cluster rule (884),drop_cluster_7,yes,planned,
+G7-0143,G7,F,S2,conservation,P-all,D1,V50,study-cluster rule (884),drop_cluster_7,yes,planned,
+G7-0144,G7,F,S2,conservation,P-all,D0,V50,study-cluster rule (884),drop_cluster_8,yes,planned,
+G7-0145,G7,F,S2,conservation,P-all,D1,V50,study-cluster rule (884),drop_cluster_8,yes,planned,
+G7-0146,G7,F,S2,conservation,P-all,D0,V50,study-cluster rule (884),drop_cluster_9,yes,planned,
+G7-0147,G7,F,S2,conservation,P-all,D1,V50,study-cluster rule (884),drop_cluster_9,yes,planned,
+G7-0148,G7,F,S2,conservation,P-all,D0,V50,study-cluster rule (884),drop_cluster_10,yes,planned,
+G7-0149,G7,F,S2,conservation,P-all,D1,V50,study-cluster rule (884),drop_cluster_10,yes,planned,
+G7-0150,G7,F,S2,conservation,P-all,D0,V50,study-cluster rule (884),drop_consortium_7_PMIDs,yes,planned,
+G7-0151,G7,F,S2,conservation,P-all,D1,V50,study-cluster rule (884),drop_consortium_7_PMIDs,yes,planned,
+G8-0152,G8,F,S2,conservation,P-all,D0,V50,GOLD depth>=5 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=5;gold_das=2,yes,planned,
+G8-0153,G8,F,S2,conservation,P-all,D1,V50,GOLD depth>=5 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=5;gold_das=2,yes,planned,
+G8-0154,G8,F,S2,conservation,P-all,D0,V50,GOLD depth>=5 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=5;gold_das=3,yes,planned,
+G8-0155,G8,F,S2,conservation,P-all,D1,V50,GOLD depth>=5 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=5;gold_das=3,yes,planned,
+G8-0156,G8,F,S2,conservation,P-all,D0,V50,GOLD depth>=10 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=10;gold_das=2,yes,planned,
+G8-0157,G8,F,S2,conservation,P-all,D1,V50,GOLD depth>=10 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=10;gold_das=2,yes,planned,
+G8-0158,G8,F,S2,conservation,P-all,D0,V50,GOLD depth>=10 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=10;gold_das=3,yes,planned,
+G8-0159,G8,F,S2,conservation,P-all,D1,V50,GOLD depth>=10 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=10;gold_das=3,yes,planned,
+G8-0160,G8,F,S2,conservation,P-all,D0,V50,GOLD depth>=20 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=20;gold_das=2,yes,planned,
+G8-0161,G8,F,S2,conservation,P-all,D1,V50,GOLD depth>=20 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=20;gold_das=2,yes,planned,
+G8-0162,G8,F,S2,conservation,P-all,D0,V50,GOLD depth>=20 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=20;gold_das=3,yes,planned,
+G8-0163,G8,F,S2,conservation,P-all,D1,V50,GOLD depth>=20 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=20;gold_das=3,yes,planned,
+G9-0164,G9,H,S2,conservation,PSP∩site table (human),D0,V50,study-cluster rule (884),PSP LT-supported vs MS-only,yes,planned,mouse/rat only if intersection allows strata
+G9-0165,G9,H,S2,conservation,PSP∩site table (human),D1,V50,study-cluster rule (884),PSP LT-supported vs MS-only,yes,planned,mouse/rat only if intersection allows strata
+G9-0166,G9,H,S2,conservation,PSP∩site table (human),D4,V50,study-cluster rule (884),PSP LT-supported vs MS-only,yes,planned,mouse/rat only if intersection allows strata
+G9-0167,G9,H,S2,conservation,PSP∩site table (human),D0,V50,study-cluster rule (884),PSP evidence category high (n>=5) vs low (n=1),yes,planned,mouse/rat only if intersection allows strata
+G9-0168,G9,H,S2,conservation,PSP∩site table (human),D1,V50,study-cluster rule (884),PSP evidence category high (n>=5) vs low (n=1),yes,planned,mouse/rat only if intersection allows strata
+G9-0169,G9,H,S2,conservation,PSP∩site table (human),D4,V50,study-cluster rule (884),PSP evidence category high (n>=5) vs low (n=1),yes,planned,mouse/rat only if intersection allows strata
+G9-0170,G9,H,S2,conservation,measure-specific,D0,V50,study-cluster rule (884),PeptideAtlas confidence categories,yes,conditional,stop if not downloadable
+G9-0171,G9,H,S2,conservation,measure-specific,D1,V50,study-cluster rule (884),PeptideAtlas confidence categories,yes,conditional,stop if not downloadable
+G9-0172,G9,H,S2,conservation,measure-specific,D4,V50,study-cluster rule (884),PeptideAtlas confidence categories,yes,conditional,stop if not downloadable
+G9-0173,G9,H,S2,conservation,measure-specific,D0,V50,study-cluster rule (884),UniProt MOD_RES experimental vs inferred ECO,yes,conditional,optional
+G9-0174,G9,H,S2,conservation,measure-specific,D1,V50,study-cluster rule (884),UniProt MOD_RES experimental vs inferred ECO,yes,conditional,optional
+G9-0175,G9,H,S2,conservation,measure-specific,D4,V50,study-cluster rule (884),UniProt MOD_RES experimental vs inferred ECO,yes,conditional,optional
+G10-0176,G10,I,S2,conservation,"PSP human sites, proteins with both kinds",within-protein fixed effects,none (within protein),study-cluster rule (884),LT-supported vs MS-only,yes,planned,
+G12-0177,G12,"B,C",S2,conservation,P-all,D0,V50,"depth-only (GOLD depth>=10, SILVER 3-9, BRONZE<=2)",,yes,planned,
+G12-0178,G12,"B,C",S2,conservation,P-all,D1,V50,"depth-only (GOLD depth>=10, SILVER 3-9, BRONZE<=2)",,yes,planned,
+G13-0179,G13,"B,C",S2,conservation,P-all,D0,V50,study-cluster rule (500),cluster_threshold=500,yes,planned,cluster merges and tiers identical to 884 in b_cluster_rule_info.json
+G13-0180,G13,"B,C",S2,conservation,P-all,D1,V50,study-cluster rule (500),cluster_threshold=500,yes,planned,cluster merges and tiers identical to 884 in b_cluster_rule_info.json
+G13-0181,G13,"B,C",S2,conservation,P-all,D0,V50,study-cluster rule (1000),cluster_threshold=1000,yes,planned,cluster merges and tiers identical to 884 in b_cluster_rule_info.json
+G13-0182,G13,"B,C",S2,conservation,P-all,D1,V50,study-cluster rule (1000),cluster_threshold=1000,yes,planned,cluster merges and tiers identical to 884 in b_cluster_rule_info.json
+G4-0183,G4,D,S3,disorder,P-all,D3,V0,study-cluster rule (884),index variant,yes,planned,
+G4-0184,G4,D,S3,disorder,P-all,D3,V20,study-cluster rule (884),index variant,yes,planned,
+G4-0185,G4,D,S3,disorder,P-all,D3,V100,study-cluster rule (884),index variant,yes,planned,
+G4-0186,G4,D,S3,disorder,P-all,D3,VT2025,study-cluster rule (884),index variant,yes,planned,
+G4-0187,G4,D,S3,disorder,P-all,D3,VT2026,study-cluster rule (884),index variant,yes,planned,VT2026 is the reference-year sensitivity
+G5-0188,G5,E,S3,disorder,P-abund (human),D0,V50,study-cluster rule (884),,yes,planned,
+G5-0189,G5,E,S3,disorder,P-abund (human),D1,V50,study-cluster rule (884),,yes,planned,
+G5-0190,G5,E,S3,disorder,P-abund (human),D5,V50,study-cluster rule (884),,yes,planned,
+G5-0191,G5,E,S3,disorder,P-abund (human),D4,V50,study-cluster rule (884),,yes,planned,
+G5-0192,G5,E,S3,disorder,P-abund (mouse),D0,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0193,G5,E,S3,disorder,P-abund (mouse),D1,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0194,G5,E,S3,disorder,P-abund (mouse),D5,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0195,G5,E,S3,disorder,P-abund (mouse),D4,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0196,G5,E,S3,disorder,P-abund (rat),D0,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0197,G5,E,S3,disorder,P-abund (rat),D1,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0198,G5,E,S3,disorder,P-abund (rat),D5,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0199,G5,E,S3,disorder,P-abund (rat),D4,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G6-0200,G6,F,S3,disorder,P-S,D0,V50,study-cluster rule (884),,yes,planned,
+G6-0201,G6,F,S3,disorder,P-S,D1,V50,study-cluster rule (884),,yes,planned,
+G6-0202,G6,F,S3,disorder,P-T,D0,V50,study-cluster rule (884),,yes,planned,
+G6-0203,G6,F,S3,disorder,P-T,D1,V50,study-cluster rule (884),,yes,planned,
+G6-0204,G6,F,S3,disorder,P-Y,D0,V50,study-cluster rule (884),,yes,planned,
+G6-0205,G6,F,S3,disorder,P-Y,D1,V50,study-cluster rule (884),,yes,planned,
+G7-0206,G7,F,S3,disorder,P-all,D0,V50,study-cluster rule (884),drop_cluster_1,yes,planned,
+G7-0207,G7,F,S3,disorder,P-all,D1,V50,study-cluster rule (884),drop_cluster_1,yes,planned,
+G7-0208,G7,F,S3,disorder,P-all,D0,V50,study-cluster rule (884),drop_cluster_2,yes,planned,
+G7-0209,G7,F,S3,disorder,P-all,D1,V50,study-cluster rule (884),drop_cluster_2,yes,planned,
+G7-0210,G7,F,S3,disorder,P-all,D0,V50,study-cluster rule (884),drop_cluster_3,yes,planned,
+G7-0211,G7,F,S3,disorder,P-all,D1,V50,study-cluster rule (884),drop_cluster_3,yes,planned,
+G7-0212,G7,F,S3,disorder,P-all,D0,V50,study-cluster rule (884),drop_cluster_4,yes,planned,
+G7-0213,G7,F,S3,disorder,P-all,D1,V50,study-cluster rule (884),drop_cluster_4,yes,planned,
+G7-0214,G7,F,S3,disorder,P-all,D0,V50,study-cluster rule (884),drop_cluster_5,yes,planned,
+G7-0215,G7,F,S3,disorder,P-all,D1,V50,study-cluster rule (884),drop_cluster_5,yes,planned,
+G7-0216,G7,F,S3,disorder,P-all,D0,V50,study-cluster rule (884),drop_cluster_6,yes,planned,
+G7-0217,G7,F,S3,disorder,P-all,D1,V50,study-cluster rule (884),drop_cluster_6,yes,planned,
+G7-0218,G7,F,S3,disorder,P-all,D0,V50,study-cluster rule (884),drop_cluster_7,yes,planned,
+G7-0219,G7,F,S3,disorder,P-all,D1,V50,study-cluster rule (884),drop_cluster_7,yes,planned,
+G7-0220,G7,F,S3,disorder,P-all,D0,V50,study-cluster rule (884),drop_cluster_8,yes,planned,
+G7-0221,G7,F,S3,disorder,P-all,D1,V50,study-cluster rule (884),drop_cluster_8,yes,planned,
+G7-0222,G7,F,S3,disorder,P-all,D0,V50,study-cluster rule (884),drop_cluster_9,yes,planned,
+G7-0223,G7,F,S3,disorder,P-all,D1,V50,study-cluster rule (884),drop_cluster_9,yes,planned,
+G7-0224,G7,F,S3,disorder,P-all,D0,V50,study-cluster rule (884),drop_cluster_10,yes,planned,
+G7-0225,G7,F,S3,disorder,P-all,D1,V50,study-cluster rule (884),drop_cluster_10,yes,planned,
+G7-0226,G7,F,S3,disorder,P-all,D0,V50,study-cluster rule (884),drop_consortium_7_PMIDs,yes,planned,
+G7-0227,G7,F,S3,disorder,P-all,D1,V50,study-cluster rule (884),drop_consortium_7_PMIDs,yes,planned,
+G8-0228,G8,F,S3,disorder,P-all,D0,V50,GOLD depth>=5 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=5;gold_das=2,yes,planned,
+G8-0229,G8,F,S3,disorder,P-all,D1,V50,GOLD depth>=5 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=5;gold_das=2,yes,planned,
+G8-0230,G8,F,S3,disorder,P-all,D0,V50,GOLD depth>=5 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=5;gold_das=3,yes,planned,
+G8-0231,G8,F,S3,disorder,P-all,D1,V50,GOLD depth>=5 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=5;gold_das=3,yes,planned,
+G8-0232,G8,F,S3,disorder,P-all,D0,V50,GOLD depth>=10 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=10;gold_das=2,yes,planned,
+G8-0233,G8,F,S3,disorder,P-all,D1,V50,GOLD depth>=10 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=10;gold_das=2,yes,planned,
+G8-0234,G8,F,S3,disorder,P-all,D0,V50,GOLD depth>=10 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=10;gold_das=3,yes,planned,
+G8-0235,G8,F,S3,disorder,P-all,D1,V50,GOLD depth>=10 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=10;gold_das=3,yes,planned,
+G8-0236,G8,F,S3,disorder,P-all,D0,V50,GOLD depth>=20 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=20;gold_das=2,yes,planned,
+G8-0237,G8,F,S3,disorder,P-all,D1,V50,GOLD depth>=20 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=20;gold_das=2,yes,planned,
+G8-0238,G8,F,S3,disorder,P-all,D0,V50,GOLD depth>=20 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=20;gold_das=3,yes,planned,
+G8-0239,G8,F,S3,disorder,P-all,D1,V50,GOLD depth>=20 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=20;gold_das=3,yes,planned,
+G9-0240,G9,H,S3,disorder,PSP∩site table (human),D0,V50,study-cluster rule (884),PSP LT-supported vs MS-only,yes,planned,mouse/rat only if intersection allows strata
+G9-0241,G9,H,S3,disorder,PSP∩site table (human),D1,V50,study-cluster rule (884),PSP LT-supported vs MS-only,yes,planned,mouse/rat only if intersection allows strata
+G9-0242,G9,H,S3,disorder,PSP∩site table (human),D4,V50,study-cluster rule (884),PSP LT-supported vs MS-only,yes,planned,mouse/rat only if intersection allows strata
+G9-0243,G9,H,S3,disorder,PSP∩site table (human),D0,V50,study-cluster rule (884),PSP evidence category high (n>=5) vs low (n=1),yes,planned,mouse/rat only if intersection allows strata
+G9-0244,G9,H,S3,disorder,PSP∩site table (human),D1,V50,study-cluster rule (884),PSP evidence category high (n>=5) vs low (n=1),yes,planned,mouse/rat only if intersection allows strata
+G9-0245,G9,H,S3,disorder,PSP∩site table (human),D4,V50,study-cluster rule (884),PSP evidence category high (n>=5) vs low (n=1),yes,planned,mouse/rat only if intersection allows strata
+G9-0246,G9,H,S3,disorder,measure-specific,D0,V50,study-cluster rule (884),PeptideAtlas confidence categories,yes,conditional,stop if not downloadable
+G9-0247,G9,H,S3,disorder,measure-specific,D1,V50,study-cluster rule (884),PeptideAtlas confidence categories,yes,conditional,stop if not downloadable
+G9-0248,G9,H,S3,disorder,measure-specific,D4,V50,study-cluster rule (884),PeptideAtlas confidence categories,yes,conditional,stop if not downloadable
+G9-0249,G9,H,S3,disorder,measure-specific,D0,V50,study-cluster rule (884),UniProt MOD_RES experimental vs inferred ECO,yes,conditional,optional
+G9-0250,G9,H,S3,disorder,measure-specific,D1,V50,study-cluster rule (884),UniProt MOD_RES experimental vs inferred ECO,yes,conditional,optional
+G9-0251,G9,H,S3,disorder,measure-specific,D4,V50,study-cluster rule (884),UniProt MOD_RES experimental vs inferred ECO,yes,conditional,optional
+G10-0252,G10,I,S3,disorder,"PSP human sites, proteins with both kinds",within-protein fixed effects,none (within protein),study-cluster rule (884),LT-supported vs MS-only,yes,planned,
+G12-0253,G12,"B,C",S3,disorder,P-all,D0,V50,"depth-only (GOLD depth>=10, SILVER 3-9, BRONZE<=2)",,yes,planned,
+G12-0254,G12,"B,C",S3,disorder,P-all,D1,V50,"depth-only (GOLD depth>=10, SILVER 3-9, BRONZE<=2)",,yes,planned,
+G13-0255,G13,"B,C",S3,disorder,P-all,D0,V50,study-cluster rule (500),cluster_threshold=500,yes,planned,cluster merges and tiers identical to 884 in b_cluster_rule_info.json
+G13-0256,G13,"B,C",S3,disorder,P-all,D1,V50,study-cluster rule (500),cluster_threshold=500,yes,planned,cluster merges and tiers identical to 884 in b_cluster_rule_info.json
+G13-0257,G13,"B,C",S3,disorder,P-all,D0,V50,study-cluster rule (1000),cluster_threshold=1000,yes,planned,cluster merges and tiers identical to 884 in b_cluster_rule_info.json
+G13-0258,G13,"B,C",S3,disorder,P-all,D1,V50,study-cluster rule (1000),cluster_threshold=1000,yes,planned,cluster merges and tiers identical to 884 in b_cluster_rule_info.json
+G4-0259,G4,D,S4,kinase motif (sequence),P-all,D3,V0,study-cluster rule (884),index variant,yes,planned,
+G4-0260,G4,D,S4,kinase motif (sequence),P-all,D3,V20,study-cluster rule (884),index variant,yes,planned,
+G4-0261,G4,D,S4,kinase motif (sequence),P-all,D3,V100,study-cluster rule (884),index variant,yes,planned,
+G4-0262,G4,D,S4,kinase motif (sequence),P-all,D3,VT2025,study-cluster rule (884),index variant,yes,planned,
+G4-0263,G4,D,S4,kinase motif (sequence),P-all,D3,VT2026,study-cluster rule (884),index variant,yes,planned,VT2026 is the reference-year sensitivity
+G5-0264,G5,E,S4,kinase motif (sequence),P-abund (human),D0,V50,study-cluster rule (884),,yes,planned,
+G5-0265,G5,E,S4,kinase motif (sequence),P-abund (human),D1,V50,study-cluster rule (884),,yes,planned,
+G5-0266,G5,E,S4,kinase motif (sequence),P-abund (human),D5,V50,study-cluster rule (884),,yes,planned,
+G5-0267,G5,E,S4,kinase motif (sequence),P-abund (human),D4,V50,study-cluster rule (884),,yes,planned,
+G5-0268,G5,E,S4,kinase motif (sequence),P-abund (mouse),D0,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0269,G5,E,S4,kinase motif (sequence),P-abund (mouse),D1,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0270,G5,E,S4,kinase motif (sequence),P-abund (mouse),D5,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0271,G5,E,S4,kinase motif (sequence),P-abund (mouse),D4,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0272,G5,E,S4,kinase motif (sequence),P-abund (rat),D0,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0273,G5,E,S4,kinase motif (sequence),P-abund (rat),D1,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0274,G5,E,S4,kinase motif (sequence),P-abund (rat),D5,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G5-0275,G5,E,S4,kinase motif (sequence),P-abund (rat),D4,V50,study-cluster rule (884),,yes,conditional,run only if abundance data exist and strata can be filled; otherwise reported as not run
+G6-0276,G6,F,S4,kinase motif (sequence),P-S,D0,V50,study-cluster rule (884),,yes,planned,
+G6-0277,G6,F,S4,kinase motif (sequence),P-S,D1,V50,study-cluster rule (884),,yes,planned,
+G6-0278,G6,F,S4,kinase motif (sequence),P-T,D0,V50,study-cluster rule (884),,yes,planned,
+G6-0279,G6,F,S4,kinase motif (sequence),P-T,D1,V50,study-cluster rule (884),,yes,planned,
+G6-0280,G6,F,S4,kinase motif (sequence),P-Y,D0,V50,study-cluster rule (884),,yes,planned,
+G6-0281,G6,F,S4,kinase motif (sequence),P-Y,D1,V50,study-cluster rule (884),,yes,planned,
+G7-0282,G7,F,S4,kinase motif (sequence),P-all,D0,V50,study-cluster rule (884),drop_cluster_1,yes,planned,
+G7-0283,G7,F,S4,kinase motif (sequence),P-all,D1,V50,study-cluster rule (884),drop_cluster_1,yes,planned,
+G7-0284,G7,F,S4,kinase motif (sequence),P-all,D0,V50,study-cluster rule (884),drop_cluster_2,yes,planned,
+G7-0285,G7,F,S4,kinase motif (sequence),P-all,D1,V50,study-cluster rule (884),drop_cluster_2,yes,planned,
+G7-0286,G7,F,S4,kinase motif (sequence),P-all,D0,V50,study-cluster rule (884),drop_cluster_3,yes,planned,
+G7-0287,G7,F,S4,kinase motif (sequence),P-all,D1,V50,study-cluster rule (884),drop_cluster_3,yes,planned,
+G7-0288,G7,F,S4,kinase motif (sequence),P-all,D0,V50,study-cluster rule (884),drop_cluster_4,yes,planned,
+G7-0289,G7,F,S4,kinase motif (sequence),P-all,D1,V50,study-cluster rule (884),drop_cluster_4,yes,planned,
+G7-0290,G7,F,S4,kinase motif (sequence),P-all,D0,V50,study-cluster rule (884),drop_cluster_5,yes,planned,
+G7-0291,G7,F,S4,kinase motif (sequence),P-all,D1,V50,study-cluster rule (884),drop_cluster_5,yes,planned,
+G7-0292,G7,F,S4,kinase motif (sequence),P-all,D0,V50,study-cluster rule (884),drop_cluster_6,yes,planned,
+G7-0293,G7,F,S4,kinase motif (sequence),P-all,D1,V50,study-cluster rule (884),drop_cluster_6,yes,planned,
+G7-0294,G7,F,S4,kinase motif (sequence),P-all,D0,V50,study-cluster rule (884),drop_cluster_7,yes,planned,
+G7-0295,G7,F,S4,kinase motif (sequence),P-all,D1,V50,study-cluster rule (884),drop_cluster_7,yes,planned,
+G7-0296,G7,F,S4,kinase motif (sequence),P-all,D0,V50,study-cluster rule (884),drop_cluster_8,yes,planned,
+G7-0297,G7,F,S4,kinase motif (sequence),P-all,D1,V50,study-cluster rule (884),drop_cluster_8,yes,planned,
+G7-0298,G7,F,S4,kinase motif (sequence),P-all,D0,V50,study-cluster rule (884),drop_cluster_9,yes,planned,
+G7-0299,G7,F,S4,kinase motif (sequence),P-all,D1,V50,study-cluster rule (884),drop_cluster_9,yes,planned,
+G7-0300,G7,F,S4,kinase motif (sequence),P-all,D0,V50,study-cluster rule (884),drop_cluster_10,yes,planned,
+G7-0301,G7,F,S4,kinase motif (sequence),P-all,D1,V50,study-cluster rule (884),drop_cluster_10,yes,planned,
+G7-0302,G7,F,S4,kinase motif (sequence),P-all,D0,V50,study-cluster rule (884),drop_consortium_7_PMIDs,yes,planned,
+G7-0303,G7,F,S4,kinase motif (sequence),P-all,D1,V50,study-cluster rule (884),drop_consortium_7_PMIDs,yes,planned,
+G8-0304,G8,F,S4,kinase motif (sequence),P-all,D0,V50,GOLD depth>=5 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=5;gold_das=2,yes,planned,
+G8-0305,G8,F,S4,kinase motif (sequence),P-all,D1,V50,GOLD depth>=5 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=5;gold_das=2,yes,planned,
+G8-0306,G8,F,S4,kinase motif (sequence),P-all,D0,V50,GOLD depth>=5 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=5;gold_das=3,yes,planned,
+G8-0307,G8,F,S4,kinase motif (sequence),P-all,D1,V50,GOLD depth>=5 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=5;gold_das=3,yes,planned,
+G8-0308,G8,F,S4,kinase motif (sequence),P-all,D0,V50,GOLD depth>=10 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=10;gold_das=2,yes,planned,
+G8-0309,G8,F,S4,kinase motif (sequence),P-all,D1,V50,GOLD depth>=10 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=10;gold_das=2,yes,planned,
+G8-0310,G8,F,S4,kinase motif (sequence),P-all,D0,V50,GOLD depth>=10 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=10;gold_das=3,yes,planned,
+G8-0311,G8,F,S4,kinase motif (sequence),P-all,D1,V50,GOLD depth>=10 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=10;gold_das=3,yes,planned,
+G8-0312,G8,F,S4,kinase motif (sequence),P-all,D0,V50,GOLD depth>=20 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=20;gold_das=2,yes,planned,
+G8-0313,G8,F,S4,kinase motif (sequence),P-all,D1,V50,GOLD depth>=20 or DAS>=2; SILVER DAS>=1 or depth>=3,gold_depth=20;gold_das=2,yes,planned,
+G8-0314,G8,F,S4,kinase motif (sequence),P-all,D0,V50,GOLD depth>=20 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=20;gold_das=3,yes,planned,
+G8-0315,G8,F,S4,kinase motif (sequence),P-all,D1,V50,GOLD depth>=20 or DAS>=3; SILVER DAS>=1 or depth>=3,gold_depth=20;gold_das=3,yes,planned,
+G9-0316,G9,H,S4,kinase motif (sequence),PSP∩site table (human),D0,V50,study-cluster rule (884),PSP LT-supported vs MS-only,yes,planned,mouse/rat only if intersection allows strata
+G9-0317,G9,H,S4,kinase motif (sequence),PSP∩site table (human),D1,V50,study-cluster rule (884),PSP LT-supported vs MS-only,yes,planned,mouse/rat only if intersection allows strata
+G9-0318,G9,H,S4,kinase motif (sequence),PSP∩site table (human),D4,V50,study-cluster rule (884),PSP LT-supported vs MS-only,yes,planned,mouse/rat only if intersection allows strata
+G9-0319,G9,H,S4,kinase motif (sequence),PSP∩site table (human),D0,V50,study-cluster rule (884),PSP evidence category high (n>=5) vs low (n=1),yes,planned,mouse/rat only if intersection allows strata
+G9-0320,G9,H,S4,kinase motif (sequence),PSP∩site table (human),D1,V50,study-cluster rule (884),PSP evidence category high (n>=5) vs low (n=1),yes,planned,mouse/rat only if intersection allows strata
+G9-0321,G9,H,S4,kinase motif (sequence),PSP∩site table (human),D4,V50,study-cluster rule (884),PSP evidence category high (n>=5) vs low (n=1),yes,planned,mouse/rat only if intersection allows strata
+G9-0322,G9,H,S4,kinase motif (sequence),measure-specific,D0,V50,study-cluster rule (884),PeptideAtlas confidence categories,yes,conditional,stop if not downloadable
+G9-0323,G9,H,S4,kinase motif (sequence),measure-specific,D1,V50,study-cluster rule (884),PeptideAtlas confidence categories,yes,conditional,stop if not downloadable
+G9-0324,G9,H,S4,kinase motif (sequence),measure-specific,D4,V50,study-cluster rule (884),PeptideAtlas confidence categories,yes,conditional,stop if not downloadable
+G9-0325,G9,H,S4,kinase motif (sequence),measure-specific,D0,V50,study-cluster rule (884),UniProt MOD_RES experimental vs inferred ECO,yes,conditional,optional
+G9-0326,G9,H,S4,kinase motif (sequence),measure-specific,D1,V50,study-cluster rule (884),UniProt MOD_RES experimental vs inferred ECO,yes,conditional,optional
+G9-0327,G9,H,S4,kinase motif (sequence),measure-specific,D4,V50,study-cluster rule (884),UniProt MOD_RES experimental vs inferred ECO,yes,conditional,optional
+G10-0328,G10,I,S4,kinase motif (sequence),"PSP human sites, proteins with both kinds",within-protein fixed effects,none (within protein),study-cluster rule (884),LT-supported vs MS-only,yes,planned,
+G12-0329,G12,"B,C",S4,kinase motif (sequence),P-all,D0,V50,"depth-only (GOLD depth>=10, SILVER 3-9, BRONZE<=2)",,yes,planned,
+G12-0330,G12,"B,C",S4,kinase motif (sequence),P-all,D1,V50,"depth-only (GOLD depth>=10, SILVER 3-9, BRONZE<=2)",,yes,planned,
+G13-0331,G13,"B,C",S4,kinase motif (sequence),P-all,D0,V50,study-cluster rule (500),cluster_threshold=500,yes,planned,cluster merges and tiers identical to 884 in b_cluster_rule_info.json
+G13-0332,G13,"B,C",S4,kinase motif (sequence),P-all,D1,V50,study-cluster rule (500),cluster_threshold=500,yes,planned,cluster merges and tiers identical to 884 in b_cluster_rule_info.json
+G13-0333,G13,"B,C",S4,kinase motif (sequence),P-all,D0,V50,study-cluster rule (1000),cluster_threshold=1000,yes,planned,cluster merges and tiers identical to 884 in b_cluster_rule_info.json
+G13-0334,G13,"B,C",S4,kinase motif (sequence),P-all,D1,V50,study-cluster rule (1000),cluster_threshold=1000,yes,planned,cluster merges and tiers identical to 884 in b_cluster_rule_info.json
+G14-0335,G14,B,S1,domain overlap,as in Rev 5,R5_CEM_primary_index,V0 (original),set-A tier (S1); set-B tier (others),protein-cluster CI,no,planned,
+G14-0336,G14,B,S1,domain overlap,as in Rev 5,R5_CEM_secondary_index,V0 (original),set-A tier (S1); set-B tier (others),protein-cluster CI,no,planned,
+G14-0337,G14,B,S1,domain overlap,as in Rev 5,R5_propensity,V0 (original),set-A tier (S1); set-B tier (others),protein-cluster CI,no,planned,
+G14-0338,G14,B,S2,conservation,as in Rev 5,R5_CEM_primary_index,V0 (original),set-A tier (S1); set-B tier (others),protein-cluster CI,no,planned,
+G14-0339,G14,B,S2,conservation,as in Rev 5,R5_CEM_secondary_index,V0 (original),set-A tier (S1); set-B tier (others),protein-cluster CI,no,planned,
+G14-0340,G14,B,S2,conservation,as in Rev 5,R5_propensity,V0 (original),set-A tier (S1); set-B tier (others),protein-cluster CI,no,planned,
+G14-0341,G14,B,S3,disorder,as in Rev 5,R5_CEM_primary_index,V0 (original),set-A tier (S1); set-B tier (others),protein-cluster CI,no,planned,
+G14-0342,G14,B,S3,disorder,as in Rev 5,R5_CEM_secondary_index,V0 (original),set-A tier (S1); set-B tier (others),protein-cluster CI,no,planned,
+G14-0343,G14,B,S3,disorder,as in Rev 5,R5_propensity,V0 (original),set-A tier (S1); set-B tier (others),protein-cluster CI,no,planned,
+G14-0344,G14,B,S4,kinase motif (sequence),as in Rev 5,R5_CEM_primary_index,V0 (original),set-A tier (S1); set-B tier (others),protein-cluster CI,no,planned,
+G14-0345,G14,B,S4,kinase motif (sequence),as in Rev 5,R5_CEM_secondary_index,V0 (original),set-A tier (S1); set-B tier (others),protein-cluster CI,no,planned,
+G14-0346,G14,B,S4,kinase motif (sequence),as in Rev 5,R5_propensity,V0 (original),set-A tier (S1); set-B tier (others),protein-cluster CI,no,planned,
+G14-0347,G14,B,S5,kinase motif (lookup),as in Rev 5,R5_CEM_primary_index,V0 (original),set-A tier (S1); set-B tier (others),protein-cluster CI,no,planned,
+G14-0348,G14,B,S5,kinase motif (lookup),as in Rev 5,R5_CEM_secondary_index,V0 (original),set-A tier (S1); set-B tier (others),protein-cluster CI,no,planned,
+G14-0349,G14,B,S5,kinase motif (lookup),as in Rev 5,R5_propensity,V0 (original),set-A tier (S1); set-B tier (others),protein-cluster CI,no,planned,
+G15-0350,G15,B,S1,domain overlap,human,D0,V50,set-A tier,,no,planned,labelled comparison row for D1
+G15-0351,G15,B,S1,domain overlap,human,D1,V50,set-A tier,,no,planned,labelled comparison row for D1
+G15-0352,G15,B,S1,domain overlap,human,D2,V50,set-A tier,,no,planned,labelled comparison row for D1
+G11-0353,G11,J,AUROC gap,top-three minus bottom-three decile AUROC gap,"DeepPhos S/T sites, positives first reported after 2019","equivalence test (margin 0.05), protein-cluster bootstrap",decile of study effort,n/a,restriction_year=2019,yes,planned,restriction years from earlier_results/tool_versions.json; PhosF3C tyrosine only; no pooled ranking
+G11-0354,G11,J,AUROC gap,top-three minus bottom-three decile AUROC gap,"DeepPhos S/T sites, unrestricted","equivalence test (margin 0.05), protein-cluster bootstrap",decile of study effort,n/a,unrestricted,yes,planned,
+G11-0355,G11,J,AUROC gap,top-three minus bottom-three decile AUROC gap,"DeepPhos S/T sites, positives first reported after 2018","equivalence test (margin 0.05), protein-cluster bootstrap",decile of study effort,n/a,restriction_year=2018,yes,planned,restriction years from earlier_results/tool_versions.json; PhosF3C tyrosine only; no pooled ranking
+G11-0356,G11,J,AUROC gap,top-three minus bottom-three decile AUROC gap,"MusiteDeep S/T sites, positives first reported after 2020","equivalence test (margin 0.05), protein-cluster bootstrap",decile of study effort,n/a,restriction_year=2020,yes,planned,restriction years from earlier_results/tool_versions.json; PhosF3C tyrosine only; no pooled ranking
+G11-0357,G11,J,AUROC gap,top-three minus bottom-three decile AUROC gap,"MusiteDeep S/T sites, unrestricted","equivalence test (margin 0.05), protein-cluster bootstrap",decile of study effort,n/a,unrestricted,yes,planned,
+G11-0358,G11,J,AUROC gap,top-three minus bottom-three decile AUROC gap,"MusiteDeep S/T sites, positives first reported after 2017","equivalence test (margin 0.05), protein-cluster bootstrap",decile of study effort,n/a,restriction_year=2017,yes,planned,restriction years from earlier_results/tool_versions.json; PhosF3C tyrosine only; no pooled ranking
+G11-0359,G11,J,AUROC gap,top-three minus bottom-three decile AUROC gap,"PhosF3C Y sites, positives first reported after 2024","equivalence test (margin 0.05), protein-cluster bootstrap",decile of study effort,n/a,restriction_year=2024,yes,planned,restriction years from earlier_results/tool_versions.json; PhosF3C tyrosine only; no pooled ranking
+G11-0360,G11,J,AUROC gap,top-three minus bottom-three decile AUROC gap,"PhosF3C Y sites, unrestricted","equivalence test (margin 0.05), protein-cluster bootstrap",decile of study effort,n/a,unrestricted,yes,planned,
+G16-0361,G16,amend,S1,domain overlap,"P-all (human), Swiss-Prot reviewed canonical",D0,V50,study-cluster rule (884),canonical accessions only,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G16-0362,G16,amend,S1,domain overlap,"P-all (human), Swiss-Prot reviewed canonical",D1,V50,study-cluster rule (884),canonical accessions only,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G16-0363,G16,amend,S2,conservation,"P-all, Swiss-Prot reviewed canonical",D0,V50,study-cluster rule (884),canonical accessions only,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G16-0364,G16,amend,S2,conservation,"P-all, Swiss-Prot reviewed canonical",D1,V50,study-cluster rule (884),canonical accessions only,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G16-0365,G16,amend,S3,disorder,"P-all, Swiss-Prot reviewed canonical",D0,V50,study-cluster rule (884),canonical accessions only,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G16-0366,G16,amend,S3,disorder,"P-all, Swiss-Prot reviewed canonical",D1,V50,study-cluster rule (884),canonical accessions only,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G16-0367,G16,amend,S4,kinase motif (sequence),"P-all, Swiss-Prot reviewed canonical",D0,V50,study-cluster rule (884),canonical accessions only,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G16-0368,G16,amend,S4,kinase motif (sequence),"P-all, Swiss-Prot reviewed canonical",D1,V50,study-cluster rule (884),canonical accessions only,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G16-0369,G16,amend,S5,kinase motif (lookup),"P-all, Swiss-Prot reviewed canonical",D0,V50,study-cluster rule (884),canonical accessions only,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G16-0370,G16,amend,S5,kinase motif (lookup),"P-all, Swiss-Prot reviewed canonical",D1,V50,study-cluster rule (884),canonical accessions only,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G16-0371,G16,amend,S2,conservation,"P-human, Swiss-Prot reviewed canonical",D0,V50,study-cluster rule (884),canonical accessions only,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G16-0372,G16,amend,S2,conservation,"P-human, Swiss-Prot reviewed canonical",D1,V50,study-cluster rule (884),canonical accessions only,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G16-0373,G16,amend,S3,disorder,"P-human, Swiss-Prot reviewed canonical",D0,V50,study-cluster rule (884),canonical accessions only,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G16-0374,G16,amend,S3,disorder,"P-human, Swiss-Prot reviewed canonical",D1,V50,study-cluster rule (884),canonical accessions only,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G16-0375,G16,amend,S4,kinase motif (sequence),"P-human, Swiss-Prot reviewed canonical",D0,V50,study-cluster rule (884),canonical accessions only,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G16-0376,G16,amend,S4,kinase motif (sequence),"P-human, Swiss-Prot reviewed canonical",D1,V50,study-cluster rule (884),canonical accessions only,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G16-0377,G16,amend,S5,kinase motif (lookup),"P-human, Swiss-Prot reviewed canonical",D0,V50,study-cluster rule (884),canonical accessions only,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G16-0378,G16,amend,S5,kinase motif (lookup),"P-human, Swiss-Prot reviewed canonical",D1,V50,study-cluster rule (884),canonical accessions only,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0379,G17,amend,S1,domain overlap,P-all (human),D0,V50,study-cluster rule (884),gene-cluster bootstrap; source block G1,yes,planned,same records as G1-0001; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0380,G17,amend,S1,domain overlap,P-all (human),D1,V50,study-cluster rule (884),gene-cluster bootstrap; source block G1,yes,planned,same records as G1-0002; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0381,G17,amend,S2,conservation,P-all,D0,V50,study-cluster rule (884),gene-cluster bootstrap; source block G1,yes,planned,same records as G1-0004; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0382,G17,amend,S2,conservation,P-all,D1,V50,study-cluster rule (884),gene-cluster bootstrap; source block G1,yes,planned,same records as G1-0005; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0383,G17,amend,S3,disorder,P-all,D0,V50,study-cluster rule (884),gene-cluster bootstrap; source block G1,yes,planned,same records as G1-0007; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0384,G17,amend,S3,disorder,P-all,D1,V50,study-cluster rule (884),gene-cluster bootstrap; source block G1,yes,planned,same records as G1-0008; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0385,G17,amend,S4,kinase motif (sequence),P-all,D0,V50,study-cluster rule (884),gene-cluster bootstrap; source block G1,yes,planned,same records as G1-0010; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0386,G17,amend,S4,kinase motif (sequence),P-all,D1,V50,study-cluster rule (884),gene-cluster bootstrap; source block G1,yes,planned,same records as G1-0011; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0387,G17,amend,S5,kinase motif (lookup),P-all,D0,V50,study-cluster rule (884),gene-cluster bootstrap; source block G1,no,planned,same records as G1-0013; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0388,G17,amend,S5,kinase motif (lookup),P-all,D1,V50,study-cluster rule (884),gene-cluster bootstrap; source block G1,no,planned,same records as G1-0014; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0389,G17,amend,S2,conservation,P-human,D0,V50,study-cluster rule (884),gene-cluster bootstrap; source block G2,yes,planned,same records as G2-0016; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0390,G17,amend,S2,conservation,P-human,D1,V50,study-cluster rule (884),gene-cluster bootstrap; source block G2,yes,planned,same records as G2-0017; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0391,G17,amend,S3,disorder,P-human,D0,V50,study-cluster rule (884),gene-cluster bootstrap; source block G2,yes,planned,same records as G2-0019; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0392,G17,amend,S3,disorder,P-human,D1,V50,study-cluster rule (884),gene-cluster bootstrap; source block G2,yes,planned,same records as G2-0020; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0393,G17,amend,S4,kinase motif (sequence),P-human,D0,V50,study-cluster rule (884),gene-cluster bootstrap; source block G2,yes,planned,same records as G2-0022; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0394,G17,amend,S4,kinase motif (sequence),P-human,D1,V50,study-cluster rule (884),gene-cluster bootstrap; source block G2,yes,planned,same records as G2-0023; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0395,G17,amend,S5,kinase motif (lookup),P-human,D0,V50,study-cluster rule (884),gene-cluster bootstrap; source block G2,no,planned,same records as G2-0025; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0396,G17,amend,S5,kinase motif (lookup),P-human,D1,V50,study-cluster rule (884),gene-cluster bootstrap; source block G2,no,planned,same records as G2-0026; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0397,G17,amend,S1,domain overlap,P-annot,D0,V50,study-cluster rule (884),gene-cluster bootstrap; source block G3,no,planned,same records as G3-0028; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0398,G17,amend,S1,domain overlap,P-annot,D1,V50,study-cluster rule (884),gene-cluster bootstrap; source block G3,no,planned,same records as G3-0029; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0399,G17,amend,S1,domain overlap,P-abund (human),D0,V50,study-cluster rule (884),gene-cluster bootstrap; source block G5,yes,planned,same records as G5-0036; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0400,G17,amend,S1,domain overlap,P-abund (human),D1,V50,study-cluster rule (884),gene-cluster bootstrap; source block G5,yes,planned,same records as G5-0037; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0401,G17,amend,S2,conservation,P-abund (human),D0,V50,study-cluster rule (884),gene-cluster bootstrap; source block G5,yes,planned,same records as G5-0112; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0402,G17,amend,S2,conservation,P-abund (human),D1,V50,study-cluster rule (884),gene-cluster bootstrap; source block G5,yes,planned,same records as G5-0113; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0403,G17,amend,S3,disorder,P-abund (human),D0,V50,study-cluster rule (884),gene-cluster bootstrap; source block G5,yes,planned,same records as G5-0188; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0404,G17,amend,S3,disorder,P-abund (human),D1,V50,study-cluster rule (884),gene-cluster bootstrap; source block G5,yes,planned,same records as G5-0189; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0405,G17,amend,S4,kinase motif (sequence),P-abund (human),D0,V50,study-cluster rule (884),gene-cluster bootstrap; source block G5,yes,planned,same records as G5-0264; added by the plan amendment of 2026-10-01 (after the interim report)
+G17-0406,G17,amend,S4,kinase motif (sequence),P-abund (human),D1,V50,study-cluster rule (884),gene-cluster bootstrap; source block G5,yes,planned,same records as G5-0265; added by the plan amendment of 2026-10-01 (after the interim report)
+G18-0407,G18,amend,S1,domain overlap,P-all (human),D2b,V50,study-cluster rule (884),"post-hoc matcher: 1:1 without replacement, caliper 0.2 SD, S/T/Y only, random order, >= 20 order replicates; source block G1",yes,planned,counterpart of G1-0003; added by the plan amendment of 2026-10-01 (after the interim report)
+G18-0408,G18,amend,S2,conservation,P-all,D2b,V50,study-cluster rule (884),"post-hoc matcher: 1:1 without replacement, caliper 0.2 SD, S/T/Y only, random order, >= 20 order replicates; source block G1",yes,planned,counterpart of G1-0006; added by the plan amendment of 2026-10-01 (after the interim report)
+G18-0409,G18,amend,S3,disorder,P-all,D2b,V50,study-cluster rule (884),"post-hoc matcher: 1:1 without replacement, caliper 0.2 SD, S/T/Y only, random order, >= 20 order replicates; source block G1",yes,planned,counterpart of G1-0009; added by the plan amendment of 2026-10-01 (after the interim report)
+G18-0410,G18,amend,S4,kinase motif (sequence),P-all,D2b,V50,study-cluster rule (884),"post-hoc matcher: 1:1 without replacement, caliper 0.2 SD, S/T/Y only, random order, >= 20 order replicates; source block G1",yes,planned,counterpart of G1-0012; added by the plan amendment of 2026-10-01 (after the interim report)
+G18-0411,G18,amend,S5,kinase motif (lookup),P-all,D2b,V50,study-cluster rule (884),"post-hoc matcher: 1:1 without replacement, caliper 0.2 SD, S/T/Y only, random order, >= 20 order replicates; source block G1",no,planned,counterpart of G1-0015; added by the plan amendment of 2026-10-01 (after the interim report)
+G18-0412,G18,amend,S2,conservation,P-human,D2b,V50,study-cluster rule (884),"post-hoc matcher: 1:1 without replacement, caliper 0.2 SD, S/T/Y only, random order, >= 20 order replicates; source block G2",yes,planned,counterpart of G2-0018; added by the plan amendment of 2026-10-01 (after the interim report)
+G18-0413,G18,amend,S3,disorder,P-human,D2b,V50,study-cluster rule (884),"post-hoc matcher: 1:1 without replacement, caliper 0.2 SD, S/T/Y only, random order, >= 20 order replicates; source block G2",yes,planned,counterpart of G2-0021; added by the plan amendment of 2026-10-01 (after the interim report)
+G18-0414,G18,amend,S4,kinase motif (sequence),P-human,D2b,V50,study-cluster rule (884),"post-hoc matcher: 1:1 without replacement, caliper 0.2 SD, S/T/Y only, random order, >= 20 order replicates; source block G2",yes,planned,counterpart of G2-0024; added by the plan amendment of 2026-10-01 (after the interim report)
+G18-0415,G18,amend,S5,kinase motif (lookup),P-human,D2b,V50,study-cluster rule (884),"post-hoc matcher: 1:1 without replacement, caliper 0.2 SD, S/T/Y only, random order, >= 20 order replicates; source block G2",no,planned,counterpart of G2-0027; added by the plan amendment of 2026-10-01 (after the interim report)
+G18-0416,G18,amend,S1,domain overlap,P-annot,D2b,V50,study-cluster rule (884),"post-hoc matcher: 1:1 without replacement, caliper 0.2 SD, S/T/Y only, random order, >= 20 order replicates; source block G3",no,planned,counterpart of G3-0030; added by the plan amendment of 2026-10-01 (after the interim report)
+G18-0417,G18,amend,S1,domain overlap,human,D2b,V50,set-A tier,"post-hoc matcher: 1:1 without replacement, caliper 0.2 SD, S/T/Y only, random order, >= 20 order replicates; source block G15",no,planned,counterpart of G15-0352; added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0418,G19,amend,S1,domain overlap,P-human,D0,V50,set-B tiers (primary),tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0419,G19,amend,S1,domain overlap,P-human,D1,V50,set-B tiers (primary),tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0420,G19,amend,S1,domain overlap,P-human,D0,V50,set-A tiers,tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0421,G19,amend,S1,domain overlap,P-human,D1,V50,set-A tiers,tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0422,G19,amend,S1,domain overlap,P-human,D0,V50,depth-only tiers,tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0423,G19,amend,S1,domain overlap,P-human,D1,V50,depth-only tiers,tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0424,G19,amend,S1,domain overlap,P-human,D0,V50,agreement-only (agreement >= 2 vs 0),tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0425,G19,amend,S1,domain overlap,P-human,D1,V50,agreement-only (agreement >= 2 vs 0),tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0426,G19,amend,S2,conservation,P-human,D0,V50,set-B tiers (primary),tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0427,G19,amend,S2,conservation,P-human,D1,V50,set-B tiers (primary),tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0428,G19,amend,S2,conservation,P-human,D0,V50,set-A tiers,tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0429,G19,amend,S2,conservation,P-human,D1,V50,set-A tiers,tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0430,G19,amend,S2,conservation,P-human,D0,V50,depth-only tiers,tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0431,G19,amend,S2,conservation,P-human,D1,V50,depth-only tiers,tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0432,G19,amend,S2,conservation,P-human,D0,V50,agreement-only (agreement >= 2 vs 0),tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0433,G19,amend,S2,conservation,P-human,D1,V50,agreement-only (agreement >= 2 vs 0),tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0434,G19,amend,S3,disorder,P-human,D0,V50,set-B tiers (primary),tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0435,G19,amend,S3,disorder,P-human,D1,V50,set-B tiers (primary),tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0436,G19,amend,S3,disorder,P-human,D0,V50,set-A tiers,tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0437,G19,amend,S3,disorder,P-human,D1,V50,set-A tiers,tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0438,G19,amend,S3,disorder,P-human,D0,V50,depth-only tiers,tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0439,G19,amend,S3,disorder,P-human,D1,V50,depth-only tiers,tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0440,G19,amend,S3,disorder,P-human,D0,V50,agreement-only (agreement >= 2 vs 0),tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0441,G19,amend,S3,disorder,P-human,D1,V50,agreement-only (agreement >= 2 vs 0),tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0442,G19,amend,S4,kinase motif (sequence),P-human,D0,V50,set-B tiers (primary),tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0443,G19,amend,S4,kinase motif (sequence),P-human,D1,V50,set-B tiers (primary),tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0444,G19,amend,S4,kinase motif (sequence),P-human,D0,V50,set-A tiers,tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0445,G19,amend,S4,kinase motif (sequence),P-human,D1,V50,set-A tiers,tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0446,G19,amend,S4,kinase motif (sequence),P-human,D0,V50,depth-only tiers,tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0447,G19,amend,S4,kinase motif (sequence),P-human,D1,V50,depth-only tiers,tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0448,G19,amend,S4,kinase motif (sequence),P-human,D0,V50,agreement-only (agreement >= 2 vs 0),tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0449,G19,amend,S4,kinase motif (sequence),P-human,D1,V50,agreement-only (agreement >= 2 vs 0),tier-definition sensitivity,yes,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0450,G19,amend,S2,conservation,P-all,D0,V50,set-B tiers (primary),tier-definition sensitivity,yes,planned,set-A tiers exist for human sites only; added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0451,G19,amend,S2,conservation,P-all,D1,V50,set-B tiers (primary),tier-definition sensitivity,yes,planned,set-A tiers exist for human sites only; added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0452,G19,amend,S2,conservation,P-all,D0,V50,depth-only tiers,tier-definition sensitivity,yes,planned,set-A tiers exist for human sites only; added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0453,G19,amend,S2,conservation,P-all,D1,V50,depth-only tiers,tier-definition sensitivity,yes,planned,set-A tiers exist for human sites only; added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0454,G19,amend,S2,conservation,P-all,D0,V50,agreement-only (agreement >= 2 vs 0),tier-definition sensitivity,yes,planned,set-A tiers exist for human sites only; added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0455,G19,amend,S2,conservation,P-all,D1,V50,agreement-only (agreement >= 2 vs 0),tier-definition sensitivity,yes,planned,set-A tiers exist for human sites only; added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0456,G19,amend,S3,disorder,P-all,D0,V50,set-B tiers (primary),tier-definition sensitivity,yes,planned,set-A tiers exist for human sites only; added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0457,G19,amend,S3,disorder,P-all,D1,V50,set-B tiers (primary),tier-definition sensitivity,yes,planned,set-A tiers exist for human sites only; added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0458,G19,amend,S3,disorder,P-all,D0,V50,depth-only tiers,tier-definition sensitivity,yes,planned,set-A tiers exist for human sites only; added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0459,G19,amend,S3,disorder,P-all,D1,V50,depth-only tiers,tier-definition sensitivity,yes,planned,set-A tiers exist for human sites only; added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0460,G19,amend,S3,disorder,P-all,D0,V50,agreement-only (agreement >= 2 vs 0),tier-definition sensitivity,yes,planned,set-A tiers exist for human sites only; added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0461,G19,amend,S3,disorder,P-all,D1,V50,agreement-only (agreement >= 2 vs 0),tier-definition sensitivity,yes,planned,set-A tiers exist for human sites only; added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0462,G19,amend,S4,kinase motif (sequence),P-all,D0,V50,set-B tiers (primary),tier-definition sensitivity,yes,planned,set-A tiers exist for human sites only; added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0463,G19,amend,S4,kinase motif (sequence),P-all,D1,V50,set-B tiers (primary),tier-definition sensitivity,yes,planned,set-A tiers exist for human sites only; added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0464,G19,amend,S4,kinase motif (sequence),P-all,D0,V50,depth-only tiers,tier-definition sensitivity,yes,planned,set-A tiers exist for human sites only; added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0465,G19,amend,S4,kinase motif (sequence),P-all,D1,V50,depth-only tiers,tier-definition sensitivity,yes,planned,set-A tiers exist for human sites only; added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0466,G19,amend,S4,kinase motif (sequence),P-all,D0,V50,agreement-only (agreement >= 2 vs 0),tier-definition sensitivity,yes,planned,set-A tiers exist for human sites only; added by the plan amendment of 2026-10-01 (after the interim report)
+G19-0467,G19,amend,S4,kinase motif (sequence),P-all,D1,V50,agreement-only (agreement >= 2 vs 0),tier-definition sensitivity,yes,planned,set-A tiers exist for human sites only; added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0468,G20,amend,S1,domain overlap,all D1 and D3 rows run,pre-matching balance,V50,study-cluster rule (884),"SMD of the primary index, GOLD vs BRONZE, before matching",no,planned,one row; the value is attached to every D1 and D3 contrast of the results tables; added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0469,G20,amend,S1,domain overlap,P-all (human),index-outcome association,V50,study-cluster rule (884),within GOLD records; gene-cluster interval,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0470,G20,amend,S1,domain overlap,P-all (human),index-outcome association,V50,study-cluster rule (884),within BRONZE records; gene-cluster interval,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0471,G20,amend,S2,conservation,P-all,index-outcome association,V50,study-cluster rule (884),within GOLD records; gene-cluster interval,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0472,G20,amend,S2,conservation,P-all,index-outcome association,V50,study-cluster rule (884),within BRONZE records; gene-cluster interval,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0473,G20,amend,S2,conservation,P-human,index-outcome association,V50,study-cluster rule (884),within GOLD records; gene-cluster interval,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0474,G20,amend,S2,conservation,P-human,index-outcome association,V50,study-cluster rule (884),within BRONZE records; gene-cluster interval,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0475,G20,amend,S3,disorder,P-all,index-outcome association,V50,study-cluster rule (884),within GOLD records; gene-cluster interval,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0476,G20,amend,S3,disorder,P-all,index-outcome association,V50,study-cluster rule (884),within BRONZE records; gene-cluster interval,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0477,G20,amend,S3,disorder,P-human,index-outcome association,V50,study-cluster rule (884),within GOLD records; gene-cluster interval,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0478,G20,amend,S3,disorder,P-human,index-outcome association,V50,study-cluster rule (884),within BRONZE records; gene-cluster interval,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0479,G20,amend,S4,kinase motif (sequence),P-all,index-outcome association,V50,study-cluster rule (884),within GOLD records; gene-cluster interval,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0480,G20,amend,S4,kinase motif (sequence),P-all,index-outcome association,V50,study-cluster rule (884),within BRONZE records; gene-cluster interval,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0481,G20,amend,S4,kinase motif (sequence),P-human,index-outcome association,V50,study-cluster rule (884),within GOLD records; gene-cluster interval,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0482,G20,amend,S4,kinase motif (sequence),P-human,index-outcome association,V50,study-cluster rule (884),within BRONZE records; gene-cluster interval,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0483,G20,amend,S5,kinase motif (lookup),P-all,index-outcome association,V50,study-cluster rule (884),within GOLD records; gene-cluster interval,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0484,G20,amend,S5,kinase motif (lookup),P-all,index-outcome association,V50,study-cluster rule (884),within BRONZE records; gene-cluster interval,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0485,G20,amend,S5,kinase motif (lookup),P-human,index-outcome association,V50,study-cluster rule (884),within GOLD records; gene-cluster interval,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0486,G20,amend,S5,kinase motif (lookup),P-human,index-outcome association,V50,study-cluster rule (884),within BRONZE records; gene-cluster interval,no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0487,G20,amend,S1,domain overlap,protein level,index vs sites per protein,V50,study-cluster rule (884),"Spearman, gene-cluster interval",no,planned,added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0488,G20,amend,S1,domain overlap,protein level,index vs LT_LIT-supported sites per gene,V50,study-cluster rule (884),"Spearman, gene-cluster interval",no,planned,requires the PhosphoSitePlus file; added by the plan amendment of 2026-10-01 (after the interim report)
+G20-0489,G20,amend,S1,domain overlap,"P-all (human), proteins with at least one domain-annotated site",domain-annotation coverage strata,V50,study-cluster rule (884),crude odds ratio and tier shares per stratum,no,planned,"in the stratum without an annotated site the outcome is constant, so the odds ratio is undefined; added by the plan amendment of 2026-10-01 (after the interim report)"
+G20-0490,G20,amend,S1,domain overlap,"P-all (human), proteins with no domain-annotated site",domain-annotation coverage strata,V50,study-cluster rule (884),crude odds ratio and tier shares per stratum,no,planned,"in the stratum without an annotated site the outcome is constant, so the odds ratio is undefined; added by the plan amendment of 2026-10-01 (after the interim report)"
+G21-0491,G21,amend,S2,conservation,P-all (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),M1: all records of the population,yes,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0492,G21,amend,S2,conservation,P-all (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),"M1s: records with a protein sequence, no detectability control",yes,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0493,G21,amend,S2,conservation,P-all (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),"M2: records with a protein sequence, with the detectability control",yes,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0494,G21,amend,S3,disorder,P-all (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),M1: all records of the population,yes,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0495,G21,amend,S3,disorder,P-all (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),"M1s: records with a protein sequence, no detectability control",yes,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0496,G21,amend,S3,disorder,P-all (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),"M2: records with a protein sequence, with the detectability control",yes,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0497,G21,amend,S4,kinase motif (sequence),P-all (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),M1: all records of the population,yes,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0498,G21,amend,S4,kinase motif (sequence),P-all (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),"M1s: records with a protein sequence, no detectability control",yes,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0499,G21,amend,S4,kinase motif (sequence),P-all (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),"M2: records with a protein sequence, with the detectability control",yes,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0500,G21,amend,S5,kinase motif (lookup),P-all (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),M1: all records of the population,no,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0501,G21,amend,S5,kinase motif (lookup),P-all (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),"M1s: records with a protein sequence, no detectability control",no,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0502,G21,amend,S5,kinase motif (lookup),P-all (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),"M2: records with a protein sequence, with the detectability control",no,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0503,G21,amend,S2,conservation,P-human (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),M1: all records of the population,yes,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0504,G21,amend,S2,conservation,P-human (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),"M1s: records with a protein sequence, no detectability control",yes,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0505,G21,amend,S2,conservation,P-human (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),"M2: records with a protein sequence, with the detectability control",yes,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0506,G21,amend,S3,disorder,P-human (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),M1: all records of the population,yes,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0507,G21,amend,S3,disorder,P-human (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),"M1s: records with a protein sequence, no detectability control",yes,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0508,G21,amend,S3,disorder,P-human (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),"M2: records with a protein sequence, with the detectability control",yes,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0509,G21,amend,S4,kinase motif (sequence),P-human (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),M1: all records of the population,yes,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0510,G21,amend,S4,kinase motif (sequence),P-human (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),"M1s: records with a protein sequence, no detectability control",yes,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0511,G21,amend,S4,kinase motif (sequence),P-human (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),"M2: records with a protein sequence, with the detectability control",yes,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0512,G21,amend,S5,kinase motif (lookup),P-human (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),M1: all records of the population,no,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0513,G21,amend,S5,kinase motif (lookup),P-human (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),"M1s: records with a protein sequence, no detectability control",no,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G21-0514,G21,amend,S5,kinase motif (lookup),P-human (S/T/Y),D6 (within-gene),not used,study-cluster rule (884),"M2: records with a protein sequence, with the detectability control",no,planned,gene fixed effects; residue type as covariate; gene-cluster bootstrap; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G22-0515,G22,amend,S4,kinase motif (sequence),P-S/T (post-hoc),D0,V50,study-cluster rule (884),post-hoc: serine and threonine records only; gene-cluster bootstrap,no,planned,restriction of the G1 population (P-all) to serine and threonine; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G22-0516,G22,amend,S4,kinase motif (sequence),P-S/T (post-hoc),D1,V50,study-cluster rule (884),post-hoc: serine and threonine records only; gene-cluster bootstrap,no,planned,restriction of the G1 population (P-all) to serine and threonine; added by the plan amendment of 2026-10-04 (after the results report was reviewed)
+G23-0517,G23,amend,S1,domain overlap,P-all (human),D0,V50,"study-cluster rule (884), non-primary PMIDs removed from publication lists",sensitivity: corrected tiers; source block G1,yes,planned,counterpart of G1-0001; added by the plan amendment of 2026-10-04 (sixth batch; scope freeze lifted for G23 only)
+G23-0518,G23,amend,S1,domain overlap,P-all (human),D1,V50,"study-cluster rule (884), non-primary PMIDs removed from publication lists",sensitivity: corrected tiers; source block G1,yes,planned,counterpart of G1-0002; added by the plan amendment of 2026-10-04 (sixth batch; scope freeze lifted for G23 only)
+G23-0519,G23,amend,S2,conservation,P-all,D0,V50,"study-cluster rule (884), non-primary PMIDs removed from publication lists",sensitivity: corrected tiers; source block G1,yes,planned,counterpart of G1-0004; added by the plan amendment of 2026-10-04 (sixth batch; scope freeze lifted for G23 only)
+G23-0520,G23,amend,S2,conservation,P-all,D1,V50,"study-cluster rule (884), non-primary PMIDs removed from publication lists",sensitivity: corrected tiers; source block G1,yes,planned,counterpart of G1-0005; added by the plan amendment of 2026-10-04 (sixth batch; scope freeze lifted for G23 only)
+G23-0521,G23,amend,S3,disorder,P-all,D0,V50,"study-cluster rule (884), non-primary PMIDs removed from publication lists",sensitivity: corrected tiers; source block G1,yes,planned,counterpart of G1-0007; added by the plan amendment of 2026-10-04 (sixth batch; scope freeze lifted for G23 only)
+G23-0522,G23,amend,S3,disorder,P-all,D1,V50,"study-cluster rule (884), non-primary PMIDs removed from publication lists",sensitivity: corrected tiers; source block G1,yes,planned,counterpart of G1-0008; added by the plan amendment of 2026-10-04 (sixth batch; scope freeze lifted for G23 only)
+G23-0523,G23,amend,S4,kinase motif (sequence),P-all,D0,V50,"study-cluster rule (884), non-primary PMIDs removed from publication lists",sensitivity: corrected tiers; source block G1,yes,planned,counterpart of G1-0010; added by the plan amendment of 2026-10-04 (sixth batch; scope freeze lifted for G23 only)
+G23-0524,G23,amend,S4,kinase motif (sequence),P-all,D1,V50,"study-cluster rule (884), non-primary PMIDs removed from publication lists",sensitivity: corrected tiers; source block G1,yes,planned,counterpart of G1-0011; added by the plan amendment of 2026-10-04 (sixth batch; scope freeze lifted for G23 only)
+G23-0525,G23,amend,S5,kinase motif (lookup),P-all,D0,V50,"study-cluster rule (884), non-primary PMIDs removed from publication lists",sensitivity: corrected tiers; source block G1,no,planned,counterpart of G1-0013; added by the plan amendment of 2026-10-04 (sixth batch; scope freeze lifted for G23 only)
+G23-0526,G23,amend,S5,kinase motif (lookup),P-all,D1,V50,"study-cluster rule (884), non-primary PMIDs removed from publication lists",sensitivity: corrected tiers; source block G1,no,planned,counterpart of G1-0014; added by the plan amendment of 2026-10-04 (sixth batch; scope freeze lifted for G23 only)
+G23-0527,G23,amend,S2,conservation,P-human,D0,V50,"study-cluster rule (884), non-primary PMIDs removed from publication lists",sensitivity: corrected tiers; source block G2,yes,planned,counterpart of G2-0016; added by the plan amendment of 2026-10-04 (sixth batch; scope freeze lifted for G23 only)
+G23-0528,G23,amend,S2,conservation,P-human,D1,V50,"study-cluster rule (884), non-primary PMIDs removed from publication lists",sensitivity: corrected tiers; source block G2,yes,planned,counterpart of G2-0017; added by the plan amendment of 2026-10-04 (sixth batch; scope freeze lifted for G23 only)
+G23-0529,G23,amend,S3,disorder,P-human,D0,V50,"study-cluster rule (884), non-primary PMIDs removed from publication lists",sensitivity: corrected tiers; source block G2,yes,planned,counterpart of G2-0019; added by the plan amendment of 2026-10-04 (sixth batch; scope freeze lifted for G23 only)
+G23-0530,G23,amend,S3,disorder,P-human,D1,V50,"study-cluster rule (884), non-primary PMIDs removed from publication lists",sensitivity: corrected tiers; source block G2,yes,planned,counterpart of G2-0020; added by the plan amendment of 2026-10-04 (sixth batch; scope freeze lifted for G23 only)
+G23-0531,G23,amend,S4,kinase motif (sequence),P-human,D0,V50,"study-cluster rule (884), non-primary PMIDs removed from publication lists",sensitivity: corrected tiers; source block G2,yes,planned,counterpart of G2-0022; added by the plan amendment of 2026-10-04 (sixth batch; scope freeze lifted for G23 only)
+G23-0532,G23,amend,S4,kinase motif (sequence),P-human,D1,V50,"study-cluster rule (884), non-primary PMIDs removed from publication lists",sensitivity: corrected tiers; source block G2,yes,planned,counterpart of G2-0023; added by the plan amendment of 2026-10-04 (sixth batch; scope freeze lifted for G23 only)
+G23-0533,G23,amend,S5,kinase motif (lookup),P-human,D0,V50,"study-cluster rule (884), non-primary PMIDs removed from publication lists",sensitivity: corrected tiers; source block G2,no,planned,counterpart of G2-0025; added by the plan amendment of 2026-10-04 (sixth batch; scope freeze lifted for G23 only)
+G23-0534,G23,amend,S5,kinase motif (lookup),P-human,D1,V50,"study-cluster rule (884), non-primary PMIDs removed from publication lists",sensitivity: corrected tiers; source block G2,no,planned,counterpart of G2-0026; added by the plan amendment of 2026-10-04 (sixth batch; scope freeze lifted for G23 only)

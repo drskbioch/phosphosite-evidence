@@ -1,0 +1,976 @@
+{
+ "prematching_balance": {
+  "G1-0002": {
+   "smd_pre": -0.001509782760508669,
+   "smd_after": -0.003102664087232398,
+   "signal": "S1",
+   "population": "P-all (human)",
+   "block": "G1"
+  },
+  "G1-0005": {
+   "smd_pre": 0.15969905454334743,
+   "smd_after": 0.003960241112207991,
+   "signal": "S2",
+   "population": "P-all",
+   "block": "G1"
+  },
+  "G1-0008": {
+   "smd_pre": 0.07784208085713297,
+   "smd_after": 0.004567782208882302,
+   "signal": "S3",
+   "population": "P-all",
+   "block": "G1"
+  },
+  "G1-0011": {
+   "smd_pre": -0.01564904549958168,
+   "smd_after": 0.0038410942586763453,
+   "signal": "S4",
+   "population": "P-all",
+   "block": "G1"
+  },
+  "G1-0014": {
+   "smd_pre": -0.015783423966065423,
+   "smd_after": 0.0038410942586763453,
+   "signal": "S5",
+   "population": "P-all",
+   "block": "G1"
+  },
+  "G2-0017": {
+   "smd_pre": 0.1871142918778778,
+   "smd_after": 0.006940696583553934,
+   "signal": "S2",
+   "population": "P-human",
+   "block": "G2"
+  },
+  "G2-0020": {
+   "smd_pre": 0.07521224068472183,
+   "smd_after": 0.002570542080789125,
+   "signal": "S3",
+   "population": "P-human",
+   "block": "G2"
+  },
+  "G2-0023": {
+   "smd_pre": -0.0013341049478770052,
+   "smd_after": -0.003102664087232398,
+   "signal": "S4",
+   "population": "P-human",
+   "block": "G2"
+  },
+  "G2-0026": {
+   "smd_pre": -0.001509782760508669,
+   "smd_after": -0.003102664087232398,
+   "signal": "S5",
+   "population": "P-human",
+   "block": "G2"
+  },
+  "G3-0029": {
+   "smd_pre": 0.15149217228718856,
+   "smd_after": 0.005090231088161896,
+   "signal": "S1",
+   "population": "P-annot",
+   "block": "G3"
+  },
+  "G12-0102": {
+   "smd_pre": 0.1412134658516268,
+   "smd_after": 0.004825757053888926,
+   "signal": "S1",
+   "population": "P-all",
+   "block": "G12"
+  },
+  "G13-0104": {
+   "smd_pre": -0.001509782760508669,
+   "smd_after": -0.003102664087232398,
+   "signal": "S1",
+   "population": "P-all",
+   "block": "G13"
+  },
+  "G13-0106": {
+   "smd_pre": -0.001509782760508669,
+   "smd_after": -0.003102664087232398,
+   "signal": "S1",
+   "population": "P-all",
+   "block": "G13"
+  },
+  "G12-0178": {
+   "smd_pre": 0.26965463872031054,
+   "smd_after": 0.008705092515694278,
+   "signal": "S2",
+   "population": "P-all",
+   "block": "G12"
+  },
+  "G13-0180": {
+   "smd_pre": 0.15969905454334743,
+   "smd_after": 0.003960241112207991,
+   "signal": "S2",
+   "population": "P-all",
+   "block": "G13"
+  },
+  "G13-0182": {
+   "smd_pre": 0.15969905454334743,
+   "smd_after": 0.003960241112207991,
+   "signal": "S2",
+   "population": "P-all",
+   "block": "G13"
+  },
+  "G12-0254": {
+   "smd_pre": 0.2580217842776699,
+   "smd_after": 0.009332259823034891,
+   "signal": "S3",
+   "population": "P-all",
+   "block": "G12"
+  },
+  "G13-0256": {
+   "smd_pre": 0.07784208085713297,
+   "smd_after": 0.004567782208882302,
+   "signal": "S3",
+   "population": "P-all",
+   "block": "G13"
+  },
+  "G13-0258": {
+   "smd_pre": 0.07784208085713297,
+   "smd_after": 0.004567782208882302,
+   "signal": "S3",
+   "population": "P-all",
+   "block": "G13"
+  },
+  "G12-0330": {
+   "smd_pre": 0.15462944657864838,
+   "smd_after": 0.010753057031691476,
+   "signal": "S4",
+   "population": "P-all",
+   "block": "G12"
+  },
+  "G13-0332": {
+   "smd_pre": -0.01564904549958168,
+   "smd_after": 0.0038410942586763453,
+   "signal": "S4",
+   "population": "P-all",
+   "block": "G13"
+  },
+  "G13-0334": {
+   "smd_pre": -0.01564904549958168,
+   "smd_after": 0.0038410942586763453,
+   "signal": "S4",
+   "population": "P-all",
+   "block": "G13"
+  },
+  "G15-0351": {
+   "smd_pre": 0.1424672356066735,
+   "smd_after": 0.00510696356463593,
+   "signal": "S1",
+   "population": "human",
+   "block": "G15"
+  },
+  "G4-0031": {
+   "smd_pre": 0.06999976183818636,
+   "smd_after": -0.0004947884622772447,
+   "signal": "S1",
+   "population": "P-all",
+   "block": "G4"
+  },
+  "G4-0032": {
+   "smd_pre": -0.007887385352177482,
+   "smd_after": -0.002311747775165121,
+   "signal": "S1",
+   "population": "P-all",
+   "block": "G4"
+  },
+  "G4-0033": {
+   "smd_pre": 0.004740747097820949,
+   "smd_after": -0.0023385579946787016,
+   "signal": "S1",
+   "population": "P-all",
+   "block": "G4"
+  },
+  "G4-0034": {
+   "smd_pre": 0.006107140856725652,
+   "smd_after": 0.0019009522572233544,
+   "signal": "S1",
+   "population": "P-all",
+   "block": "G4"
+  },
+  "G4-0035": {
+   "smd_pre": 0.006131654267811075,
+   "smd_after": 0.0016731090852492513,
+   "signal": "S1",
+   "population": "P-all",
+   "block": "G4"
+  },
+  "G4-0107": {
+   "smd_pre": 0.22257065663377848,
+   "smd_after": 0.016542725707726608,
+   "signal": "S2",
+   "population": "P-all",
+   "block": "G4"
+  },
+  "G4-0108": {
+   "smd_pre": 0.1562842379203196,
+   "smd_after": 0.0038217158858036043,
+   "signal": "S2",
+   "population": "P-all",
+   "block": "G4"
+  },
+  "G4-0109": {
+   "smd_pre": 0.17047487748342988,
+   "smd_after": 0.006213111059072801,
+   "signal": "S2",
+   "population": "P-all",
+   "block": "G4"
+  },
+  "G4-0110": {
+   "smd_pre": 0.12415355846214911,
+   "smd_after": 0.002620916360981125,
+   "signal": "S2",
+   "population": "P-all",
+   "block": "G4"
+  },
+  "G4-0111": {
+   "smd_pre": 0.12460670097687891,
+   "smd_after": 0.0019926379663222867,
+   "signal": "S2",
+   "population": "P-all",
+   "block": "G4"
+  },
+  "G4-0183": {
+   "smd_pre": 0.13629518267814802,
+   "smd_after": 0.012857926663296769,
+   "signal": "S3",
+   "population": "P-all",
+   "block": "G4"
+  },
+  "G4-0184": {
+   "smd_pre": 0.07289298566511498,
+   "smd_after": 0.0042551935899946885,
+   "signal": "S3",
+   "population": "P-all",
+   "block": "G4"
+  },
+  "G4-0185": {
+   "smd_pre": 0.08455253765558621,
+   "smd_after": 0.005344039028685516,
+   "signal": "S3",
+   "population": "P-all",
+   "block": "G4"
+  },
+  "G4-0186": {
+   "smd_pre": 0.053899418903983774,
+   "smd_after": -0.00212300261404018,
+   "signal": "S3",
+   "population": "P-all",
+   "block": "G4"
+  },
+  "G4-0187": {
+   "smd_pre": 0.054229260242070386,
+   "smd_after": -0.0023934636145690716,
+   "signal": "S3",
+   "population": "P-all",
+   "block": "G4"
+  },
+  "G4-0259": {
+   "smd_pre": 0.013484873940768308,
+   "smd_after": 0.009742591503226424,
+   "signal": "S4",
+   "population": "P-all",
+   "block": "G4"
+  },
+  "G4-0260": {
+   "smd_pre": -0.019168236944731597,
+   "smd_after": 0.0039439542654785735,
+   "signal": "S4",
+   "population": "P-all",
+   "block": "G4"
+  },
+  "G4-0261": {
+   "smd_pre": -0.01172294055484884,
+   "smd_after": 0.005060361612005121,
+   "signal": "S4",
+   "population": "P-all",
+   "block": "G4"
+  },
+  "G4-0262": {
+   "smd_pre": -0.012811380603789203,
+   "smd_after": 0.0009026291177170879,
+   "signal": "S4",
+   "population": "P-all",
+   "block": "G4"
+  },
+  "G4-0263": {
+   "smd_pre": -0.012530129758880551,
+   "smd_after": 0.0007061435778598179,
+   "signal": "S4",
+   "population": "P-all",
+   "block": "G4"
+  },
+  "G17-0380": {
+   "smd_pre": -0.001509782760508669,
+   "smd_after": -0.003102664087232398,
+   "signal": "S1",
+   "population": "P-all (human)",
+   "block": "G17"
+  },
+  "G17-0382": {
+   "smd_pre": 0.15969905454334743,
+   "smd_after": 0.003960241112207991,
+   "signal": "S2",
+   "population": "P-all",
+   "block": "G17"
+  },
+  "G17-0384": {
+   "smd_pre": 0.07784208085713297,
+   "smd_after": 0.004567782208882302,
+   "signal": "S3",
+   "population": "P-all",
+   "block": "G17"
+  },
+  "G17-0386": {
+   "smd_pre": -0.01564904549958168,
+   "smd_after": 0.0038410942586763453,
+   "signal": "S4",
+   "population": "P-all",
+   "block": "G17"
+  },
+  "G17-0388": {
+   "smd_pre": -0.015783423966065423,
+   "smd_after": 0.0038410942586763453,
+   "signal": "S5",
+   "population": "P-all",
+   "block": "G17"
+  },
+  "G17-0390": {
+   "smd_pre": 0.1871142918778778,
+   "smd_after": 0.006940696583553934,
+   "signal": "S2",
+   "population": "P-human",
+   "block": "G17"
+  },
+  "G17-0392": {
+   "smd_pre": 0.07521224068472183,
+   "smd_after": 0.002570542080789125,
+   "signal": "S3",
+   "population": "P-human",
+   "block": "G17"
+  },
+  "G17-0394": {
+   "smd_pre": -0.0013341049478770052,
+   "smd_after": -0.003102664087232398,
+   "signal": "S4",
+   "population": "P-human",
+   "block": "G17"
+  },
+  "G17-0396": {
+   "smd_pre": -0.001509782760508669,
+   "smd_after": -0.003102664087232398,
+   "signal": "S5",
+   "population": "P-human",
+   "block": "G17"
+  },
+  "G17-0398": {
+   "smd_pre": 0.15149217228718856,
+   "smd_after": 0.005090231088161896,
+   "signal": "S1",
+   "population": "P-annot",
+   "block": "G17"
+  },
+  "G17-0400": {
+   "smd_pre": 0.24578300817055068,
+   "smd_after": 0.01030800672739056,
+   "signal": "S1",
+   "population": "P-abund (human)",
+   "block": "G17"
+  },
+  "G17-0402": {
+   "smd_pre": 0.20445609081769667,
+   "smd_after": 0.0076513850299435955,
+   "signal": "S2",
+   "population": "P-abund (human)",
+   "block": "G17"
+  },
+  "G17-0404": {
+   "smd_pre": 0.23532311663421093,
+   "smd_after": 0.010469411334365845,
+   "signal": "S3",
+   "population": "P-abund (human)",
+   "block": "G17"
+  },
+  "G17-0406": {
+   "smd_pre": 0.2466109685404455,
+   "smd_after": 0.01030800672739056,
+   "signal": "S4",
+   "population": "P-abund (human)",
+   "block": "G17"
+  },
+  "G16-0362": {
+   "smd_pre": 0.25247357295652056,
+   "smd_after": 0.010722482629926998,
+   "signal": "S1",
+   "population": "P-all (human), Swiss-Prot reviewed canonical",
+   "block": "G16"
+  },
+  "G16-0364": {
+   "smd_pre": 0.16422478724638284,
+   "smd_after": 0.006366735389441803,
+   "signal": "S2",
+   "population": "P-all, Swiss-Prot reviewed canonical",
+   "block": "G16"
+  },
+  "G16-0366": {
+   "smd_pre": 0.21221934311743496,
+   "smd_after": 0.010019002023139602,
+   "signal": "S3",
+   "population": "P-all, Swiss-Prot reviewed canonical",
+   "block": "G16"
+  },
+  "G16-0368": {
+   "smd_pre": 0.22825719514899917,
+   "smd_after": 0.010545812087876185,
+   "signal": "S4",
+   "population": "P-all, Swiss-Prot reviewed canonical",
+   "block": "G16"
+  },
+  "G16-0370": {
+   "smd_pre": 0.2276811258603929,
+   "smd_after": 0.010545812087876185,
+   "signal": "S5",
+   "population": "P-all, Swiss-Prot reviewed canonical",
+   "block": "G16"
+  },
+  "G16-0372": {
+   "smd_pre": 0.20484872586151606,
+   "smd_after": 0.008003888288241218,
+   "signal": "S2",
+   "population": "P-human, Swiss-Prot reviewed canonical",
+   "block": "G16"
+  },
+  "G16-0374": {
+   "smd_pre": 0.24012316903599382,
+   "smd_after": 0.010649295789351565,
+   "signal": "S3",
+   "population": "P-human, Swiss-Prot reviewed canonical",
+   "block": "G16"
+  },
+  "G16-0376": {
+   "smd_pre": 0.25329893905406625,
+   "smd_after": 0.010722482629926998,
+   "signal": "S4",
+   "population": "P-human, Swiss-Prot reviewed canonical",
+   "block": "G16"
+  },
+  "G16-0378": {
+   "smd_pre": 0.25247357295652056,
+   "smd_after": 0.010722482629926998,
+   "signal": "S5",
+   "population": "P-human, Swiss-Prot reviewed canonical",
+   "block": "G16"
+  },
+  "G19-0419": {
+   "smd_pre": -0.001509782760508669,
+   "smd_after": -0.003102664087232398,
+   "signal": "S1",
+   "population": "P-human",
+   "block": "G19"
+  },
+  "G19-0421": {
+   "smd_pre": 0.1424672356066735,
+   "smd_after": 0.00510696356463593,
+   "signal": "S1",
+   "population": "P-human",
+   "block": "G19"
+  },
+  "G19-0423": {
+   "smd_pre": 0.1412134658516268,
+   "smd_after": 0.004825757053888926,
+   "signal": "S1",
+   "population": "P-human",
+   "block": "G19"
+  },
+  "G19-0425": {
+   "smd_pre": -0.03611831021337783,
+   "smd_after": -0.005493804021330626,
+   "signal": "S1",
+   "population": "P-human",
+   "block": "G19"
+  },
+  "G19-0427": {
+   "smd_pre": 0.1871142918778778,
+   "smd_after": 0.006940696583553934,
+   "signal": "S2",
+   "population": "P-human",
+   "block": "G19"
+  },
+  "G19-0429": {
+   "smd_pre": 0.238937434785128,
+   "smd_after": 0.00841947796383537,
+   "signal": "S2",
+   "population": "P-human",
+   "block": "G19"
+  },
+  "G19-0431": {
+   "smd_pre": 0.23731115532810665,
+   "smd_after": 0.00843104329398797,
+   "signal": "S2",
+   "population": "P-human",
+   "block": "G19"
+  },
+  "G19-0433": {
+   "smd_pre": 0.19473631103513853,
+   "smd_after": 0.007225817429250884,
+   "signal": "S2",
+   "population": "P-human",
+   "block": "G19"
+  },
+  "G19-0435": {
+   "smd_pre": 0.07521224068472183,
+   "smd_after": 0.002570542080789125,
+   "signal": "S3",
+   "population": "P-human",
+   "block": "G19"
+  },
+  "G19-0437": {
+   "smd_pre": 0.2358159473006384,
+   "smd_after": 0.014207518738370627,
+   "signal": "S3",
+   "population": "P-human",
+   "block": "G19"
+  },
+  "G19-0439": {
+   "smd_pre": 0.23455788086056295,
+   "smd_after": 0.01406984684448986,
+   "signal": "S3",
+   "population": "P-human",
+   "block": "G19"
+  },
+  "G19-0441": {
+   "smd_pre": 0.033799228020821505,
+   "smd_after": -7.998615744307618e-05,
+   "signal": "S3",
+   "population": "P-human",
+   "block": "G19"
+  },
+  "G19-0443": {
+   "smd_pre": -0.0013341049478770052,
+   "smd_after": -0.003102664087232398,
+   "signal": "S4",
+   "population": "P-human",
+   "block": "G19"
+  },
+  "G19-0445": {
+   "smd_pre": 0.14259853162328326,
+   "smd_after": 0.0049507785602140985,
+   "signal": "S4",
+   "population": "P-human",
+   "block": "G19"
+  },
+  "G19-0447": {
+   "smd_pre": 0.1413447309495926,
+   "smd_after": 0.004825757053888926,
+   "signal": "S4",
+   "population": "P-human",
+   "block": "G19"
+  },
+  "G19-0449": {
+   "smd_pre": -0.035976742836353555,
+   "smd_after": -0.005493804021330626,
+   "signal": "S4",
+   "population": "P-human",
+   "block": "G19"
+  },
+  "G19-0451": {
+   "smd_pre": 0.15969905454334743,
+   "smd_after": 0.003960241112207991,
+   "signal": "S2",
+   "population": "P-all",
+   "block": "G19"
+  },
+  "G19-0453": {
+   "smd_pre": 0.26965463872031054,
+   "smd_after": 0.008705092515694278,
+   "signal": "S2",
+   "population": "P-all",
+   "block": "G19"
+  },
+  "G19-0455": {
+   "smd_pre": 0.1720574681940554,
+   "smd_after": 0.00014472728188115816,
+   "signal": "S2",
+   "population": "P-all",
+   "block": "G19"
+  },
+  "G19-0457": {
+   "smd_pre": 0.07784208085713297,
+   "smd_after": 0.004567782208882302,
+   "signal": "S3",
+   "population": "P-all",
+   "block": "G19"
+  },
+  "G19-0459": {
+   "smd_pre": 0.2580217842776699,
+   "smd_after": 0.009332259823034891,
+   "signal": "S3",
+   "population": "P-all",
+   "block": "G19"
+  }
+ },
+ "index_outcome_association": {
+  "G20-0469": {
+   "signal": "S1",
+   "population": "P-all (human)",
+   "tier": "GOLD",
+   "n_records": 211848,
+   "n_gene_clusters": 15021,
+   "pearson_r": 0.06707285200269666,
+   "ci": [
+    0.043651678715937156,
+    0.08976872291356762
+   ],
+   "mean_outcome": 0.6392602243117707,
+   "index_mean": 1.7053031147941233,
+   "index_sd": 0.6897746818706619
+  },
+  "G20-0470": {
+   "signal": "S1",
+   "population": "P-all (human)",
+   "tier": "BRONZE",
+   "n_records": 324037,
+   "n_gene_clusters": 16421,
+   "pearson_r": -0.06326257733415291,
+   "ci": [
+    -0.0782413006893402,
+    -0.04827111854796466
+   ],
+   "mean_outcome": 0.2261130673349031,
+   "index_mean": 1.7063364486387118,
+   "index_sd": 0.6790369138919181
+  },
+  "G20-0471": {
+   "signal": "S2",
+   "population": "P-all",
+   "tier": "GOLD",
+   "n_records": 93308,
+   "n_gene_clusters": 14880,
+   "pearson_r": -0.08807210541143731,
+   "ci": [
+    -0.10297043215964528,
+    -0.07414475765159205
+   ],
+   "mean_outcome": 0.7361426672954088,
+   "index_mean": 1.588858993188255,
+   "index_sd": 0.7130945008032494
+  },
+  "G20-0472": {
+   "signal": "S2",
+   "population": "P-all",
+   "tier": "BRONZE",
+   "n_records": 37591,
+   "n_gene_clusters": 11289,
+   "pearson_r": -0.08143213802180435,
+   "ci": [
+    -0.10639864296059359,
+    -0.058290790559653145
+   ],
+   "mean_outcome": 0.33750099757920776,
+   "index_mean": 1.4752185090728356,
+   "index_sd": 0.7100985293935209
+  },
+  "G20-0473": {
+   "signal": "S2",
+   "population": "P-human",
+   "tier": "GOLD",
+   "n_records": 49939,
+   "n_gene_clusters": 6744,
+   "pearson_r": -0.011582994920492385,
+   "ci": [
+    -0.031196784451508412,
+    0.008752230710739538
+   ],
+   "mean_outcome": 0.6449468351388694,
+   "index_mean": 1.7838104810223172,
+   "index_sd": 0.6470524178082852
+  },
+  "G20-0474": {
+   "signal": "S2",
+   "population": "P-human",
+   "tier": "BRONZE",
+   "n_records": 17477,
+   "n_gene_clusters": 5553,
+   "pearson_r": 0.00996384681893531,
+   "ci": [
+    -0.02194650852454881,
+    0.04560965266369585
+   ],
+   "mean_outcome": 0.18893402757910396,
+   "index_mean": 1.6631909233966808,
+   "index_sd": 0.6422241145176578
+  },
+  "G20-0475": {
+   "signal": "S3",
+   "population": "P-all",
+   "tier": "GOLD",
+   "n_records": 320780,
+   "n_gene_clusters": 30233,
+   "pearson_r": -0.07403493943808113,
+   "ci": [
+    -0.09051173645075522,
+    -0.05843286856419703
+   ],
+   "mean_outcome": 0.5721610709578472,
+   "index_mean": 1.569183014064468,
+   "index_sd": 0.7234271597073196
+  },
+  "G20-0476": {
+   "signal": "S3",
+   "population": "P-all",
+   "tier": "BRONZE",
+   "n_records": 215745,
+   "n_gene_clusters": 27094,
+   "pearson_r": 0.006410072857572149,
+   "ci": [
+    -0.014580524013986509,
+    0.02641680859637354
+   ],
+   "mean_outcome": 0.5283701105806092,
+   "index_mean": 1.5128094121264155,
+   "index_sd": 0.7249842405976143
+  },
+  "G20-0477": {
+   "signal": "S3",
+   "population": "P-human",
+   "tier": "GOLD",
+   "n_records": 208322,
+   "n_gene_clusters": 15008,
+   "pearson_r": -0.027791036099219645,
+   "ci": [
+    -0.04710409765488405,
+    -0.007032625813453198
+   ],
+   "mean_outcome": 0.5557931817584133,
+   "index_mean": 1.7028712556762242,
+   "index_sd": 0.6900536605098573
+  },
+  "G20-0478": {
+   "signal": "S3",
+   "population": "P-human",
+   "tier": "BRONZE",
+   "n_records": 129438,
+   "n_gene_clusters": 14922,
+   "pearson_r": 0.046445167798979066,
+   "ci": [
+    0.018905753879047436,
+    0.07155638322860024
+   ],
+   "mean_outcome": 0.5015775428444433,
+   "index_mean": 1.6509059828637573,
+   "index_sd": 0.691779791612403
+  },
+  "G20-0479": {
+   "signal": "S4",
+   "population": "P-all",
+   "tier": "GOLD",
+   "n_records": 324907,
+   "n_gene_clusters": 30327,
+   "pearson_r": -0.0730181929257819,
+   "ci": [
+    -0.07816204275759023,
+    -0.06765615626534315
+   ],
+   "mean_outcome": 0.4943537689246461,
+   "index_mean": 1.5711867106853035,
+   "index_sd": 0.7236090499807547
+  },
+  "G20-0480": {
+   "signal": "S4",
+   "population": "P-all",
+   "tier": "BRONZE",
+   "n_records": 478837,
+   "n_gene_clusters": 31279,
+   "pearson_r": -0.023013291768110823,
+   "ci": [
+    -0.02905711426416405,
+    -0.016683201330186366
+   ],
+   "mean_outcome": 0.4326127680191798,
+   "index_mean": 1.5824355490540052,
+   "index_sd": 0.7139996070584719
+  },
+  "G20-0481": {
+   "signal": "S4",
+   "population": "P-human",
+   "tier": "GOLD",
+   "n_records": 211848,
+   "n_gene_clusters": 15021,
+   "pearson_r": -0.04369088001140467,
+   "ci": [
+    -0.05005442819179012,
+    -0.037159812306789046
+   ],
+   "mean_outcome": 0.4656262981005249,
+   "index_mean": 1.7053031147941233,
+   "index_sd": 0.6897746818706619
+  },
+  "G20-0482": {
+   "signal": "S4",
+   "population": "P-human",
+   "tier": "BRONZE",
+   "n_records": 324000,
+   "n_gene_clusters": 16420,
+   "pearson_r": -0.033497736861481935,
+   "ci": [
+    -0.04112562907311054,
+    -0.02598310266976334
+   ],
+   "mean_outcome": 0.43249074074074073,
+   "index_mean": 1.706216151098181,
+   "index_sd": 0.6789475137227158
+  },
+  "G20-0483": {
+   "signal": "S5",
+   "population": "P-all",
+   "tier": "GOLD",
+   "n_records": 324907,
+   "n_gene_clusters": 30327,
+   "pearson_r": -0.03230554278901356,
+   "ci": [
+    -0.038893653616265636,
+    -0.024889554604042304
+   ],
+   "mean_outcome": 0.8423148777958,
+   "index_mean": 1.5711867106853035,
+   "index_sd": 0.7236090499807547
+  },
+  "G20-0484": {
+   "signal": "S5",
+   "population": "P-all",
+   "tier": "BRONZE",
+   "n_records": 478880,
+   "n_gene_clusters": 31282,
+   "pearson_r": -0.03274374652725121,
+   "ci": [
+    -0.04079470669145207,
+    -0.025724593243553712
+   ],
+   "mean_outcome": 0.04893919144670899,
+   "index_mean": 1.5825326963215314,
+   "index_sd": 0.7140702043974655
+  },
+  "G20-0485": {
+   "signal": "S5",
+   "population": "P-human",
+   "tier": "GOLD",
+   "n_records": 211848,
+   "n_gene_clusters": 15021,
+   "pearson_r": -0.017909464822264867,
+   "ci": [
+    -0.02828774545230134,
+    -0.009781002135006251
+   ],
+   "mean_outcome": 0.8282683811034327,
+   "index_mean": 1.7053031147941233,
+   "index_sd": 0.6897746818706619
+  },
+  "G20-0486": {
+   "signal": "S5",
+   "population": "P-human",
+   "tier": "BRONZE",
+   "n_records": 324037,
+   "n_gene_clusters": 16421,
+   "pearson_r": 0.005557241819193578,
+   "ci": [
+    -0.002102481624496176,
+    0.01344052759052832
+   ],
+   "mean_outcome": 0.029978058061270782,
+   "index_mean": 1.7063364486387118,
+   "index_sd": 0.6790369138919181
+  }
+ },
+ "index_vs_sites_per_accession": {
+  "human|sites_per_accession": {
+   "spearman": 0.0998857205610243,
+   "ci": [
+    0.08693050224615047,
+    0.11321896042541772
+   ],
+   "n_accessions": 48162,
+   "n_gene_clusters": 18757
+  },
+  "human|gold_sites_per_accession": {
+   "spearman": 0.007959189149982207,
+   "ci": [
+    -0.0008278616548459636,
+    0.016619398192081362
+   ],
+   "n_accessions": 48162,
+   "n_gene_clusters": 18757
+  },
+  "all|sites_per_accession": {
+   "spearman": 0.15510794645934356,
+   "ci": [
+    0.14565269681802448,
+    0.1642715275539906
+   ],
+   "n_accessions": 87338,
+   "n_gene_clusters": 45545
+  },
+  "all|gold_sites_per_accession": {
+   "spearman": 0.042820256180665615,
+   "ci": [
+    0.036295581812645694,
+    0.04983455133181052
+   ],
+   "n_accessions": 87338,
+   "n_gene_clusters": 45545
+  }
+ },
+ "domain_overlap_by_annotation_coverage": {
+  "all proteins": {
+   "n_records": 535885,
+   "n_gold": 211848,
+   "n_bronze": 324037,
+   "n_gene_clusters": 17641,
+   "share_in_domain_gold": 0.6392602243117707,
+   "share_in_domain_bronze": 0.2261130673349031,
+   "crude_or": 6.065065620195727,
+   "ci": [
+    5.751462513551166,
+    6.428502730167745
+   ],
+   "note": ""
+  },
+  "at least one domain-annotated site": {
+   "n_records": 296502,
+   "n_gold": 199302,
+   "n_bronze": 97200,
+   "n_gene_clusters": 16914,
+   "share_in_domain_gold": 0.6795014600957341,
+   "share_in_domain_bronze": 0.7537962962962963,
+   "crude_or": 0.6924763115651179,
+   "ci": [
+    0.6571153983542283,
+    0.7304420006388128
+   ],
+   "note": ""
+  },
+  "no domain-annotated site": {
+   "n_records": 239383,
+   "n_gold": 12546,
+   "n_bronze": 226837,
+   "n_gene_clusters": 10368,
+   "share_in_domain_gold": 0.0,
+   "share_in_domain_bronze": 0.0,
+   "crude_or": null,
+   "ci": [
+    NaN,
+    NaN
+   ],
+   "note": "outcome is constant (0) in this stratum, odds ratio undefined"
+  },
+  "composition": {
+   "share_gold_records_in_annotated_proteins": 0.9407782938710774,
+   "share_bronze_records_in_annotated_proteins": 0.29996574465261683,
+   "or_gold_vs_bronze_of_being_in_an_annotated_protein": 37.072681809951725,
+   "ci": [
+    34.00963594172562,
+    40.698745632733804
+   ]
+  }
+ }
+}

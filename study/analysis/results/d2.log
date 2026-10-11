@@ -1,0 +1,103 @@
+protein-PMID links 14253166 missing gene counts 0
+{'reproduces_sei_primary_n_pubmed': True, 'n_mapped_proteins': 87338, 'n_protein_pmid_links': 14253166, 'n_distinct_pmids_3species': 1983066}
+PMIDs needing a year 1979539 to fetch 1000
+0 2 8
+{
+ "reproduces_sei_primary_n_pubmed": true,
+ "n_mapped_proteins": 87338,
+ "n_protein_pmid_links": 14253166,
+ "n_distinct_pmids_3species": 1983066,
+ "V20": {
+  "threshold_genes_per_pmid": 20,
+  "pmids_removed": 10240,
+  "protein_pmid_links_removed": 3300460,
+  "proteins_with_changed_n": 86942,
+  "proteins_with_zero_after": 6781
+ },
+ "V50": {
+  "threshold_genes_per_pmid": 50,
+  "pmids_removed": 3527,
+  "protein_pmid_links_removed": 2956031,
+  "proteins_with_changed_n": 86889,
+  "proteins_with_zero_after": 5320
+ },
+ "V100": {
+  "threshold_genes_per_pmid": 100,
+  "pmids_removed": 2227,
+  "protein_pmid_links_removed": 2771305,
+  "proteins_with_changed_n": 86860,
+  "proteins_with_zero_after": 4638
+ },
+ "years": {
+  "pmids_needed": 1979539,
+  "fetched": 1000,
+  "fetch_failed_batches_pmids": 0,
+  "pmids_still_without_year": 0
+ },
+ "VT_rows": {
+  "2025": {
+   "proteins_mapped": 87338,
+   "proteins_with_VT": 81967,
+   "proteins_missing_no_dated_pmid": 5320,
+   "proteins_missing_first_year_after_reference": 51,
+   "t_min_used": 1.0,
+   "t_max_used": 106.0,
+   "t_nonpositive_or_nan_in_rows_used": 0
+  },
+  "2026": {
+   "proteins_mapped": 87338,
+   "proteins_with_VT": 82018,
+   "proteins_missing_no_dated_pmid": 5320,
+   "proteins_missing_first_year_after_reference": 0,
+   "t_min_used": 1.0,
+   "t_max_used": 107.0,
+   "t_nonpositive_or_nan_in_rows_used": 0
+  }
+ },
+ "VT": {
+  "proteins_mapped": 87338,
+  "proteins_with_y0": 82018,
+  "proteins_without_dated_pmid": 5320,
+  "of_which_no_pmid_at_all_after_V50": 5320,
+  "of_which_have_pmids_but_none_dated": 0,
+  "y0_min": 1920.0,
+  "y0_max": 2026.0,
+  "genes_mapped_total": 45871,
+  "genes_with_no_pmid_after_V50": 4527,
+  "genes_with_pmids_but_none_with_a_resolved_year": 0,
+  "genes_without_any_dated_pmid_total": 4527
+ },
+ "y0_proxy_check": {
+  "K_LOW": null,
+  "proteins_compared": 82018,
+  "proteins_with_earlier_known_year_than_proxy": 0,
+  "median_years_earlier_when_different": 0.0
+ },
+ "correlation_with_original": {
+  "V20": {
+   "spearman_with_original": 0.9200601199475148,
+   "pearson_with_original": 0.9197835198210312,
+   "n_proteins": 87338
+  },
+  "V50": {
+   "spearman_with_original": 0.928951290680744,
+   "pearson_with_original": 0.9279026106353664,
+   "n_proteins": 87338
+  },
+  "V100": {
+   "spearman_with_original": 0.9387989155778032,
+   "pearson_with_original": 0.9362193582083799,
+   "n_proteins": 87338
+  },
+  "VT2025": {
+   "spearman_with_original": 0.9095632103707219,
+   "pearson_with_original": 0.898111075389565,
+   "n_proteins": 81967
+  },
+  "VT2026": {
+   "spearman_with_original": 0.9116760245701359,
+   "pearson_with_original": 0.8982227386730429,
+   "n_proteins": 82018
+  }
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "uniprot": {
+  "source": "UniProt REST stream, reviewed human entries, field ft_mod_res, release 2026_03 (02-September-2026), retrieved 2026-10-01",
+  "phospho_features": 40916,
+  "experimental_ECO0000269": 5082,
+  "inferred_only": 10372,
+  "neither (only ECO:0007744 or mixed or no tag)": 25462,
+  "measure": "UniProt MOD_RES experimental vs inferred ECO",
+  "site_records_matched": 14185,
+  "share_of_measure_sites_lost": 0.08146085605128539,
+  "n_measure_sites_compared": 15443,
+  "n_measure_sites_before_class_filter": 40904,
+  "high_class_records": 5023,
+  "low_class_records": 9162,
+  "accessions": 4547,
+  "gene_clusters": 4542
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "G22-0515": {
+  "signal": "S4",
+  "population": "P-S/T (post-hoc)",
+  "index": "V50",
+  "tier_rule": "study-cluster rule (884)",
+  "variation": "post-hoc: serine and threonine records only; gene-cluster bootstrap",
+  "decision_bearing": "no",
+  "null": 0.0,
+  "n_sites": 733253,
+  "n_sites_gold": 291551,
+  "n_sites_bronze": 441702,
+  "n_proteins": 74656,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "gene cluster (gene_cluster)",
+  "n_gene_clusters": 37064,
+  "seed": "[20260924, crc32(G22-0516)]",
+  "seconds": 20.7,
+  "design": "D0",
+  "status": "run",
+  "estimate": 0.0761471577750315,
+  "ci": [
+   0.072664690088144,
+   0.07968323117603981
+  ],
+  "ci_excludes_null": true,
+  "bootstrap_shared_with": "G22-0516"
+ },
+ "G22-0516": {
+  "signal": "S4",
+  "population": "P-S/T (post-hoc)",
+  "index": "V50",
+  "tier_rule": "study-cluster rule (884)",
+  "variation": "post-hoc: serine and threonine records only; gene-cluster bootstrap",
+  "decision_bearing": "no",
+  "null": 0.0,
+  "n_sites": 733253,
+  "n_sites_gold": 291551,
+  "n_sites_bronze": 441702,
+  "n_proteins": 74656,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "gene cluster (gene_cluster)",
+  "n_gene_clusters": 37064,
+  "seed": "[20260924, crc32(G22-0516)]",
+  "seconds": 20.7,
+  "design": "D1",
+  "status": "run",
+  "estimate": 0.07288339331373273,
+  "ci": [
+   0.06924498936074994,
+   0.07649890377982352
+  ],
+  "survives": true,
+  "crude": 0.0761471577750315,
+  "crude_ci": [
+   0.072664690088144,
+   0.07968323117603981
+  ],
+  "attenuation": 0.04286127751401065,
+  "attenuation_ci": [
+   0.0323151738996203,
+   0.05579021846099299
+  ],
+  "attenuation_label": "partly attenuated (< 50%)",
+  "largely_explained": false,
+  "smd": 0.002865693245361225,
+  "smd_pre": -0.03243296951503825,
+  "balance_pass": true,
+  "n_strata_used": 60,
+  "n_strata_dropped": 0,
+  "n_bins": 10,
+  "adjusted_boot_sd": 0.0017863968103841946
+ }
+}

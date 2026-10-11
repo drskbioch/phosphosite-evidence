@@ -1,0 +1,210 @@
+# Number-source check of RESULTS_REPORT.md and CLAIMS_VS_EVIDENCE.md
+
+Source values read from 87 JSON files and the two manifest CSV files (31,828 values). Numbers examined: 4,060. Equal to a source value: 4,013. Equal to a derivation recomputed in this script from the result files: 47. **Neither: 0.**
+
+## Neither a source value nor a derivation
+
+none
+
+## Explained by a derivation
+
+- RESULTS_REPORT.md:17: `2.840` = ln spread of adjusted estimates across definitions, P-all S3 | max of ln spread across definitions
+- RESULTS_REPORT.md:17: `17.11` = disorder P-all spread, largest / smallest adjusted estimate (fold) | plain ratio exp(ln spread across definitions), P-all S3 | plain ratio exp(max of ln spread across definitions) | tier spread, all definitions, P-all S3
+- RESULTS_REPORT.md:17: `1.015` = plain ratio exp(largest within-definition change), P-human S2 | plain ratio exp(min of within-definition change) | width ratio G5 S4 D1
+- RESULTS_REPORT.md:50: `0.981` = width ratio G1 S1 D0
+- RESULTS_REPORT.md:51: `1.007` = width ratio G1 S1 D1
+- RESULTS_REPORT.md:53: `1.045` = plain ratio exp(largest within-definition change), P-all S3 | width ratio G1 S2 D1
+- RESULTS_REPORT.md:54: `1.062` = width ratio G1 S3 D0
+- RESULTS_REPORT.md:55: `1.161` = width ratio G1 S3 D1
+- RESULTS_REPORT.md:57: `0.993` = width ratio G1 S4 D1
+- RESULTS_REPORT.md:58: `1.022` = width ratio G1 S5 D0
+- RESULTS_REPORT.md:60: `1.006` = width ratio G2 S2 D0 | width ratio median
+- RESULTS_REPORT.md:61: `1.051` = width ratio G2 S2 D1
+- RESULTS_REPORT.md:64: `0.927` = width ratio G2 S4 D0
+- RESULTS_REPORT.md:72: `1.034` = width ratio G5 S2 D0
+- RESULTS_REPORT.md:73: `1.005` = width ratio G5 S2 D1
+- RESULTS_REPORT.md:74: `1.021` = width ratio G5 S3 D0
+- RESULTS_REPORT.md:77: `1.015` = plain ratio exp(largest within-definition change), P-human S2 | plain ratio exp(min of within-definition change) | width ratio G5 S4 D1
+- RESULTS_REPORT.md:79: `1.006` = width ratio G2 S2 D0 | width ratio median
+- RESULTS_REPORT.md:79: `1.01` = plain ratio exp(largest within-definition change), P-human S2 | plain ratio exp(min of within-definition change) | width ratio G1 S1 D1 | width ratio G2 S2 D0 | width ratio median
+- RESULTS_REPORT.md:79: `1.01` = plain ratio exp(largest within-definition change), P-human S2 | plain ratio exp(min of within-definition change) | width ratio G1 S1 D1 | width ratio G2 S2 D0 | width ratio median
+- RESULTS_REPORT.md:296: `66.1` = pairs as share of BRONZE records, minimum (percent)
+- RESULTS_REPORT.md:343: `1.053` = ln spread of adjusted estimates across definitions, P-human S1
+- RESULTS_REPORT.md:344: `1.015` = plain ratio exp(largest within-definition change), P-human S2 | plain ratio exp(min of within-definition change) | width ratio G5 S4 D1
+- RESULTS_REPORT.md:344: `0.453` = ln spread of adjusted estimates across definitions, P-human S2
+- RESULTS_REPORT.md:345: `14.08` = plain ratio exp(ln spread across definitions), P-human S3 | tier spread, all definitions, P-human S3
+- RESULTS_REPORT.md:345: `2.645` = ln spread of adjusted estimates across definitions, P-human S3
+- RESULTS_REPORT.md:345: `14.08` = plain ratio exp(ln spread across definitions), P-human S3 | tier spread, all definitions, P-human S3
+- RESULTS_REPORT.md:347: `1.121` = plain ratio exp(largest within-definition change), P-all S2
+- RESULTS_REPORT.md:348: `17.11` = disorder P-all spread, largest / smallest adjusted estimate (fold) | plain ratio exp(ln spread across definitions), P-all S3 | plain ratio exp(max of ln spread across definitions) | tier spread, all definitions, P-all S3
+- RESULTS_REPORT.md:348: `1.045` = plain ratio exp(largest within-definition change), P-all S3 | width ratio G1 S2 D1
+- RESULTS_REPORT.md:348: `2.840` = ln spread of adjusted estimates across definitions, P-all S3 | max of ln spread across definitions
+- RESULTS_REPORT.md:348: `17.11` = disorder P-all spread, largest / smallest adjusted estimate (fold) | plain ratio exp(ln spread across definitions), P-all S3 | plain ratio exp(max of ln spread across definitions) | tier spread, all definitions, P-all S3
+- RESULTS_REPORT.md:349: `1.104` = plain ratio exp(largest within-definition change), P-all S4
+- RESULTS_REPORT.md:349: `0.897` = ln spread of adjusted estimates across definitions, P-all S4
+- RESULTS_REPORT.md:351: `2.840` = ln spread of adjusted estimates across definitions, P-all S3 | max of ln spread across definitions
+- RESULTS_REPORT.md:351: `17.11` = disorder P-all spread, largest / smallest adjusted estimate (fold) | plain ratio exp(ln spread across definitions), P-all S3 | plain ratio exp(max of ln spread across definitions) | tier spread, all definitions, P-all S3
+- RESULTS_REPORT.md:351: `1.015` = plain ratio exp(largest within-definition change), P-human S2 | plain ratio exp(min of within-definition change) | width ratio G5 S4 D1
+- RESULTS_REPORT.md:351: `2.840` = ln spread of adjusted estimates across definitions, P-all S3 | max of ln spread across definitions
+- RESULTS_REPORT.md:351: `17.11` = disorder P-all spread, largest / smallest adjusted estimate (fold) | plain ratio exp(ln spread across definitions), P-all S3 | plain ratio exp(max of ln spread across definitions) | tier spread, all definitions, P-all S3
+- RESULTS_REPORT.md:529: `381,252` = peptide instances in build 606
+- RESULTS_REPORT.md:625: `856` = G21 conditional-logit resample fits that did not converge, all contrasts
+- CLAIMS_VS_EVIDENCE.md:70: `2.840` = ln spread of adjusted estimates across definitions, P-all S3 | max of ln spread across definitions
+- CLAIMS_VS_EVIDENCE.md:70: `17.11` = disorder P-all spread, largest / smallest adjusted estimate (fold) | plain ratio exp(ln spread across definitions), P-all S3 | plain ratio exp(max of ln spread across definitions) | tier spread, all definitions, P-all S3
+- CLAIMS_VS_EVIDENCE.md:70: `1.015` = plain ratio exp(largest within-definition change), P-human S2 | plain ratio exp(min of within-definition change) | width ratio G5 S4 D1
+- CLAIMS_VS_EVIDENCE.md:70: `17.11` = disorder P-all spread, largest / smallest adjusted estimate (fold) | plain ratio exp(ln spread across definitions), P-all S3 | plain ratio exp(max of ln spread across definitions) | tier spread, all definitions, P-all S3
+- CLAIMS_VS_EVIDENCE.md:73: `0.993` = width ratio G1 S4 D1
+- CLAIMS_VS_EVIDENCE.md:73: `1.161` = width ratio G1 S3 D1
+
+## All derivations computed (label: value)
+
+- width ratio G1 S1 D0: 0.980643
+- width ratio G1 S1 D1: 1.00701
+- width ratio G1 S2 D0: 1.07527
+- width ratio G1 S2 D1: 1.04491
+- width ratio G1 S3 D0: 1.06189
+- width ratio G1 S3 D1: 1.16138
+- width ratio G1 S4 D0: 0.935536
+- width ratio G1 S4 D1: 0.993198
+- width ratio G1 S5 D0: 1.02154
+- width ratio G1 S5 D1: 1.02637
+- width ratio G2 S2 D0: 1.00565
+- width ratio G2 S2 D1: 1.05074
+- width ratio G2 S3 D0: 1.18331
+- width ratio G2 S3 D1: 1.13255
+- width ratio G2 S4 D0: 0.926555
+- width ratio G2 S4 D1: 0.938755
+- width ratio G2 S5 D0: 1.00195
+- width ratio G2 S5 D1: 0.995889
+- width ratio G3 S1 D0: 0.838051
+- width ratio G3 S1 D1: 0.850845
+- width ratio G5 S1 D0: 0.958193
+- width ratio G5 S1 D1: 0.961714
+- width ratio G5 S2 D0: 1.03409
+- width ratio G5 S2 D1: 1.00469
+- width ratio G5 S3 D0: 1.02106
+- width ratio G5 S3 D1: 1.01583
+- width ratio G5 S4 D0: 1.00214
+- width ratio G5 S4 D1: 1.0152
+- width ratio median: 1.00633
+- width ratio min: 0.838051
+- width ratio max: 1.18331
+- tier spread, all definitions, P-human S1: 2.86766
+- tier spread, eligible definitions, P-human S1: 2.86766
+- largest |ln(adjusted/crude)| within a definition, P-human S1: 0.0660303
+- plain ratio exp(largest within-definition change), P-human S1: 1.06826
+- ln spread of adjusted estimates across definitions, P-human S1: 1.0535
+- plain ratio exp(ln spread across definitions), P-human S1: 2.86766
+- tier spread, all definitions, P-human S2: 1.57248
+- tier spread, eligible definitions, P-human S2: 1.57248
+- largest |ln(adjusted/crude)| within a definition, P-human S2: 0.0146552
+- plain ratio exp(largest within-definition change), P-human S2: 1.01476
+- ln spread of adjusted estimates across definitions, P-human S2: 0.452653
+- plain ratio exp(ln spread across definitions), P-human S2: 1.57248
+- tier spread, all definitions, P-human S3: 14.0842
+- tier spread, eligible definitions, P-human S3: 2.82321
+- largest |ln(adjusted/crude)| within a definition, P-human S3: 0.0687878
+- plain ratio exp(largest within-definition change), P-human S3: 1.07121
+- ln spread of adjusted estimates across definitions, P-human S3: 2.64505
+- plain ratio exp(ln spread across definitions), P-human S3: 14.0842
+- tier spread, all definitions, P-human S4: 3.81455
+- tier spread, eligible definitions, P-human S4: 3.81455
+- largest |ln(adjusted/crude)| within a definition, P-human S4: 0.398668
+- plain ratio exp(largest within-definition change), P-human S4: 1.48984
+- ln spread of adjusted estimates across definitions, P-human S4: 1.33882
+- plain ratio exp(ln spread across definitions), P-human S4: 3.81455
+- tier spread, all definitions, P-all S2: 1.54095
+- tier spread, eligible definitions, P-all S2: 1.54095
+- largest |ln(adjusted/crude)| within a definition, P-all S2: 0.114435
+- plain ratio exp(largest within-definition change), P-all S2: 1.12124
+- ln spread of adjusted estimates across definitions, P-all S2: 0.432398
+- plain ratio exp(ln spread across definitions), P-all S2: 1.54095
+- tier spread, all definitions, P-all S3: 17.1091
+- tier spread, eligible definitions, P-all S3: 2.99206
+- largest |ln(adjusted/crude)| within a definition, P-all S3: 0.0436495
+- plain ratio exp(largest within-definition change), P-all S3: 1.04462
+- ln spread of adjusted estimates across definitions, P-all S3: 2.83961
+- plain ratio exp(ln spread across definitions), P-all S3: 17.1091
+- tier spread, all definitions, P-all S4: 2.45238
+- tier spread, eligible definitions, P-all S4: 2.45238
+- largest |ln(adjusted/crude)| within a definition, P-all S4: 0.0988614
+- plain ratio exp(largest within-definition change), P-all S4: 1.10391
+- ln spread of adjusted estimates across definitions, P-all S4: 0.897057
+- plain ratio exp(ln spread across definitions), P-all S4: 2.45238
+- min of within-definition change: 0.0146552
+- max of within-definition change: 0.398668
+- min of ln spread across definitions: 0.432398
+- max of ln spread across definitions: 2.83961
+- plain ratio exp(min of within-definition change): 1.01476
+- plain ratio exp(max of within-definition change): 1.48984
+- plain ratio exp(min of ln spread across definitions): 1.54095
+- plain ratio exp(max of ln spread across definitions): 17.1091
+- disorder P-all spread, largest / smallest adjusted estimate (fold): 17.1091
+- pairs as share of BRONZE records, minimum (percent): 66.1288
+- pairs as share of BRONZE records, maximum (percent): 100
+- peptide instances in build 606: 381252
+- sum of the mammalian tier counts: 1.76807e+06
+- human GOLD share under the raw PMID rule (percent): 48.4395
+- human GOLD share under the study-cluster rule (percent): 14.7225
+- GOLD records that fall to SILVER or BRONZE when non-primary PMIDs are not counted: 9557
+- signal-by-population combinations where the log spread across definitions exceeds the within-definition change: 7
+- signal-by-population combinations where both can be computed: 7
+- CEM rows with a protein-cluster to Rev 5 interval width ratio (G14): 10
+- decision-bearing G1 contrasts whose two-way interval excludes the null: 2
+- decision-bearing G1 contrasts with a two-way interval: 4
+- G23 D1 contrasts whose interval excludes the null: 9
+- G23 D1 contrasts that keep the sign of the primary: 9
+- G23 D1 contrasts largely explained: 0
+- G23 D1 contrasts: 9
+- predictor tools meeting the pre-specified criterion (gap >= 0.05, interval excluding zero): 1
+- predictor tools audited: 3
+- G21 conditional-logit resample fits that did not converge, all contrasts: 856
+- G21 failed-fit share, G21-0506 (percent): 0
+- G21 failed-fit share, G21-0507 (percent): 0
+- G21 failed-fit share, G21-0508 (percent): 0
+- G21 failed-fit share, G21-0503 (percent): 5
+- G21 failed-fit share, G21-0504 (percent): 5.4
+- G21 failed-fit share, G21-0505 (percent): 4.8
+- G21 failed-fit share, G21-0509 (percent): 0.1
+- G21 failed-fit share, G21-0510 (percent): 0
+- G21 failed-fit share, G21-0511 (percent): 0.1
+- G21 failed-fit share, G21-0512 (percent): 9.2
+- G21 failed-fit share, G21-0513 (percent): 8.1
+- G21 failed-fit share, G21-0514 (percent): 9.4
+- G21 failed-fit share, G21-0491 (percent): 3.4
+- G21 failed-fit share, G21-0492 (percent): 4.1
+- G21 failed-fit share, G21-0493 (percent): 6.1
+- G21 failed-fit share, G21-0494 (percent): 0
+- G21 failed-fit share, G21-0495 (percent): 0
+- G21 failed-fit share, G21-0496 (percent): 0
+- G21 failed-fit share, G21-0497 (percent): 0.2
+- G21 failed-fit share, G21-0498 (percent): 0.3
+- G21 failed-fit share, G21-0499 (percent): 0.2
+- G21 failed-fit share, G21-0500 (percent): 7.3
+- G21 failed-fit share, G21-0501 (percent): 11.1
+- G21 failed-fit share, G21-0502 (percent): 10.8
+- headline 1: decision-bearing D1 contrasts in G1 and G2 (and G3): 7
+- headline 1: of them surviving with the gene-cluster interval: 7
+- headline 1: of them surviving with the accession-cluster interval: 7
+- headline 1: of them largely explained: 0
+- headline 1: largest attenuation, gene-cluster (percent): 1.44647
+- headline 1: decision-bearing G1 contrasts with a two-way interval: 4
+- headline 1: of them excluding the null under the two-way interval: 2
+- headline 4: decision-bearing D2b contrasts: 7
+- headline 4: of them surviving: 7
+- headline 4: largest attenuation (percent): 2.90272
+- headline 4: D2b point estimates outside their own interval: 0
+- headline 3: decision-bearing contrasts with a before/after balance: 78
+- headline 3: of them with |SMD| of 0.1 or more before matching: 41
+- headline 3: largest |SMD| before matching: 0.269655
+- headline 3: largest |SMD| after matching: 0.0165427
+- headline 3: SMD before matching, G1-0005: 0.159699
+- headline 3: SMD before matching, G2-0017: 0.187114
+- headline 3: smallest within-tier correlation of the index with an outcome: -0.0880721
+- headline 3: largest within-tier correlation of the index with an outcome: 0.0670729
+- headline 6: planned D2 contrasts: 11
+- headline 6: D2 contrasts that could not be fitted: 5
+- headline 6: evaluated predictor settings: 7
+- headline 6: settings with a gap equivalent to zero: 2
+- headline 6: settings not detectable: 5
+- headline 6: settings showing a gap: 0

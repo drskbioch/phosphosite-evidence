@@ -1,0 +1,30 @@
+DeepPhos planned: S/T sites only unrestricted evaluated 0.0406 [0.012401627641899421, 0.06727319615013234] [0.014969044809755574, 0.06784835888954965] not detectable (interval includes the margin)
+DeepPhos planned: S/T sites only restriction_year=2019 evaluated -0.0013 [-0.03855007465109084, 0.03934462565198554] [-0.03694531903355435, 0.03578371950488361] gap absent (equivalent within +/-0.05)
+DeepPhos planned: S/T sites only restriction_year=2018 evaluated 0.0252 [-0.010191185260313904, 0.06003551342278678] [-0.008151583226356365, 0.058639120761837644] not detectable (interval includes the margin)
+DeepPhos Rev 5 design: all scored residues unrestricted evaluated 0.0371 [0.007748853135554104, 0.06392312152336747] [0.01176158576822929, 0.06305751994735187] not detectable (interval includes the margin)
+DeepPhos Rev 5 design: all scored residues restriction_year=2019 evaluated -0.0031 [-0.03619954898439634, 0.03401598034235255] [-0.03743224985430997, 0.03358808759251737] gap absent (equivalent within +/-0.05)
+DeepPhos Rev 5 design: all scored residues restriction_year=2018 evaluated 0.0237 [-0.008641588046613555, 0.056776641250768964] [-0.010418760835925103, 0.05652419046154359] not detectable (interval includes the margin)
+MusiteDeep planned: S/T sites only unrestricted evaluated 0.0611 [0.03239807415049208, 0.08939260135322732] [0.034327923825327504, 0.08896065716661945] not detectable (interval includes the margin)
+MusiteDeep planned: S/T sites only restriction_year=2020 evaluated -0.0125 [-0.05037652593388773, 0.026498389840025893] [-0.049134066837082116, 0.028848582714046594] gap absent (equivalent within +/-0.05)
+MusiteDeep planned: S/T sites only restriction_year=2017 evaluated 0.0368 [0.0024307267108081712, 0.07139353547878939] [0.0038011674820458757, 0.07054535402106038] not detectable (interval includes the margin)
+MusiteDeep Rev 5 design: all scored residues unrestricted evaluated 0.0632 [0.03695122779246969, 0.09132940764458353] [0.03799091221694092, 0.08818983411140258] not detectable (interval includes the margin)
+MusiteDeep Rev 5 design: all scored residues restriction_year=2020 evaluated -0.0173 [-0.0555425055740956, 0.021582598353188667] [-0.053305316303412266, 0.02222733845850432] gap absent (equivalent within +/-0.05)
+MusiteDeep Rev 5 design: all scored residues restriction_year=2017 evaluated 0.0314 [0.0005867475179930418, 0.06738115485685588] [0.0010515305681370432, 0.06466011091125974] not detectable (interval includes the margin)
+PhosF3C planned: Y sites only unrestricted evaluated 0.0541 [-0.0221319978473991, 0.12480985788529246] [-0.010307732916127023, 0.132313362571563] not detectable (interval includes the margin)
+PhosF3C planned: Y sites only restriction_year=2024 too small to evaluate (n<200) nan None None None
+PhosF3C Rev 5 design: all scored residues unrestricted evaluated 0.0541 [-0.017294681019588712, 0.12446066448684144] [-0.019458685238266656, 0.12685881263543092] not detectable (interval includes the margin)
+PhosF3C Rev 5 design: all scored residues restriction_year=2024 too small to evaluate (n<200) nan None None None
+{
+ "training_file": "tools/phosf3c/PhosF3C-main/data/merged_train_Y.fasta (shipped with the PhosF3C repository)",
+ "window": "31 residues (+/- 15, hparams window_size 15)",
+ "n_training_positive_windows": 29303,
+ "n_eval_positives_Y": 515,
+ "n_flagged_ge_40pct": 293,
+ "share_flagged": 0.5689320388349515,
+ "identity_quantiles_eval_positives": {
+  "0.1": 0.2903225806451613,
+  "0.5": 0.6451612903225806,
+  "0.9": 1.0,
+  "0.99": 1.0
+ }
+}

@@ -1,0 +1,14 @@
+# Limits of the target journal. Every value is TODO until the journal's guidelines are available; fill them in here and run
+#   python scripts/analysis/check_limits.py
+# Units: lengths as a number with a unit ("180 mm", "504 pt", "7 in", "18 cm"); a bare number is read as millimetres. figure_min_dpi in dots per inch.
+# figure_depth_max is the depth of the figure including its caption (or its notes, when they are printed inside the figure file).
+main_text_word_limit: TODO
+abstract_word_limit: TODO
+max_keywords: TODO
+max_main_figures: TODO
+max_main_tables: TODO
+figure_width_max: TODO
+figure_depth_max: TODO
+figure_min_dpi: TODO
+reference_style: TODO
+preprint_policy: TODO

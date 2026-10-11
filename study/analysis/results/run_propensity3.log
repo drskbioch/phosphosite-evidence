@@ -1,0 +1,15 @@
+<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+G14-0340 0.3896112276173576 [0.37531574038958215, 0.3972469878739199] 0.022653030992149697 1000 0.3
+G14-0337 3.043242570881202 [2.5913382663849105, 2.933630474373978] -0.21755277753433452 1000 0.62
+<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\statsmodels\discrete\discrete_model.py:2385: RuntimeWarning: overflow encountered in exp
+  return 1/(1+np.exp(-X))
+<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\statsmodels\discrete\discrete_model.py:2443: RuntimeWarning: divide by zero encountered in log
+  return np.sum(np.log(self.cdf(q * linpred)))
+G14-0349 not fitted LinAlgError: Singular matrix
+G14-0343 0.04620940302756815 [0.04059141908744409, 0.049509795856457456] -0.05522698359425329 1000 1.13
+G14-0346 0.045233680406979504 [0.0427696369322908, 0.053066813136528015] 0.2673639924263895 1000 1.03

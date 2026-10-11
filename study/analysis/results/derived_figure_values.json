@@ -1,0 +1,1356 @@
+{
+ "fig4b|P-human|domain overlap|ln_change": {
+  "value": 0.06603026659787913,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0419.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0421.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0423.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0425.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "max over tier definitions of abs(ln(adjusted / crude)); definitions where the crude and the adjusted interval both exclude the null"
+ },
+ "fig4b|P-human|domain overlap|ln_spread": {
+  "value": 1.0534961291800995,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0419.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0421.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0423.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0425.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "ln(largest adjusted / smallest adjusted) over tier definitions whose adjusted interval excludes the null"
+ },
+ "fig4b|P-human|domain overlap|n_definitions": {
+  "value": 4,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0419.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0421.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0423.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0425.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "number of tier definitions whose adjusted interval excludes the null"
+ },
+ "fig4b|P-human|domain overlap|spread_all": {
+  "value": 2.8676593203134133,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0419.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0421.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0423.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0425.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "largest adjusted / smallest adjusted over all tier definitions"
+ },
+ "fig4b|P-human|domain overlap|spread_eligible": {
+  "value": 2.8676593203134133,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0419.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0421.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0423.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0425.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "largest / smallest adjusted estimate after dropping any estimate whose interval includes the null or has a limit within 0.01 of the null"
+ },
+ "fig4b|P-all|conservation|ln_change": {
+  "value": 0.11443529937281118,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0451.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0453.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0455.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "max over tier definitions of abs(ln(adjusted / crude)); definitions where the crude and the adjusted interval both exclude the null"
+ },
+ "fig4b|P-all|conservation|ln_spread": {
+  "value": 0.4323982120991863,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0451.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0453.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0455.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "ln(largest adjusted / smallest adjusted) over tier definitions whose adjusted interval excludes the null"
+ },
+ "fig4b|P-all|conservation|n_definitions": {
+  "value": 3,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0451.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0453.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0455.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "number of tier definitions whose adjusted interval excludes the null"
+ },
+ "fig4b|P-all|conservation|spread_all": {
+  "value": 1.5409486173846827,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0451.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0453.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0455.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "largest adjusted / smallest adjusted over all tier definitions"
+ },
+ "fig4b|P-all|conservation|spread_eligible": {
+  "value": 1.5409486173846827,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0451.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0453.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0455.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "largest / smallest adjusted estimate after dropping any estimate whose interval includes the null or has a limit within 0.01 of the null"
+ },
+ "fig4b|P-human|conservation|ln_change": {
+  "value": 0.014655203571834583,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0427.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0429.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0431.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0433.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "max over tier definitions of abs(ln(adjusted / crude)); definitions where the crude and the adjusted interval both exclude the null"
+ },
+ "fig4b|P-human|conservation|ln_spread": {
+  "value": 0.4526531256840399,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0427.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0429.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0431.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0433.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "ln(largest adjusted / smallest adjusted) over tier definitions whose adjusted interval excludes the null"
+ },
+ "fig4b|P-human|conservation|n_definitions": {
+  "value": 4,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0427.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0429.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0431.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0433.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "number of tier definitions whose adjusted interval excludes the null"
+ },
+ "fig4b|P-human|conservation|spread_all": {
+  "value": 1.572478639449092,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0427.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0429.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0431.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0433.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "largest adjusted / smallest adjusted over all tier definitions"
+ },
+ "fig4b|P-human|conservation|spread_eligible": {
+  "value": 1.572478639449092,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0427.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0429.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0431.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0433.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "largest / smallest adjusted estimate after dropping any estimate whose interval includes the null or has a limit within 0.01 of the null"
+ },
+ "fig4b|P-all|disorder|ln_change": {
+  "value": 0.04364954572893402,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0457.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0459.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0461.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "max over tier definitions of abs(ln(adjusted / crude)); definitions where the crude and the adjusted interval both exclude the null"
+ },
+ "fig4b|P-all|disorder|ln_spread": {
+  "value": 2.839612947636863,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0457.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0459.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0461.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "ln(largest adjusted / smallest adjusted) over tier definitions whose adjusted interval excludes the null"
+ },
+ "fig4b|P-all|disorder|n_definitions": {
+  "value": 3,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0457.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0459.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0461.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "number of tier definitions whose adjusted interval excludes the null"
+ },
+ "fig4b|P-all|disorder|spread_all": {
+  "value": 17.10914212153485,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0457.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0459.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0461.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "largest adjusted / smallest adjusted over all tier definitions"
+ },
+ "fig4b|P-all|disorder|spread_eligible": {
+  "value": 2.9920598251706374,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0457.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0459.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0461.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "largest / smallest adjusted estimate after dropping any estimate whose interval includes the null or has a limit within 0.01 of the null"
+ },
+ "fig4b|P-human|disorder|ln_change": {
+  "value": 0.06878777461831365,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0435.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0437.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0439.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0441.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "max over tier definitions of abs(ln(adjusted / crude)); definitions where the crude and the adjusted interval both exclude the null"
+ },
+ "fig4b|P-human|disorder|ln_spread": {
+  "value": 2.645051869037799,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0435.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0437.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0439.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0441.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "ln(largest adjusted / smallest adjusted) over tier definitions whose adjusted interval excludes the null"
+ },
+ "fig4b|P-human|disorder|n_definitions": {
+  "value": 4,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0435.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0437.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0439.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0441.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "number of tier definitions whose adjusted interval excludes the null"
+ },
+ "fig4b|P-human|disorder|spread_all": {
+  "value": 14.084175596815125,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0435.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0437.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0439.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0441.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "largest adjusted / smallest adjusted over all tier definitions"
+ },
+ "fig4b|P-human|disorder|spread_eligible": {
+  "value": 2.8232098742854794,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0435.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0437.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0439.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0441.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "largest / smallest adjusted estimate after dropping any estimate whose interval includes the null or has a limit within 0.01 of the null"
+ },
+ "fig4b|P-all|sequence motif|ln_change": {
+  "value": 0.09886136277545528,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0463.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0465.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0467.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "max over tier definitions of abs(ln(adjusted / crude)); definitions where the crude and the adjusted interval both exclude the null"
+ },
+ "fig4b|P-all|sequence motif|ln_spread": {
+  "value": 0.8970572302941903,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0463.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0465.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0467.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "ln(largest adjusted / smallest adjusted) over tier definitions whose adjusted interval excludes the null"
+ },
+ "fig4b|P-all|sequence motif|n_definitions": {
+  "value": 3,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0463.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0465.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0467.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "number of tier definitions whose adjusted interval excludes the null"
+ },
+ "fig4b|P-all|sequence motif|spread_all": {
+  "value": 2.452375705144567,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0463.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0465.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0467.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "largest adjusted / smallest adjusted over all tier definitions"
+ },
+ "fig4b|P-all|sequence motif|spread_eligible": {
+  "value": 2.452375705144567,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0463.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0465.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0467.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "largest / smallest adjusted estimate after dropping any estimate whose interval includes the null or has a limit within 0.01 of the null"
+ },
+ "fig4b|P-human|sequence motif|ln_change": {
+  "value": 0.3986682127557327,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0443.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0445.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0447.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0449.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "max over tier definitions of abs(ln(adjusted / crude)); definitions where the crude and the adjusted interval both exclude the null"
+ },
+ "fig4b|P-human|sequence motif|ln_spread": {
+  "value": 1.3388226777187577,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0443.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0445.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0447.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0449.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "ln(largest adjusted / smallest adjusted) over tier definitions whose adjusted interval excludes the null"
+ },
+ "fig4b|P-human|sequence motif|n_definitions": {
+  "value": 4,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0443.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0445.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0447.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0449.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "number of tier definitions whose adjusted interval excludes the null"
+ },
+ "fig4b|P-human|sequence motif|spread_all": {
+  "value": 3.814549906080759,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0443.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0445.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0447.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0449.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "largest adjusted / smallest adjusted over all tier definitions"
+ },
+ "fig4b|P-human|sequence motif|spread_eligible": {
+  "value": 3.814549906080759,
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G19-0443.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0445.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0447.estimate, .crude, .ci, .crude_ci"
+   ],
+   [
+    "analysis/results/amend_results.json",
+    "G19-0449.estimate, .crude, .ci, .crude_ci"
+   ]
+  ],
+  "formula": "largest / smallest adjusted estimate after dropping any estimate whose interval includes the null or has a limit within 0.01 of the null"
+ },
+ "figS4|P-all|S2|width_ratio_gene_over_accession": {
+  "value": 1.0449089433553986,
+  "formula": "(upper - lower of the gene-cluster interval) / (upper - lower of the accession-cluster interval), same contrast, D1",
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G17-0382.ci"
+   ],
+   [
+    "analysis/results/cem_results.json",
+    "G1-0005.ci"
+   ]
+  ]
+ },
+ "figS4|P-all|S3|width_ratio_gene_over_accession": {
+  "value": 1.1613814938445302,
+  "formula": "(upper - lower of the gene-cluster interval) / (upper - lower of the accession-cluster interval), same contrast, D1",
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G17-0384.ci"
+   ],
+   [
+    "analysis/results/cem_results.json",
+    "G1-0008.ci"
+   ]
+  ]
+ },
+ "figS4|P-all|S4|width_ratio_gene_over_accession": {
+  "value": 0.9931981170013595,
+  "formula": "(upper - lower of the gene-cluster interval) / (upper - lower of the accession-cluster interval), same contrast, D1",
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G17-0386.ci"
+   ],
+   [
+    "analysis/results/cem_results.json",
+    "G1-0011.ci"
+   ]
+  ]
+ },
+ "figS4|P-all|S5|width_ratio_gene_over_accession": {
+  "value": 1.0263710078288688,
+  "formula": "(upper - lower of the gene-cluster interval) / (upper - lower of the accession-cluster interval), same contrast, D1",
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G17-0388.ci"
+   ],
+   [
+    "analysis/results/cem_results.json",
+    "G1-0014.ci"
+   ]
+  ]
+ },
+ "figS4|P-human|S2|width_ratio_gene_over_accession": {
+  "value": 1.0507405292547058,
+  "formula": "(upper - lower of the gene-cluster interval) / (upper - lower of the accession-cluster interval), same contrast, D1",
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G17-0390.ci"
+   ],
+   [
+    "analysis/results/cem_results.json",
+    "G2-0017.ci"
+   ]
+  ]
+ },
+ "figS4|P-human|S3|width_ratio_gene_over_accession": {
+  "value": 1.1325511882438224,
+  "formula": "(upper - lower of the gene-cluster interval) / (upper - lower of the accession-cluster interval), same contrast, D1",
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G17-0392.ci"
+   ],
+   [
+    "analysis/results/cem_results.json",
+    "G2-0020.ci"
+   ]
+  ]
+ },
+ "figS4|P-human|S4|width_ratio_gene_over_accession": {
+  "value": 0.9387551729137505,
+  "formula": "(upper - lower of the gene-cluster interval) / (upper - lower of the accession-cluster interval), same contrast, D1",
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G17-0394.ci"
+   ],
+   [
+    "analysis/results/cem_results.json",
+    "G2-0023.ci"
+   ]
+  ]
+ },
+ "figS4|P-human|S5|width_ratio_gene_over_accession": {
+  "value": 0.99588877571077,
+  "formula": "(upper - lower of the gene-cluster interval) / (upper - lower of the accession-cluster interval), same contrast, D1",
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G17-0396.ci"
+   ],
+   [
+    "analysis/results/cem_results.json",
+    "G2-0026.ci"
+   ]
+  ]
+ },
+ "figS4|P-all (human)|S1|width_ratio_gene_over_accession": {
+  "value": 1.0070110634752145,
+  "formula": "(upper - lower of the gene-cluster interval) / (upper - lower of the accession-cluster interval), same contrast, D1",
+  "inputs": [
+   [
+    "analysis/results/amend_results.json",
+    "G17-0380.ci"
+   ],
+   [
+    "analysis/results/cem_results.json",
+    "G1-0002.ci"
+   ]
+  ]
+ },
+ "fig2a|human|BRONZE": {
+  "value": 0.4021199468147146,
+  "formula": "tier count / sites of the species",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "tier_counts_by_species.human.BRONZE"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "n_sites_by_species.human"
+   ]
+  ]
+ },
+ "fig2a|human|SILVER": {
+  "value": 0.3956350742961114,
+  "formula": "tier count / sites of the species",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "tier_counts_by_species.human.SILVER"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "n_sites_by_species.human"
+   ]
+  ]
+ },
+ "fig2a|human|GOLD": {
+  "value": 0.202244978889174,
+  "formula": "tier count / sites of the species",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "tier_counts_by_species.human.GOLD"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "n_sites_by_species.human"
+   ]
+  ]
+ },
+ "fig2a|mouse|BRONZE": {
+  "value": 0.4154977295103754,
+  "formula": "tier count / sites of the species",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "tier_counts_by_species.mouse.BRONZE"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "n_sites_by_species.mouse"
+   ]
+  ]
+ },
+ "fig2a|mouse|SILVER": {
+  "value": 0.39485368163729817,
+  "formula": "tier count / sites of the species",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "tier_counts_by_species.mouse.SILVER"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "n_sites_by_species.mouse"
+   ]
+  ]
+ },
+ "fig2a|mouse|GOLD": {
+  "value": 0.18964858885232647,
+  "formula": "tier count / sites of the species",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "tier_counts_by_species.mouse.GOLD"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "n_sites_by_species.mouse"
+   ]
+  ]
+ },
+ "fig2a|rat|SILVER": {
+  "value": 0.7146399995064684,
+  "formula": "tier count / sites of the species",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "tier_counts_by_species.rat.SILVER"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "n_sites_by_species.rat"
+   ]
+  ]
+ },
+ "fig2a|rat|GOLD": {
+  "value": 0.1503359099798269,
+  "formula": "tier count / sites of the species",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "tier_counts_by_species.rat.GOLD"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "n_sites_by_species.rat"
+   ]
+  ]
+ },
+ "fig2a|rat|BRONZE": {
+  "value": 0.13502409051370476,
+  "formula": "tier count / sites of the species",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "tier_counts_by_species.rat.BRONZE"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "n_sites_by_species.rat"
+   ]
+  ]
+ },
+ "fig2a|all|SILVER": {
+  "value": 0.4246454321892597,
+  "formula": "tier count / all sites",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "tier_counts_all.SILVER"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "n_sites_by_species (sum)"
+   ]
+  ]
+ },
+ "fig2a|all|BRONZE": {
+  "value": 0.3816747998380153,
+  "formula": "tier count / all sites",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "tier_counts_all.BRONZE"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "n_sites_by_species (sum)"
+   ]
+  ]
+ },
+ "fig2a|all|GOLD": {
+  "value": 0.19367976797272504,
+  "formula": "tier count / all sites",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "tier_counts_all.GOLD"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "n_sites_by_species (sum)"
+   ]
+  ]
+ },
+ "fig2b|pmid_rule_set_a|BRONZE": {
+  "value": 0.5155417667778581,
+  "formula": "tier count / human sites",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "human_tier_pmid_count_rule.BRONZE"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "human_n_sites"
+   ]
+  ]
+ },
+ "fig2b|pmid_rule_set_a|GOLD": {
+  "value": 0.48439478410972964,
+  "formula": "tier count / human sites",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "human_tier_pmid_count_rule.GOLD"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "human_n_sites"
+   ]
+  ]
+ },
+ "fig2b|pmid_rule_set_a|SILVER": {
+  "value": 6.344911241223262e-05,
+  "formula": "tier count / human sites",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "human_tier_pmid_count_rule.SILVER"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "human_n_sites"
+   ]
+  ]
+ },
+ "fig2b|cluster_rule_set_a|BRONZE": {
+  "value": 0.5664662110149525,
+  "formula": "tier count / human sites",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "human_tier_study_cluster_rule_set_a.BRONZE"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "human_n_sites"
+   ]
+  ]
+ },
+ "fig2b|cluster_rule_set_a|SILVER": {
+  "value": 0.2863085213091045,
+  "formula": "tier count / human sites",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "human_tier_study_cluster_rule_set_a.SILVER"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "human_n_sites"
+   ]
+  ]
+ },
+ "fig2b|cluster_rule_set_a|GOLD": {
+  "value": 0.147225267675943,
+  "formula": "tier count / human sites",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "human_tier_study_cluster_rule_set_a.GOLD"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "human_n_sites"
+   ]
+  ]
+ },
+ "fig2b|cluster_rule_set_b|BRONZE": {
+  "value": 0.4021199468147146,
+  "formula": "tier count / human sites",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "human_tier_study_cluster_rule_set_b.BRONZE"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "human_n_sites"
+   ]
+  ]
+ },
+ "fig2b|cluster_rule_set_b|SILVER": {
+  "value": 0.3956350742961114,
+  "formula": "tier count / human sites",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "human_tier_study_cluster_rule_set_b.SILVER"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "human_n_sites"
+   ]
+  ]
+ },
+ "fig2b|cluster_rule_set_b|GOLD": {
+  "value": 0.202244978889174,
+  "formula": "tier count / human sites",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "human_tier_study_cluster_rule_set_b.GOLD"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "human_n_sites"
+   ]
+  ]
+ },
+ "figS1|das|0": {
+  "value": 0.47245637611223096,
+  "formula": "sites with agreement score / all sites",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "das_counts_all.0"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "n_sites_by_species (sum)"
+   ]
+  ]
+ },
+ "figS1|das|1": {
+  "value": 0.36910684430689317,
+  "formula": "sites with agreement score / all sites",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "das_counts_all.1"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "n_sites_by_species (sum)"
+   ]
+  ]
+ },
+ "figS1|das|2": {
+  "value": 0.1423983692934887,
+  "formula": "sites with agreement score / all sites",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "das_counts_all.2"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "n_sites_by_species (sum)"
+   ]
+  ]
+ },
+ "figS1|das|3": {
+  "value": 0.016038410287387138,
+  "formula": "sites with agreement score / all sites",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "das_counts_all.3"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "n_sites_by_species (sum)"
+   ]
+  ]
+ },
+ "figS1|pmid|resolved": {
+  "value": 0.8594609460946094,
+  "formula": "identifiers in the class / distinct identifiers",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "pmid.resolved"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "pmid.distinct"
+   ]
+  ]
+ },
+ "figS1|pmid|valid_format_not_found": {
+  "value": 0.005146943265755147,
+  "formula": "identifiers in the class / distinct identifiers",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "pmid.valid_format_not_found"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "pmid.distinct"
+   ]
+  ]
+ },
+ "figS1|pmid|invalid_format_over_45m": {
+  "value": 0.13539211063963538,
+  "formula": "identifiers in the class / distinct identifiers",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "pmid.invalid_format_over_45m"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "pmid.distinct"
+   ]
+  ]
+ },
+ "figS1|noncanonical_rate|human": {
+  "value": 3.638993211878047e-05,
+  "formula": "non-canonical residue sites / sites of the species",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "noncanonical_by_species.human"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "n_sites_by_species.human"
+   ]
+  ]
+ },
+ "figS1|noncanonical_rate|mouse": {
+  "value": 9.358984437880676e-06,
+  "formula": "non-canonical residue sites / sites of the species",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "noncanonical_by_species.mouse"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "n_sites_by_species.mouse"
+   ]
+  ]
+ },
+ "figS1|noncanonical_rate|rat": {
+  "value": 1.2338291270042012e-05,
+  "formula": "non-canonical residue sites / sites of the species",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "noncanonical_by_species.rat"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "n_sites_by_species.rat"
+   ]
+  ]
+ },
+ "figS1|noncanonical_rate|all": {
+  "value": 2.60170988898617e-05,
+  "formula": "non-canonical residue sites / all sites",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "noncanonical_n"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "n_sites_by_species (sum)"
+   ]
+  ]
+ },
+ "figS5|cluster_split|proteins_in_both": {
+  "value": 0.3818111205557347,
+  "formula": "proteins in both partitions / proteins",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "cluster_split.proteins_in_both"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "cluster_split.proteins_total"
+   ]
+  ]
+ },
+ "figS5|temporal_split|proteins_in_both": {
+  "value": 0.3653823606999443,
+  "formula": "proteins in both partitions / proteins",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "temporal_split.proteins_in_both"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "temporal_split.proteins_total"
+   ]
+  ]
+ },
+ "figS5|temporal_split|clusters_in_both": {
+  "value": 0.0691588785046729,
+  "formula": "study clusters in both partitions / study clusters",
+  "inputs": [
+   [
+    "analysis/results/figure_counts.json",
+    "temporal_split.study_clusters_in_both"
+   ],
+   [
+    "analysis/results/figure_counts.json",
+    "temporal_split.study_clusters_total"
+   ]
+  ]
+ },
+ "fig2d|psp_paper_share_of_records": {
+  "value": 0.12736331408068016,
+  "formula": "records linked to PMID 25514926 / all records",
+  "inputs": [
+   [
+    "analysis/results/g23_tiers_summary.json",
+    "nonprimary[pmid=25514926].records_linked"
+   ],
+   [
+    "analysis/results/g23_tiers_summary.json",
+    "n_records"
+   ]
+  ]
+ },
+ "fig2d|gold_to_silver_share_of_gold": {
+  "value": 0.027908620221411697,
+  "formula": "GOLD records that fall to SILVER / GOLD records",
+  "inputs": [
+   [
+    "analysis/results/g23_tiers_summary.json",
+    "transition_table.GOLD.SILVER"
+   ],
+   [
+    "analysis/results/g23_tiers_summary.json",
+    "tier_counts_old.GOLD"
+   ]
+  ]
+ }
+}

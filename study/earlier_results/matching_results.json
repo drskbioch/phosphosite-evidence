@@ -1,0 +1,409 @@
+{
+  "_settings": {
+    "seed": 20260924,
+    "n_boot": 1000
+  },
+  "domain_overlap_human": {
+    "unmatched_all_sites": {
+      "design": "unmatched",
+      "point_estimate": 2.734042895888592,
+      "ci_low": 2.7031344240206847,
+      "ci_high": 2.7653047847470558,
+      "n_gold": 157785,
+      "n_bronze": 607096
+    },
+    "unmatched_mapped_sites": {
+      "design": "unmatched",
+      "point_estimate": 2.4944443217380905,
+      "ci_low": 2.4652939320610847,
+      "ci_high": 2.5239393945408164,
+      "n_gold": 153738,
+      "n_bronze": 483427
+    },
+    "n_unmapped_excluded": 127716,
+    "cem_primary": {
+      "design": "CEM",
+      "n_analysis": 637165,
+      "n_strata_total": 41,
+      "n_strata_dropped": 11,
+      "n_strata_used": 30,
+      "n_deciles_actual": 10,
+      "point_estimate": 2.775121013248644,
+      "ci_low": 2.741181439264559,
+      "ci_high": 2.8069661204240854,
+      "smd": 0.005719605749604999,
+      "balance_pass": true,
+      "ci_excludes_null": true
+    },
+    "propensity": {
+      "design": "propensity",
+      "n_analysis": 637165,
+      "n_treated_candidates": 153738,
+      "n_matched_pairs": 62493,
+      "match_rate": 0.4064902626546462,
+      "caliper": 0.062440397648275664,
+      "point_estimate": 3.0334496163773044,
+      "ci_low": 2.9657703785435223,
+      "ci_high": 3.1081517729421346,
+      "smd": -0.0001787389473889788,
+      "balance_pass": true,
+      "ci_excludes_null": true
+    },
+    "cem_secondary": {
+      "design": "CEM",
+      "n_analysis": 637165,
+      "n_strata_total": 47,
+      "n_strata_dropped": 23,
+      "n_strata_used": 24,
+      "n_deciles_actual": 10,
+      "point_estimate": 0.7667908081389284,
+      "ci_low": 0.7541296677637035,
+      "ci_high": 0.7787397057180483,
+      "smd": 0.03484621670989038,
+      "balance_pass": true,
+      "ci_excludes_null": true
+    }
+  },
+  "conservation": {
+    "unmatched_all_sites": {
+      "design": "unmatched",
+      "point_estimate": 0.37603789483997285,
+      "ci_low": 0.37058729648483163,
+      "ci_high": 0.3814884931951141,
+      "n_gold": 95973,
+      "n_bronze": 40414
+    },
+    "unmatched_mapped_sites": {
+      "design": "unmatched",
+      "point_estimate": 0.398641669716201,
+      "ci_low": 0.39308765546420676,
+      "ci_high": 0.4041956839681953,
+      "n_gold": 93308,
+      "n_bronze": 37591
+    },
+    "n_unmapped_excluded": 5488,
+    "cem_primary": {
+      "design": "CEM",
+      "n_analysis": 130899,
+      "n_strata_total": 98,
+      "n_strata_dropped": 8,
+      "n_strata_used": 90,
+      "n_deciles_actual": 10,
+      "point_estimate": 0.3976388482437482,
+      "ci_low": 0.3912106326133027,
+      "ci_high": 0.4038277729877082,
+      "smd": 0.01654272570772716,
+      "balance_pass": true,
+      "ci_excludes_null": true
+    },
+    "propensity": {
+      "design": "propensity",
+      "n_analysis": 130899,
+      "n_treated_candidates": 93308,
+      "n_matched_pairs": 31001,
+      "match_rate": 0.3322437518755091,
+      "caliper": 0.08065445843346288,
+      "point_estimate": 0.3907938453598271,
+      "ci_low": 0.38389003580529657,
+      "ci_high": 0.3983419889680978,
+      "smd": 0.005151448054358504,
+      "balance_pass": true,
+      "ci_excludes_null": true
+    },
+    "cem_secondary": {
+      "design": "CEM",
+      "n_analysis": 130899,
+      "n_strata_total": 94,
+      "n_strata_dropped": 22,
+      "n_strata_used": 72,
+      "n_deciles_actual": 10,
+      "point_estimate": 0.4123782190631971,
+      "ci_low": 0.40598345934596214,
+      "ci_high": 0.41949896834579736,
+      "smd": 0.025253772225692278,
+      "balance_pass": true,
+      "ci_excludes_null": true
+    }
+  },
+  "disorder": {
+    "unmatched_all_sites": {
+      "design": "unmatched",
+      "point_estimate": 0.0310493163959088,
+      "ci_low": 0.02971291985831743,
+      "ci_high": 0.03238571293350017,
+      "n_gold": 337716,
+      "n_bronze": 257209
+    },
+    "unmatched_mapped_sites": {
+      "design": "unmatched",
+      "point_estimate": 0.04379096037723795,
+      "ci_low": 0.04235663297327099,
+      "ci_high": 0.045225287781204916,
+      "n_gold": 320780,
+      "n_bronze": 215745
+    },
+    "n_unmapped_excluded": 58400,
+    "cem_primary": {
+      "design": "CEM",
+      "n_analysis": 536525,
+      "n_strata_total": 105,
+      "n_strata_dropped": 15,
+      "n_strata_used": 90,
+      "n_deciles_actual": 10,
+      "point_estimate": 0.042163675112746435,
+      "ci_low": 0.04064678703859395,
+      "ci_high": 0.04366592387951708,
+      "smd": 0.012857926663294382,
+      "balance_pass": true,
+      "ci_excludes_null": true
+    },
+    "propensity": {
+      "design": "propensity",
+      "n_analysis": 536525,
+      "n_treated_candidates": 320780,
+      "n_matched_pairs": 81575,
+      "match_rate": 0.25430201384126194,
+      "caliper": 0.05798715265522791,
+      "point_estimate": 0.04648471849228436,
+      "ci_low": 0.044036710788155804,
+      "ci_high": 0.04870935072871829,
+      "smd": 0.006155276952605151,
+      "balance_pass": true,
+      "ci_excludes_null": true
+    },
+    "cem_secondary": {
+      "design": "CEM",
+      "n_analysis": 536525,
+      "n_strata_total": 108,
+      "n_strata_dropped": 29,
+      "n_strata_used": 79,
+      "n_deciles_actual": 10,
+      "point_estimate": 0.05398204419431396,
+      "ci_low": 0.05184617125925587,
+      "ci_high": 0.05599307784840626,
+      "smd": 0.0216644804109966,
+      "balance_pass": true,
+      "ci_excludes_null": true
+    }
+  },
+  "kinase_motif_sequence": {
+    "unmatched_all_sites": {
+      "design": "unmatched",
+      "point_estimate": 0.04334156429067881,
+      "ci_low": 0.04128816599906673,
+      "ci_high": 0.0453949625822909,
+      "n_gold": 342439,
+      "n_bronze": 674782
+    },
+    "unmatched_mapped_sites": {
+      "design": "unmatched",
+      "point_estimate": 0.0617410009054663,
+      "ci_low": 0.059521810270684844,
+      "ci_high": 0.06396019154024776,
+      "n_gold": 324907,
+      "n_bronze": 478837
+    },
+    "n_unmapped_excluded": 213479,
+    "cem_primary": {
+      "design": "CEM",
+      "n_analysis": 803787,
+      "n_strata_total": 106,
+      "n_strata_dropped": 16,
+      "n_strata_used": 90,
+      "n_deciles_actual": 10,
+      "point_estimate": 0.06306259273804449,
+      "ci_low": 0.06068968280961766,
+      "ci_high": 0.06525344307972072,
+      "smd": 0.009634974627046895,
+      "balance_pass": true,
+      "ci_excludes_null": true
+    },
+    "propensity": {
+      "error": "LinAlgError: Singular matrix"
+    },
+    "cem_secondary": {
+      "design": "CEM",
+      "n_analysis": 803787,
+      "n_strata_total": 110,
+      "n_strata_dropped": 28,
+      "n_strata_used": 82,
+      "n_deciles_actual": 10,
+      "point_estimate": 0.13870102224099928,
+      "ci_low": 0.13524481366755073,
+      "ci_high": 0.14232301154342236,
+      "smd": 0.028875219523967332,
+      "balance_pass": true,
+      "ci_excludes_null": true
+    }
+  },
+  "kinase_motif_lookup": {
+    "unmatched_all_sites": {
+      "design": "unmatched",
+      "point_estimate": 0.7780179285086438,
+      "ci_low": 0.7766632689834656,
+      "ci_high": 0.779372588033822,
+      "n_gold": 342439,
+      "n_bronze": 674827
+    },
+    "unmatched_mapped_sites": {
+      "design": "unmatched",
+      "point_estimate": 0.7933756863490911,
+      "ci_low": 0.7919814810582633,
+      "ci_high": 0.7947698916399188,
+      "n_gold": 324907,
+      "n_bronze": 478880
+    },
+    "n_unmapped_excluded": 213479,
+    "cem_primary": {
+      "design": "CEM",
+      "n_analysis": 803787,
+      "n_strata_total": 106,
+      "n_strata_dropped": 16,
+      "n_strata_used": 90,
+      "n_deciles_actual": 10,
+      "point_estimate": 0.7920000999438612,
+      "ci_low": 0.7906805468249545,
+      "ci_high": 0.7934228467311631,
+      "smd": 0.009634974627046895,
+      "balance_pass": true,
+      "ci_excludes_null": true
+    },
+    "propensity": {
+      "error": "LinAlgError: Singular matrix"
+    },
+    "cem_secondary": {
+      "design": "CEM",
+      "n_analysis": 803787,
+      "n_strata_total": 110,
+      "n_strata_dropped": 28,
+      "n_strata_used": 82,
+      "n_deciles_actual": 10,
+      "point_estimate": 0.8252957288597356,
+      "ci_low": 0.8238510308068272,
+      "ci_high": 0.8268676014260165,
+      "smd": 0.028875219523967332,
+      "balance_pass": true,
+      "ci_excludes_null": true
+    }
+  },
+  "domain_overlap_annotated_only": {
+    "unmatched_all_sites": {
+      "design": "unmatched",
+      "point_estimate": 0.5697458836848689,
+      "ci_low": 0.5619716006265805,
+      "ci_high": 0.5776277157314034,
+      "n_gold": 147185,
+      "n_bronze": 284373
+    },
+    "unmatched_mapped_sites": {
+      "design": "unmatched",
+      "point_estimate": 0.5863934623342436,
+      "ci_low": 0.5781108966030644,
+      "ci_high": 0.594794691967962,
+      "n_gold": 143906,
+      "n_bronze": 242308
+    },
+    "n_unmapped_excluded": 45344,
+    "cem_primary": {
+      "design": "CEM",
+      "n_analysis": 386214,
+      "n_strata_total": 39,
+      "n_strata_dropped": 9,
+      "n_strata_used": 30,
+      "n_deciles_actual": 10,
+      "point_estimate": 0.5665137939627485,
+      "ci_low": 0.5585398328775713,
+      "ci_high": 0.5753820814314063,
+      "smd": 0.014462045562618488,
+      "balance_pass": true,
+      "ci_excludes_null": true
+    },
+    "propensity": {
+      "design": "propensity",
+      "n_analysis": 386214,
+      "n_treated_candidates": 143906,
+      "n_matched_pairs": 58664,
+      "match_rate": 0.40765499701193836,
+      "caliper": 0.10598223484673062,
+      "point_estimate": 0.5899978607389584,
+      "ci_low": 0.5759384858388625,
+      "ci_high": 0.6044207574208661,
+      "smd": -0.00289755476176605,
+      "balance_pass": true,
+      "ci_excludes_null": true
+    },
+    "cem_secondary": {
+      "design": "CEM",
+      "n_analysis": 386214,
+      "n_strata_total": 46,
+      "n_strata_dropped": 16,
+      "n_strata_used": 30,
+      "n_deciles_actual": 10,
+      "point_estimate": 0.724638954219101,
+      "ci_low": 0.7116027252649776,
+      "ci_high": 0.7374055416608225,
+      "smd": 0.019816307049999152,
+      "balance_pass": true,
+      "ci_excludes_null": true
+    },
+    "n_proteins": 26690,
+    "n_proteins_total": 75248,
+    "n_sites": 431558
+  },
+  "domain_proxy_correlation": {
+    "n_proteins": 48162,
+    "pointbiserial_primary": -0.15303851244081143,
+    "pointbiserial_secondary": 0.6486363763429276,
+    "n_proteins_all_with_secondary": 75248,
+    "pointbiserial_secondary_all_proteins": 0.610437065824059,
+    "p_primary": 3.399734317894602e-250,
+    "p_secondary": 0.0
+  },
+  "sei_properties": {
+    "n_proteins": 87338,
+    "primary_mean_by_top_tier": {
+      "BRONZE": 1.8021029352390567,
+      "GOLD": 1.7502005420542808,
+      "SILVER": 1.6658471776242418
+    },
+    "primary_n_by_top_tier": {
+      "GOLD": 34883,
+      "SILVER": 31549,
+      "BRONZE": 20906
+    },
+    "secondary_mean_by_top_tier": {
+      "BRONZE": 0.38018030684007165,
+      "GOLD": 1.5247009451219662,
+      "SILVER": 0.7478919954010167
+    },
+    "kruskal_H": 585.0021971107282,
+    "kruskal_p": 9.297944440946897e-128,
+    "kruskal_eta2_H": 0.006675470282369362,
+    "spearman_rho": 0.12064108171242159,
+    "spearman_p": 2.008018295871274e-280,
+    "spearman_n": 87338,
+    "gold_vs_bronze_rank_biserial_r": 0.045848943718184154
+  },
+  "p_value_adjustment": {
+    "method": "Benjamini-Hochberg",
+    "n_tests": 4,
+    "tests": {
+      "kruskal_primary_index_by_tier": {
+        "p": 9.297944440946897e-128,
+        "p_adjusted": 9.297944440946897e-128
+      },
+      "spearman_primary_vs_secondary": {
+        "p": 2.008018295871274e-280,
+        "p_adjusted": 4.016036591742548e-280
+      },
+      "pointbiserial_annotation_primary": {
+        "p": 3.399734317894602e-250,
+        "p_adjusted": 4.532979090526136e-250
+      },
+      "pointbiserial_annotation_secondary": {
+        "p": 0.0,
+        "p_adjusted": 0.0
+      }
+    }
+  }
+}

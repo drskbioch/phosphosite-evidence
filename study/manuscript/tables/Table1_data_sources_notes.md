@@ -1,0 +1,1 @@
+Licence texts are quoted from the page of each resource on the date given in the table. The three database rows (PhosphoSitePlus, Phospho.ELM, dbPTM) are the evidence sources of the agreement score: their flags and publication lists are carried inside the EPSD 2.0 records.

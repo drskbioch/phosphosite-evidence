@@ -1,0 +1,32 @@
+PMID,Title,Records,Treatment,Reason or share
+15174125,PhosphoSite: A bioinformatics resource dedicated to physiological protein phosphorylation.,"219,383",removed from depth,title calls it a bioinformatics resource (PhosphoSite)
+15489334,"The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).","2,626",removed from depth,"title is a project report on a gene collection (Mammalian Gene Collection), a resource"
+16381945,dbPTM: an information repository of protein post-translational modification.,"82,357",removed from depth,title: an information repository (dbPTM)
+18988627,Human Protein Reference Database--2009 update.,"55,853",removed from depth,"named database with an update marker (Human Protein Reference Database, 2009 update)"
+19060867,PhosphoPep--a database of protein phosphorylation sites in model organisms.,"20,397",removed from depth,title: a database (PhosphoPep)
+19366988,SysPTM: a systematic resource for proteomic research on post-translational modifications.,"7,974",removed from depth,title: a systematic resource (SysPTM)
+20428315,PhosphoGRID: a database of experimentally verified in vivo protein phosphorylation sites from the budding yeast Saccharomyces cerevisiae.,"35,520",removed from depth,title: a database (PhosphoGRID)
+21062810,Phospho.ELM: a database of phosphorylation sites--update 2011.,"34,495",removed from depth,"title: a database, update 2011 (Phospho.ELM)"
+21081558,PHOSIDA 2011: the posttranslational modification database.,"49,545",removed from depth,title: the posttranslational modification database (PHOSIDA 2011)
+21082442,Phosphoproteome resource for systems biology research.,"52,111",removed from depth,title: a phosphoproteome resource
+22135298,PhosphoSitePlus: a comprehensive resource for investigating the structure and function of experimentally determined post-translational modifications in man and mouse.,"245,532",removed from depth,title: a comprehensive resource (PhosphoSitePlus)
+23193284,PTMcode: a database of known and predicted functional associations between post-translational modifications in proteins.,"127,502",removed from depth,title: a database (PTMcode)
+23193290,DbPTM 3.0: an informative resource for investigating substrate site specificity and functional association of protein post-translational modifications.,"56,670",removed from depth,"named database with a release marker, title also says informative resource (DbPTM 3.0)"
+24174276,Comprehensive proteomic data sets for studying adipocyte-macrophage cell-cell communication.,"5,343",removed from depth,title: proteomic data sets as the subject
+24705204,SysPTM 2.0: an updated systematic resource for post-translational modification.,"40,010",removed from depth,title: a systematic resource for modifications (SysPTM 2.0)
+25514926,"PhosphoSitePlus, 2014: mutations, PTMs and recalibrations.","225,187",removed from depth,"named database with a year marker and update topics (PhosphoSitePlus, 2014: mutations, PTMs and recalibrations)"
+26425664,Dataset from the global phosphoproteomic mapping of early mitotic exit in human cells.,"17,813",removed from depth,title: a dataset paper (Dataset from the global phosphoproteomic mapping ...)
+29145615,iPTMnet: an integrated resource for protein post-translational modification network discovery.,"421,351",removed from depth,title: an integrated resource (iPTMnet)
+30087585,Residual tissue repositories as a resource for population-based cancer proteomic studies.,"4,120",removed from depth,title: tissue repositories as a resource
+30395287,UniProt: a worldwide hub of protein knowledge.,"52,022",removed from depth,"title: a hub of protein knowledge (UniProt), a knowledgebase"
+30418626,dbPTM in 2019: exploring disease association and cross-talk of post-translational modifications.,"448,403",removed from depth,named database with a year marker (dbPTM in 2019)
+30445427,"15 years of PhosphoSitePlus®: integrating post-translationally modified sites, disease variants and isoforms.","219,383",removed from depth,named database with an anniversary marker (15 years of PhosphoSitePlus)
+30476227,The BioGRID interaction database: 2019 update.,"35,520",removed from depth,"title: an interaction database, 2019 update (BioGRID)"
+32508104,Scop3P: A Comprehensive Resource of Human Phosphosites within Their Full Context.,"93,664",removed from depth,title: a comprehensive resource (Scop3P)
+32618424,LymphoAtlas: a dynamic and integrated phosphoproteomic resource of TCR signaling in primary T cells reveals ITSN2 as a regulator of effector functions.,"5,532",removed from depth,title: a phosphoproteomic resource (LymphoAtlas)
+35608653,In Vitro Kinase-to-Phosphosite Database (iKiP-DB) Predicts Kinase Activity in Phosphoproteomic Datasets.,"12,725",removed from depth,title: a database (iKiP-DB)
+37582339,Proteogenomic data and resources for pan-cancer analysis.,"222,623",removed from depth,"title: data and resources for pan-cancer analysis (also PubMed type Review, criterion a)"
+37619559,A proteogenomics data-driven knowledge base of human cancer.,"222,623",removed from depth,title: a data-driven knowledge base of human cancer
+30243273,An efficient pair natural orbital based configuration interaction scheme for the calculation of open-shell ionization potentials.,"3,786","kept (not phosphorylation evidence, rule unchanged)",0.21% of records
+37031204,Correction to: Phospho-heavy-labeled-spiketide FAIMS stepped-CV DDA (pHASED) provides real-time phosphoproteomics data to aid in cancer drug selection.,"3,893","kept (not phosphorylation evidence, rule unchanged)",0.22% of records
+14702039,"Complete sequencing and characterization of 21,243 full-length human cDNAs.","1,864","kept (not phosphorylation evidence, rule unchanged)",0.11% of records

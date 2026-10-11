@@ -1,0 +1,55 @@
+{
+ "population": "G1-0003 (human domain overlap, set-B tiers, V50), serine/threonine/tyrosine records",
+ "n_records": 535848,
+ "distinct_logit_values": 3169,
+ "file_order_different_matching_permutations": [
+  7.031409045176604,
+  7.083572994283566,
+  7.006019132374674,
+  7.013755779492305,
+  7.077620640668365,
+  7.043968281030474,
+  7.083845384157731,
+  7.055763915507586
+ ],
+ "shuffled_row_orders": [
+  {
+   "estimate": 6.875811365080521,
+   "pairs": 56292
+  },
+  {
+   "estimate": 6.913507864383886,
+   "pairs": 56286
+  },
+  {
+   "estimate": 6.896531253203915,
+   "pairs": 56285
+  },
+  {
+   "estimate": 6.921560347370596,
+   "pairs": 56294
+  },
+  {
+   "estimate": 6.868202219120631,
+   "pairs": 56288
+  },
+  {
+   "estimate": 6.884101908990708,
+   "pairs": 56289
+  },
+  {
+   "estimate": 6.972855032723268,
+   "pairs": 56293
+  },
+  {
+   "estimate": 6.920813004672934,
+   "pairs": 56269
+  }
+ ],
+ "summary": {
+  "file_order_min": 7.006019132374674,
+  "file_order_max": 7.083845384157731,
+  "shuffled_min": 6.868202219120631,
+  "shuffled_max": 6.972855032723268
+ }
+}

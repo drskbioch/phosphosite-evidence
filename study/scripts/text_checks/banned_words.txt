@@ -1,0 +1,46 @@
+legacy
+Rev 5
+gate
+G1
+G2
+G3
+freeze
+frozen
+pivot
+era
+draft
+v2
+previously built
+earlier version
+revised
+revision
+revisit
+corrected
+correction
+re-run
+rerun
+regenerated
+recomputed
+updated
+patched
+patch
+fixed
+fix
+fixing
+repoint
+repointed
+repair
+repaired
+enforce
+enforcing
+enforced
+restore
+restored
+rebuild
+redo
+redone
+re-scoring
+as-audited
+superseded
+in this version
+pre-registered

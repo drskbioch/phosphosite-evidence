@@ -1,0 +1,13 @@
+{
+  "title": "Analysis code and results for: Counting rules and study effort in phosphosite evidence tiers: an audit of the signals used to validate them",
+  "version": "1.0.0",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Ullah, Shahid"
+    }
+  ],
+  "description": "Analysis scripts, plan and deviation log, manifests, stored results, claims table, figure and table code, figures, and number checks for the manuscript. Inputs that are not redistributed are listed in INPUTS.md; the run order is in REPRODUCE.md."
+}

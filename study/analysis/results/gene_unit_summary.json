@@ -1,0 +1,292 @@
+{
+ "definition": "entrez_gene_id = smallest Entrez gene ID of the accession; gene_cluster = connected component of accessions sharing a gene ID",
+ "human": {
+  "accessions": 75248,
+  "accessions_with_gene": 48162,
+  "accessions_without_gene": 27086,
+  "gene_clusters_among_mapped": 18757,
+  "accessions_per_gene_cluster": {
+   "mean": 2.5676813989443943,
+   "median": 2.0,
+   "max": 50,
+   "share_of_clusters_with_more_than_one_accession": 0.5671482646478648,
+   "distribution": {
+    "1": 8119,
+    "2": 3403,
+    "3": 2909,
+    "4": 1832,
+    "5": 996,
+    "6": 607,
+    "7": 288,
+    "8": 209,
+    "9": 108,
+    "10": 76,
+    "11": 53,
+    "12": 34
+   }
+  },
+  "accessions_with_more_than_one_gene_id": 144
+ },
+ "mouse": {
+  "accessions": 45003,
+  "accessions_with_gene": 28918,
+  "accessions_without_gene": 16085,
+  "gene_clusters_among_mapped": 17471,
+  "accessions_per_gene_cluster": {
+   "mean": 1.6552000457901666,
+   "median": 1.0,
+   "max": 33,
+   "share_of_clusters_with_more_than_one_accession": 0.3367294373533284,
+   "distribution": {
+    "1": 11588,
+    "2": 3365,
+    "3": 1301,
+    "4": 573,
+    "5": 256,
+    "6": 149,
+    "7": 84,
+    "8": 56,
+    "9": 26,
+    "10": 20,
+    "11": 18,
+    "12": 10
+   }
+  },
+  "accessions_with_more_than_one_gene_id": 108
+ },
+ "rat": {
+  "accessions": 16217,
+  "accessions_with_gene": 10258,
+  "accessions_without_gene": 5959,
+  "gene_clusters_among_mapped": 9317,
+  "accessions_per_gene_cluster": {
+   "mean": 1.1009981753783407,
+   "median": 1.0,
+   "max": 14,
+   "share_of_clusters_with_more_than_one_accession": 0.08264462809917356,
+   "distribution": {
+    "1": 8547,
+    "2": 681,
+    "3": 59,
+    "4": 13,
+    "5": 4,
+    "6": 3,
+    "7": 6,
+    "8": 2,
+    "10": 1,
+    "14": 1
+   }
+  },
+  "accessions_with_more_than_one_gene_id": 24
+ },
+ "all": {
+  "accessions": 136468,
+  "accessions_with_gene": 87338,
+  "accessions_without_gene": 49130,
+  "gene_clusters_among_mapped": 45545,
+  "accessions_per_gene_cluster": {
+   "mean": 1.91761993632671,
+   "median": 1.0,
+   "max": 50,
+   "share_of_clusters_with_more_than_one_accession": 0.37964650345811835,
+   "distribution": {
+    "1": 28254,
+    "2": 7449,
+    "3": 4269,
+    "4": 2418,
+    "5": 1256,
+    "6": 759,
+    "7": 378,
+    "8": 267,
+    "9": 134,
+    "10": 97,
+    "11": 71,
+    "12": 44
+   }
+  },
+  "accessions_with_more_than_one_gene_id": 276
+ },
+ "largest_genes_all_records": {
+  "n_records": 1768068,
+  "n_gene_clusters": 94675,
+  "n_accessions": 136468,
+  "records_in_10_largest_genes": 22074,
+  "share": 0.012484813932495809,
+  "records_in_10_largest_accessions": 12320,
+  "share_10_largest_accessions": 0.006968057789632526,
+  "top10": [
+   {
+    "gene_cluster": "G7273",
+    "records": 5174,
+    "accessions": 15
+   },
+   {
+    "gene_cluster": "G23524",
+    "records": 2291,
+    "accessions": 5
+   },
+   {
+    "gene_cluster": "AA2ASS6",
+    "records": 2228,
+    "accessions": 1
+   },
+   {
+    "gene_cluster": "G23613",
+    "records": 2088,
+    "accessions": 27
+   },
+   {
+    "gene_cluster": "G1500",
+    "records": 2040,
+    "accessions": 33
+   },
+   {
+    "gene_cluster": "G5339",
+    "records": 1916,
+    "accessions": 19
+   },
+   {
+    "gene_cluster": "G18810",
+    "records": 1784,
+    "accessions": 23
+   },
+   {
+    "gene_cluster": "G6949",
+    "records": 1663,
+    "accessions": 16
+   },
+   {
+    "gene_cluster": "G75956",
+    "records": 1618,
+    "accessions": 3
+   },
+   {
+    "gene_cluster": "G113146",
+    "records": 1272,
+    "accessions": 50
+   }
+  ]
+ },
+ "largest_genes_human_records": {
+  "n_records": 1071725,
+  "n_gene_clusters": 45843,
+  "n_accessions": 75248,
+  "records_in_10_largest_genes": 20100,
+  "share": 0.018754811168909934,
+  "records_in_10_largest_accessions": 10367,
+  "share_10_largest_accessions": 0.009673190417317875,
+  "top10": [
+   {
+    "gene_cluster": "G7273",
+    "records": 5174,
+    "accessions": 15
+   },
+   {
+    "gene_cluster": "G23524",
+    "records": 2291,
+    "accessions": 5
+   },
+   {
+    "gene_cluster": "G23613",
+    "records": 2088,
+    "accessions": 27
+   },
+   {
+    "gene_cluster": "G1500",
+    "records": 2040,
+    "accessions": 33
+   },
+   {
+    "gene_cluster": "G5339",
+    "records": 1916,
+    "accessions": 19
+   },
+   {
+    "gene_cluster": "G6949",
+    "records": 1663,
+    "accessions": 16
+   },
+   {
+    "gene_cluster": "G113146",
+    "records": 1272,
+    "accessions": 50
+   },
+   {
+    "gene_cluster": "G287",
+    "records": 1244,
+    "accessions": 35
+   },
+   {
+    "gene_cluster": "G10580",
+    "records": 1217,
+    "accessions": 15
+   },
+   {
+    "gene_cluster": "G56288",
+    "records": 1195,
+    "accessions": 12
+   }
+  ]
+ },
+ "largest_genes_gold_or_bronze_with_index": {
+  "n_records": 803787,
+  "n_gene_clusters": 37903,
+  "n_accessions": 76161,
+  "records_in_10_largest_genes": 13109,
+  "share": 0.016309047048534003,
+  "records_in_10_largest_accessions": 6344,
+  "share_10_largest_accessions": 0.007892638223808049,
+  "top10": [
+   {
+    "gene_cluster": "G7273",
+    "records": 3247,
+    "accessions": 15
+   },
+   {
+    "gene_cluster": "G23524",
+    "records": 1388,
+    "accessions": 5
+   },
+   {
+    "gene_cluster": "G5339",
+    "records": 1346,
+    "accessions": 19
+   },
+   {
+    "gene_cluster": "G23613",
+    "records": 1247,
+    "accessions": 26
+   },
+   {
+    "gene_cluster": "G6949",
+    "records": 1070,
+    "accessions": 16
+   },
+   {
+    "gene_cluster": "G113146",
+    "records": 1029,
+    "accessions": 50
+   },
+   {
+    "gene_cluster": "G75956",
+    "records": 987,
+    "accessions": 3
+   },
+   {
+    "gene_cluster": "G1500",
+    "records": 942,
+    "accessions": 33
+   },
+   {
+    "gene_cluster": "G287",
+    "records": 937,
+    "accessions": 35
+   },
+   {
+    "gene_cluster": "G18810",
+    "records": 916,
+    "accessions": 23
+   }
+  ]
+ }
+}

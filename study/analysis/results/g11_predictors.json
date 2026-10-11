@@ -1,0 +1,1351 @@
+{
+ "settings": {
+  "margin": 0.05,
+  "n_boot": 1000,
+  "min_positives_restricted": 200,
+  "seed": 20260924,
+  "resampling_unit": "gene cluster within each decile pool (primary); sites within each pool (Rev 5 procedure, shown beside it)"
+ },
+ "DeepPhos|planned: S/T sites only": {
+  "unrestricted": {
+   "n_sites": 8641,
+   "n_positives": 4485,
+   "n_gene_clusters": 5209,
+   "per_decile": {
+    "1": {
+     "n": 853,
+     "positives": 436
+    },
+    "2": {
+     "n": 860,
+     "positives": 443
+    },
+    "3": {
+     "n": 862,
+     "positives": 449
+    },
+    "4": {
+     "n": 872,
+     "positives": 454
+    },
+    "5": {
+     "n": 886,
+     "positives": 461
+    },
+    "6": {
+     "n": 869,
+     "positives": 455
+    },
+    "7": {
+     "n": 859,
+     "positives": 451
+    },
+    "8": {
+     "n": 866,
+     "positives": 452
+    },
+    "9": {
+     "n": 861,
+     "positives": 444
+    },
+    "10": {
+     "n": 853,
+     "positives": 440
+    }
+   },
+   "status": "evaluated",
+   "bottom_auroc": 0.7277462898909189,
+   "top_auroc": 0.7683596833663862,
+   "gap": 0.04061339347546722,
+   "n_bottom": 2575,
+   "n_top": 2580,
+   "gene_ci95": [
+    0.012401627641899421,
+    0.06727319615013234
+   ],
+   "gene_ci90": [
+    0.01836791987257668,
+    0.06390589090314619
+   ],
+   "gene_label": "not detectable (interval includes the margin)",
+   "gene_n_valid": 1000,
+   "site_ci95": [
+    0.014969044809755574,
+    0.06784835888954965
+   ],
+   "site_ci90": [
+    0.019073970862168232,
+    0.06242267355298243
+   ],
+   "site_label": "not detectable (interval includes the margin)",
+   "site_n_valid": 1000
+  },
+  "restriction_year=2019": {
+   "n_sites": 5383,
+   "n_positives": 1227,
+   "n_gene_clusters": 3561,
+   "per_decile": {
+    "1": {
+     "n": 497,
+     "positives": 80
+    },
+    "2": {
+     "n": 525,
+     "positives": 108
+    },
+    "3": {
+     "n": 542,
+     "positives": 129
+    },
+    "4": {
+     "n": 538,
+     "positives": 120
+    },
+    "5": {
+     "n": 572,
+     "positives": 147
+    },
+    "6": {
+     "n": 547,
+     "positives": 133
+    },
+    "7": {
+     "n": 520,
+     "positives": 112
+    },
+    "8": {
+     "n": 547,
+     "positives": 133
+    },
+    "9": {
+     "n": 536,
+     "positives": 119
+    },
+    "10": {
+     "n": 559,
+     "positives": 146
+    }
+   },
+   "status": "evaluated",
+   "bottom_auroc": 0.7937649728433414,
+   "top_auroc": 0.7924479713680945,
+   "gap": -0.0013170014752468262,
+   "n_bottom": 1564,
+   "n_top": 1642,
+   "gene_ci95": [
+    -0.03855007465109084,
+    0.03934462565198554
+   ],
+   "gene_ci90": [
+    -0.03216714475509266,
+    0.03200969506985743
+   ],
+   "gene_label": "gap absent (equivalent within +/-0.05)",
+   "gene_n_valid": 1000,
+   "site_ci95": [
+    -0.03694531903355435,
+    0.03578371950488361
+   ],
+   "site_ci90": [
+    -0.031064210672789035,
+    0.03008557874288107
+   ],
+   "site_label": "gap absent (equivalent within +/-0.05)",
+   "site_n_valid": 1000
+  },
+  "restriction_year=2018": {
+   "n_sites": 5780,
+   "n_positives": 1624,
+   "n_gene_clusters": 3696,
+   "per_decile": {
+    "1": {
+     "n": 522,
+     "positives": 105
+    },
+    "2": {
+     "n": 551,
+     "positives": 134
+    },
+    "3": {
+     "n": 579,
+     "positives": 166
+    },
+    "4": {
+     "n": 572,
+     "positives": 154
+    },
+    "5": {
+     "n": 604,
+     "positives": 179
+    },
+    "6": {
+     "n": 605,
+     "positives": 191
+    },
+    "7": {
+     "n": 575,
+     "positives": 167
+    },
+    "8": {
+     "n": 589,
+     "positives": 175
+    },
+    "9": {
+     "n": 590,
+     "positives": 173
+    },
+    "10": {
+     "n": 593,
+     "positives": 180
+    }
+   },
+   "status": "evaluated",
+   "bottom_auroc": 0.7872078172799905,
+   "top_auroc": 0.8124033238331871,
+   "gap": 0.02519550655319669,
+   "n_bottom": 1652,
+   "n_top": 1772,
+   "gene_ci95": [
+    -0.010191185260313904,
+    0.06003551342278678
+   ],
+   "gene_ci90": [
+    -0.0038517907942826825,
+    0.053594069092932434
+   ],
+   "gene_label": "not detectable (interval includes the margin)",
+   "gene_n_valid": 1000,
+   "site_ci95": [
+    -0.008151583226356365,
+    0.058639120761837644
+   ],
+   "site_ci90": [
+    -0.003021755787816377,
+    0.05410954040574254
+   ],
+   "site_label": "not detectable (interval includes the margin)",
+   "site_n_valid": 1000
+  }
+ },
+ "DeepPhos|Rev 5 design: all scored residues": {
+  "unrestricted": {
+   "n_sites": 10000,
+   "n_positives": 5000,
+   "n_gene_clusters": 5806,
+   "per_decile": {
+    "1": {
+     "n": 1000,
+     "positives": 500
+    },
+    "2": {
+     "n": 1000,
+     "positives": 500
+    },
+    "3": {
+     "n": 1000,
+     "positives": 500
+    },
+    "4": {
+     "n": 1000,
+     "positives": 500
+    },
+    "5": {
+     "n": 1000,
+     "positives": 500
+    },
+    "6": {
+     "n": 1000,
+     "positives": 500
+    },
+    "7": {
+     "n": 1000,
+     "positives": 500
+    },
+    "8": {
+     "n": 1000,
+     "positives": 500
+    },
+    "9": {
+     "n": 1000,
+     "positives": 500
+    },
+    "10": {
+     "n": 1000,
+     "positives": 500
+    }
+   },
+   "status": "evaluated",
+   "bottom_auroc": 0.7187962222222222,
+   "top_auroc": 0.7558606666666666,
+   "gap": 0.037064444444444455,
+   "n_bottom": 3000,
+   "n_top": 3000,
+   "gene_ci95": [
+    0.007748853135554104,
+    0.06392312152336747
+   ],
+   "gene_ci90": [
+    0.012091557143299198,
+    0.060733030845761794
+   ],
+   "gene_label": "not detectable (interval includes the margin)",
+   "gene_n_valid": 1000,
+   "site_ci95": [
+    0.01176158576822929,
+    0.06305751994735187
+   ],
+   "site_ci90": [
+    0.016156730674859336,
+    0.059472593173917024
+   ],
+   "site_label": "not detectable (interval includes the margin)",
+   "site_n_valid": 1000
+  },
+  "restriction_year=2019": {
+   "n_sites": 6315,
+   "n_positives": 1315,
+   "n_gene_clusters": 4033,
+   "per_decile": {
+    "1": {
+     "n": 586,
+     "positives": 86
+    },
+    "2": {
+     "n": 616,
+     "positives": 116
+    },
+    "3": {
+     "n": 638,
+     "positives": 138
+    },
+    "4": {
+     "n": 627,
+     "positives": 127
+    },
+    "5": {
+     "n": 654,
+     "positives": 154
+    },
+    "6": {
+     "n": 635,
+     "positives": 135
+    },
+    "7": {
+     "n": 619,
+     "positives": 119
+    },
+    "8": {
+     "n": 646,
+     "positives": 146
+    },
+    "9": {
+     "n": 632,
+     "positives": 132
+    },
+    "10": {
+     "n": 662,
+     "positives": 162
+    }
+   },
+   "status": "evaluated",
+   "bottom_auroc": 0.7843186274509804,
+   "top_auroc": 0.7811825757575758,
+   "gap": -0.0031360516934045846,
+   "n_bottom": 1840,
+   "n_top": 1940,
+   "gene_ci95": [
+    -0.03619954898439634,
+    0.03401598034235255
+   ],
+   "gene_ci90": [
+    -0.03165995139587176,
+    0.028960693922364927
+   ],
+   "gene_label": "gap absent (equivalent within +/-0.05)",
+   "gene_n_valid": 1000,
+   "site_ci95": [
+    -0.03743224985430997,
+    0.03358808759251737
+   ],
+   "site_ci90": [
+    -0.03331739009712531,
+    0.02795841485180004
+   ],
+   "site_label": "gap absent (equivalent within +/-0.05)",
+   "site_n_valid": 1000
+  },
+  "restriction_year=2018": {
+   "n_sites": 6729,
+   "n_positives": 1729,
+   "n_gene_clusters": 4170,
+   "per_decile": {
+    "1": {
+     "n": 611,
+     "positives": 111
+    },
+    "2": {
+     "n": 643,
+     "positives": 143
+    },
+    "3": {
+     "n": 675,
+     "positives": 175
+    },
+    "4": {
+     "n": 661,
+     "positives": 161
+    },
+    "5": {
+     "n": 688,
+     "positives": 188
+    },
+    "6": {
+     "n": 693,
+     "positives": 193
+    },
+    "7": {
+     "n": 678,
+     "positives": 178
+    },
+    "8": {
+     "n": 690,
+     "positives": 190
+    },
+    "9": {
+     "n": 689,
+     "positives": 189
+    },
+    "10": {
+     "n": 701,
+     "positives": 201
+    }
+   },
+   "status": "evaluated",
+   "bottom_auroc": 0.777006216006216,
+   "top_auroc": 0.8006902298850574,
+   "gap": 0.023684013878841448,
+   "n_bottom": 1929,
+   "n_top": 2080,
+   "gene_ci95": [
+    -0.008641588046613555,
+    0.056776641250768964
+   ],
+   "gene_ci90": [
+    -0.003491530153299782,
+    0.05223579794550751
+   ],
+   "gene_label": "not detectable (interval includes the margin)",
+   "gene_n_valid": 1000,
+   "site_ci95": [
+    -0.010418760835925103,
+    0.05652419046154359
+   ],
+   "site_ci90": [
+    -0.004247240648369138,
+    0.05106186018284647
+   ],
+   "site_label": "not detectable (interval includes the margin)",
+   "site_n_valid": 1000
+  }
+ },
+ "DeepPhos|rev5_reported": {
+  "gap": {
+   "point": 0.037064444444444344,
+   "ci_low": 0.010761218493335554,
+   "ci_high": 0.0633274066520667,
+   "bottom_deciles": [
+    1,
+    2,
+    3
+   ],
+   "top_deciles": [
+    8,
+    9,
+    10
+   ],
+   "n_bottom": 3000,
+   "n_top": 3000
+  },
+  "restricted": {
+   "2019": {
+    "model_pub_year": 2019,
+    "n_positives_after_cutoff": 1315,
+    "pooled_auroc": {
+     "point": 0.777259163498099,
+     "ci_low": 0.7633522607090247,
+     "ci_high": 0.7901121478586715
+    },
+    "status": "evaluated",
+    "gap_top_minus_bottom": {
+     "point": -0.0031360516934045846,
+     "ci_low": -0.038908844566608994,
+     "ci_high": 0.0307402201104917,
+     "n_positives_bottom3": 340,
+     "n_positives_top3": 440
+    }
+   },
+   "2018": {
+    "model_pub_year": 2018,
+    "n_positives_after_cutoff": 1729,
+    "pooled_auroc": {
+     "point": 0.7899745517640255,
+     "ci_low": 0.7775254780801564,
+     "ci_high": 0.8021839494664206
+    },
+    "status": "evaluated",
+    "gap_top_minus_bottom": {
+     "point": 0.02368401387884156,
+     "ci_low": -0.0069580321470039674,
+     "ci_high": 0.057208799184749075,
+     "n_positives_bottom3": 429,
+     "n_positives_top3": 580
+    }
+   }
+  }
+ },
+ "MusiteDeep|planned: S/T sites only": {
+  "unrestricted": {
+   "n_sites": 8641,
+   "n_positives": 4485,
+   "n_gene_clusters": 5209,
+   "per_decile": {
+    "1": {
+     "n": 853,
+     "positives": 436
+    },
+    "2": {
+     "n": 860,
+     "positives": 443
+    },
+    "3": {
+     "n": 862,
+     "positives": 449
+    },
+    "4": {
+     "n": 872,
+     "positives": 454
+    },
+    "5": {
+     "n": 886,
+     "positives": 461
+    },
+    "6": {
+     "n": 869,
+     "positives": 455
+    },
+    "7": {
+     "n": 859,
+     "positives": 451
+    },
+    "8": {
+     "n": 866,
+     "positives": 452
+    },
+    "9": {
+     "n": 861,
+     "positives": 444
+    },
+    "10": {
+     "n": 853,
+     "positives": 440
+    }
+   },
+   "status": "evaluated",
+   "bottom_auroc": 0.6955485333475039,
+   "top_auroc": 0.7566634215491845,
+   "gap": 0.06111488820168065,
+   "n_bottom": 2575,
+   "n_top": 2580,
+   "gene_ci95": [
+    0.03239807415049208,
+    0.08939260135322732
+   ],
+   "gene_ci90": [
+    0.03724491603577415,
+    0.0858437811332437
+   ],
+   "gene_label": "not detectable (interval includes the margin)",
+   "gene_n_valid": 1000,
+   "site_ci95": [
+    0.034327923825327504,
+    0.08896065716661945
+   ],
+   "site_ci90": [
+    0.03693673167046305,
+    0.08469719319881532
+   ],
+   "site_label": "not detectable (interval includes the margin)",
+   "site_n_valid": 1000
+  },
+  "restriction_year=2020": {
+   "n_sites": 5124,
+   "n_positives": 968,
+   "n_gene_clusters": 3435,
+   "per_decile": {
+    "1": {
+     "n": 482,
+     "positives": 65
+    },
+    "2": {
+     "n": 506,
+     "positives": 89
+    },
+    "3": {
+     "n": 520,
+     "positives": 107
+    },
+    "4": {
+     "n": 514,
+     "positives": 96
+    },
+    "5": {
+     "n": 542,
+     "positives": 117
+    },
+    "6": {
+     "n": 507,
+     "positives": 93
+    },
+    "7": {
+     "n": 490,
+     "positives": 82
+    },
+    "8": {
+     "n": 526,
+     "positives": 112
+    },
+    "9": {
+     "n": 509,
+     "positives": 92
+    },
+    "10": {
+     "n": 528,
+     "positives": 115
+    }
+   },
+   "status": "evaluated",
+   "bottom_auroc": 0.8152531593064735,
+   "top_auroc": 0.8027094316039876,
+   "gap": -0.012543727702485907,
+   "n_bottom": 1508,
+   "n_top": 1563,
+   "gene_ci95": [
+    -0.05037652593388773,
+    0.026498389840025893
+   ],
+   "gene_ci90": [
+    -0.044986994812999975,
+    0.021490400925324584
+   ],
+   "gene_label": "gap absent (equivalent within +/-0.05)",
+   "gene_n_valid": 1000,
+   "site_ci95": [
+    -0.049134066837082116,
+    0.028848582714046594
+   ],
+   "site_ci90": [
+    -0.04247257784096035,
+    0.021139047407704167
+   ],
+   "site_label": "gap absent (equivalent within +/-0.05)",
+   "site_n_valid": 1000
+  },
+  "restriction_year=2017": {
+   "n_sites": 5890,
+   "n_positives": 1734,
+   "n_gene_clusters": 3767,
+   "per_decile": {
+    "1": {
+     "n": 538,
+     "positives": 121
+    },
+    "2": {
+     "n": 567,
+     "positives": 150
+    },
+    "3": {
+     "n": 585,
+     "positives": 172
+    },
+    "4": {
+     "n": 590,
+     "positives": 172
+    },
+    "5": {
+     "n": 619,
+     "positives": 194
+    },
+    "6": {
+     "n": 615,
+     "positives": 201
+    },
+    "7": {
+     "n": 581,
+     "positives": 173
+    },
+    "8": {
+     "n": 598,
+     "positives": 184
+    },
+    "9": {
+     "n": 596,
+     "positives": 179
+    },
+    "10": {
+     "n": 601,
+     "positives": 188
+    }
+   },
+   "status": "evaluated",
+   "bottom_auroc": 0.7634050841658807,
+   "top_auroc": 0.8002003081214512,
+   "gap": 0.036795223955570444,
+   "n_bottom": 1690,
+   "n_top": 1795,
+   "gene_ci95": [
+    0.0024307267108081712,
+    0.07139353547878939
+   ],
+   "gene_ci90": [
+    0.006422179310824711,
+    0.06783839899239863
+   ],
+   "gene_label": "not detectable (interval includes the margin)",
+   "gene_n_valid": 1000,
+   "site_ci95": [
+    0.0038011674820458757,
+    0.07054535402106038
+   ],
+   "site_ci90": [
+    0.009668408374750026,
+    0.06329961653788686
+   ],
+   "site_label": "not detectable (interval includes the margin)",
+   "site_n_valid": 1000
+  }
+ },
+ "MusiteDeep|Rev 5 design: all scored residues": {
+  "unrestricted": {
+   "n_sites": 10000,
+   "n_positives": 5000,
+   "n_gene_clusters": 5806,
+   "per_decile": {
+    "1": {
+     "n": 1000,
+     "positives": 500
+    },
+    "2": {
+     "n": 1000,
+     "positives": 500
+    },
+    "3": {
+     "n": 1000,
+     "positives": 500
+    },
+    "4": {
+     "n": 1000,
+     "positives": 500
+    },
+    "5": {
+     "n": 1000,
+     "positives": 500
+    },
+    "6": {
+     "n": 1000,
+     "positives": 500
+    },
+    "7": {
+     "n": 1000,
+     "positives": 500
+    },
+    "8": {
+     "n": 1000,
+     "positives": 500
+    },
+    "9": {
+     "n": 1000,
+     "positives": 500
+    },
+    "10": {
+     "n": 1000,
+     "positives": 500
+    }
+   },
+   "status": "evaluated",
+   "bottom_auroc": 0.6860784444444444,
+   "top_auroc": 0.749278,
+   "gap": 0.06319955555555556,
+   "n_bottom": 3000,
+   "n_top": 3000,
+   "gene_ci95": [
+    0.03695122779246969,
+    0.09132940764458353
+   ],
+   "gene_ci90": [
+    0.04100784882065255,
+    0.08616158182229146
+   ],
+   "gene_label": "not detectable (interval includes the margin)",
+   "gene_n_valid": 1000,
+   "site_ci95": [
+    0.03799091221694092,
+    0.08818983411140258
+   ],
+   "site_ci90": [
+    0.04113646085316662,
+    0.08531289475060032
+   ],
+   "site_label": "not detectable (interval includes the margin)",
+   "site_n_valid": 1000
+  },
+  "restriction_year=2020": {
+   "n_sites": 6040,
+   "n_positives": 1040,
+   "n_gene_clusters": 3909,
+   "per_decile": {
+    "1": {
+     "n": 570,
+     "positives": 70
+    },
+    "2": {
+     "n": 595,
+     "positives": 95
+    },
+    "3": {
+     "n": 614,
+     "positives": 114
+    },
+    "4": {
+     "n": 602,
+     "positives": 102
+    },
+    "5": {
+     "n": 623,
+     "positives": 123
+    },
+    "6": {
+     "n": 595,
+     "positives": 95
+    },
+    "7": {
+     "n": 587,
+     "positives": 87
+    },
+    "8": {
+     "n": 623,
+     "positives": 123
+    },
+    "9": {
+     "n": 602,
+     "positives": 102
+    },
+    "10": {
+     "n": 629,
+     "positives": 129
+    }
+   },
+   "status": "evaluated",
+   "bottom_auroc": 0.8151553166069295,
+   "top_auroc": 0.7978333333333333,
+   "gap": -0.017321983273596242,
+   "n_bottom": 1779,
+   "n_top": 1854,
+   "gene_ci95": [
+    -0.0555425055740956,
+    0.021582598353188667
+   ],
+   "gene_ci90": [
+    -0.0493281685808469,
+    0.015454424721807974
+   ],
+   "gene_label": "gap absent (equivalent within +/-0.05)",
+   "gene_n_valid": 1000,
+   "site_ci95": [
+    -0.053305316303412266,
+    0.02222733845850432
+   ],
+   "site_ci90": [
+    -0.04827977096719968,
+    0.016673131086705834
+   ],
+   "site_label": "gap absent (equivalent within +/-0.05)",
+   "site_n_valid": 1000
+  },
+  "restriction_year=2017": {
+   "n_sites": 6849,
+   "n_positives": 1849,
+   "n_gene_clusters": 4242,
+   "per_decile": {
+    "1": {
+     "n": 629,
+     "positives": 129
+    },
+    "2": {
+     "n": 660,
+     "positives": 160
+    },
+    "3": {
+     "n": 683,
+     "positives": 183
+    },
+    "4": {
+     "n": 679,
+     "positives": 179
+    },
+    "5": {
+     "n": 703,
+     "positives": 203
+    },
+    "6": {
+     "n": 704,
+     "positives": 204
+    },
+    "7": {
+     "n": 686,
+     "positives": 186
+    },
+    "8": {
+     "n": 700,
+     "positives": 200
+    },
+    "9": {
+     "n": 695,
+     "positives": 195
+    },
+    "10": {
+     "n": 710,
+     "positives": 210
+    }
+   },
+   "status": "evaluated",
+   "bottom_auroc": 0.7640190677966102,
+   "top_auroc": 0.7954484848484848,
+   "gap": 0.03142941705187463,
+   "n_bottom": 1972,
+   "n_top": 2105,
+   "gene_ci95": [
+    0.0005867475179930418,
+    0.06738115485685588
+   ],
+   "gene_ci90": [
+    0.00544000168410601,
+    0.06083216804269384
+   ],
+   "gene_label": "not detectable (interval includes the margin)",
+   "gene_n_valid": 1000,
+   "site_ci95": [
+    0.0010515305681370432,
+    0.06466011091125974
+   ],
+   "site_ci90": [
+    0.004283281782555843,
+    0.059603216655292925
+   ],
+   "site_label": "not detectable (interval includes the margin)",
+   "site_n_valid": 1000
+  }
+ },
+ "MusiteDeep|rev5_reported": {
+  "gap": {
+   "point": 0.06319955555555556,
+   "ci_low": 0.03741101609406368,
+   "ci_high": 0.09050503283838579,
+   "bottom_deciles": [
+    1,
+    2,
+    3
+   ],
+   "top_deciles": [
+    8,
+    9,
+    10
+   ],
+   "n_bottom": 3000,
+   "n_top": 3000
+  },
+  "restricted": {
+   "2020": {
+    "model_pub_year": 2020,
+    "n_positives_after_cutoff": 1040,
+    "pooled_auroc": {
+     "point": 0.8009816346153846,
+     "ci_low": 0.7866730309223489,
+     "ci_high": 0.8151908530462288
+    },
+    "status": "evaluated",
+    "gap_top_minus_bottom": {
+     "point": -0.01732198327359602,
+     "ci_low": -0.05746152342126856,
+     "ci_high": 0.022117746239872345,
+     "n_positives_bottom3": 279,
+     "n_positives_top3": 354
+    }
+   },
+   "2017": {
+    "model_pub_year": 2017,
+    "n_positives_after_cutoff": 1849,
+    "pooled_auroc": {
+     "point": 0.7779586262844782,
+     "ci_low": 0.7659473275011639,
+     "ci_high": 0.7907877024482524
+    },
+    "status": "evaluated",
+    "gap_top_minus_bottom": {
+     "point": 0.03142941705187474,
+     "ci_low": 2.2969147146931273e-05,
+     "ci_high": 0.06441516862604557,
+     "n_positives_bottom3": 472,
+     "n_positives_top3": 605
+    }
+   }
+  }
+ },
+ "PhosF3C|planned: Y sites only": {
+  "unrestricted": {
+   "n_sites": 1359,
+   "n_positives": 515,
+   "n_gene_clusters": 1218,
+   "per_decile": {
+    "1": {
+     "n": 147,
+     "positives": 64
+    },
+    "2": {
+     "n": 140,
+     "positives": 57
+    },
+    "3": {
+     "n": 138,
+     "positives": 51
+    },
+    "4": {
+     "n": 128,
+     "positives": 46
+    },
+    "5": {
+     "n": 114,
+     "positives": 39
+    },
+    "6": {
+     "n": 131,
+     "positives": 45
+    },
+    "7": {
+     "n": 141,
+     "positives": 49
+    },
+    "8": {
+     "n": 134,
+     "positives": 48
+    },
+    "9": {
+     "n": 139,
+     "positives": 56
+    },
+    "10": {
+     "n": 147,
+     "positives": 60
+    }
+   },
+   "status": "evaluated",
+   "bottom_auroc": 0.6658240647118301,
+   "top_auroc": 0.7198813833841463,
+   "gap": 0.054057318672316224,
+   "n_bottom": 425,
+   "n_top": 420,
+   "gene_ci95": [
+    -0.0221319978473991,
+    0.12480985788529246
+   ],
+   "gene_ci90": [
+    -0.0063464970255702685,
+    0.11419163939225194
+   ],
+   "gene_label": "not detectable (interval includes the margin)",
+   "gene_n_valid": 1000,
+   "site_ci95": [
+    -0.010307732916127023,
+    0.132313362571563
+   ],
+   "site_ci90": [
+    -0.0022290159812146646,
+    0.11609555119468408
+   ],
+   "site_label": "not detectable (interval includes the margin)",
+   "site_n_valid": 1000
+  },
+  "restriction_year=2024": {
+   "status": "too small to evaluate (n<200)",
+   "n_positives": 0
+  }
+ },
+ "PhosF3C|Rev 5 design: all scored residues": {
+  "unrestricted": {
+   "n_sites": 1359,
+   "n_positives": 515,
+   "n_gene_clusters": 1218,
+   "per_decile": {
+    "1": {
+     "n": 147,
+     "positives": 64
+    },
+    "2": {
+     "n": 140,
+     "positives": 57
+    },
+    "3": {
+     "n": 138,
+     "positives": 51
+    },
+    "4": {
+     "n": 128,
+     "positives": 46
+    },
+    "5": {
+     "n": 114,
+     "positives": 39
+    },
+    "6": {
+     "n": 131,
+     "positives": 45
+    },
+    "7": {
+     "n": 141,
+     "positives": 49
+    },
+    "8": {
+     "n": 134,
+     "positives": 48
+    },
+    "9": {
+     "n": 139,
+     "positives": 56
+    },
+    "10": {
+     "n": 147,
+     "positives": 60
+    }
+   },
+   "status": "evaluated",
+   "bottom_auroc": 0.6658240647118301,
+   "top_auroc": 0.7198813833841463,
+   "gap": 0.054057318672316224,
+   "n_bottom": 425,
+   "n_top": 420,
+   "gene_ci95": [
+    -0.017294681019588712,
+    0.12446066448684144
+   ],
+   "gene_ci90": [
+    -0.008125875161007984,
+    0.11123955101745649
+   ],
+   "gene_label": "not detectable (interval includes the margin)",
+   "gene_n_valid": 1000,
+   "site_ci95": [
+    -0.019458685238266656,
+    0.12685881263543092
+   ],
+   "site_ci90": [
+    -0.0074332533159619015,
+    0.11525138843522091
+   ],
+   "site_label": "not detectable (interval includes the margin)",
+   "site_n_valid": 1000
+  },
+  "restriction_year=2024": {
+   "status": "too small to evaluate (n<200)",
+   "n_positives": 0
+  }
+ },
+ "PhosF3C|rev5_reported": {
+  "gap": {
+   "point": 0.054057318672316335,
+   "ci_low": -0.013403061621872504,
+   "ci_high": 0.12860208262900732,
+   "bottom_deciles": [
+    1,
+    2,
+    3
+   ],
+   "top_deciles": [
+    8,
+    9,
+    10
+   ],
+   "n_bottom": 425,
+   "n_top": 420
+  },
+  "restricted": {
+   "2024": {
+    "model_pub_year": 2024,
+    "n_positives_after_cutoff": 0,
+    "status": "too small to evaluate (n<200)"
+   }
+  }
+ },
+ "J4_training_overlap": {
+  "PhosF3C": {
+   "training_file": "tools/phosf3c/PhosF3C-main/data/merged_train_Y.fasta (shipped with the PhosF3C repository)",
+   "window": "31 residues (+/- 15, hparams window_size 15)",
+   "n_training_positive_windows": 29303,
+   "n_eval_positives_Y": 515,
+   "n_flagged_ge_40pct": 293,
+   "share_flagged": 0.5689320388349515,
+   "identity_quantiles_eval_positives": {
+    "0.1": 0.2903225806451613,
+    "0.5": 0.6451612903225806,
+    "0.9": 1.0,
+    "0.99": 1.0
+   },
+   "analysis_without_flagged_positives": {
+    "n_sites": 1066,
+    "n_positives": 222,
+    "n_gene_clusters": 964,
+    "per_decile": {
+     "1": {
+      "n": 107,
+      "positives": 24
+     },
+     "2": {
+      "n": 109,
+      "positives": 26
+     },
+     "3": {
+      "n": 114,
+      "positives": 27
+     },
+     "4": {
+      "n": 103,
+      "positives": 21
+     },
+     "5": {
+      "n": 99,
+      "positives": 24
+     },
+     "6": {
+      "n": 100,
+      "positives": 14
+     },
+     "7": {
+      "n": 117,
+      "positives": 25
+     },
+     "8": {
+      "n": 101,
+      "positives": 15
+     },
+     "9": {
+      "n": 104,
+      "positives": 21
+     },
+     "10": {
+      "n": 112,
+      "positives": 25
+     }
+    },
+    "status": "evaluated",
+    "bottom_auroc": 0.6586417535034136,
+    "top_auroc": 0.6568583504098361,
+    "gap": -0.0017834030935774958,
+    "n_bottom": 330,
+    "n_top": 317,
+    "gene_ci95": [
+     -0.0971039742880918,
+     0.09779664300688819
+    ],
+    "gene_ci90": [
+     -0.08180743500726663,
+     0.08132707911620822
+    ],
+    "gene_label": "not detectable (interval includes the margin)",
+    "gene_n_valid": 1000,
+    "site_ci95": [
+     -0.09776428006305722,
+     0.09657374525942854
+    ],
+    "site_ci90": [
+     -0.08235619269085147,
+     0.07847231949314877
+    ],
+    "site_label": "not detectable (interval includes the margin)",
+    "site_n_valid": 1000
+   },
+   "analysis_all_for_reference": {
+    "n_sites": 1359,
+    "n_positives": 515,
+    "n_gene_clusters": 1218,
+    "per_decile": {
+     "1": {
+      "n": 147,
+      "positives": 64
+     },
+     "2": {
+      "n": 140,
+      "positives": 57
+     },
+     "3": {
+      "n": 138,
+      "positives": 51
+     },
+     "4": {
+      "n": 128,
+      "positives": 46
+     },
+     "5": {
+      "n": 114,
+      "positives": 39
+     },
+     "6": {
+      "n": 131,
+      "positives": 45
+     },
+     "7": {
+      "n": 141,
+      "positives": 49
+     },
+     "8": {
+      "n": 134,
+      "positives": 48
+     },
+     "9": {
+      "n": 139,
+      "positives": 56
+     },
+     "10": {
+      "n": 147,
+      "positives": 60
+     }
+    },
+    "status": "evaluated",
+    "bottom_auroc": 0.6658240647118301,
+    "top_auroc": 0.7198813833841463,
+    "gap": 0.054057318672316224,
+    "n_bottom": 425,
+    "n_top": 420,
+    "gene_ci95": [
+     -0.01980189824229794,
+     0.12615239393739225
+    ],
+    "gene_ci90": [
+     -0.008620269728731087,
+     0.11186517522841696
+    ],
+    "gene_label": "not detectable (interval includes the margin)",
+    "gene_n_valid": 1000,
+    "site_ci95": [
+     -0.018287901971313823,
+     0.12310368688126128
+    ],
+    "site_ci90": [
+     -0.007768341323664584,
+     0.11175729516270014
+    ],
+    "site_label": "not detectable (interval includes the margin)",
+    "site_n_valid": 1000
+   }
+  },
+  "DeepPhos": "not run: no training set in the repository (tools/DeepPhos holds weights and a 944-byte test file)",
+  "MusiteDeep": "not run: the repository holds no training data for the deployed phosphorylation models (tool_versions.json: training sources not stated)"
+ }
+}

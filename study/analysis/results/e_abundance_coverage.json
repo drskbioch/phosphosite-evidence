@@ -1,0 +1,47 @@
+{
+ "human": {
+  "paxdb_entries": 19483,
+  "paxdb_entries_unmapped_to_uniprot": 545,
+  "uniprot_accessions_mapped": 18951,
+  "accessions_with_more_than_one_paxdb_entry": 0,
+  "proteins_in_site_table": 75248,
+  "proteins_with_abundance": 18524,
+  "share_of_proteins": 0.24617265575164787,
+  "records_in_site_table": 1071725,
+  "records_with_abundance": 555053,
+  "share_of_records": 0.5179061792903963,
+  "records_with_abundance_and_V50_index": 551048,
+  "proteins_with_abundance_and_V50_index": 18287,
+  "gold_bronze_records_with_abundance_and_index": 276157
+ },
+ "mouse": {
+  "paxdb_entries": 19774,
+  "paxdb_entries_unmapped_to_uniprot": 1231,
+  "uniprot_accessions_mapped": 19629,
+  "accessions_with_more_than_one_paxdb_entry": 0,
+  "proteins_in_site_table": 45003,
+  "proteins_with_abundance": 16335,
+  "share_of_proteins": 0.3629758016132258,
+  "records_in_site_table": 534246,
+  "records_with_abundance": 281362,
+  "share_of_records": 0.5266525158821966,
+  "records_with_abundance_and_V50_index": 264602,
+  "proteins_with_abundance_and_V50_index": 15652,
+  "gold_bronze_records_with_abundance_and_index": 135525
+ },
+ "rat": {
+  "paxdb_entries": 16184,
+  "paxdb_entries_unmapped_to_uniprot": 2363,
+  "uniprot_accessions_mapped": 14261,
+  "accessions_with_more_than_one_paxdb_entry": 5,
+  "proteins_in_site_table": 16217,
+  "proteins_with_abundance": 9680,
+  "share_of_proteins": 0.5969044829499908,
+  "records_in_site_table": 162097,
+  "records_with_abundance": 124030,
+  "share_of_records": 0.7651591331116554,
+  "records_with_abundance_and_V50_index": 95013,
+  "proteins_with_abundance_and_V50_index": 7651,
+  "gold_bronze_records_with_abundance_and_index": 24268
+ }
+}

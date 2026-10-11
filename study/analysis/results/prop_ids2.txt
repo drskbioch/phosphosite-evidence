@@ -1,0 +1,12 @@
+G1-0012
+G1-0015
+G2-0024
+G2-0027
+G1-0003+posthoc_STY
+G1-0009+posthoc_STY
+G1-0012+posthoc_STY
+G1-0015+posthoc_STY
+G2-0021+posthoc_STY
+G2-0024+posthoc_STY
+G2-0027+posthoc_STY
+G15-0352+posthoc_STY

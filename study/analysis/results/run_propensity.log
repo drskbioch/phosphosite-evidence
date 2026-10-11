@@ -1,0 +1,342 @@
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "<project-root>\study\scripts\analysis\run_propensity.py", line 15, in <module>
+    import run_cem_grid as R
+  File "<project-root>\study\scripts\analysis\run_cem_grid.py", line 30, in <module>
+    has = b[b["species"] == "human"].groupby("uniprot_id")["in_domain"].max()
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\groupby.py", line 3337, in max
+    return self._agg_general(
+           ~~~~~~~~~~~~~~~~~^
+        numeric_only=numeric_only,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        npfunc=np.max,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\groupby.py", line 1908, in _agg_general
+    result = self._cython_agg_general(
+        how=alias,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\groupby.py", line 2005, in _cython_agg_general
+    new_mgr = data.grouped_reduce(array_func)
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\internals\base.py", line 367, in grouped_reduce
+    res = func(arr)
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\groupby.py", line 1980, in array_func
+    result = self._grouper._cython_operation(
+        "aggregate",
+    ...<4 lines>...
+        **kwargs,
+    )
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\ops.py", line 836, in _cython_operation
+    cy_op = WrappedCythonOp(kind=kind, how=how, has_dropped_na=self.has_dropped_na)
+                                                               ^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/properties.pyx", line 36, in pandas._libs.properties.CachedProperty.__get__
+  File "<project-root>\study\scripts\analysis\run_propensity.py", line 15, in <module>
+    import run_cem_grid as R
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\ops.py", line 750, in has_dropped_na
+    return bool((self.group_info[0] < 0).any())
+                 ^^^^^^^^^^^^^^^
+  File "<project-root>\study\scripts\analysis\run_cem_grid.py", line 30, in <module>
+    has = b[b["species"] == "human"].groupby("uniprot_id")["in_domain"].max()
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\groupby.py", line 3337, in max
+    return self._agg_general(
+           ~~~~~~~~~~~~~~~~~^
+        numeric_only=numeric_only,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        npfunc=np.max,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\groupby.py", line 1908, in _agg_general
+    result = self._cython_agg_general(
+        how=alias,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\groupby.py", line 2005, in _cython_agg_general
+    new_mgr = data.grouped_reduce(array_func)
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\internals\base.py", line 367, in grouped_reduce
+    res = func(arr)
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\groupby.py", line 1980, in array_func
+    result = self._grouper._cython_operation(
+        "aggregate",
+    ...<4 lines>...
+        **kwargs,
+    )
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\ops.py", line 836, in _cython_operation
+    cy_op = WrappedCythonOp(kind=kind, how=how, has_dropped_na=self.has_dropped_na)
+                                                               ^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/properties.pyx", line 36, in pandas._libs.properties.CachedProperty.__get__
+  File "pandas/_libs/properties.pyx", line 36, in pandas._libs.properties.CachedProperty.__get__
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\ops.py", line 750, in has_dropped_na
+    return bool((self.group_info[0] < 0).any())
+                 ^^^^^^^^^^^^^^^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\ops.py", line 754, in group_info
+    comp_ids, obs_group_ids = self._get_compressed_codes()
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\ops.py", line 778, in _get_compressed_codes
+    return ping.codes, np.arange(len(ping._group_index), dtype=np.intp)
+           ^^^^^^^^^^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\grouper.py", line 691, in codes
+    return self._codes_and_uniques[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/properties.pyx", line 36, in pandas._libs.properties.CachedProperty.__get__
+  File "pandas/_libs/properties.pyx", line 36, in pandas._libs.properties.CachedProperty.__get__
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\ops.py", line 754, in group_info
+    comp_ids, obs_group_ids = self._get_compressed_codes()
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\ops.py", line 778, in _get_compressed_codes
+    return ping.codes, np.arange(len(ping._group_index), dtype=np.intp)
+           ^^^^^^^^^^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\grouper.py", line 691, in codes
+    return self._codes_and_uniques[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/properties.pyx", line 36, in pandas._libs.properties.CachedProperty.__get__
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\grouper.py", line 835, in _codes_and_uniques
+    codes, uniques = algorithms.factorize(  # type: ignore[assignment]
+                     ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.grouping_vector, sort=self._sort, use_na_sentinel=self._dropna
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\grouper.py", line 835, in _codes_and_uniques
+    codes, uniques = algorithms.factorize(  # type: ignore[assignment]
+                     ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.grouping_vector, sort=self._sort, use_na_sentinel=self._dropna
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\algorithms.py", line 795, in factorize
+    codes, uniques = factorize_array(
+                     ~~~~~~~~~~~~~~~^
+        values,
+        ^^^^^^^
+        use_na_sentinel=use_na_sentinel,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        size_hint=size_hint,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\algorithms.py", line 795, in factorize
+    codes, uniques = factorize_array(
+                     ~~~~~~~~~~~~~~~^
+        values,
+        ^^^^^^^
+        use_na_sentinel=use_na_sentinel,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        size_hint=size_hint,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\algorithms.py", line 595, in factorize_array
+    uniques, codes = table.factorize(
+                     ~~~~~~~~~~~~~~~^
+        values,
+        ^^^^^^^
+    ...<3 lines>...
+        ignore_na=use_na_sentinel,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7030, in pandas._libs.hashtable.StringHashTable.factorize
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\algorithms.py", line 595, in factorize_array
+    uniques, codes = table.factorize(
+                     ~~~~~~~~~~~~~~~^
+        values,
+        ^^^^^^^
+    ...<3 lines>...
+        ignore_na=use_na_sentinel,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "pandas/_libs/hashtable_class_helper.pxi", line 6913, in pandas._libs.hashtable.StringHashTable._unique
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7030, in pandas._libs.hashtable.StringHashTable.factorize
+  File "pandas/_libs/hashtable_class_helper.pxi", line 6912, in pandas._libs.hashtable.StringHashTable._unique
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 8.18 MiB for an array with shape (1071725,) and data type int64
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 8.18 MiB for an array with shape (1071725,) and data type int64
+Traceback (most recent call last):
+  File "<project-root>\study\scripts\analysis\run_propensity.py", line 15, in <module>
+    import run_cem_grid as R
+  File "<project-root>\study\scripts\analysis\run_cem_grid.py", line 30, in <module>
+    has = b[b["species"] == "human"].groupby("uniprot_id")["in_domain"].max()
+          ~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\frame.py", line 4104, in __getitem__
+    return self._getitem_bool_array(key)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\frame.py", line 4166, in _getitem_bool_array
+    return self._take_with_is_copy(indexer, axis=0)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\generic.py", line 4175, in _take_with_is_copy
+    result = self.take(indices=indices, axis=axis)
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\generic.py", line 4155, in take
+    new_data = self._mgr.take(
+        indices,
+        axis=self._get_block_manager_axis(axis),
+        verify=True,
+    )
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\internals\managers.py", line 913, in take
+    return self.reindex_indexer(
+           ~~~~~~~~~~~~~~~~~~~~^
+        new_axis=new_labels,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        copy=None,
+        ^^^^^^^^^^
+    )
+    ^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\internals\managers.py", line 707, in reindex_indexer
+    blk.take_nd(
+    ~~~~~~~~~~~^
+        indexer,
+        ^^^^^^^^
+    ...<3 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\internals\blocks.py", line 1373, in take_nd
+    new_values = algos.take_nd(
+        values, indexer, axis=axis, allow_fill=allow_fill, fill_value=fill_value
+    )
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\array_algos\take.py", line 117, in take_nd
+    return _take_nd_ndarray(arr, indexer, axis, fill_value, allow_fill)
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\array_algos\take.py", line 157, in _take_nd_ndarray
+    out = np.empty(out_shape, dtype=dtype)
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 5.11 MiB for an array with shape (5, 1071725) and data type bool
+Traceback (most recent call last):
+  File "<project-root>\study\scripts\analysis\run_propensity.py", line 85, in <module>
+    run(sp)
+    ~~~^^^^
+  File "<project-root>\study\scripts\analysis\run_propensity.py", line 66, in run
+    rest = P.bootstrap(pdat, stat, rng, n_total)
+  File "<project-root>\study\scripts\analysis\propensity.py", line 187, in bootstrap
+    r = match_estimate(lg, d.t[rec], d.y[rec], d.x[rec], stat, rng)
+  File "<project-root>\study\scripts\analysis\propensity.py", line 72, in match_estimate
+    pt, pc = _greedy(order, dists, nn, caliper, len(co))
+             ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError: Allocation failed (probably too large).
+Traceback (most recent call last):
+  File "<project-root>\study\scripts\analysis\run_propensity.py", line 15, in <module>
+    import run_cem_grid as R
+  File "<project-root>\study\scripts\analysis\run_cem_grid.py", line 30, in <module>
+    has = b[b["species"] == "human"].groupby("uniprot_id")["in_domain"].max()
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\groupby.py", line 3337, in max
+    return self._agg_general(
+           ~~~~~~~~~~~~~~~~~^
+        numeric_only=numeric_only,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        npfunc=np.max,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\groupby.py", line 1908, in _agg_general
+    result = self._cython_agg_general(
+        how=alias,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\groupby.py", line 2005, in _cython_agg_general
+    new_mgr = data.grouped_reduce(array_func)
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\internals\base.py", line 367, in grouped_reduce
+    res = func(arr)
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\groupby.py", line 1980, in array_func
+    result = self._grouper._cython_operation(
+        "aggregate",
+    ...<4 lines>...
+        **kwargs,
+    )
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\ops.py", line 836, in _cython_operation
+    cy_op = WrappedCythonOp(kind=kind, how=how, has_dropped_na=self.has_dropped_na)
+                                                               ^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/properties.pyx", line 36, in pandas._libs.properties.CachedProperty.__get__
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\ops.py", line 750, in has_dropped_na
+    return bool((self.group_info[0] < 0).any())
+                 ^^^^^^^^^^^^^^^
+  File "pandas/_libs/properties.pyx", line 36, in pandas._libs.properties.CachedProperty.__get__
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\ops.py", line 754, in group_info
+    comp_ids, obs_group_ids = self._get_compressed_codes()
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\ops.py", line 778, in _get_compressed_codes
+    return ping.codes, np.arange(len(ping._group_index), dtype=np.intp)
+           ^^^^^^^^^^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\grouper.py", line 691, in codes
+    return self._codes_and_uniques[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/properties.pyx", line 36, in pandas._libs.properties.CachedProperty.__get__
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\groupby\grouper.py", line 835, in _codes_and_uniques
+    codes, uniques = algorithms.factorize(  # type: ignore[assignment]
+                     ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.grouping_vector, sort=self._sort, use_na_sentinel=self._dropna
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\algorithms.py", line 795, in factorize
+    codes, uniques = factorize_array(
+                     ~~~~~~~~~~~~~~~^
+        values,
+        ^^^^^^^
+        use_na_sentinel=use_na_sentinel,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        size_hint=size_hint,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\algorithms.py", line 595, in factorize_array
+    uniques, codes = table.factorize(
+                     ~~~~~~~~~~~~~~~^
+        values,
+        ^^^^^^^
+    ...<3 lines>...
+        ignore_na=use_na_sentinel,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7030, in pandas._libs.hashtable.StringHashTable.factorize
+  File "pandas/_libs/hashtable_class_helper.pxi", line 6913, in pandas._libs.hashtable.StringHashTable._unique
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 8.18 MiB for an array with shape (1071725,) and data type int64
+Traceback (most recent call last):
+  File "<project-root>\study\scripts\analysis\run_propensity.py", line 85, in <module>
+    run(sp)
+    ~~~^^^^
+  File "<project-root>\study\scripts\analysis\run_propensity.py", line 66, in run
+    rest = P.bootstrap(pdat, stat, rng, n_total)
+  File "<project-root>\study\scripts\analysis\propensity.py", line 187, in bootstrap
+    r = match_estimate(lg, d.t[rec], d.y[rec], d.x[rec], stat, rng)
+  File "<project-root>\study\scripts\analysis\propensity.py", line 68, in match_estimate
+    dists, nn = tree.query(logit[tr].reshape(-1, 1), k=k)
+                ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "scipy/spatial/_ckdtree.pyx", line 812, in scipy.spatial._ckdtree.cKDTree.query
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 124. MiB for an array with shape (325335, 50) and data type int64
+<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\statsmodels\discrete\discrete_model.py:2385: RuntimeWarning: overflow encountered in exp
+  return 1/(1+np.exp(-X))
+<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\statsmodels\discrete\discrete_model.py:2443: RuntimeWarning: divide by zero encountered in log
+  return np.sum(np.log(self.cdf(q * linpred)))
+G1-0003 not fitted LinAlgError: Singular matrix
+<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\statsmodels\discrete\discrete_model.py:2385: RuntimeWarning: overflow encountered in exp
+  return 1/(1+np.exp(-X))
+<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\statsmodels\discrete\discrete_model.py:2443: RuntimeWarning: divide by zero encountered in log
+  return np.sum(np.log(self.cdf(q * linpred)))
+G1-0009 not fitted LinAlgError: Singular matrix
+<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\statsmodels\discrete\discrete_model.py:2385: RuntimeWarning: overflow encountered in exp
+  return 1/(1+np.exp(-X))
+<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\statsmodels\discrete\discrete_model.py:2443: RuntimeWarning: divide by zero encountered in log
+  return np.sum(np.log(self.cdf(q * linpred)))
+G2-0021 not fitted LinAlgError: Singular matrix
+<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+G1-0006 0.3845894894333271 [0.3719352137385237, 0.3946138756398937] 0.03525015408669614 1000 0.31
+<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\statsmodels\discrete\discrete_model.py:2385: RuntimeWarning: overflow encountered in exp
+  return 1/(1+np.exp(-X))
+<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\statsmodels\discrete\discrete_model.py:2443: RuntimeWarning: divide by zero encountered in log
+  return np.sum(np.log(self.cdf(q * linpred)))
+G15-0352 not fitted LinAlgError: Singular matrix
+G3-0030 0.686435442708721 [0.6420296008240199, 0.7369564612681501] -0.023842979456150333 1000 0.75
+G1-0012+posthoc_STY 0.04458715596330276 [0.04079836282094606, 0.051359285143308564] 0.27783554996830007 1000 2.09
+G1-0015+posthoc_STY 0.7752729107421338 [0.7682445974775061, 0.7768289708161017] 0.022811993596542342 1000 2.13

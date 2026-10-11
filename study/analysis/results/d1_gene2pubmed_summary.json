@@ -1,0 +1,9 @@
+{
+  "rows_read": 83251558,
+  "distinct_gene_pmid_pairs_all_taxa": 83251558,
+  "distinct_pmids_all_taxa": 2462357,
+  "pairs_3species": 5676973,
+  "pmids_gt_20_genes": 42866,
+  "pmids_gt_50_genes": 23873,
+  "pmids_gt_100_genes": 16733
+}

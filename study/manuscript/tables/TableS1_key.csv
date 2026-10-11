@@ -1,0 +1,79 @@
+Column or code,Value,Meaning,Count
+contrast_id,G<block>-<row>,block number and row number in the planned grid of contrasts,
+"estimate, ci_low, ci_high",4 significant digits,estimate of the contrast and its 95% interval; interval_unit says which resampling unit the interval comes from (gene cluster is primary),
+"second_interval_unit, second_ci_low, second_ci_high",,"the interval of the same estimate from the other resampling unit, where the comparison was run with both (protein cluster and gene cluster); empty otherwise",
+attenuation,share,"(crude - adjusted) / crude on the same records, for odds ratios on the log scale; empty where it was not computed",
+block,G1,primary comparison (all species),15 contrasts
+block,G2,human-only comparison,12 contrasts
+block,G3,domain overlap among proteins with a domain-annotated site (diagnostic),3 contrasts
+block,G4,study-effort index variants,20 contrasts
+block,G5,protein abundance (PaxDb) as a covariate,48 contrasts
+block,G6,"residue-specific populations (S, T, Y)",24 contrasts
+block,G7,leave one study cluster out,88 contrasts
+block,G8,tier thresholds,48 contrasts
+block,G9,established confidence measures,48 contrasts
+block,G10,within protein (PhosphoSitePlus sites),4 contrasts
+block,G11,predictors: AUROC gap by study effort,8 contrasts
+block,G12,depth-only tier,8 contrasts
+block,G13,"study-cluster threshold (500 and 1,000 sites)",16 contrasts
+block,G14,"index without the exclusion and set-A tiers, with protein-cluster intervals",15 contrasts
+block,G15,set-A tier (human),3 contrasts
+block,G16,Swiss-Prot reviewed canonical accessions,18 contrasts
+block,G17,"gene-cluster bootstrap of the comparisons in G1, G2, G3 and G5",28 contrasts
+block,G18,1:1 caliper matcher (D2b),11 contrasts
+block,G19,tier-definition sensitivity,50 contrasts
+block,G20,diagnostics: balance and index-outcome association,23 contrasts
+block,G21,within-gene comparison,24 contrasts
+block,G22,serine/threonine-only sequence motif,2 contrasts
+block,G23,non-primary PMIDs removed from publication depth,18 contrasts
+task,"B,C",comparison of GOLD and BRONZE with a study-effort index (tasks B and C),54 contrasts
+task,D,index variants,20 contrasts
+task,E,abundance,48 contrasts
+task,F,"residue strata, leave-one-cluster-out, tier thresholds",160 contrasts
+task,H,"established measures (PhosphoSitePlus, UniProt, PeptideAtlas)",48 contrasts
+task,I,within protein (PhosphoSitePlus),4 contrasts
+task,B,reconciliation and inference (task B),18 contrasts
+task,J,predictors,8 contrasts
+task,amend,not pre-specified: added to the grid after the first results,174 contrasts
+signal,S1,domain overlap,116 contrasts
+signal,S2,conservation,125 contrasts
+signal,S3,disorder,125 contrasts
+signal,S4,"kinase motif, sequence-based",127 contrasts
+signal,S5,"kinase motif, database lookup",33 contrasts
+signal,AUROC gap,AUROC in deciles 8 to 10 minus deciles 1 to 3 of the index,8 contrasts
+design,D0,"crude: no adjustment, the same records as the adjusted design",189 contrasts
+design,D1,coarsened exact matching (CEM) on deciles of the index (primary),189 contrasts
+design,D4,CEM on index decile x abundance decile,28 contrasts
+design,D6 (within-gene),within-gene model (one intercept per gene),24 contrasts
+design,D3,CEM on an index variant,20 contrasts
+design,index-outcome association,named as in the grid of contrasts,18 contrasts
+design,D5,CEM on abundance decile alone,12 contrasts
+design,D2b,1:1 caliper matcher without replacement (caliper 0.2 SD of the logit),11 contrasts
+design,D2,propensity matching on the index (sensitivity),11 contrasts
+design,"equivalence test (margin 0.05), protein-cluster bootstrap",named as in the grid of contrasts,8 contrasts
+design,R5_CEM_secondary_index,named as in the grid of contrasts,5 contrasts
+design,R5_propensity,named as in the grid of contrasts,5 contrasts
+design,R5_CEM_primary_index,named as in the grid of contrasts,5 contrasts
+design,within-protein model (one intercept per protein),named as in the grid of contrasts,4 contrasts
+design,domain-annotation coverage strata,named as in the grid of contrasts,2 contrasts
+design,pre-matching balance,named as in the grid of contrasts,1 contrasts
+design,index vs LT_LIT-supported sites per gene,named as in the grid of contrasts,1 contrasts
+design,index vs sites per protein,named as in the grid of contrasts,1 contrasts
+index,V50,primary index: PMIDs linked to more than 50 genes excluded,463 contrasts
+index,not used,as named in the grid of contrasts,24 contrasts
+index,V0 (no exclusion),index without the exclusion,15 contrasts
+index,decile of study effort,as named in the grid of contrasts,8 contrasts
+index,V0,index without the exclusion,4 contrasts
+index,V20,PMIDs linked to more than 20 genes excluded,4 contrasts
+index,VT2026,"time-normalised index, reference year 2026",4 contrasts
+index,VT2025,"time-normalised index, reference year 2025",4 contrasts
+index,V100,PMIDs linked to more than 100 genes excluded,4 contrasts
+index,none (within protein),as named in the grid of contrasts,4 contrasts
+tier_rule,study-cluster rule (884),tiers from agreement score and study-cluster depth (a PMID linked to at least 884 sites is a cluster candidate); the other values name the variant tested,
+decision_bearing,yes / no,whether the contrast enters the decision on a claim (no: diagnostic or sensitivity),
+status,planned / conditional,planned: in the plan; conditional: run only if the data exist,
+result_status,run,outcome of the contrast,478 contrasts
+result_status,not run: source file not available (PhosphoSitePlus v7 site provides no bulk download; access requested from the provider),outcome of the contrast,29 contrasts
+result_status,not feasible from the available build,outcome of the contrast,12 contrasts
+result_status,not run,outcome of the contrast,9 contrasts
+result_status,not fitted,outcome of the contrast,6 contrasts

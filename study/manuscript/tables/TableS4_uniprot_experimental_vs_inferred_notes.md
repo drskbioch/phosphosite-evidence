@@ -1,0 +1,2 @@
+Experimental and inferred refer to the evidence code (ECO) of the UniProt modified-residue annotation of the site. Estimates are experimental minus inferred, as a difference in proportion or mean score, and as an odds ratio for domain overlap; intervals are 95% gene-cluster bootstrap intervals.
+A limit that would print as zero at the usual number of decimals is given with more decimals so that its sign shows.

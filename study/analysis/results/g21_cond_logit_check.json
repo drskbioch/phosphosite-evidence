@@ -1,0 +1,62 @@
+{
+ "records": 22504,
+ "gene_clusters": 3000,
+ "largest_stratum": 214,
+ "columns": [
+  "gold",
+  "isT",
+  "isY"
+ ],
+ "own_serial": {
+  "coef": [
+   2.111063235862089,
+   -0.47463136910677106,
+   -0.7813940072643087
+  ],
+  "se": [
+   0.05005841802519397,
+   0.04663644946097367,
+   0.05956324952249677
+  ],
+  "converged": true,
+  "loglik": -6893.289167594513,
+  "seconds": 2.88
+ },
+ "own_parallel": {
+  "coef": [
+   2.111063235862089,
+   -0.47463136910677106,
+   -0.7813940072643087
+  ],
+  "se": [
+   0.05005841802519397,
+   0.04663644946097367,
+   0.05956324952249677
+  ],
+  "converged": true,
+  "loglik": -6893.289167594513,
+  "seconds": 9.4
+ },
+ "statsmodels": {
+  "coef": [
+   2.111074182860186,
+   -0.4746657152965957,
+   -0.7814449545390827
+  ],
+  "se": [
+   0.05005856221922835,
+   0.04663651040966422,
+   0.05956337763853665
+  ],
+  "seconds": 12.89
+ },
+ "loglik_at_statsmodels_estimate_own_likelihood": -6893.2891681289575,
+ "max_abs_diff_coef_serial": 5.0947274773949225e-05,
+ "max_abs_diff_se_serial": 1.4419403437937461e-07,
+ "max_abs_diff_coef_parallel": 5.0947274773949225e-05,
+ "max_abs_diff_se_parallel": 1.4419403437937461e-07,
+ "max_abs_diff_coef_serial_vs_parallel": 0.0,
+ "tolerance_coef": 0.0005,
+ "tolerance_se": 0.0001,
+ "passes": true
+}

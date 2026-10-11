@@ -1,0 +1,334 @@
+{
+ "reproduces_primary": true,
+ "n_nonprimary_pmids": 28,
+ "nonprimary": [
+  {
+   "pmid": "15174125",
+   "title": "PhosphoSite: A bioinformatics resource dedicated to physiological protein phosphorylation.",
+   "records_linked": 219383,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "15489334",
+   "title": "The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).",
+   "records_linked": 2626,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "16381945",
+   "title": "dbPTM: an information repository of protein post-translational modification.",
+   "records_linked": 82357,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "18988627",
+   "title": "Human Protein Reference Database--2009 update.",
+   "records_linked": 55853,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "19060867",
+   "title": "PhosphoPep--a database of protein phosphorylation sites in model organisms.",
+   "records_linked": 20397,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "19366988",
+   "title": "SysPTM: a systematic resource for proteomic research on post-translational modifications.",
+   "records_linked": 7974,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "20428315",
+   "title": "PhosphoGRID: a database of experimentally verified in vivo protein phosphorylation sites from the budding yeast Saccharomyces cerevisiae.",
+   "records_linked": 35520,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "21062810",
+   "title": "Phospho.ELM: a database of phosphorylation sites--update 2011.",
+   "records_linked": 34495,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "21081558",
+   "title": "PHOSIDA 2011: the posttranslational modification database.",
+   "records_linked": 49545,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "21082442",
+   "title": "Phosphoproteome resource for systems biology research.",
+   "records_linked": 52111,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "22135298",
+   "title": "PhosphoSitePlus: a comprehensive resource for investigating the structure and function of experimentally determined post-translational modifications in man and mouse.",
+   "records_linked": 245532,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "23193284",
+   "title": "PTMcode: a database of known and predicted functional associations between post-translational modifications in proteins.",
+   "records_linked": 127502,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "23193290",
+   "title": "DbPTM 3.0: an informative resource for investigating substrate site specificity and functional association of protein post-translational modifications.",
+   "records_linked": 56670,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "24174276",
+   "title": "Comprehensive proteomic data sets for studying adipocyte-macrophage cell-cell communication.",
+   "records_linked": 5343,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "24705204",
+   "title": "SysPTM 2.0: an updated systematic resource for post-translational modification.",
+   "records_linked": 40010,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "25514926",
+   "title": "PhosphoSitePlus, 2014: mutations, PTMs and recalibrations.",
+   "records_linked": 225187,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "26425664",
+   "title": "Dataset from the global phosphoproteomic mapping of early mitotic exit in human cells.",
+   "records_linked": 17813,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "29145615",
+   "title": "iPTMnet: an integrated resource for protein post-translational modification network discovery.",
+   "records_linked": 421351,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "30087585",
+   "title": "Residual tissue repositories as a resource for population-based cancer proteomic studies.",
+   "records_linked": 4120,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "30395287",
+   "title": "UniProt: a worldwide hub of protein knowledge.",
+   "records_linked": 52022,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "30418626",
+   "title": "dbPTM in 2019: exploring disease association and cross-talk of post-translational modifications.",
+   "records_linked": 448403,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "30445427",
+   "title": "15 years of PhosphoSitePlus\u00ae: integrating post-translationally modified sites, disease variants and isoforms.",
+   "records_linked": 219383,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "30476227",
+   "title": "The BioGRID interaction database: 2019 update.",
+   "records_linked": 35520,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "32508104",
+   "title": "Scop3P: A Comprehensive Resource of Human Phosphosites within Their Full Context.",
+   "records_linked": 93664,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "32618424",
+   "title": "LymphoAtlas: a dynamic and integrated phosphoproteomic resource of TCR signaling in primary T cells reveals ITSN2 as a regulator of effector functions.",
+   "records_linked": 5532,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "35608653",
+   "title": "In Vitro Kinase-to-Phosphosite Database (iKiP-DB) Predicts Kinase Activity in Phosphoproteomic Datasets.",
+   "records_linked": 12725,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "37582339",
+   "title": "Proteogenomic data and resources for pan-cancer analysis.",
+   "records_linked": 222623,
+   "criterion_a_review_type": true,
+   "criterion_b_title": true
+  },
+  {
+   "pmid": "37619559",
+   "title": "A proteogenomics data-driven knowledge base of human cancer.",
+   "records_linked": 222623,
+   "criterion_a_review_type": false,
+   "criterion_b_title": true
+  }
+ ],
+ "n_records": 1768068,
+ "records_with_at_least_one": 776218,
+ "share_records_with_at_least_one": 0.4390204449150146,
+ "by_species": {
+  "human": 576167,
+  "mouse": 147362,
+  "rat": 52689
+ },
+ "by_old_tier": {
+  "GOLD": 327155,
+  "SILVER": 250397,
+  "BRONZE": 198666
+ },
+ "share_of_each_old_tier": {
+  "GOLD": 0.9553672332882645,
+  "SILVER": 0.3335060375438531,
+  "BRONZE": 0.294395452464113
+ },
+ "records_whose_only_pmids_are_nonprimary": 32921,
+ "records_dropped_no_pmid_no_source_flag": 28436,
+ "transition_table": {
+  "BRONZE": {
+   "BRONZE": 651532,
+   "GOLD": 0,
+   "SILVER": 0,
+   "dropped": 23295
+  },
+  "GOLD": {
+   "BRONZE": 0,
+   "GOLD": 332882,
+   "SILVER": 9557,
+   "dropped": 0
+  },
+  "SILVER": {
+   "BRONZE": 12294,
+   "GOLD": 0,
+   "SILVER": 733367,
+   "dropped": 5141
+  }
+ },
+ "tier_counts_old": {
+  "SILVER": 750802,
+  "BRONZE": 674827,
+  "GOLD": 342439
+ },
+ "tier_counts_new": {
+  "SILVER": 742924,
+  "BRONZE": 663826,
+  "GOLD": 332882,
+  "dropped": 28436
+ },
+ "records_whose_tier_changes_or_dropped": 50287,
+ "held_out": {
+  "cluster_disjoint_test": {
+   "n": 361908,
+   "old": {
+    "SILVER": 171874,
+    "BRONZE": 152075,
+    "GOLD": 37959
+   },
+   "new": {
+    "SILVER": 171206,
+    "BRONZE": 150276,
+    "GOLD": 37277,
+    "dropped": 3149
+   }
+  },
+  "cluster_and_protein_disjoint_test": {
+   "n": 29727,
+   "old": {
+    "BRONZE": 17968,
+    "SILVER": 11222,
+    "GOLD": 537
+   },
+   "new": {
+    "BRONZE": 17556,
+    "SILVER": 11153,
+    "GOLD": 525,
+    "dropped": 493
+   }
+  },
+  "temporal_test_all": {
+   "n": 536037,
+   "old": {
+    "BRONZE": 498925,
+    "SILVER": 37084,
+    "GOLD": 28
+   },
+   "new": {
+    "BRONZE": 485589,
+    "SILVER": 36521,
+    "dropped": 13904,
+    "GOLD": 23
+   }
+  },
+  "temporal_protein_disjoint": {
+   "n": 168154,
+   "old": {
+    "BRONZE": 159885,
+    "SILVER": 8265,
+    "GOLD": 4
+   },
+   "new": {
+    "BRONZE": 159546,
+    "SILVER": 8177,
+    "dropped": 430,
+    "GOLD": 1
+   }
+  },
+  "temporal_study_disjoint": {
+   "n": 411,
+   "old": {
+    "BRONZE": 411
+   },
+   "new": {
+    "BRONZE": 411
+   }
+  },
+  "temporal_protein_and_study_disjoint": {
+   "n": 47,
+   "old": {
+    "BRONZE": 47
+   },
+   "new": {
+    "BRONZE": 47
+   }
+  },
+  "gold_total": {
+   "old": 342439,
+   "new": 332882
+  }
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "contrast_id": "G1-0015+posthoc_STY",
+ "block": "G1",
+ "signal": "S5",
+ "population": "P-all (S/T/Y only)",
+ "design": "D2",
+ "index": "V50",
+ "tier_rule": "study-cluster rule (884)",
+ "decision_bearing": "no",
+ "analysis": "post-hoc (labelled): same design restricted to S/T/Y records",
+ "null": 0.0,
+ "n_analysis": 803744,
+ "status": "run",
+ "estimate": 0.7752729107421338,
+ "ci": [
+  0.7682445974775061,
+  0.7768289708161017
+ ],
+ "crude": 0.793371291564995,
+ "crude_ci": [
+  0.7901717653982953,
+  0.796918266299224
+ ],
+ "survives": true,
+ "attenuation": 0.022811993596542342,
+ "attenuation_ci": [
+  0.021362713853871552,
+  0.03127872635275178
+ ],
+ "smd": 0.008687449252703166,
+ "balance_pass": true,
+ "n_pairs": 87208,
+ "n_treated_candidates": 324907,
+ "match_rate": 0.2684091139926194,
+ "n_boot": 1000,
+ "n_boot_valid": 1000,
+ "n_boot_unfit": 0,
+ "boot_pairs_range": [
+  78133.0,
+  83040.0
+ ],
+ "seconds_per_resample": 2.48,
+ "projected_1000_hours": 0.69,
+ "resample_rule": "1,000 resamples",
+ "resampling_unit": "protein (uniprot_id)",
+ "seed": "[20260924, crc32(G1-0015+posthoc_STY)]",
+ "seconds": 2133.5
+}

@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+
+# data and model files are never part of the package
+*.sqlite
+*.db
+*.parquet
+*.h5
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.gz

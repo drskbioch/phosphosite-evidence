@@ -1,0 +1,275 @@
+{
+ "table_text_reconciliation": [
+  {
+   "key": "domain_overlap_human",
+   "label": "Domain overlap, human (OR)",
+   "tier_source": "source set A (human file)",
+   "species": "human",
+   "text_value": "2.494",
+   "table_value": "2.494",
+   "all_records": {
+    "n": 764881,
+    "n_gold": 157785,
+    "n_bronze": 607096,
+    "recomputed": 2.734042895888592,
+    "result_file": 2.734042895888592,
+    "abs_diff": 0.0
+   },
+   "mapped_records": {
+    "n": 637165,
+    "n_gold": 153738,
+    "n_bronze": 483427,
+    "recomputed": 2.4944443217380905,
+    "result_file": 2.4944443217380905,
+    "abs_diff": 0.0
+   },
+   "n_unmapped_excluded_result_file": 127716,
+   "n_unmapped_recomputed": 127716,
+   "text_matches": "records with an index",
+   "table_matches": "records with an index",
+   "n_analysis_matched": 637165
+  },
+  {
+   "key": "domain_overlap_annotated_only",
+   "label": "Domain overlap, annotated proteins only, human (OR)",
+   "tier_source": "source set A (human file)",
+   "species": "human",
+   "text_value": "0.586",
+   "table_value": "0.586",
+   "all_records": {
+    "n": 431558,
+    "n_gold": 147185,
+    "n_bronze": 284373,
+    "recomputed": 0.5697458836848689,
+    "result_file": 0.5697458836848689,
+    "abs_diff": 0.0
+   },
+   "mapped_records": {
+    "n": 386214,
+    "n_gold": 143906,
+    "n_bronze": 242308,
+    "recomputed": 0.5863934623342436,
+    "result_file": 0.5863934623342436,
+    "abs_diff": 0.0
+   },
+   "n_unmapped_excluded_result_file": 45344,
+   "n_unmapped_recomputed": 45344,
+   "text_matches": "records with an index",
+   "table_matches": "records with an index",
+   "n_analysis_matched": 386214
+  },
+  {
+   "key": "conservation",
+   "label": "Conservation (difference)",
+   "tier_source": "source set B (all three species)",
+   "species": "human, mouse, rat",
+   "text_value": "0.3760",
+   "table_value": "0.3986",
+   "all_records": {
+    "n": 136387,
+    "n_gold": 95973,
+    "n_bronze": 40414,
+    "recomputed": 0.37603789483997285,
+    "result_file": 0.37603789483997285,
+    "abs_diff": 0.0
+   },
+   "mapped_records": {
+    "n": 130899,
+    "n_gold": 93308,
+    "n_bronze": 37591,
+    "recomputed": 0.398641669716201,
+    "result_file": 0.398641669716201,
+    "abs_diff": 0.0
+   },
+   "n_unmapped_excluded_result_file": 5488,
+   "n_unmapped_recomputed": 5488,
+   "text_matches": "all records",
+   "table_matches": "records with an index",
+   "n_analysis_matched": 130899
+  },
+  {
+   "key": "disorder",
+   "label": "Disorder (difference)",
+   "tier_source": "source set B (all three species)",
+   "species": "human, mouse, rat",
+   "text_value": "0.0310",
+   "table_value": "0.0438",
+   "all_records": {
+    "n": 594925,
+    "n_gold": 337716,
+    "n_bronze": 257209,
+    "recomputed": 0.0310493163959088,
+    "result_file": 0.0310493163959088,
+    "abs_diff": 0.0
+   },
+   "mapped_records": {
+    "n": 536525,
+    "n_gold": 320780,
+    "n_bronze": 215745,
+    "recomputed": 0.04379096037723795,
+    "result_file": 0.04379096037723795,
+    "abs_diff": 0.0
+   },
+   "n_unmapped_excluded_result_file": 58400,
+   "n_unmapped_recomputed": 58400,
+   "text_matches": "all records",
+   "table_matches": "records with an index",
+   "n_analysis_matched": 536525
+  },
+  {
+   "key": "kinase_motif_sequence",
+   "label": "Kinase motif, sequence-based (difference)",
+   "tier_source": "source set B (all three species)",
+   "species": "human, mouse, rat",
+   "text_value": "0.0433",
+   "table_value": "0.0617",
+   "all_records": {
+    "n": 1017221,
+    "n_gold": 342439,
+    "n_bronze": 674782,
+    "recomputed": 0.04334156429067881,
+    "result_file": 0.04334156429067881,
+    "abs_diff": 0.0
+   },
+   "mapped_records": {
+    "n": 803744,
+    "n_gold": 324907,
+    "n_bronze": 478837,
+    "recomputed": 0.0617410009054663,
+    "result_file": 0.0617410009054663,
+    "abs_diff": 0.0
+   },
+   "n_unmapped_excluded_result_file": 213479,
+   "n_unmapped_recomputed": 213479,
+   "text_matches": "all records",
+   "table_matches": "records with an index",
+   "n_analysis_matched": 803787
+  },
+  {
+   "key": "kinase_motif_lookup",
+   "label": "Kinase motif, database lookup (difference)",
+   "tier_source": "source set B (all three species)",
+   "species": "human, mouse, rat",
+   "text_value": "0.7780",
+   "table_value": "0.7934",
+   "all_records": {
+    "n": 1017266,
+    "n_gold": 342439,
+    "n_bronze": 674827,
+    "recomputed": 0.7780179285086438,
+    "result_file": 0.7780179285086438,
+    "abs_diff": 0.0
+   },
+   "mapped_records": {
+    "n": 803787,
+    "n_gold": 324907,
+    "n_bronze": 478880,
+    "recomputed": 0.7933756863490911,
+    "result_file": 0.7933756863490911,
+    "abs_diff": 0.0
+   },
+   "n_unmapped_excluded_result_file": 213479,
+   "n_unmapped_recomputed": 213479,
+   "text_matches": "all records",
+   "table_matches": "records with an index",
+   "n_analysis_matched": 803787
+  }
+ ],
+ "ortholog_coverage": {
+  "n_records": 1768068,
+  "defined_all_records": [
+   284413,
+   0.1608608944904834
+  ],
+  "defined_gold_bronze_mapped_over_all_records (analysis set, text 7.4%)": [
+   130899,
+   0.07403504842573928
+  ],
+  "defined_gold_bronze_over_gold_bronze": [
+   136387,
+   0.1340721109326371
+  ],
+  "defined_human_over_human_records (limitations 12.3%)": [
+   131687,
+   0.12287387156220113,
+   1071725
+  ],
+  "defined_mouse_over_mouse_records": [
+   103465,
+   0.19366546497306483
+  ],
+  "defined_rat_over_rat_records": [
+   49261,
+   0.30389828312676975
+  ],
+  "analysis_n_in_matching_results": 130899
+ },
+ "study_clusters": {
+  "distinct_primary_cluster_labels_all_records": 1113,
+  "records_all": 1768068,
+  "records_with_label": 1768068,
+  "temporal_split_records": 1768020,
+  "distinct_primary_cluster_labels_temporal_split_records": 1070,
+  "records_not_in_temporal_split": 48,
+  "labels_only_on_records_outside_temporal_split": 43,
+  "distinct_cluster_ids_over_all_50904_pmids_under_rule_884": 50891,
+  "candidate_pmids_884": 690,
+  "multi_pmid_clusters_884": 8,
+  "candidate_clusters_884": 677,
+  "years_resolved_not_involved": true
+ },
+ "cluster_rule_sensitivity": {
+  "500": {
+   "n_candidates": 757,
+   "n_candidate_clusters": 744,
+   "n_candidates_in_multi_pmid_cluster": 21,
+   "n_multi_pmid_clusters": 8,
+   "tier_counts_study_cluster_rule": {
+    "SILVER": 750802,
+    "BRONZE": 674827,
+    "GOLD": 342439
+   },
+   "tier_counts_depth_only_rule": {
+    "BRONZE": 1021520,
+    "SILVER": 500437,
+    "GOLD": 246111
+   }
+  },
+  "884": {
+   "n_candidates": 690,
+   "n_candidate_clusters": 677,
+   "n_candidates_in_multi_pmid_cluster": 21,
+   "n_multi_pmid_clusters": 8,
+   "tier_counts_study_cluster_rule": {
+    "SILVER": 750802,
+    "BRONZE": 674827,
+    "GOLD": 342439
+   },
+   "tier_counts_depth_only_rule": {
+    "BRONZE": 1021520,
+    "SILVER": 500437,
+    "GOLD": 246111
+   }
+  },
+  "1000": {
+   "n_candidates": 674,
+   "n_candidate_clusters": 661,
+   "n_candidates_in_multi_pmid_cluster": 21,
+   "n_multi_pmid_clusters": 8,
+   "tier_counts_study_cluster_rule": {
+    "SILVER": 750802,
+    "BRONZE": 674827,
+    "GOLD": 342439
+   },
+   "tier_counts_depth_only_rule": {
+    "BRONZE": 1021520,
+    "SILVER": 500437,
+    "GOLD": 246111
+   }
+  },
+  "records_whose_depth_differs": {
+   "500_vs_884": 0,
+   "1000_vs_884": 0
+  }
+ }
+}

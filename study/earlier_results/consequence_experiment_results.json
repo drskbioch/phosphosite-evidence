@@ -1,0 +1,44 @@
+{
+  "primary": {
+    "E1": {
+      "arm": "Arm E1 -- curation-derived positives",
+      "n_pos": 809599,
+      "n_neg": 809599,
+      "prevalence": 0.5,
+      "auroc": 0.5907861479399807,
+      "auprc": 0.5628344864907067
+    },
+    "E2": {
+      "arm": "Arm E2 -- curation-independent positives",
+      "n_pos": 958421,
+      "n_neg": 958467,
+      "prevalence": 0.49998800138557914,
+      "auroc": 0.563467042271441,
+      "auprc": 0.5425148226037104
+    },
+    "delta_auroc": 0.02731910566853979,
+    "delta_auprc": 0.020319663886996242,
+    "verdict": "AMBIGUOUS ZONE (0.02-0.05) -- modest, real, not headline"
+  },
+  "sensitivity": {
+    "E1": {
+      "arm": "Arm E1 (sensitivity, full negative pool)",
+      "n_pos": 809599,
+      "n_neg": 7864299,
+      "prevalence": 0.093337389948556,
+      "auroc": 0.5907382355272377,
+      "auprc": 0.12203033417154881
+    },
+    "E2": {
+      "arm": "Arm E2 (sensitivity, full negative pool)",
+      "n_pos": 958421,
+      "n_neg": 11598348,
+      "prevalence": 0.07632703922481969,
+      "auroc": 0.5636343947671816,
+      "auprc": 0.0916174363751235
+    },
+    "delta_auroc": 0.02710384076005612,
+    "delta_auprc": 0.03041289779642531,
+    "verdict": "AMBIGUOUS ZONE (0.02-0.05)"
+  }
+}

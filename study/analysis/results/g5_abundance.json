@@ -1,0 +1,1484 @@
+{
+ "G5-0037": {
+  "signal": "S1",
+  "population": "P-abund (human)",
+  "index": "V50",
+  "n_sites": 276157,
+  "n_sites_gold": 199167,
+  "n_sites_bronze": 76990,
+  "n_proteins": 17089,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0037)]",
+  "null": 1.0,
+  "design": "D1",
+  "status": "run",
+  "estimate": 0.7108165886202238,
+  "ci": [
+   0.6703748567654773,
+   0.7534433921705572
+  ],
+  "survives": true,
+  "crude": 0.7410390122076094,
+  "crude_ci": [
+   0.7004571322377116,
+   0.7863792891271028
+  ],
+  "attenuation": -0.1389341313133081,
+  "attenuation_ci": [
+   -0.21768178148980216,
+   -0.07825055838684034
+  ],
+  "attenuation_label": "not attenuated",
+  "smd_index": 0.01030800672739056,
+  "smd_abundance": 0.4275271203615965,
+  "balance_index_pass": true,
+  "balance_abundance_pass": false,
+  "n_strata_used": 30,
+  "n_strata_dropped": 10,
+  "n_bins": 10
+ },
+ "G5-0036": {
+  "signal": "S1",
+  "population": "P-abund (human)",
+  "index": "V50",
+  "n_sites": 276157,
+  "n_sites_gold": 199167,
+  "n_sites_bronze": 76990,
+  "n_proteins": 17089,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0037)]",
+  "null": 1.0,
+  "design": "D0",
+  "status": "run",
+  "estimate": 0.7410390122076094,
+  "ci": [
+   0.7004571322377116,
+   0.7863792891271028
+  ],
+  "bootstrap_shared_with": "G5-0037"
+ },
+ "G5-0038": {
+  "signal": "S1",
+  "population": "P-abund (human)",
+  "index": "V50",
+  "n_sites": 276157,
+  "n_sites_gold": 199167,
+  "n_sites_bronze": 76990,
+  "n_proteins": 17089,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0038)]",
+  "null": 1.0,
+  "design": "D5",
+  "status": "run",
+  "estimate": 0.6516023811995172,
+  "ci": [
+   0.6167687975005791,
+   0.6906601390307948
+  ],
+  "survives": true,
+  "crude": 0.7410390122076094,
+  "crude_ci": [
+   0.6992786392895323,
+   0.7872909255449974
+  ],
+  "attenuation": -0.4291554205244024,
+  "attenuation_ci": [
+   -0.6217375288115692,
+   -0.30342247555918783
+  ],
+  "attenuation_label": "not attenuated",
+  "smd_index": 0.0588343451021754,
+  "smd_abundance": 0.015107875670092226,
+  "balance_index_pass": true,
+  "balance_abundance_pass": true,
+  "n_strata_used": 30,
+  "n_strata_dropped": 15,
+  "n_bins": 10
+ },
+ "G5-0039": {
+  "signal": "S1",
+  "population": "P-abund (human)",
+  "index": "V50",
+  "n_sites": 276157,
+  "n_sites_gold": 199167,
+  "n_sites_bronze": 76990,
+  "n_proteins": 17089,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0039)]",
+  "null": 1.0,
+  "design": "D4",
+  "status": "run",
+  "estimate": 0.6440499639511365,
+  "ci": [
+   0.6092202225468774,
+   0.6761261528735804
+  ],
+  "survives": true,
+  "crude": 0.7410390122076094,
+  "crude_ci": [
+   0.6992558791361383,
+   0.785992991763268
+  ],
+  "attenuation": -0.46805480713746894,
+  "attenuation_ci": [
+   -0.6771512753073462,
+   -0.3181244754874275
+  ],
+  "attenuation_label": "not attenuated",
+  "smd_index": 0.005039094597709979,
+  "smd_abundance": 0.013263532949927302,
+  "balance_index_pass": true,
+  "balance_abundance_pass": true,
+  "n_strata_used": 300,
+  "n_strata_dropped": 22,
+  "n_bins": [
+   10,
+   10
+  ]
+ },
+ "G5-0040": {
+  "status": "not run",
+  "reason": "domain overlap (S1) is defined for human records only"
+ },
+ "G5-0041": {
+  "status": "not run",
+  "reason": "domain overlap (S1) is defined for human records only"
+ },
+ "G5-0042": {
+  "status": "not run",
+  "reason": "domain overlap (S1) is defined for human records only"
+ },
+ "G5-0043": {
+  "status": "not run",
+  "reason": "domain overlap (S1) is defined for human records only"
+ },
+ "G5-0044": {
+  "status": "not run",
+  "reason": "domain overlap (S1) is defined for human records only"
+ },
+ "G5-0045": {
+  "status": "not run",
+  "reason": "domain overlap (S1) is defined for human records only"
+ },
+ "G5-0046": {
+  "status": "not run",
+  "reason": "domain overlap (S1) is defined for human records only"
+ },
+ "G5-0047": {
+  "status": "not run",
+  "reason": "domain overlap (S1) is defined for human records only"
+ },
+ "G5-0113": {
+  "signal": "S2",
+  "population": "P-abund (human)",
+  "index": "V50",
+  "n_sites": 66399,
+  "n_sites_gold": 49649,
+  "n_sites_bronze": 16750,
+  "n_proteins": 7876,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0113)]",
+  "null": 0.0,
+  "design": "D1",
+  "status": "run",
+  "estimate": 0.4720052286900648,
+  "ci": [
+   0.4609731431224208,
+   0.48417013424756034
+  ],
+  "survives": true,
+  "crude": 0.47552833307730713,
+  "crude_ci": [
+   0.4642681084360022,
+   0.48754066485820813
+  ],
+  "attenuation": 0.007408821183047349,
+  "attenuation_ci": [
+   0.0022615999174797926,
+   0.011874717130834784
+  ],
+  "attenuation_label": "partly attenuated (< 50%)",
+  "smd_index": 0.0076513850299435955,
+  "smd_abundance": 0.4269020008170806,
+  "balance_index_pass": true,
+  "balance_abundance_pass": false,
+  "n_strata_used": 30,
+  "n_strata_dropped": 7,
+  "n_bins": 10
+ },
+ "G5-0112": {
+  "signal": "S2",
+  "population": "P-abund (human)",
+  "index": "V50",
+  "n_sites": 66399,
+  "n_sites_gold": 49649,
+  "n_sites_bronze": 16750,
+  "n_proteins": 7876,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0113)]",
+  "null": 0.0,
+  "design": "D0",
+  "status": "run",
+  "estimate": 0.47552833307730713,
+  "ci": [
+   0.4642681084360022,
+   0.48754066485820813
+  ],
+  "bootstrap_shared_with": "G5-0113"
+ },
+ "G5-0114": {
+  "signal": "S2",
+  "population": "P-abund (human)",
+  "index": "V50",
+  "n_sites": 66399,
+  "n_sites_gold": 49649,
+  "n_sites_bronze": 16750,
+  "n_proteins": 7876,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0114)]",
+  "null": 0.0,
+  "design": "D5",
+  "status": "run",
+  "estimate": 0.4736683908855708,
+  "ci": [
+   0.4621658863177547,
+   0.4854898056722553
+  ],
+  "survives": true,
+  "crude": 0.47552833307730713,
+  "crude_ci": [
+   0.46398162609390275,
+   0.48694641422155166
+  ],
+  "attenuation": 0.003911317291443031,
+  "attenuation_ci": [
+   -0.006237634859221885,
+   0.013751671763108732
+  ],
+  "attenuation_label": "partly attenuated (< 50%)",
+  "smd_index": 0.0694487747566858,
+  "smd_abundance": 0.021253202885986318,
+  "balance_index_pass": true,
+  "balance_abundance_pass": true,
+  "n_strata_used": 30,
+  "n_strata_dropped": 7,
+  "n_bins": 10
+ },
+ "G5-0115": {
+  "signal": "S2",
+  "population": "P-abund (human)",
+  "index": "V50",
+  "n_sites": 66399,
+  "n_sites_gold": 49649,
+  "n_sites_bronze": 16750,
+  "n_proteins": 7876,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0115)]",
+  "null": 0.0,
+  "design": "D4",
+  "status": "run",
+  "estimate": 0.4753327062475722,
+  "ci": [
+   0.46436539899221385,
+   0.4878042941079343
+  ],
+  "survives": true,
+  "crude": 0.47552833307730713,
+  "crude_ci": [
+   0.46433337959578497,
+   0.4880213399337814
+  ],
+  "attenuation": 0.00041138837820447696,
+  "attenuation_ci": [
+   -0.013150746229427995,
+   0.013354031446987236
+  ],
+  "attenuation_label": "partly attenuated (< 50%)",
+  "smd_index": 0.002446647623755994,
+  "smd_abundance": 0.01892525356454835,
+  "balance_index_pass": true,
+  "balance_abundance_pass": true,
+  "n_strata_used": 300,
+  "n_strata_dropped": 10,
+  "n_bins": [
+   10,
+   10
+  ]
+ },
+ "G5-0117": {
+  "signal": "S2",
+  "population": "P-abund (mouse)",
+  "index": "V50",
+  "n_sites": 49306,
+  "n_sites_gold": 34528,
+  "n_sites_bronze": 14778,
+  "n_proteins": 6756,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0117)]",
+  "null": 0.0,
+  "design": "D1",
+  "status": "run",
+  "estimate": 0.4319221517721251,
+  "ci": [
+   0.4185721794994432,
+   0.4446458494015548
+  ],
+  "survives": true,
+  "crude": 0.43522866019811784,
+  "crude_ci": [
+   0.4223229714876376,
+   0.44780298038730715
+  ],
+  "attenuation": 0.007597175297434666,
+  "attenuation_ci": [
+   0.0013451062322993135,
+   0.014649110907666293
+  ],
+  "attenuation_label": "partly attenuated (< 50%)",
+  "smd_index": -0.0029680883138748964,
+  "smd_abundance": 0.31063001957962816,
+  "balance_index_pass": true,
+  "balance_abundance_pass": false,
+  "n_strata_used": 30,
+  "n_strata_dropped": 2,
+  "n_bins": 10
+ },
+ "G5-0116": {
+  "signal": "S2",
+  "population": "P-abund (mouse)",
+  "index": "V50",
+  "n_sites": 49306,
+  "n_sites_gold": 34528,
+  "n_sites_bronze": 14778,
+  "n_proteins": 6756,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0117)]",
+  "null": 0.0,
+  "design": "D0",
+  "status": "run",
+  "estimate": 0.43522866019811784,
+  "ci": [
+   0.4223229714876376,
+   0.44780298038730715
+  ],
+  "bootstrap_shared_with": "G5-0117"
+ },
+ "G5-0118": {
+  "signal": "S2",
+  "population": "P-abund (mouse)",
+  "index": "V50",
+  "n_sites": 49306,
+  "n_sites_gold": 34528,
+  "n_sites_bronze": 14778,
+  "n_proteins": 6756,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0118)]",
+  "null": 0.0,
+  "design": "D5",
+  "status": "run",
+  "estimate": 0.41609117366612985,
+  "ci": [
+   0.40325016385502227,
+   0.42976998209477585
+  ],
+  "survives": true,
+  "crude": 0.43522866019811784,
+  "crude_ci": [
+   0.42242079267062876,
+   0.4480439215514647
+  ],
+  "attenuation": 0.04397110825210024,
+  "attenuation_ci": [
+   0.033357827574631016,
+   0.05540464963444581
+  ],
+  "attenuation_label": "partly attenuated (< 50%)",
+  "smd_index": 0.08156080289212095,
+  "smd_abundance": 0.017339688846816036,
+  "balance_index_pass": true,
+  "balance_abundance_pass": true,
+  "n_strata_used": 30,
+  "n_strata_dropped": 2,
+  "n_bins": 10
+ },
+ "G5-0119": {
+  "signal": "S2",
+  "population": "P-abund (mouse)",
+  "index": "V50",
+  "n_sites": 49306,
+  "n_sites_gold": 34528,
+  "n_sites_bronze": 14778,
+  "n_proteins": 6756,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0119)]",
+  "null": 0.0,
+  "design": "D4",
+  "status": "run",
+  "estimate": 0.41442265724329264,
+  "ci": [
+   0.40037056502694995,
+   0.42767423244341984
+  ],
+  "survives": true,
+  "crude": 0.43522866019811784,
+  "crude_ci": [
+   0.42235223389509274,
+   0.4477003648160673
+  ],
+  "attenuation": 0.047804763007459644,
+  "attenuation_ci": [
+   0.032077114261833115,
+   0.06431040237818893
+  ],
+  "attenuation_label": "partly attenuated (< 50%)",
+  "smd_index": -0.00432589291535552,
+  "smd_abundance": 0.01660818227431341,
+  "balance_index_pass": true,
+  "balance_abundance_pass": true,
+  "n_strata_used": 299,
+  "n_strata_dropped": 3,
+  "n_bins": [
+   10,
+   10
+  ]
+ },
+ "G5-0121": {
+  "signal": "S2",
+  "population": "P-abund (rat)",
+  "index": "V50",
+  "n_sites": 9893,
+  "n_sites_gold": 7880,
+  "n_sites_bronze": 2013,
+  "n_proteins": 2531,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0121)]",
+  "null": 0.0,
+  "design": "D1",
+  "status": "run",
+  "estimate": 0.13943318041068664,
+  "ci": [
+   0.10878488804424209,
+   0.1718044899491501
+  ],
+  "survives": true,
+  "crude": 0.1473028109168576,
+  "crude_ci": [
+   0.11744172204690048,
+   0.18029552255875497
+  ],
+  "attenuation": 0.05342484951365134,
+  "attenuation_ci": [
+   -0.09990602972308642,
+   0.17480494497409485
+  ],
+  "attenuation_label": "partly attenuated (< 50%)",
+  "smd_index": 0.01669399664489624,
+  "smd_abundance": 0.43562966760701677,
+  "balance_index_pass": true,
+  "balance_abundance_pass": false,
+  "n_strata_used": 30,
+  "n_strata_dropped": 1,
+  "n_bins": 10
+ },
+ "G5-0120": {
+  "signal": "S2",
+  "population": "P-abund (rat)",
+  "index": "V50",
+  "n_sites": 9893,
+  "n_sites_gold": 7880,
+  "n_sites_bronze": 2013,
+  "n_proteins": 2531,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0121)]",
+  "null": 0.0,
+  "design": "D0",
+  "status": "run",
+  "estimate": 0.1473028109168576,
+  "ci": [
+   0.11744172204690048,
+   0.18029552255875497
+  ],
+  "bootstrap_shared_with": "G5-0121"
+ },
+ "G5-0122": {
+  "signal": "S2",
+  "population": "P-abund (rat)",
+  "index": "V50",
+  "n_sites": 9893,
+  "n_sites_gold": 7880,
+  "n_sites_bronze": 2013,
+  "n_proteins": 2531,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0122)]",
+  "null": 0.0,
+  "design": "D5",
+  "status": "run",
+  "estimate": 0.11030949733692852,
+  "ci": [
+   0.08632117170682409,
+   0.147945671662922
+  ],
+  "survives": true,
+  "crude": 0.1473028109168576,
+  "crude_ci": [
+   0.11640367320149159,
+   0.1791771903036954
+  ],
+  "attenuation": 0.2511378659352895,
+  "attenuation_ci": [
+   0.0689099564969709,
+   0.34396069538629076
+  ],
+  "attenuation_label": "partly attenuated (< 50%)",
+  "smd_index": 0.19330001353533444,
+  "smd_abundance": 0.009069377886737636,
+  "balance_index_pass": false,
+  "balance_abundance_pass": true,
+  "n_strata_used": 30,
+  "n_strata_dropped": 1,
+  "n_bins": 10
+ },
+ "G5-0123": {
+  "signal": "S2",
+  "population": "P-abund (rat)",
+  "index": "V50",
+  "n_sites": 9893,
+  "n_sites_gold": 7880,
+  "n_sites_bronze": 2013,
+  "n_proteins": 2531,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0123)]",
+  "null": 0.0,
+  "design": "D4",
+  "status": "run",
+  "estimate": 0.12345909678695166,
+  "ci": [
+   0.09542484442229433,
+   0.156625460900842
+  ],
+  "survives": true,
+  "crude": 0.1473028109168576,
+  "crude_ci": [
+   0.11697443542824426,
+   0.18094247752152118
+  ],
+  "attenuation": 0.16186869742332405,
+  "attenuation_ci": [
+   -0.07386492873715222,
+   0.3412675313113488
+  ],
+  "attenuation_label": "partly attenuated (< 50%)",
+  "smd_index": 0.019565986729608267,
+  "smd_abundance": 0.004104088531404919,
+  "balance_index_pass": true,
+  "balance_abundance_pass": true,
+  "n_strata_used": 250,
+  "n_strata_dropped": 48,
+  "n_bins": [
+   10,
+   10
+  ]
+ },
+ "G5-0189": {
+  "signal": "S3",
+  "population": "P-abund (human)",
+  "index": "V50",
+  "n_sites": 274751,
+  "n_sites_gold": 198910,
+  "n_sites_bronze": 75841,
+  "n_proteins": 16825,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0189)]",
+  "null": 0.0,
+  "design": "D1",
+  "status": "run",
+  "estimate": 0.13517319137957629,
+  "ci": [
+   0.12789268221987898,
+   0.14133476521090568
+  ],
+  "survives": true,
+  "crude": 0.13619246062712898,
+  "crude_ci": [
+   0.1294489357331098,
+   0.1422182860027558
+  ],
+  "attenuation": 0.007484035774515228,
+  "attenuation_ci": [
+   -0.0049845799841656754,
+   0.02046732130189264
+  ],
+  "attenuation_label": "partly attenuated (< 50%)",
+  "smd_index": 0.010469411334365845,
+  "smd_abundance": 0.42406416937868097,
+  "balance_index_pass": true,
+  "balance_abundance_pass": false,
+  "n_strata_used": 30,
+  "n_strata_dropped": 10,
+  "n_bins": 10
+ },
+ "G5-0188": {
+  "signal": "S3",
+  "population": "P-abund (human)",
+  "index": "V50",
+  "n_sites": 274751,
+  "n_sites_gold": 198910,
+  "n_sites_bronze": 75841,
+  "n_proteins": 16825,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0189)]",
+  "null": 0.0,
+  "design": "D0",
+  "status": "run",
+  "estimate": 0.13619246062712898,
+  "ci": [
+   0.1294489357331098,
+   0.1422182860027558
+  ],
+  "bootstrap_shared_with": "G5-0189"
+ },
+ "G5-0190": {
+  "signal": "S3",
+  "population": "P-abund (human)",
+  "index": "V50",
+  "n_sites": 274751,
+  "n_sites_gold": 198910,
+  "n_sites_bronze": 75841,
+  "n_proteins": 16825,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0190)]",
+  "null": 0.0,
+  "design": "D5",
+  "status": "run",
+  "estimate": 0.14192251785195853,
+  "ci": [
+   0.1353215173790775,
+   0.14847774789851076
+  ],
+  "survives": true,
+  "crude": 0.13619246062712898,
+  "crude_ci": [
+   0.12939629015885146,
+   0.14247007685651902
+  ],
+  "attenuation": -0.04207323370503926,
+  "attenuation_ci": [
+   -0.06615629582038664,
+   -0.02031241981993171
+  ],
+  "attenuation_label": "not attenuated",
+  "smd_index": 0.05424130390711663,
+  "smd_abundance": 0.014594633782861919,
+  "balance_index_pass": true,
+  "balance_abundance_pass": true,
+  "n_strata_used": 30,
+  "n_strata_dropped": 15,
+  "n_bins": 10
+ },
+ "G5-0191": {
+  "signal": "S3",
+  "population": "P-abund (human)",
+  "index": "V50",
+  "n_sites": 274751,
+  "n_sites_gold": 198910,
+  "n_sites_bronze": 75841,
+  "n_proteins": 16825,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0191)]",
+  "null": 0.0,
+  "design": "D4",
+  "status": "run",
+  "estimate": 0.14255529306658932,
+  "ci": [
+   0.1370764063615821,
+   0.14868021714069582
+  ],
+  "survives": true,
+  "crude": 0.13619246062712898,
+  "crude_ci": [
+   0.13014571558350307,
+   0.1425616666801798
+  ],
+  "attenuation": -0.046719417581276096,
+  "attenuation_ci": [
+   -0.07063880825060631,
+   -0.021302285160067446
+  ],
+  "attenuation_label": "not attenuated",
+  "smd_index": 0.0051133527729578295,
+  "smd_abundance": 0.013023181623981884,
+  "balance_index_pass": true,
+  "balance_abundance_pass": true,
+  "n_strata_used": 300,
+  "n_strata_dropped": 22,
+  "n_bins": [
+   10,
+   10
+  ]
+ },
+ "G5-0193": {
+  "signal": "S3",
+  "population": "P-abund (mouse)",
+  "index": "V50",
+  "n_sites": 133314,
+  "n_sites_gold": 89573,
+  "n_sites_bronze": 43741,
+  "n_proteins": 12457,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0193)]",
+  "null": 0.0,
+  "design": "D1",
+  "status": "run",
+  "estimate": 0.09008914751204478,
+  "ci": [
+   0.08353567939213073,
+   0.0967856692242529
+  ],
+  "survives": true,
+  "crude": 0.09686381965028823,
+  "crude_ci": [
+   0.0899755294878733,
+   0.1036943898299358
+  ],
+  "attenuation": 0.0699401712910182,
+  "attenuation_ci": [
+   0.05241005565928038,
+   0.0860405609501083
+  ],
+  "attenuation_label": "partly attenuated (< 50%)",
+  "smd_index": 0.005619108270447365,
+  "smd_abundance": 0.3844955010197863,
+  "balance_index_pass": true,
+  "balance_abundance_pass": false,
+  "n_strata_used": 30,
+  "n_strata_dropped": 3,
+  "n_bins": 10
+ },
+ "G5-0192": {
+  "signal": "S3",
+  "population": "P-abund (mouse)",
+  "index": "V50",
+  "n_sites": 133314,
+  "n_sites_gold": 89573,
+  "n_sites_bronze": 43741,
+  "n_proteins": 12457,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0193)]",
+  "null": 0.0,
+  "design": "D0",
+  "status": "run",
+  "estimate": 0.09686381965028823,
+  "ci": [
+   0.0899755294878733,
+   0.1036943898299358
+  ],
+  "bootstrap_shared_with": "G5-0193"
+ },
+ "G5-0194": {
+  "signal": "S3",
+  "population": "P-abund (mouse)",
+  "index": "V50",
+  "n_sites": 133314,
+  "n_sites_gold": 89573,
+  "n_sites_bronze": 43741,
+  "n_proteins": 12457,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0194)]",
+  "null": 0.0,
+  "design": "D5",
+  "status": "run",
+  "estimate": 0.08956224039090921,
+  "ci": [
+   0.08343607962777201,
+   0.0957335519991825
+  ],
+  "survives": true,
+  "crude": 0.09686381965028823,
+  "crude_ci": [
+   0.09063620101956917,
+   0.10392082882280551
+  ],
+  "attenuation": 0.07537984033398887,
+  "attenuation_ci": [
+   0.04791790021239576,
+   0.10226461436144506
+  ],
+  "attenuation_label": "partly attenuated (< 50%)",
+  "smd_index": 0.07580479674486963,
+  "smd_abundance": 0.017846386829987997,
+  "balance_index_pass": true,
+  "balance_abundance_pass": true,
+  "n_strata_used": 30,
+  "n_strata_dropped": 3,
+  "n_bins": 10
+ },
+ "G5-0195": {
+  "signal": "S3",
+  "population": "P-abund (mouse)",
+  "index": "V50",
+  "n_sites": 133314,
+  "n_sites_gold": 89573,
+  "n_sites_bronze": 43741,
+  "n_proteins": 12457,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0195)]",
+  "null": 0.0,
+  "design": "D4",
+  "status": "run",
+  "estimate": 0.08967689371124166,
+  "ci": [
+   0.08371064791165882,
+   0.09496190435210075
+  ],
+  "survives": true,
+  "crude": 0.09686381965028823,
+  "crude_ci": [
+   0.09066033143353414,
+   0.1032387687688188
+  ],
+  "attenuation": 0.07419618558295402,
+  "attenuation_ci": [
+   0.040935102677798166,
+   0.11076479424006233
+  ],
+  "attenuation_label": "partly attenuated (< 50%)",
+  "smd_index": 0.0014116708826317282,
+  "smd_abundance": 0.016395347805592354,
+  "balance_index_pass": true,
+  "balance_abundance_pass": true,
+  "n_strata_used": 300,
+  "n_strata_dropped": 3,
+  "n_bins": [
+   10,
+   10
+  ]
+ },
+ "G5-0197": {
+  "signal": "S3",
+  "population": "P-abund (rat)",
+  "index": "V50",
+  "n_sites": 23650,
+  "n_sites_gold": 17359,
+  "n_sites_bronze": 6291,
+  "n_proteins": 4577,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0197)]",
+  "null": 0.0,
+  "design": "D1",
+  "status": "run",
+  "estimate": 0.03201997393394773,
+  "ci": [
+   0.01632330564530744,
+   0.05171276590312023
+  ],
+  "survives": true,
+  "crude": 0.020340593762861903,
+  "crude_ci": [
+   0.0025528307981494414,
+   0.0383530887898159
+  ],
+  "attenuation": -0.5741907196637583,
+  "attenuation_ci": [
+   -4.829720746390001,
+   -0.05469818067420017
+  ],
+  "attenuation_label": "not attenuated",
+  "smd_index": 0.015677325193443007,
+  "smd_abundance": 0.5107631638844619,
+  "balance_index_pass": true,
+  "balance_abundance_pass": false,
+  "n_strata_used": 30,
+  "n_strata_dropped": 2,
+  "n_bins": 10
+ },
+ "G5-0196": {
+  "signal": "S3",
+  "population": "P-abund (rat)",
+  "index": "V50",
+  "n_sites": 23650,
+  "n_sites_gold": 17359,
+  "n_sites_bronze": 6291,
+  "n_proteins": 4577,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0197)]",
+  "null": 0.0,
+  "design": "D0",
+  "status": "run",
+  "estimate": 0.020340593762861903,
+  "ci": [
+   0.0025528307981494414,
+   0.0383530887898159
+  ],
+  "bootstrap_shared_with": "G5-0197"
+ },
+ "G5-0198": {
+  "signal": "S3",
+  "population": "P-abund (rat)",
+  "index": "V50",
+  "n_sites": 23650,
+  "n_sites_gold": 17359,
+  "n_sites_bronze": 6291,
+  "n_proteins": 4577,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0198)]",
+  "null": 0.0,
+  "design": "D5",
+  "status": "run",
+  "estimate": 0.035654915633165585,
+  "ci": [
+   0.01774491398977847,
+   0.05692556378434847
+  ],
+  "survives": true,
+  "crude": 0.020340593762861903,
+  "crude_ci": [
+   0.001340579328598493,
+   0.03817979731669704
+  ],
+  "attenuation": -0.7528945343898835,
+  "attenuation_ci": [
+   -5.742812564375001,
+   -0.09138993097581057
+  ],
+  "attenuation_label": "not attenuated",
+  "smd_index": 0.2821350638218299,
+  "smd_abundance": 0.011967389910506018,
+  "balance_index_pass": false,
+  "balance_abundance_pass": true,
+  "n_strata_used": 30,
+  "n_strata_dropped": 2,
+  "n_bins": 10
+ },
+ "G5-0199": {
+  "signal": "S3",
+  "population": "P-abund (rat)",
+  "index": "V50",
+  "n_sites": 23650,
+  "n_sites_gold": 17359,
+  "n_sites_bronze": 6291,
+  "n_proteins": 4577,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0199)]",
+  "null": 0.0,
+  "design": "D4",
+  "status": "run",
+  "estimate": 0.05953679612876328,
+  "ci": [
+   0.04493529875463458,
+   0.0798847444052712
+  ],
+  "survives": true,
+  "crude": 0.020340593762861903,
+  "crude_ci": [
+   0.001248230182348664,
+   0.0378476436966246
+  ],
+  "attenuation": -1.9269940112302064,
+  "attenuation_ci": [
+   -15.072687319094017,
+   -0.7314136599646789
+  ],
+  "attenuation_label": "not attenuated",
+  "smd_index": 0.006820964430109648,
+  "smd_abundance": 0.004888856295733039,
+  "balance_index_pass": true,
+  "balance_abundance_pass": true,
+  "n_strata_used": 288,
+  "n_strata_dropped": 14,
+  "n_bins": [
+   10,
+   10
+  ]
+ },
+ "G5-0265": {
+  "signal": "S4",
+  "population": "P-abund (human)",
+  "index": "V50",
+  "n_sites": 276123,
+  "n_sites_gold": 199167,
+  "n_sites_bronze": 76956,
+  "n_proteins": 17088,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0265)]",
+  "null": 0.0,
+  "design": "D1",
+  "status": "run",
+  "estimate": 0.10406346315618953,
+  "ci": [
+   0.09909906433780225,
+   0.1090797698401241
+  ],
+  "survives": true,
+  "crude": 0.1005616323532813,
+  "crude_ci": [
+   0.09570407738518487,
+   0.10542124167182626
+  ],
+  "attenuation": -0.03482273229819901,
+  "attenuation_ci": [
+   -0.04908817819572806,
+   -0.023228868717130924
+  ],
+  "attenuation_label": "not attenuated",
+  "smd_index": 0.01030800672739056,
+  "smd_abundance": 0.4275271203615965,
+  "balance_index_pass": true,
+  "balance_abundance_pass": false,
+  "n_strata_used": 30,
+  "n_strata_dropped": 0,
+  "n_bins": 10
+ },
+ "G5-0264": {
+  "signal": "S4",
+  "population": "P-abund (human)",
+  "index": "V50",
+  "n_sites": 276123,
+  "n_sites_gold": 199167,
+  "n_sites_bronze": 76956,
+  "n_proteins": 17088,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0265)]",
+  "null": 0.0,
+  "design": "D0",
+  "status": "run",
+  "estimate": 0.1005616323532813,
+  "ci": [
+   0.09570407738518487,
+   0.10542124167182626
+  ],
+  "bootstrap_shared_with": "G5-0265"
+ },
+ "G5-0266": {
+  "signal": "S4",
+  "population": "P-abund (human)",
+  "index": "V50",
+  "n_sites": 276123,
+  "n_sites_gold": 199167,
+  "n_sites_bronze": 76956,
+  "n_proteins": 17088,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0266)]",
+  "null": 0.0,
+  "design": "D5",
+  "status": "run",
+  "estimate": 0.1108575148156502,
+  "ci": [
+   0.10597207855541814,
+   0.11663308975197774
+  ],
+  "survives": true,
+  "crude": 0.1005616323532813,
+  "crude_ci": [
+   0.09583408390830776,
+   0.10556038234760455
+  ],
+  "attenuation": -0.10238380405559265,
+  "attenuation_ci": [
+   -0.12677335262053768,
+   -0.0813701471718664
+  ],
+  "attenuation_label": "not attenuated",
+  "smd_index": 0.0588343451021754,
+  "smd_abundance": 0.015107875670092226,
+  "balance_index_pass": true,
+  "balance_abundance_pass": true,
+  "n_strata_used": 30,
+  "n_strata_dropped": 0,
+  "n_bins": 10
+ },
+ "G5-0267": {
+  "signal": "S4",
+  "population": "P-abund (human)",
+  "index": "V50",
+  "n_sites": 276123,
+  "n_sites_gold": 199167,
+  "n_sites_bronze": 76956,
+  "n_proteins": 17088,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0267)]",
+  "null": 0.0,
+  "design": "D4",
+  "status": "run",
+  "estimate": 0.11201476595417309,
+  "ci": [
+   0.10741331265191773,
+   0.1174153001574761
+  ],
+  "survives": true,
+  "crude": 0.1005616323532813,
+  "crude_ci": [
+   0.09606104983218079,
+   0.1051876063547657
+  ],
+  "attenuation": -0.11389168346687116,
+  "attenuation_ci": [
+   -0.14120105095146843,
+   -0.09058079728477623
+  ],
+  "attenuation_label": "not attenuated",
+  "smd_index": 0.005039094597709979,
+  "smd_abundance": 0.013263532949927302,
+  "balance_index_pass": true,
+  "balance_abundance_pass": true,
+  "n_strata_used": 300,
+  "n_strata_dropped": 0,
+  "n_bins": [
+   10,
+   10
+  ]
+ },
+ "G5-0269": {
+  "signal": "S4",
+  "population": "P-abund (mouse)",
+  "index": "V50",
+  "n_sites": 135522,
+  "n_sites_gold": 89722,
+  "n_sites_bronze": 45800,
+  "n_proteins": 13177,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0269)]",
+  "null": 0.0,
+  "design": "D1",
+  "status": "run",
+  "estimate": 0.1783589379243482,
+  "ci": [
+   0.1720836856318202,
+   0.1856477476004526
+  ],
+  "survives": true,
+  "crude": 0.18032556458479365,
+  "crude_ci": [
+   0.1739652509047202,
+   0.18746171688341123
+  ],
+  "attenuation": 0.01090597811227531,
+  "attenuation_ci": [
+   0.0028757332385754317,
+   0.018342994956082697
+  ],
+  "attenuation_label": "partly attenuated (< 50%)",
+  "smd_index": 0.006375698231435156,
+  "smd_abundance": 0.4064812981642067,
+  "balance_index_pass": true,
+  "balance_abundance_pass": false,
+  "n_strata_used": 30,
+  "n_strata_dropped": 0,
+  "n_bins": 10
+ },
+ "G5-0268": {
+  "signal": "S4",
+  "population": "P-abund (mouse)",
+  "index": "V50",
+  "n_sites": 135522,
+  "n_sites_gold": 89722,
+  "n_sites_bronze": 45800,
+  "n_proteins": 13177,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0269)]",
+  "null": 0.0,
+  "design": "D0",
+  "status": "run",
+  "estimate": 0.18032556458479365,
+  "ci": [
+   0.1739652509047202,
+   0.18746171688341123
+  ],
+  "bootstrap_shared_with": "G5-0269"
+ },
+ "G5-0270": {
+  "signal": "S4",
+  "population": "P-abund (mouse)",
+  "index": "V50",
+  "n_sites": 135522,
+  "n_sites_gold": 89722,
+  "n_sites_bronze": 45800,
+  "n_proteins": 13177,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0270)]",
+  "null": 0.0,
+  "design": "D5",
+  "status": "run",
+  "estimate": 0.1843856050998104,
+  "ci": [
+   0.17743166959202983,
+   0.19128417280457524
+  ],
+  "survives": true,
+  "crude": 0.18032556458479365,
+  "crude_ci": [
+   0.1736620211400428,
+   0.18655614019267533
+  ],
+  "attenuation": -0.02251505783090231,
+  "attenuation_ci": [
+   -0.035073126915446375,
+   -0.007184161589436394
+  ],
+  "attenuation_label": "not attenuated",
+  "smd_index": 0.0866407145669103,
+  "smd_abundance": 0.017290517845494995,
+  "balance_index_pass": true,
+  "balance_abundance_pass": true,
+  "n_strata_used": 30,
+  "n_strata_dropped": 0,
+  "n_bins": 10
+ },
+ "G5-0271": {
+  "signal": "S4",
+  "population": "P-abund (mouse)",
+  "index": "V50",
+  "n_sites": 135522,
+  "n_sites_gold": 89722,
+  "n_sites_bronze": 45800,
+  "n_proteins": 13177,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0271)]",
+  "null": 0.0,
+  "design": "D4",
+  "status": "run",
+  "estimate": 0.18479115867100682,
+  "ci": [
+   0.17715010502507145,
+   0.19173830694812521
+  ],
+  "survives": true,
+  "crude": 0.18032556458479365,
+  "crude_ci": [
+   0.17330236387685832,
+   0.18704135294070343
+  ],
+  "attenuation": -0.02476406546401428,
+  "attenuation_ci": [
+   -0.040644783028147585,
+   -0.008137951815166109
+  ],
+  "attenuation_label": "not attenuated",
+  "smd_index": 0.002731965139453203,
+  "smd_abundance": 0.015547142577130541,
+  "balance_index_pass": true,
+  "balance_abundance_pass": true,
+  "n_strata_used": 300,
+  "n_strata_dropped": 0,
+  "n_bins": [
+   10,
+   10
+  ]
+ },
+ "G5-0273": {
+  "signal": "S4",
+  "population": "P-abund (rat)",
+  "index": "V50",
+  "n_sites": 24266,
+  "n_sites_gold": 17391,
+  "n_sites_bronze": 6875,
+  "n_proteins": 4759,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0273)]",
+  "null": 0.0,
+  "design": "D1",
+  "status": "run",
+  "estimate": 0.20091512223891095,
+  "ci": [
+   0.17551401659842575,
+   0.2192831591915679
+  ],
+  "survives": true,
+  "crude": 0.20050573285032486,
+  "crude_ci": [
+   0.18015215274153992,
+   0.2181110054274159
+  ],
+  "attenuation": -0.0020417839568292757,
+  "attenuation_ci": [
+   -0.03941996022143211,
+   0.05966467833329266
+  ],
+  "attenuation_label": "not attenuated",
+  "smd_index": 0.011826651639267587,
+  "smd_abundance": 0.5280298867124888,
+  "balance_index_pass": true,
+  "balance_abundance_pass": false,
+  "n_strata_used": 30,
+  "n_strata_dropped": 0,
+  "n_bins": 10
+ },
+ "G5-0272": {
+  "signal": "S4",
+  "population": "P-abund (rat)",
+  "index": "V50",
+  "n_sites": 24266,
+  "n_sites_gold": 17391,
+  "n_sites_bronze": 6875,
+  "n_proteins": 4759,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0273)]",
+  "null": 0.0,
+  "design": "D0",
+  "status": "run",
+  "estimate": 0.20050573285032486,
+  "ci": [
+   0.18015215274153992,
+   0.2181110054274159
+  ],
+  "bootstrap_shared_with": "G5-0273"
+ },
+ "G5-0274": {
+  "signal": "S4",
+  "population": "P-abund (rat)",
+  "index": "V50",
+  "n_sites": 24266,
+  "n_sites_gold": 17391,
+  "n_sites_bronze": 6875,
+  "n_proteins": 4759,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0274)]",
+  "null": 0.0,
+  "design": "D5",
+  "status": "run",
+  "estimate": 0.22079209989528992,
+  "ci": [
+   0.19966226640424176,
+   0.24213937201313604
+  ],
+  "survives": true,
+  "crude": 0.20050573285032486,
+  "crude_ci": [
+   0.18233123968577264,
+   0.21913091259435727
+  ],
+  "attenuation": -0.10117599510288611,
+  "attenuation_ci": [
+   -0.15862469020324169,
+   -0.033472076004925376
+  ],
+  "attenuation_label": "not attenuated",
+  "smd_index": 0.29523221249662734,
+  "smd_abundance": 0.010772432670738057,
+  "balance_index_pass": false,
+  "balance_abundance_pass": true,
+  "n_strata_used": 30,
+  "n_strata_dropped": 0,
+  "n_bins": 10
+ },
+ "G5-0275": {
+  "signal": "S4",
+  "population": "P-abund (rat)",
+  "index": "V50",
+  "n_sites": 24266,
+  "n_sites_gold": 17391,
+  "n_sites_bronze": 6875,
+  "n_proteins": 4759,
+  "n_boot": 1000,
+  "n_boot_valid": 1000,
+  "resampling_unit": "protein (uniprot_id)",
+  "seed": "[20260924, crc32(G5-0275)]",
+  "null": 0.0,
+  "design": "D4",
+  "status": "run",
+  "estimate": 0.2067174156436108,
+  "ci": [
+   0.18568997784522853,
+   0.23404101618465947
+  ],
+  "survives": true,
+  "crude": 0.20050573285032486,
+  "crude_ci": [
+   0.1818391454611428,
+   0.21856423913545375
+  ],
+  "attenuation": -0.030980075756351966,
+  "attenuation_ci": [
+   -0.14796692758001026,
+   0.05765043817164208
+  ],
+  "attenuation_label": "not attenuated",
+  "smd_index": 0.004710244359381186,
+  "smd_abundance": 0.004043445256630828,
+  "balance_index_pass": true,
+  "balance_abundance_pass": true,
+  "n_strata_used": 292,
+  "n_strata_dropped": 8,
+  "n_bins": [
+   10,
+   10
+  ]
+ }
+}

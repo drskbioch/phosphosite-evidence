@@ -1,0 +1,32 @@
+{
+  "DeepPhos": {
+    "paper": "Luo F, Wang M, Liu Y, Zhao X-M, Li A. DeepPhos: prediction of protein phosphorylation sites with deep learning. Bioinformatics 2019;35(16):2766-2773",
+    "first_published_online": "2019-01-02",
+    "repository": "https://github.com/USTC-HIlab/DeepPhos",
+    "scored_checkout": "6f94394 (2019-03-16)",
+    "training_data_sources": "Phospho.ELM, PhosphoSitePlus, HPRD, dbPTM 3.0, SysPTM; sequence redundancy reduced with CD-HIT at 40% similarity",
+    "training_data_cutoff": "not stated in the paper or repository",
+    "year_used_for_restriction": 2019,
+    "basis": "publication year of the version scored; positives first reported after this year cannot have entered the training data"
+  },
+  "MusiteDeep": {
+    "paper": "Wang D, Liu D, Yuchi J, He F, Jiang Y, Cai S, Li J, Xu D. MusiteDeep: a deep-learning based webserver for protein post-translational modification site prediction and visualization. Nucleic Acids Res 2020;48(W1):W140-W146",
+    "repository": "https://github.com/duolinwang/MusiteDeep_web (created 2019-11-20)",
+    "scored_checkout": "cca9f0c (2020-12-04); models Phosphoserine_Phosphothreonine and Phosphotyrosine",
+    "training_data_sources": "not stated for the deployed phosphorylation models (the paper describes a benchmark using UniProtKB/Swiss-Prot sequences before 2010 for training and later annotations for testing)",
+    "training_data_cutoff": "not stated for the deployed models",
+    "year_used_for_restriction": 2020,
+    "basis": "publication year of the web-server version scored; the earlier 2017 MusiteDeep paper describes a previous version and is not the version scored"
+  },
+  "PhosF3C": {
+    "preprint": "Liu Y et al. PhosF3C. bioRxiv 2024-12-25 (doi 10.1101/2024.12.25.630296)",
+    "published": "Liu Y et al. Brief Bioinform 2025;26(3):bbaf242 (accepted 2025-05-01)",
+    "repository": "https://github.com/SkywalkerLuke/PhosF3C (created 2024-12-06, last push 2024-12-18)",
+    "scored_weights": "checkpoints linked from the repository README (tyrosine checkpoint only was scored)",
+    "training_data_sources": "general data set fused from the MusiteDeep and DeepPSP data sets (UniProt/Swiss-Prot, PhosphoSitePlus, Phospho.ELM)",
+    "training_data_cutoff": "not stated",
+    "year_used_for_restriction": 2024,
+    "basis": "year of the earliest public description of the version scored (preprint and repository, December 2024); the peer-reviewed paper appeared in 2025"
+  },
+  "note": "No tool states the date on which its training data collection ended. The restriction to positives first reported after the publication year is therefore conservative: it excludes every positive that could have been present at training and some that were not."
+}

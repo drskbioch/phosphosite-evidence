@@ -1,0 +1,27 @@
+{
+ "reviewed_accessions_in_site_table": 40655,
+ "gene_clusters_with_more_than_one_reviewed_accession": 65,
+ "accessions_kept": 40583,
+ "human": {
+  "records": 1071725,
+  "records_kept": 563610,
+  "share_records_kept": 0.5258905036273298,
+  "accessions": 75248,
+  "accessions_kept": 19612
+ },
+ "mouse": {
+  "records": 534246,
+  "records_kept": 267518,
+  "share_records_kept": 0.5007393597705926,
+  "accessions": 45003,
+  "accessions_kept": 15261
+ },
+ "rat": {
+  "records": 162097,
+  "records_kept": 65443,
+  "share_records_kept": 0.4037273977926797,
+  "accessions": 16217,
+  "accessions_kept": 5710
+ },
+ "source": "UniProt REST stream, reviewed:true, organism 9606/10090/10116, release 2026_03 (02-September-2026), retrieved 2026-10-01"
+}

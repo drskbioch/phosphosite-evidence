@@ -1,0 +1,122 @@
+{
+ "S2|P-all (S/T/Y)": {
+  "records": 130884,
+  "GOLD": {
+   "records": 93308,
+   "with_sequence_and_match": 89829,
+   "share_with_sequence": 0.9627148797530758,
+   "share_detectable_among_with_sequence": 0.8387937080452861
+  },
+  "BRONZE": {
+   "records": 37576,
+   "with_sequence_and_match": 32000,
+   "share_with_sequence": 0.8516074089844582,
+   "share_detectable_among_with_sequence": 0.7559375
+  }
+ },
+ "S3|P-all (S/T/Y)": {
+  "records": 536483,
+  "GOLD": {
+   "records": 320780,
+   "with_sequence_and_match": 299577,
+   "share_with_sequence": 0.9339017395099445,
+   "share_detectable_among_with_sequence": 0.8430086421854815
+  },
+  "BRONZE": {
+   "records": 215703,
+   "with_sequence_and_match": 119565,
+   "share_with_sequence": 0.5543038344390203,
+   "share_detectable_among_with_sequence": 0.757997741814076
+  }
+ },
+ "S4|P-all (S/T/Y)": {
+  "records": 803744,
+  "GOLD": {
+   "records": 324907,
+   "with_sequence_and_match": 299968,
+   "share_with_sequence": 0.9232426509739711,
+   "share_detectable_among_with_sequence": 0.843069927458929
+  },
+  "BRONZE": {
+   "records": 478837,
+   "with_sequence_and_match": 122884,
+   "share_with_sequence": 0.25663012674459157,
+   "share_detectable_among_with_sequence": 0.7584307151459914
+  }
+ },
+ "S5|P-all (S/T/Y)": {
+  "records": 803744,
+  "GOLD": {
+   "records": 324907,
+   "with_sequence_and_match": 299968,
+   "share_with_sequence": 0.9232426509739711,
+   "share_detectable_among_with_sequence": 0.843069927458929
+  },
+  "BRONZE": {
+   "records": 478837,
+   "with_sequence_and_match": 122884,
+   "share_with_sequence": 0.25663012674459157,
+   "share_detectable_among_with_sequence": 0.7584307151459914
+  }
+ },
+ "S2|P-human (S/T/Y)": {
+  "records": 67404,
+  "GOLD": {
+   "records": 49939,
+   "with_sequence_and_match": 49736,
+   "share_with_sequence": 0.9959350407497146,
+   "share_detectable_among_with_sequence": 0.8323749396815184
+  },
+  "BRONZE": {
+   "records": 17465,
+   "with_sequence_and_match": 16763,
+   "share_with_sequence": 0.9598053249355855,
+   "share_detectable_among_with_sequence": 0.7550557776054405
+  }
+ },
+ "S3|P-human (S/T/Y)": {
+  "records": 337724,
+  "GOLD": {
+   "records": 208322,
+   "with_sequence_and_match": 199256,
+   "share_with_sequence": 0.9564808325572911,
+   "share_detectable_among_with_sequence": 0.8380525555064842
+  },
+  "BRONZE": {
+   "records": 129402,
+   "with_sequence_and_match": 76125,
+   "share_with_sequence": 0.5882830249918858,
+   "share_detectable_among_with_sequence": 0.7556256157635468
+  }
+ },
+ "S4|P-human (S/T/Y)": {
+  "records": 535848,
+  "GOLD": {
+   "records": 211848,
+   "with_sequence_and_match": 199521,
+   "share_with_sequence": 0.941812053925456,
+   "share_detectable_among_with_sequence": 0.8381273149192315
+  },
+  "BRONZE": {
+   "records": 324000,
+   "with_sequence_and_match": 77422,
+   "share_with_sequence": 0.2389567901234568,
+   "share_detectable_among_with_sequence": 0.7555991836945571
+  }
+ },
+ "S5|P-human (S/T/Y)": {
+  "records": 535848,
+  "GOLD": {
+   "records": 211848,
+   "with_sequence_and_match": 199521,
+   "share_with_sequence": 0.941812053925456,
+   "share_detectable_among_with_sequence": 0.8381273149192315
+  },
+  "BRONZE": {
+   "records": 324000,
+   "with_sequence_and_match": 77422,
+   "share_with_sequence": 0.2389567901234568,
+   "share_detectable_among_with_sequence": 0.7555991836945571
+  }
+ }
+}

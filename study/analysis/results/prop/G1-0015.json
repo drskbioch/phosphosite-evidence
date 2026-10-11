@@ -1,0 +1,48 @@
+{
+ "contrast_id": "G1-0015",
+ "block": "G1",
+ "signal": "S5",
+ "population": "P-all",
+ "design": "D2",
+ "index": "V50",
+ "tier_rule": "study-cluster rule (884)",
+ "decision_bearing": "no",
+ "analysis": "planned",
+ "null": 0.0,
+ "n_analysis": 803787,
+ "status": "run",
+ "estimate": 0.7737912201390642,
+ "ci": [
+  0.7683088258355023,
+  0.7769190375041372
+ ],
+ "crude": 0.7933756863490911,
+ "crude_ci": [
+  0.790136601663588,
+  0.7963028032899738
+ ],
+ "survives": true,
+ "attenuation": 0.024684984109041054,
+ "attenuation_ci": [
+  0.021071501827520305,
+  0.031025930477104783
+ ],
+ "smd": 0.007962359193822353,
+ "balance_pass": true,
+ "n_pairs": 87154,
+ "n_treated_candidates": 324907,
+ "match_rate": 0.2682429125872942,
+ "n_boot": 1000,
+ "n_boot_valid": 1000,
+ "n_boot_unfit": 0,
+ "boot_pairs_range": [
+  77634.0,
+  83090.0
+ ],
+ "seconds_per_resample": 2.88,
+ "projected_1000_hours": 0.8,
+ "resample_rule": "1,000 resamples",
+ "resampling_unit": "protein (uniprot_id)",
+ "seed": "[20260924, crc32(G1-0015)]",
+ "seconds": 2630.3
+}

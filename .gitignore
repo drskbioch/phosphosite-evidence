@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# environment and secrets
+.env*
+
+# logs; the run logs of the stored results are part of the archive and are kept
+*.log
+!study/analysis/results/*.log
+
+# data and tools that are not redistributed (see INPUTS.md)
+processed_data/
+data_private/
+tools/
+
+# operating system
+.DS_Store
+Thumbs.db

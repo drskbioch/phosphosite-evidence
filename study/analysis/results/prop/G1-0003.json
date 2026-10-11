@@ -1,0 +1,16 @@
+{
+ "contrast_id": "G1-0003",
+ "block": "G1",
+ "signal": "S1",
+ "population": "P-all (human)",
+ "design": "D2",
+ "index": "V50",
+ "tier_rule": "study-cluster rule (884)",
+ "decision_bearing": "yes",
+ "analysis": "planned",
+ "null": 1.0,
+ "n_analysis": 535885,
+ "status": "not fitted",
+ "reason": "LinAlgError: Singular matrix",
+ "note": "Design cannot be fitted by the Rev 5 routine (phosnet statsmodels logit). In these records the non-canonical residues occur only among BRONZE records, so the residue-type term is perfectly separated."
+}

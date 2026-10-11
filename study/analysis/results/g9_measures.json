@@ -1,0 +1,906 @@
+{
+ "G9-0097": {
+  "signal": "S1",
+  "measure": "UniProt MOD_RES experimental vs inferred ECO",
+  "population": "human records matched to the measure",
+  "n_records": 14127,
+  "n_high": 5021,
+  "n_low": 9106,
+  "n_accessions": 4527,
+  "n_gene_clusters": 4522,
+  "design": "D0",
+  "status": "run",
+  "gene": {
+   "estimate": 1.336383357271006,
+   "ci": [
+    1.1382448981013626,
+    1.5827700402817841
+   ]
+  },
+  "protein": {
+   "estimate": 1.336383357271006,
+   "ci": [
+    1.1314610339608364,
+    1.5766576510206145
+   ]
+  }
+ },
+ "G9-0098": {
+  "signal": "S1",
+  "measure": "UniProt MOD_RES experimental vs inferred ECO",
+  "population": "human records matched to the measure",
+  "n_records": 14127,
+  "n_high": 5021,
+  "n_low": 9106,
+  "n_accessions": 4527,
+  "n_gene_clusters": 4522,
+  "design": "D1",
+  "status": "run",
+  "gene": {
+   "adjusted": 1.0263640490485122,
+   "adjusted_ci": [
+    0.8737506933145514,
+    1.2291459341650657
+   ],
+   "crude": 1.336383357271006,
+   "crude_ci": [
+    1.1382448981013626,
+    1.5827700402817841
+   ],
+   "attenuation": 0.9102569967609174,
+   "attenuation_ci": [
+    0.5165133361471117,
+    1.9571725007697045
+   ],
+   "survives": false,
+   "largely_explained": true,
+   "smd": 0.04016658385305995,
+   "smd_pre": 0.8714576450015357,
+   "smd_z": NaN,
+   "n_strata_used": 30,
+   "n_strata_dropped": 0,
+   "n_bins": 10,
+   "null": 1.0,
+   "crude_excludes_null": true,
+   "balance_pass": true
+  },
+  "protein": {
+   "adjusted": 1.0263640490485122,
+   "adjusted_ci": [
+    0.8687806502110759,
+    1.2224583151924853
+   ],
+   "crude": 1.336383357271006,
+   "crude_ci": [
+    1.1314610339608364,
+    1.5766576510206145
+   ],
+   "attenuation": 0.9102569967609174,
+   "attenuation_ci": [
+    0.5157648246996204,
+    2.116595476644689
+   ],
+   "survives": false,
+   "largely_explained": true,
+   "smd": 0.04016658385305995,
+   "smd_pre": 0.8714576450015357,
+   "smd_z": NaN,
+   "n_strata_used": 30,
+   "n_strata_dropped": 0,
+   "n_bins": 10,
+   "null": 1.0,
+   "crude_excludes_null": true,
+   "balance_pass": true
+  }
+ },
+ "G9-0099": {
+  "signal": "S1",
+  "measure": "UniProt MOD_RES experimental vs inferred ECO",
+  "population": "the same, restricted to accessions with a PaxDb abundance",
+  "n_records": 14051,
+  "n_high": 5003,
+  "n_low": 9048,
+  "n_accessions": 4494,
+  "n_gene_clusters": 4492,
+  "design": "D4",
+  "status": "run",
+  "gene": {
+   "adjusted": 1.068418971985529,
+   "adjusted_ci": [
+    0.8866571560578128,
+    1.2427187132231943
+   ],
+   "crude": 1.3524917017419518,
+   "crude_ci": [
+    1.144212647420471,
+    1.6020566853078961
+   ],
+   "attenuation": 0.7808237550883457,
+   "attenuation_ci": [
+    0.4268524441307443,
+    1.721756880887377
+   ],
+   "survives": false,
+   "largely_explained": true,
+   "smd": 0.027930400550616317,
+   "smd_pre": 0.8747672416658213,
+   "smd_z": 0.006046407095890716,
+   "n_strata_used": 289,
+   "n_strata_dropped": 11,
+   "n_bins": [
+    10,
+    10
+   ],
+   "null": 1.0,
+   "crude_excludes_null": true,
+   "balance_pass": true
+  },
+  "protein": {
+   "adjusted": 1.068418971985529,
+   "adjusted_ci": [
+    0.8883825320875423,
+    1.259646837534267
+   ],
+   "crude": 1.3524917017419518,
+   "crude_ci": [
+    1.1390726434593272,
+    1.5952962674824327
+   ],
+   "attenuation": 0.7808237550883457,
+   "attenuation_ci": [
+    0.41612709693045796,
+    1.7252517784120958
+   ],
+   "survives": false,
+   "largely_explained": true,
+   "smd": 0.027930400550616317,
+   "smd_pre": 0.8747672416658213,
+   "smd_z": 0.006046407095890716,
+   "n_strata_used": 289,
+   "n_strata_dropped": 11,
+   "n_bins": [
+    10,
+    10
+   ],
+   "null": 1.0,
+   "crude_excludes_null": true,
+   "balance_pass": true
+  },
+  "same_records_D1": {
+   "gene": {
+    "adjusted": 1.0394277133938257,
+    "adjusted_ci": [
+     0.8779971685072572,
+     1.2429984106961383
+    ],
+    "crude": 1.3524917017419518,
+    "crude_ci": [
+     1.1425161102224066,
+     1.5963414378245737
+    ],
+    "attenuation": 0.8719308961960719,
+    "attenuation_ci": [
+     0.4814731192707203,
+     1.8783225748150525
+    ],
+    "survives": false,
+    "largely_explained": true,
+    "smd": 0.03952489027530804,
+    "smd_pre": 0.8747672416658204,
+    "smd_z": 0.09167125005358509,
+    "n_strata_used": 30,
+    "n_strata_dropped": 0,
+    "n_bins": 10,
+    "null": 1.0,
+    "crude_excludes_null": true,
+    "balance_pass": true
+   },
+   "protein": {
+    "adjusted": 1.0394277133938257,
+    "adjusted_ci": [
+     0.8840092093566324,
+     1.262969958051885
+    ],
+    "crude": 1.3524917017419518,
+    "crude_ci": [
+     1.156962073737039,
+     1.6272524450722925
+    ],
+    "attenuation": 0.8719308961960719,
+    "attenuation_ci": [
+     0.4745434359464755,
+     1.731157839198274
+    ],
+    "survives": false,
+    "largely_explained": true,
+    "smd": 0.03952489027530804,
+    "smd_pre": 0.8747672416658204,
+    "smd_z": 0.09167125005358509,
+    "n_strata_used": 30,
+    "n_strata_dropped": 0,
+    "n_bins": 10,
+    "null": 1.0,
+    "crude_excludes_null": true,
+    "balance_pass": true
+   }
+  }
+ },
+ "G9-0173": {
+  "signal": "S2",
+  "measure": "UniProt MOD_RES experimental vs inferred ECO",
+  "population": "human records matched to the measure",
+  "n_records": 4053,
+  "n_high": 1467,
+  "n_low": 2586,
+  "n_accessions": 1699,
+  "n_gene_clusters": 1698,
+  "design": "D0",
+  "status": "run",
+  "gene": {
+   "estimate": -0.17570858974784787,
+   "ci": [
+    -0.21657429756794286,
+    -0.14118440431754545
+   ]
+  },
+  "protein": {
+   "estimate": -0.17570858974784787,
+   "ci": [
+    -0.2136983572850301,
+    -0.14027383371901386
+   ]
+  }
+ },
+ "G9-0174": {
+  "signal": "S2",
+  "measure": "UniProt MOD_RES experimental vs inferred ECO",
+  "population": "human records matched to the measure",
+  "n_records": 4053,
+  "n_high": 1467,
+  "n_low": 2586,
+  "n_accessions": 1699,
+  "n_gene_clusters": 1698,
+  "design": "D1",
+  "status": "run",
+  "gene": {
+   "adjusted": -0.12972569463176742,
+   "adjusted_ci": [
+    -0.18811142771442216,
+    -0.08734791713442033
+   ],
+   "crude": -0.17570858974784787,
+   "crude_ci": [
+    -0.21657429756794286,
+    -0.14118440431754545
+   ],
+   "attenuation": 0.2616997562957428,
+   "attenuation_ci": [
+    0.07385947010074913,
+    0.42472049817574425
+   ],
+   "survives": true,
+   "largely_explained": false,
+   "smd": 0.016800032199834062,
+   "smd_pre": 0.936322519273457,
+   "smd_z": NaN,
+   "n_strata_used": 30,
+   "n_strata_dropped": 0,
+   "n_bins": 10,
+   "null": 0.0,
+   "crude_excludes_null": true,
+   "balance_pass": true
+  },
+  "protein": {
+   "adjusted": -0.12972569463176742,
+   "adjusted_ci": [
+    -0.18130810429751737,
+    -0.08632255380064913
+   ],
+   "crude": -0.17570858974784787,
+   "crude_ci": [
+    -0.2136983572850301,
+    -0.14027383371901386
+   ],
+   "attenuation": 0.2616997562957428,
+   "attenuation_ci": [
+    0.08116937496628354,
+    0.4385661126855712
+   ],
+   "survives": true,
+   "largely_explained": false,
+   "smd": 0.016800032199834062,
+   "smd_pre": 0.936322519273457,
+   "smd_z": NaN,
+   "n_strata_used": 30,
+   "n_strata_dropped": 0,
+   "n_bins": 10,
+   "null": 0.0,
+   "crude_excludes_null": true,
+   "balance_pass": true
+  }
+ },
+ "G9-0175": {
+  "signal": "S2",
+  "measure": "UniProt MOD_RES experimental vs inferred ECO",
+  "population": "the same, restricted to accessions with a PaxDb abundance",
+  "n_records": 4039,
+  "n_high": 1463,
+  "n_low": 2576,
+  "n_accessions": 1689,
+  "n_gene_clusters": 1688,
+  "design": "D4",
+  "status": "run",
+  "gene": {
+   "adjusted": -0.1560551570267612,
+   "adjusted_ci": [
+    -0.20143891762074756,
+    -0.10977209168735873
+   ],
+   "crude": -0.1760917857885822,
+   "crude_ci": [
+    -0.21625649477318454,
+    -0.13882066621591174
+   ],
+   "attenuation": 0.11378514149363674,
+   "attenuation_ci": [
+    -0.04937017580321565,
+    0.2957246889447358
+   ],
+   "survives": true,
+   "largely_explained": false,
+   "smd": 0.017608153954688534,
+   "smd_pre": 0.938487074847351,
+   "smd_z": -0.010938540734668245,
+   "n_strata_used": 227,
+   "n_strata_dropped": 61,
+   "n_bins": [
+    10,
+    10
+   ],
+   "null": 0.0,
+   "crude_excludes_null": true,
+   "balance_pass": true
+  },
+  "protein": {
+   "adjusted": -0.1560551570267612,
+   "adjusted_ci": [
+    -0.20138530274633526,
+    -0.11395794861998428
+   ],
+   "crude": -0.1760917857885822,
+   "crude_ci": [
+    -0.21225785647027506,
+    -0.1403692103003603
+   ],
+   "attenuation": 0.11378514149363674,
+   "attenuation_ci": [
+    -0.05642945248525865,
+    0.29121971284300824
+   ],
+   "survives": true,
+   "largely_explained": false,
+   "smd": 0.017608153954688534,
+   "smd_pre": 0.938487074847351,
+   "smd_z": -0.010938540734668245,
+   "n_strata_used": 227,
+   "n_strata_dropped": 61,
+   "n_bins": [
+    10,
+    10
+   ],
+   "null": 0.0,
+   "crude_excludes_null": true,
+   "balance_pass": true
+  },
+  "same_records_D1": {
+   "gene": {
+    "adjusted": -0.12995280343805093,
+    "adjusted_ci": [
+     -0.1803260904999909,
+     -0.08553947241350705
+    ],
+    "crude": -0.1760917857885822,
+    "crude_ci": [
+     -0.21250605184614704,
+     -0.13896042270473893
+    ],
+    "attenuation": 0.26201666445660476,
+    "attenuation_ci": [
+     0.0757723226924789,
+     0.4293360439247045
+    ],
+    "survives": true,
+    "largely_explained": false,
+    "smd": 0.016223912483199286,
+    "smd_pre": 0.9384870748473505,
+    "smd_z": 0.11809378451905776,
+    "n_strata_used": 30,
+    "n_strata_dropped": 0,
+    "n_bins": 10,
+    "null": 0.0,
+    "crude_excludes_null": true,
+    "balance_pass": true
+   },
+   "protein": {
+    "adjusted": -0.12995280343805093,
+    "adjusted_ci": [
+     -0.1845906686211212,
+     -0.08626982088113652
+    ],
+    "crude": -0.1760917857885822,
+    "crude_ci": [
+     -0.21356689894416178,
+     -0.13866620054156475
+    ],
+    "attenuation": 0.26201666445660476,
+    "attenuation_ci": [
+     0.07963952870359756,
+     0.44331463910070273
+    ],
+    "survives": true,
+    "largely_explained": false,
+    "smd": 0.016223912483199286,
+    "smd_pre": 0.9384870748473505,
+    "smd_z": 0.11809378451905776,
+    "n_strata_used": 30,
+    "n_strata_dropped": 0,
+    "n_bins": 10,
+    "null": 0.0,
+    "crude_excludes_null": true,
+    "balance_pass": true
+   }
+  }
+ },
+ "G9-0249": {
+  "signal": "S3",
+  "measure": "UniProt MOD_RES experimental vs inferred ECO",
+  "population": "human records matched to the measure",
+  "n_records": 14105,
+  "n_high": 5014,
+  "n_low": 9091,
+  "n_accessions": 4517,
+  "n_gene_clusters": 4513,
+  "design": "D0",
+  "status": "run",
+  "gene": {
+   "estimate": -0.0637164840667308,
+   "ci": [
+    -0.07966386618089538,
+    -0.048286401091027234
+   ]
+  },
+  "protein": {
+   "estimate": -0.0637164840667308,
+   "ci": [
+    -0.07925010170057933,
+    -0.04819095491053721
+   ]
+  }
+ },
+ "G9-0250": {
+  "signal": "S3",
+  "measure": "UniProt MOD_RES experimental vs inferred ECO",
+  "population": "human records matched to the measure",
+  "n_records": 14105,
+  "n_high": 5014,
+  "n_low": 9091,
+  "n_accessions": 4517,
+  "n_gene_clusters": 4513,
+  "design": "D1",
+  "status": "run",
+  "gene": {
+   "adjusted": -0.031772498478230604,
+   "adjusted_ci": [
+    -0.04886096332951807,
+    -0.014684789051794829
+   ],
+   "crude": -0.0637164840667308,
+   "crude_ci": [
+    -0.07966386618089538,
+    -0.048286401091027234
+   ],
+   "attenuation": 0.5013457044341147,
+   "attenuation_ci": [
+    0.2995430280923201,
+    0.7115379054868705
+   ],
+   "survives": true,
+   "largely_explained": true,
+   "smd": 0.04076382022367974,
+   "smd_pre": 0.8713194580443865,
+   "smd_z": NaN,
+   "n_strata_used": 30,
+   "n_strata_dropped": 0,
+   "n_bins": 10,
+   "null": 0.0,
+   "crude_excludes_null": true,
+   "balance_pass": true
+  },
+  "protein": {
+   "adjusted": -0.031772498478230604,
+   "adjusted_ci": [
+    -0.049434738550155774,
+    -0.014343543253598394
+   ],
+   "crude": -0.0637164840667308,
+   "crude_ci": [
+    -0.07925010170057933,
+    -0.04819095491053721
+   ],
+   "attenuation": 0.5013457044341147,
+   "attenuation_ci": [
+    0.31546871570819585,
+    0.7316319566862537
+   ],
+   "survives": true,
+   "largely_explained": true,
+   "smd": 0.04076382022367974,
+   "smd_pre": 0.8713194580443865,
+   "smd_z": NaN,
+   "n_strata_used": 30,
+   "n_strata_dropped": 0,
+   "n_bins": 10,
+   "null": 0.0,
+   "crude_excludes_null": true,
+   "balance_pass": true
+  }
+ },
+ "G9-0251": {
+  "signal": "S3",
+  "measure": "UniProt MOD_RES experimental vs inferred ECO",
+  "population": "the same, restricted to accessions with a PaxDb abundance",
+  "n_records": 14034,
+  "n_high": 4999,
+  "n_low": 9035,
+  "n_accessions": 4486,
+  "n_gene_clusters": 4484,
+  "design": "D4",
+  "status": "run",
+  "gene": {
+   "adjusted": -0.034555475961076,
+   "adjusted_ci": [
+    -0.04652656792592169,
+    -0.012327495711009473
+   ],
+   "crude": -0.06389446848902425,
+   "crude_ci": [
+    -0.08037275087625914,
+    -0.04754140415226125
+   ],
+   "attenuation": 0.45917891206792155,
+   "attenuation_ci": [
+    0.3431389816547733,
+    0.7671457425456637
+   ],
+   "survives": true,
+   "largely_explained": false,
+   "smd": 0.027361150384849146,
+   "smd_pre": 0.8750106484688686,
+   "smd_z": 0.006586434636950269,
+   "n_strata_used": 287,
+   "n_strata_dropped": 13,
+   "n_bins": [
+    10,
+    10
+   ],
+   "null": 0.0,
+   "crude_excludes_null": true,
+   "balance_pass": true
+  },
+  "protein": {
+   "adjusted": -0.034555475961076,
+   "adjusted_ci": [
+    -0.045360765799919066,
+    -0.012516838972992094
+   ],
+   "crude": -0.06389446848902425,
+   "crude_ci": [
+    -0.07991749030345509,
+    -0.04872530419031908
+   ],
+   "attenuation": 0.45917891206792155,
+   "attenuation_ci": [
+    0.33374490564117765,
+    0.7842648238613331
+   ],
+   "survives": true,
+   "largely_explained": false,
+   "smd": 0.027361150384849146,
+   "smd_pre": 0.8750106484688686,
+   "smd_z": 0.006586434636950269,
+   "n_strata_used": 287,
+   "n_strata_dropped": 13,
+   "n_bins": [
+    10,
+    10
+   ],
+   "null": 0.0,
+   "crude_excludes_null": true,
+   "balance_pass": true
+  },
+  "same_records_D1": {
+   "gene": {
+    "adjusted": -0.033334496872081454,
+    "adjusted_ci": [
+     -0.04961623846095925,
+     -0.015101466121900296
+    ],
+    "crude": -0.06389446848902425,
+    "crude_ci": [
+     -0.07891127837865604,
+     -0.04796831807788011
+    ],
+    "attenuation": 0.4782882202422948,
+    "attenuation_ci": [
+     0.30238981854937846,
+     0.7184463955265991
+    ],
+    "survives": true,
+    "largely_explained": false,
+    "smd": 0.038824772988600965,
+    "smd_pre": 0.8750106484688673,
+    "smd_z": 0.08946614405792934,
+    "n_strata_used": 30,
+    "n_strata_dropped": 0,
+    "n_bins": 10,
+    "null": 0.0,
+    "crude_excludes_null": true,
+    "balance_pass": true
+   },
+   "protein": {
+    "adjusted": -0.033334496872081454,
+    "adjusted_ci": [
+     -0.0495570002970752,
+     -0.01440548372228822
+    ],
+    "crude": -0.06389446848902425,
+    "crude_ci": [
+     -0.07858904442198071,
+     -0.04684140333429478
+    ],
+    "attenuation": 0.4782882202422948,
+    "attenuation_ci": [
+     0.29298031336266156,
+     0.7237613195478096
+    ],
+    "survives": true,
+    "largely_explained": false,
+    "smd": 0.038824772988600965,
+    "smd_pre": 0.8750106484688673,
+    "smd_z": 0.08946614405792934,
+    "n_strata_used": 30,
+    "n_strata_dropped": 0,
+    "n_bins": 10,
+    "null": 0.0,
+    "crude_excludes_null": true,
+    "balance_pass": true
+   }
+  }
+ },
+ "G9-0325": {
+  "signal": "S4",
+  "measure": "UniProt MOD_RES experimental vs inferred ECO",
+  "population": "human records matched to the measure",
+  "n_records": 14127,
+  "n_high": 5021,
+  "n_low": 9106,
+  "n_accessions": 4527,
+  "n_gene_clusters": 4522,
+  "design": "D0",
+  "status": "run",
+  "gene": {
+   "estimate": -0.021697515285351243,
+   "ci": [
+    -0.044589976150427924,
+    -4.326879404345425e-05
+   ]
+  },
+  "protein": {
+   "estimate": -0.021697515285351243,
+   "ci": [
+    -0.042347935150700636,
+    -0.0008097709561067245
+   ]
+  }
+ },
+ "G9-0326": {
+  "signal": "S4",
+  "measure": "UniProt MOD_RES experimental vs inferred ECO",
+  "population": "human records matched to the measure",
+  "n_records": 14127,
+  "n_high": 5021,
+  "n_low": 9106,
+  "n_accessions": 4527,
+  "n_gene_clusters": 4522,
+  "design": "D1",
+  "status": "run",
+  "gene": {
+   "adjusted": 0.03270435366280411,
+   "adjusted_ci": [
+    0.008659766169818409,
+    0.054477776312094356
+   ],
+   "crude": -0.021697515285351243,
+   "crude_ci": [
+    -0.044589976150427924,
+    -4.326879404345425e-05
+   ],
+   "attenuation": 2.5072856607172884,
+   "attenuation_ci": [
+    0.6674701313972614,
+    14.462170921374609
+   ],
+   "survives": true,
+   "largely_explained": true,
+   "smd": 0.04016658385305995,
+   "smd_pre": 0.8714576450015357,
+   "smd_z": NaN,
+   "n_strata_used": 30,
+   "n_strata_dropped": 0,
+   "n_bins": 10,
+   "null": 0.0,
+   "crude_excludes_null": true,
+   "balance_pass": true
+  },
+  "protein": {
+   "adjusted": 0.03270435366280411,
+   "adjusted_ci": [
+    0.007598510290134422,
+    0.05618747858997042
+   ],
+   "crude": -0.021697515285351243,
+   "crude_ci": [
+    -0.042347935150700636,
+    -0.0008097709561067245
+   ],
+   "attenuation": 2.5072856607172884,
+   "attenuation_ci": [
+    0.9756115135855877,
+    13.311500151154515
+   ],
+   "survives": true,
+   "largely_explained": true,
+   "smd": 0.04016658385305995,
+   "smd_pre": 0.8714576450015357,
+   "smd_z": NaN,
+   "n_strata_used": 30,
+   "n_strata_dropped": 0,
+   "n_bins": 10,
+   "null": 0.0,
+   "crude_excludes_null": true,
+   "balance_pass": true
+  }
+ },
+ "G9-0327": {
+  "signal": "S4",
+  "measure": "UniProt MOD_RES experimental vs inferred ECO",
+  "population": "the same, restricted to accessions with a PaxDb abundance",
+  "n_records": 14051,
+  "n_high": 5003,
+  "n_low": 9048,
+  "n_accessions": 4494,
+  "n_gene_clusters": 4492,
+  "design": "D4",
+  "status": "run",
+  "gene": {
+   "adjusted": 0.03834387967985542,
+   "adjusted_ci": [
+    0.013393761337036665,
+    0.06736329139690725
+   ],
+   "crude": -0.02189607985871611,
+   "crude_ci": [
+    -0.044009714890596796,
+    0.0022054657813874
+   ],
+   "attenuation": 2.7511755495626757,
+   "attenuation_ci": [
+    -7.767681074335685,
+    17.932036664501478
+   ],
+   "survives": true,
+   "largely_explained": false,
+   "smd": 0.027930400550616317,
+   "smd_pre": 0.8747672416658213,
+   "smd_z": 0.006046407095890716,
+   "n_strata_used": 289,
+   "n_strata_dropped": 11,
+   "n_bins": [
+    10,
+    10
+   ],
+   "null": 0.0,
+   "crude_excludes_null": false,
+   "balance_pass": true
+  },
+  "protein": {
+   "adjusted": 0.03834387967985542,
+   "adjusted_ci": [
+    0.01256076056973684,
+    0.06431078689860115
+   ],
+   "crude": -0.02189607985871611,
+   "crude_ci": [
+    -0.0420061808438663,
+    -0.001644444009534256
+   ],
+   "attenuation": 2.7511755495626757,
+   "attenuation_ci": [
+    1.0844802159962115,
+    13.403559534494976
+   ],
+   "survives": true,
+   "largely_explained": true,
+   "smd": 0.027930400550616317,
+   "smd_pre": 0.8747672416658213,
+   "smd_z": 0.006046407095890716,
+   "n_strata_used": 289,
+   "n_strata_dropped": 11,
+   "n_bins": [
+    10,
+    10
+   ],
+   "null": 0.0,
+   "crude_excludes_null": true,
+   "balance_pass": true
+  },
+  "same_records_D1": {
+   "gene": {
+    "adjusted": 0.032355957508887756,
+    "adjusted_ci": [
+     0.008406985279232313,
+     0.05771708154563797
+    ],
+    "crude": -0.02189607985871611,
+    "crude_ci": [
+     -0.04412558259448779,
+     0.0007908129041102773
+    ],
+    "attenuation": 2.477705494210093,
+    "attenuation_ci": [
+     -5.086200193182425,
+     17.5933602151832
+    ],
+    "survives": true,
+    "largely_explained": false,
+    "smd": 0.03952489027530804,
+    "smd_pre": 0.8747672416658204,
+    "smd_z": 0.09167125005358509,
+    "n_strata_used": 30,
+    "n_strata_dropped": 0,
+    "n_bins": 10,
+    "null": 0.0,
+    "crude_excludes_null": false,
+    "balance_pass": true
+   },
+   "protein": {
+    "adjusted": 0.032355957508887756,
+    "adjusted_ci": [
+     0.008756741803484014,
+     0.05411278559322726
+    ],
+    "crude": -0.02189607985871611,
+    "crude_ci": [
+     -0.04472380151135949,
+     0.001128357517371521
+    ],
+    "attenuation": 2.477705494210093,
+    "attenuation_ci": [
+     -5.7708828135924115,
+     13.582127423878903
+    ],
+    "survives": true,
+    "largely_explained": false,
+    "smd": 0.03952489027530804,
+    "smd_pre": 0.8747672416658204,
+    "smd_z": 0.09167125005358509,
+    "n_strata_used": 30,
+    "n_strata_dropped": 0,
+    "n_bins": 10,
+    "null": 0.0,
+    "crude_excludes_null": false,
+    "balance_pass": true
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+| Signal                                | Crude difference (95% CI)   | Primary: CEM on the V50 decile (95% CI)   | Within gene, M1 (95% CI)   | Two-way interval excludes the null   | GOLD / BRONZE sites; gene clusters   | Grade                        |
+|:--------------------------------------|:----------------------------|:------------------------------------------|:---------------------------|:-------------------------------------|:-------------------------------------|:-----------------------------|
+| Conservation                          | 0.3986 (0.3876 to 0.4103)   | 0.3993 (0.3892 to 0.4099)                 | 0.3763 (0.3675 to 0.3846)  | yes                                  | 93,308 / 37,591; 17,777              | moderate                     |
+| Disorder                              | 0.0438 (0.0388 to 0.0487)   | 0.0457 (0.0411 to 0.0512)                 | 0.0453 (0.0431 to 0.0475)  | no                                   | 320,780 / 215,745; 35,524            | moderate                     |
+| Sequence motif                        | 0.0617 (0.0584 to 0.0649)   | 0.0618 (0.0587 to 0.0652)                 | 0.0692 (0.0665 to 0.0720)  | no                                   | 324,907 / 478,837; 37,901            | moderate                     |
+| Domain overlap (population-dependent) | 6.065 (5.716 to 6.403)      | 5.912 (5.571 to 6.241)                    | not run                    | yes                                  | 211,848 / 324,037; 17,641            | weak                         |
+| Lookup motif (descriptive only)       | 0.7934 (0.7902 to 0.7966)   | 0.7919 (0.7887 to 0.7951)                 | 0.7872 (0.7831 to 0.7910)  | yes                                  | 324,907 / 478,880; 37,903            | descriptive only; not graded |
+
+Notes. Each estimate is GOLD minus BRONZE with set-B tiers: a difference in proportion (conservation, sequence motif, lookup motif) or in mean score (disorder), and an odds ratio for domain overlap (no difference is 0, and 1 for the odds ratio).
+
+Intervals are 95% gene-cluster bootstrap intervals from 1,000 resamples. Crude: no adjustment, the same records as the primary column. Primary: coarsened exact matching (CEM) on deciles of the V50 study-effort index. Within gene, M1: GOLD against BRONZE within the same gene, all records of the population; not run for domain overlap.
+
+Two-way interval excludes the null: whether the interval that allows for dependence among proteins and among studies (protein x study) excludes the null value; not computed for the human-only population. GOLD / BRONZE sites; gene clusters: records and gene clusters in the primary estimate.
+
+Grade: strength of the claim under the grading rules of the claims table (strong, moderate, weak, not supported); the database-lookup motif is descriptive only because its indicator comes from the annotation tables that also feed the tiers, and is not graded.

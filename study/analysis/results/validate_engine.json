@@ -1,0 +1,72 @@
+{
+  "S1": {
+    "engine_adjusted": 2.775121013248645,
+    "phosnet_cem_primary": 2.775121013248644,
+    "engine_crude": 2.4944443217380905,
+    "phosnet_unmatched_mapped": 2.4944443217380905,
+    "engine_smd": 0.005719605749604073,
+    "phosnet_smd": 0.005719605749604999,
+    "engine_n": 637165,
+    "phosnet_n_analysis": 637165,
+    "adj_abs_diff": 8.881784197001252e-16,
+    "crude_abs_diff": 0.0
+  },
+  "S2": {
+    "engine_adjusted": 0.3976388482437482,
+    "phosnet_cem_primary": 0.3976388482437482,
+    "engine_crude": 0.398641669716201,
+    "phosnet_unmatched_mapped": 0.398641669716201,
+    "engine_smd": 0.016542725707726608,
+    "phosnet_smd": 0.01654272570772716,
+    "engine_n": 130899,
+    "phosnet_n_analysis": 130899,
+    "adj_abs_diff": 0.0,
+    "crude_abs_diff": 0.0
+  },
+  "S3": {
+    "engine_adjusted": 0.042163675112746435,
+    "phosnet_cem_primary": 0.042163675112746435,
+    "engine_crude": 0.04379096037723795,
+    "phosnet_unmatched_mapped": 0.04379096037723795,
+    "engine_smd": 0.012857926663296769,
+    "phosnet_smd": 0.012857926663294382,
+    "engine_n": 536525,
+    "phosnet_n_analysis": 536525,
+    "adj_abs_diff": 0.0,
+    "crude_abs_diff": 0.0
+  },
+  "S4_rev5_record_set": {
+    "engine_adjusted": 0.06306259273804449,
+    "phosnet_cem_primary": 0.06306259273804449,
+    "engine_smd": 0.009634974627047316,
+    "phosnet_smd": 0.009634974627046895,
+    "engine_n": 803787,
+    "phosnet_n_analysis": 803787,
+    "adj_abs_diff": 0.0,
+    "note": "46 sites have an undefined sequence-motif outcome (43 in GOLD/BRONZE with an index). Rev 5 kept them in the decile computation; Rev 6 drops them before it."
+  },
+  "S4": {
+    "engine_adjusted": 0.06305575764468913,
+    "phosnet_cem_primary": 0.06306259273804449,
+    "engine_crude": 0.0617410009054663,
+    "phosnet_unmatched_mapped": 0.0617410009054663,
+    "engine_smd": 0.009742591503226424,
+    "phosnet_smd": 0.009634974627046895,
+    "engine_n": 803744,
+    "phosnet_n_analysis": 803787,
+    "adj_abs_diff": 6.83509335536181e-06,
+    "crude_abs_diff": 0.0
+  },
+  "S5": {
+    "engine_adjusted": 0.7920000999438612,
+    "phosnet_cem_primary": 0.7920000999438612,
+    "engine_crude": 0.7933756863490911,
+    "phosnet_unmatched_mapped": 0.7933756863490911,
+    "engine_smd": 0.009634974627047316,
+    "phosnet_smd": 0.009634974627046895,
+    "engine_n": 803787,
+    "phosnet_n_analysis": 803787,
+    "adj_abs_diff": 0.0,
+    "crude_abs_diff": 0.0
+  }
+}

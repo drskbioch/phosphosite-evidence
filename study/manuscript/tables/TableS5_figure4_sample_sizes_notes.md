@@ -1,0 +1,1 @@
+The cells behind Figure 4A: GOLD against BRONZE under each tier definition, with the numbers of sites and gene clusters. Intervals are 95% gene-cluster bootstrap intervals; domain overlap is an odds ratio, the other signals are differences.

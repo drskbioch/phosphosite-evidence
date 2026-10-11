@@ -1,0 +1,13 @@
+proteins 87338
+kruskal_eta2_SEI_V0_by_top_tier 0.0067 [0.0057, 0.0078]
+rank_biserial_SEI_V0_GOLD_vs_BRONZE 0.0458 [0.0357, 0.0556]
+spearman_SEI_V0_vs_secondary 0.1206 [0.1146, 0.127]
+pointbiserial_annotation_SEI_V0 -0.153 [-0.1612, -0.1435]
+kruskal_eta2_SEI_V50_by_top_tier 0.0047 [0.0038, 0.0057]
+rank_biserial_SEI_V50_GOLD_vs_BRONZE 0.0475 [0.038, 0.0573]
+spearman_SEI_V50_vs_secondary 0.0756 [0.0689, 0.0824]
+pointbiserial_annotation_SEI_V50 -0.128 [-0.1369, -0.1193]
+pointbiserial_annotation_SEI_secondary 0.6486 [0.6438, 0.6536]
+kruskal_eta2_SEI_secondary_by_top_tier 0.766 [0.7636, 0.7682]
+rank_biserial_SEI_secondary_GOLD_vs_BRONZE -0.9986 [-0.9988, -0.9984]
+{'n_proteins_rev5': 87338, 'rev5_kruskal_eta2': 0.006675470282369362, 'recomputed_kruskal_eta2_V0': 0.006675470282369362, 'rev5_spearman_rho': 0.12064108171242159, 'recomputed_spearman_V0_vs_secondary': 0.12064108171242159, 'rev5_rank_biserial': 0.045848943718184154, 'recomputed_rank_biserial_V0': 0.045848943718184154}

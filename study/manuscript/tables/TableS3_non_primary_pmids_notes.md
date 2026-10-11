@@ -1,0 +1,2 @@
+Records: site records whose publication list contains the PMID. Treatment: removed from depth = the PMID is not counted in study-cluster depth or in the tiers (sensitivity analysis); kept = the PMID is not phosphorylation evidence but stays in the count, because the rule is unchanged.
+Reason or share: the reason a PMID was classed as a database, resource or review publication, or the share of all 1,768,068 records for a kept PMID. Titles are quoted from PubMed.

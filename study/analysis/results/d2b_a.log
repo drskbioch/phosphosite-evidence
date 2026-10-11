@@ -1,0 +1,14 @@
+G18-0407 S1 5.7579 [5.4228, 6.0495] reps 5.7153 5.794  185.3
+G18-0408 S2 0.3981 [0.3875, 0.4086] reps 0.3951 0.4009  37.4
+G18-0409 S3 0.046 [0.0411, 0.0506] reps 0.0456 0.0464  207.9
+Traceback (most recent call last):
+  File "<project-root>\study\scripts\analysis\run_d2b.py", line 104, in <module>
+    run(c)
+    ~~~^^^
+  File "<project-root>\study\scripts\analysis\run_d2b.py", line 80, in run
+    l2 = pdat.logit_from_cells(e[pdat.cell[rec]])
+  File "<project-root>\study\scripts\analysis\propensity.py", line 147, in logit_from_cells
+    return np.log(p / (1 - p))
+                  ~~^~~~~~~~~
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 6.14 MiB for an array with shape (804889,) and data type float64
+done

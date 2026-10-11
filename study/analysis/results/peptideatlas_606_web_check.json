@@ -1,0 +1,11 @@
+{
+ "retrieved": "2026-10-04",
+ "detail": "quotes, URLs and the fetch outcomes are in sources/SOURCES.md",
+ "build_page": {"url": "https://peptideatlas.org/builds/human/phospho/", "distinct_phosphopeptides": 3091839, "canonical_proteins": 11852, "datasets": 138, "experiments": 240,
+                "files": ["Homo_sapiens.fasta (662MB)", "atlas_build_606.tsv.zip (523MB)", "atlas_build_606.mysql.gz (600MB)", "coordinate_mapping.txt (1GB)", "APD_ensembl_hits.tsv (765MB)", "APD_Hs_all.fasta (11MB)"],
+                "site_level_file_listed": false, "licence_terms_found": false},
+ "build_details_page": {"url": "https://db.systemsbiology.net/sbeams/cgi/PeptideAtlas/buildDetails?atlas_build_id=606", "ptmprophet_columns": ["nP.80-.95", "nP.95-.99", "nP.99-1", "no-choice"],
+                        "ptm_coverage_tsv_is_summary_per_database_and_residue": true, "saved_as": "data_private/dl/pa606_ptm_coverage.tsv", "saved_bytes": 2277},
+ "protein_level_ptm_summary": {"rows_as_displayed": 13884, "unit": "protein", "ptmprophet_counts_are": "PSM counts aggregated per protein", "per_site_download_found": false},
+ "blocked_fetches": ["pmc.ncbi.nlm.nih.gov PMC9171898 (reCAPTCHA)", "biorxiv.org 2021.04.14.439901v1.full (403)", "figshare.com record 19733361 (403)", "phosphosite.org staticDownloads (403)", "pubs.acs.org 10.1021/acs.jproteome.2c00823 (403)", "peptideatlas.org builds/human/phospho/202512/ (403)"]
+}

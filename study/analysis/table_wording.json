@@ -1,0 +1,9 @@
+{
+  "description": "Wording of table cells that differs from the text stored in a result file. The stored text is not edited (result files are not changed); the table shows the wording below, and check_figure_bindings.py accepts a cell if it equals the stored text or the wording given here. Each entry gives the reason.",
+  "analysis/results/g23_nonprimary_pmids.json:reasons_b": {
+    "title: an updated systematic resource (SysPTM 2.0)": {
+      "table": "title: a systematic resource for modifications (SysPTM 2.0)",
+      "reason": "The stored reason quotes the word 'updated' from the PubMed title of PMID 24705204, which is on the banned-word list; the Title column of Table S3 is exempt because titles are quoted, a reason column is not."
+    }
+  }
+}

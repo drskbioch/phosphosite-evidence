@@ -1,0 +1,52 @@
+Traceback (most recent call last):
+  File "<project-root>\study\scripts\analysis\run_f.py", line 47, in <module>
+    res = R.run_group(g, scheme=scheme, tier_col=tc, seed_id=seed)
+  File "<project-root>\study\scripts\analysis\run_cem_grid.py", line 78, in run_group
+    d = population_for(d1, tcol, icol, mask=mask)
+  File "<project-root>\study\scripts\analysis\run_cem_grid.py", line 54, in population_for
+    d = population(b, s, tier_col=tier_col, index_col=index_col, mask=mask, **kw)
+  File "<project-root>\study\scripts\analysis\populations.py", line 35, in population
+    out = d.loc[sel, cols].copy()
+          ~~~~~^^^^^^^^^^^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\indexing.py", line 1185, in __getitem__
+    return self._getitem_tuple(key)
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\indexing.py", line 1378, in _getitem_tuple
+    return self._getitem_tuple_same_dim(tup)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\indexing.py", line 1021, in _getitem_tuple_same_dim
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\indexing.py", line 1421, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\indexing.py", line 1362, in _getitem_iterable
+    return self.obj._reindex_with_indexers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        {axis: [keyarr, indexer]}, copy=True, allow_dups=True
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\generic.py", line 5708, in _reindex_with_indexers
+    new_data = new_data.reindex_indexer(
+        index,
+    ...<4 lines>...
+        copy=copy,
+    )
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\internals\managers.py", line 699, in reindex_indexer
+    new_blocks = self._slice_take_blocks_ax0(
+        indexer,
+    ...<2 lines>...
+        use_na_proxy=use_na_proxy,
+    )
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\internals\managers.py", line 862, in _slice_take_blocks_ax0
+    nb = blk.take_nd(taker, axis=0, new_mgr_locs=mgr_locs)
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\internals\blocks.py", line 1373, in take_nd
+    new_values = algos.take_nd(
+        values, indexer, axis=axis, allow_fill=allow_fill, fill_value=fill_value
+    )
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\array_algos\take.py", line 117, in take_nd
+    return _take_nd_ndarray(arr, indexer, axis, fill_value, allow_fill)
+  File "<user-home>\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\array_algos\take.py", line 157, in _take_nd_ndarray
+    out = np.empty(out_shape, dtype=dtype)
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 54.0 MiB for an array with shape (4, 1768068) and data type object
+done

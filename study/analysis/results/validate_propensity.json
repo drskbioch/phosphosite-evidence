@@ -1,0 +1,51 @@
+{
+ "S2": {
+  "engine": {
+   "n_pairs": 31001,
+   "n_treated": 93308,
+   "estimate": 0.3907938453598271,
+   "smd": 0.005151448054358504,
+   "caliper": 0.08065445843346288,
+   "status": "fitted",
+   "n_analysis": 130899
+  },
+  "max_abs_logit_diff_cell_vs_recordlevel_STY_records": 0.00016871536021767497,
+  "max_abs_logit_diff_rare_residue_records_BRONZE_only": 10.671441435839618,
+  "phosnet": {
+   "point_estimate": 0.3907938453598271,
+   "n_matched_pairs": 31001,
+   "smd": 0.005151448054358504
+  },
+  "abs_diff_estimate": 0.0,
+  "pairs_equal": true
+ },
+ "S3": {
+  "engine": {
+   "n_pairs": 81575,
+   "n_treated": 320780,
+   "estimate": 0.04648471849228436,
+   "smd": 0.006155276952605151,
+   "caliper": 0.05798715265522791,
+   "status": "fitted",
+   "n_analysis": 536525
+  },
+  "max_abs_logit_diff_cell_vs_recordlevel_STY_records": 0.0006219512672595018,
+  "max_abs_logit_diff_rare_residue_records_BRONZE_only": 10.434131404606905,
+  "phosnet": {
+   "point_estimate": 0.04648471849228436,
+   "n_matched_pairs": 81575,
+   "smd": 0.006155276952605151
+  },
+  "abs_diff_estimate": 0.0,
+  "pairs_equal": true
+ },
+ "S5": {
+  "engine": {
+   "status": "not fitted",
+   "reason": "LinAlgError: Singular matrix"
+  },
+  "phosnet": {
+   "error": "LinAlgError: Singular matrix"
+  }
+ }
+}

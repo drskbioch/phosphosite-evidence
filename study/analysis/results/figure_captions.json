@@ -1,0 +1,69 @@
+{
+ "Figure1": {
+  "": "Boxes with dashed outlines are checks or secondary analyses."
+ },
+ "Figure2": {
+  "A": "n = human 1,071,725, mouse 534,246, rat 162,097, all 1,768,068 sites; set-B tiers, study-cluster rule; BRONZE is hatched.",
+  "B": "the PubMed-ID count rule and the study-cluster rule differ in thresholds, so the change cannot be attributed to the counting method alone; set A tiers come from the human file with two source flags (agreement score 0 to 2); set B adds the dbPTM flag (0 to 3); BRONZE is hatched.",
+  "C": "same sources; n is the number of sites with a score of 2 or more.",
+  "D": "records with at least one non-primary PMID, records linked to the PhosphoSitePlus database paper, and GOLD records that fall to SILVER when the non-primary PMIDs are not counted.",
+  "E": "set-B tiers, study-cluster rule; left box primary tiers, right box tiers with the non-primary PMIDs not counted (sites with a year: GOLD 342,437 and 332,880, SILVER 750,801 and 742,923, BRONZE 674,782 and 663,781); boxes span the interquartile range, whiskers the 5th to 95th percentile, printed values are medians; the axis begins in 1998."
+ },
+ "Figure3": {
+  "": "Differences between GOLD and BRONZE sites, set-B tiers, 95% gene-cluster intervals (1,000 resamples) unless marked. Dotted vertical line: primary P-all estimate; solid grey vertical line: no difference. Primary row, GOLD / BRONZE sites and gene clusters. No two-way interval is stored for P-human, so that marker is absent. Within-gene rows use the linear within-gene difference (S/T/Y records). The P-abund block (human proteins with an abundance value) shows the crude estimate and the adjusted designs with the stored protein-cluster intervals.",
+  "A": "conservation 93,308 / 37,591 sites, 17,777 gene clusters (P-human 49,939 / 17,477, 7,965)",
+  "B": "disorder 320,780 / 215,745 sites, 35,524 gene clusters (P-human 208,322 / 129,438, 17,144)",
+  "C": "sequence motif 324,907 / 478,837 sites, 37,901 gene clusters (P-human 211,848 / 324,000, 17,640)"
+ },
+ "Figure4": {
+  "A": "GOLD against BRONZE; open marker crude, filled marker CEM on the V50 decile, 95% gene-cluster intervals. GOLD / BRONZE sites (gene clusters) under set-B tiers: P-human domain overlap 211,848 / 324,037 (17,641); P-human conservation 49,939 / 17,477 (7,965); P-human disorder 208,322 / 129,438 (17,144); P-human sequence motif 211,848 / 324,000 (17,640); P-all conservation 93,308 / 37,591 (17,777); P-all disorder 320,780 / 215,745 (35,524); P-all sequence motif 324,907 / 478,837 (37,901); all other cells are listed in Table S5.",
+  "B": "x = max over tier definitions of abs(ln(adjusted / crude)); definitions where the crude and the adjusted interval both exclude the null; y = ln(largest adjusted / smallest adjusted) over tier definitions whose adjusted interval excludes the null; second value of the labelled point: largest / smallest adjusted estimate after dropping any estimate whose interval includes the null or has a limit within 0.01 of the null. Secondary axes: the same values as plain ratios.",
+  "C": "open marker crude, filled adjusted; GOLD / BRONZE sites (gene clusters): all human records 211,848 / 324,037 (17,641 gene clusters); proteins with an abundance value 199,167 / 76,990 (17,079 gene clusters); proteins with a domain-annotated site 199,302 / 97,200 (16,914 gene clusters); reviewed canonical accessions 199,886 / 77,656 (17,363 gene clusters); all human records, set-A tiers 153,738 / 483,427 (18,434 gene clusters); set-B tiers except where stated."
+ },
+ "Figure5": {
+  "": "Secondary analysis.",
+  "A": "serine/threonine sites for DeepPhos and MusiteDeep, tyrosine sites for PhosF3C; filled marker with the 95% gene-cluster interval for all positives, open marker with the 90% interval for positives first reported after the stated year; primary restriction year per tool: DeepPhos 2019, MusiteDeep 2020, PhosF3C 2024 (year of the first publication describing the version scored); the other restriction year shown for DeepPhos and MusiteDeep is a sensitivity analysis; grey band: equivalence margin; sites, positives and gene clusters: DeepPhos all: 8,641 sites, 4,485 positives, 5,209 gene clusters; DeepPhos 2019: 5,383 sites, 1,227 positives, 3,561 gene clusters; DeepPhos 2018: 5,780 sites, 1,624 positives, 3,696 gene clusters; MusiteDeep all: 8,641 sites, 4,485 positives, 5,209 gene clusters; MusiteDeep 2020: 5,124 sites, 968 positives, 3,435 gene clusters; MusiteDeep 2017: 5,890 sites, 1,734 positives, 3,767 gene clusters; PhosF3C all: 1,359 sites, 515 positives, 1,218 gene clusters.",
+  "B": "set-B tiers from the study-cluster rule and tiers with the non-primary PMIDs not counted; test sets as assigned before scoring. Designs with no GOLD site are not drawn: temporal, study-disjoint (test set of 411 sites); temporal, protein- and study-disjoint (test set of 47 sites)."
+ },
+ "FigureS1": {
+  "A": "all 1,768,068 sites; source set B counts the PhosphoSitePlus, Phospho.ELM and dbPTM flags (score 0 to 3).",
+  "B": "sites with the study-cluster depth, and with the non-primary PMIDs not counted; dotted line: median depth.",
+  "C": "identifiers above 45,000,000 are treated as invalid; identifiers of valid format without a year were not found.",
+  "D": "identifiers above 45,000,000 are treated as invalid; identifiers of valid format without a year were not found.",
+  "E": "46 sites in all."
+ },
+ "FigureS2": {
+  "A": "boxes span the interquartile range, whiskers the 5th to 95th percentile, open circles are means; human 48,162, mouse 28,918, rat 10,258 proteins.",
+  "B": "boxes span the interquartile range, whiskers the 5th to 95th percentile, open circles are means; proteins by highest tier: GOLD 34,883, SILVER 31,549, BRONZE 20,906; no interval is drawn on the means; the eta-squared interval is the stored protein-bootstrap interval.",
+  "C": "boxes span the interquartile range, whiskers the 5th to 95th percentile, open circles are means; proteins by highest tier: GOLD 34,883, SILVER 31,549, BRONZE 20,906; no interval is drawn on the means; the secondary index is built from the tiers' own publications, which is why it was not used for matching.",
+  "D": "counts per bin.",
+  "E": "48,162 human proteins; annotation presence is a proxy for the outcome, not an independent variable.",
+  "F": "48,162 human proteins, 18,757 gene clusters; Pharos target classes, V50 index.",
+  "G": "GOLD and BRONZE sites in P-all and P-human; 95% gene-cluster intervals.",
+  "H": "48,162 human proteins, 18,757 gene clusters."
+ },
+ "FigureS3": {
+  "": "Shaded band: the balance criterion of the plan. CEM on the V50 decile, set-B tiers; the secondary-index design is not used."
+ },
+ "FigureS4": {
+  "A": "ratio of the protein-cluster interval to the site-level interval for the same estimate (estimates from the site-level analysis; compares interval methods only).",
+  "B": "gene-cluster against accession-cluster interval, D1 contrasts, populations P-all (black) and P-human (purple).",
+  "C": "ratio of the width of the two-way (protein x study) interval to the width of the protein-cluster interval, primary contrast in P-all.",
+  "D": "out of 1,000 resamples; orange bars mark rows with failed fits."
+ },
+ "FigureS5": {
+  "A": "cluster split and temporal split of the 136,468 proteins.",
+  "B": "cluster split and temporal split of the 136,468 proteins.",
+  "C": "test sets as assigned before scoring.",
+  "D": "the number of study clusters depends on what is counted: distinct primary cluster labels (all sites, and sites in the temporal split) or clusters formed over all 50,904 distinct PubMed IDs under the merge rule."
+ },
+ "FigureS6": {
+  "": "GOLD against BRONZE in P-all, set-B tiers unless named. Intervals are 95% gene-cluster intervals, except the last two rows (stored protein-cluster intervals, open circles; the cluster thresholds 500 and 1,000 sites change no record, so their estimates equal the primary estimate). Rows with several variants (leave one study cluster out, tier thresholds, cluster threshold, index variants) show every variant estimate as a dot and the range of the interval limits as a grey bar. Dotted vertical line: primary estimate."
+ },
+ "FigureS7": {
+  "": "Descriptive only, not graded: the indicator comes from the annotation tables that also feed the tiers (circular) and separates the tiers almost completely. GOLD against BRONZE, set-B tiers, 95% gene-cluster intervals; P-all: 324,907 / 478,880 sites, 37,903 gene clusters."
+ },
+ "FigureS8": {
+  "": "Means, no interval. Sites GOLD / SILVER / BRONZE: source set A, human 157,785 / 306,844 / 607,096; source set B, human 216,751 / 424,012 / 430,962; source set B, mouse 101,319 / 210,949 / 221,978; source set B, rat 24,369 / 115,841 / 21,887. Source set A: tiers from the human file with two source flags; source set B: three source flags."
+ }
+}

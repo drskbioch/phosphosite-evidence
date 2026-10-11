@@ -1,0 +1,252 @@
+{
+ "G14-0335": {
+  "signal": "S1",
+  "design": "R5_CEM_primary_index",
+  "status": "run",
+  "estimate": 2.775121013248645,
+  "ci_protein_cluster": [
+   2.6012288070237464,
+   2.9696244753078678
+  ],
+  "rev5_estimate": 2.775121013248644,
+  "rev5_ci_stratified": [
+   2.741181439264559,
+   2.8069661204240854
+  ],
+  "estimate_abs_diff_from_rev5": 8.881784197001252e-16,
+  "ci_width_ratio_protein_cluster_over_rev5": 5.600022099229607,
+  "rev5_ci_excludes_null": true,
+  "protein_cluster_ci_excludes_null": true,
+  "smd": 0.005719605749604073,
+  "n_sites": 637165,
+  "n_proteins": 46797,
+  "n_boot": 1000,
+  "note": "",
+  "seed": "[20260924, crc32(G14-0335)]"
+ },
+ "G14-0336": {
+  "signal": "S1",
+  "design": "R5_CEM_secondary_index",
+  "status": "run",
+  "estimate": 0.7667908081389282,
+  "ci_protein_cluster": [
+   0.7219148727889414,
+   0.8083250593443863
+  ],
+  "rev5_estimate": 0.7667908081389284,
+  "rev5_ci_stratified": [
+   0.7541296677637035,
+   0.7787397057180483
+  ],
+  "estimate_abs_diff_from_rev5": 2.220446049250313e-16,
+  "ci_width_ratio_protein_cluster_over_rev5": 3.5111764848046283,
+  "rev5_ci_excludes_null": true,
+  "protein_cluster_ci_excludes_null": true,
+  "smd": 0.034846216709891596,
+  "n_sites": 637165,
+  "n_proteins": 46797,
+  "n_boot": 1000,
+  "note": "",
+  "seed": "[20260924, crc32(G14-0336)]"
+ },
+ "G14-0338": {
+  "signal": "S2",
+  "design": "R5_CEM_primary_index",
+  "status": "run",
+  "estimate": 0.3976388482437482,
+  "ci_protein_cluster": [
+   0.38783079113751545,
+   0.40811638146568957
+  ],
+  "rev5_estimate": 0.3976388482437482,
+  "rev5_ci_stratified": [
+   0.3912106326133027,
+   0.4038277729877082
+  ],
+  "estimate_abs_diff_from_rev5": 0.0,
+  "ci_width_ratio_protein_cluster_over_rev5": 1.6077803469100178,
+  "rev5_ci_excludes_null": true,
+  "protein_cluster_ci_excludes_null": true,
+  "smd": 0.016542725707726608,
+  "n_sites": 130899,
+  "n_proteins": 18069,
+  "n_boot": 1000,
+  "note": "",
+  "seed": "[20260924, crc32(G14-0338)]"
+ },
+ "G14-0339": {
+  "signal": "S2",
+  "design": "R5_CEM_secondary_index",
+  "status": "run",
+  "estimate": 0.41237821906319716,
+  "ci_protein_cluster": [
+   0.40231987872010977,
+   0.4214269202842102
+  ],
+  "rev5_estimate": 0.4123782190631971,
+  "rev5_ci_stratified": [
+   0.40598345934596214,
+   0.41949896834579736
+  ],
+  "estimate_abs_diff_from_rev5": 5.551115123125783e-17,
+  "ci_width_ratio_protein_cluster_over_rev5": 1.4137123185174432,
+  "rev5_ci_excludes_null": true,
+  "protein_cluster_ci_excludes_null": true,
+  "smd": 0.02525377222569213,
+  "n_sites": 130899,
+  "n_proteins": 18069,
+  "n_boot": 1000,
+  "note": "",
+  "seed": "[20260924, crc32(G14-0339)]"
+ },
+ "G14-0341": {
+  "signal": "S3",
+  "design": "R5_CEM_primary_index",
+  "status": "run",
+  "estimate": 0.042163675112746435,
+  "ci_protein_cluster": [
+   0.03773685818662296,
+   0.04709812903674055
+  ],
+  "rev5_estimate": 0.042163675112746435,
+  "rev5_ci_stratified": [
+   0.04064678703859395,
+   0.04366592387951708
+  ],
+  "estimate_abs_diff_from_rev5": 0.0,
+  "ci_width_ratio_protein_cluster_over_rev5": 3.1006447681435,
+  "rev5_ci_excludes_null": true,
+  "protein_cluster_ci_excludes_null": true,
+  "smd": 0.012857926663296769,
+  "n_sites": 536525,
+  "n_proteins": 42466,
+  "n_boot": 1000,
+  "note": "",
+  "seed": "[20260924, crc32(G14-0341)]"
+ },
+ "G14-0342": {
+  "signal": "S3",
+  "design": "R5_CEM_secondary_index",
+  "status": "run",
+  "estimate": 0.05398204419431385,
+  "ci_protein_cluster": [
+   0.04936596347097497,
+   0.05876140360339677
+  ],
+  "rev5_estimate": 0.05398204419431396,
+  "rev5_ci_stratified": [
+   0.05184617125925587,
+   0.05599307784840626
+  ],
+  "estimate_abs_diff_from_rev5": 1.1102230246251565e-16,
+  "ci_width_ratio_protein_cluster_over_rev5": 2.2656502938848977,
+  "rev5_ci_excludes_null": true,
+  "protein_cluster_ci_excludes_null": true,
+  "smd": 0.021664480410994388,
+  "n_sites": 536525,
+  "n_proteins": 42466,
+  "n_boot": 1000,
+  "note": "",
+  "seed": "[20260924, crc32(G14-0342)]"
+ },
+ "G14-0344": {
+  "signal": "S4",
+  "design": "R5_CEM_primary_index",
+  "status": "run",
+  "estimate": 0.06306259273804449,
+  "ci_protein_cluster": [
+   0.059652244423786395,
+   0.0663781090337778
+  ],
+  "rev5_estimate": 0.06306259273804449,
+  "rev5_ci_stratified": [
+   0.06068968280961766,
+   0.06525344307972072
+  ],
+  "estimate_abs_diff_from_rev5": 0.0,
+  "ci_width_ratio_protein_cluster_over_rev5": 1.4737550204054686,
+  "rev5_ci_excludes_null": true,
+  "protein_cluster_ci_excludes_null": true,
+  "smd": 0.009634974627047316,
+  "n_sites": 803787,
+  "n_proteins": 76161,
+  "n_boot": 1000,
+  "note": "Rev 5 record set: 43 records with an undefined outcome kept for the index deciles; crude estimate not reported for this row",
+  "seed": "[20260924, crc32(G14-0344)]"
+ },
+ "G14-0345": {
+  "signal": "S4",
+  "design": "R5_CEM_secondary_index",
+  "status": "run",
+  "estimate": 0.13870102224099934,
+  "ci_protein_cluster": [
+   0.1343556574286175,
+   0.14283683883679077
+  ],
+  "rev5_estimate": 0.13870102224099928,
+  "rev5_ci_stratified": [
+   0.13524481366755073,
+   0.14232301154342236
+  ],
+  "estimate_abs_diff_from_rev5": 5.551115123125783e-17,
+  "ci_width_ratio_protein_cluster_over_rev5": 1.19821196820227,
+  "rev5_ci_excludes_null": true,
+  "protein_cluster_ci_excludes_null": true,
+  "smd": 0.02887521952396377,
+  "n_sites": 803787,
+  "n_proteins": 76161,
+  "n_boot": 1000,
+  "note": "Rev 5 record set: 43 records with an undefined outcome kept for the index deciles; crude estimate not reported for this row",
+  "seed": "[20260924, crc32(G14-0345)]"
+ },
+ "G14-0347": {
+  "signal": "S5",
+  "design": "R5_CEM_primary_index",
+  "status": "run",
+  "estimate": 0.7920000999438612,
+  "ci_protein_cluster": [
+   0.7888934034204012,
+   0.7951319177201205
+  ],
+  "rev5_estimate": 0.7920000999438612,
+  "rev5_ci_stratified": [
+   0.7906805468249545,
+   0.7934228467311631
+  ],
+  "estimate_abs_diff_from_rev5": 0.0,
+  "ci_width_ratio_protein_cluster_over_rev5": 2.2749205094581773,
+  "rev5_ci_excludes_null": true,
+  "protein_cluster_ci_excludes_null": true,
+  "smd": 0.009634974627047316,
+  "n_sites": 803787,
+  "n_proteins": 76161,
+  "n_boot": 1000,
+  "note": "",
+  "seed": "[20260924, crc32(G14-0347)]"
+ },
+ "G14-0348": {
+  "signal": "S5",
+  "design": "R5_CEM_secondary_index",
+  "status": "run",
+  "estimate": 0.8252957288597356,
+  "ci_protein_cluster": [
+   0.8217116419303728,
+   0.8287498346225787
+  ],
+  "rev5_estimate": 0.8252957288597356,
+  "rev5_ci_stratified": [
+   0.8238510308068272,
+   0.8268676014260165
+  ],
+  "estimate_abs_diff_from_rev5": 0.0,
+  "ci_width_ratio_protein_cluster_over_rev5": 2.333176835786283,
+  "rev5_ci_excludes_null": true,
+  "protein_cluster_ci_excludes_null": true,
+  "smd": 0.02887521952396377,
+  "n_sites": 803787,
+  "n_proteins": 76161,
+  "n_boot": 1000,
+  "note": "",
+  "seed": "[20260924, crc32(G14-0348)]"
+ }
+}

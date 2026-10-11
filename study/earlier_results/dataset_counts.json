@@ -1,0 +1,258 @@
+{
+  "n_sites": 1768068,
+  "n_proteins": 136468,
+  "sites_by_species": {
+    "human": 1071725,
+    "mouse": 534246,
+    "rat": 162097
+  },
+  "proteins_by_species": {
+    "human": 75248,
+    "mouse": 45003,
+    "rat": 16217
+  },
+  "residue_counts": {
+    "S": 1169864,
+    "T": 437752,
+    "Y": 160406,
+    "K": 26,
+    "H": 8,
+    "R": 6,
+    "C": 1,
+    "I": 1,
+    "D": 1,
+    "G": 1,
+    "M": 1,
+    "N": 1
+  },
+  "n_noncanonical_sites": 46,
+  "noncanonical_by_species": {
+    "human": 39,
+    "mouse": 5,
+    "rat": 2
+  },
+  "tier_counts_mammalian": {
+    "SILVER": 750802,
+    "BRONZE": 674827,
+    "GOLD": 342439
+  },
+  "das_counts": {
+    "0": 835335,
+    "1": 652606,
+    "2": 251770,
+    "3": 28357
+  },
+  "pds_median": 2.0,
+  "pds_max": 433,
+  "n_das_ge2": 280127,
+  "human_das_ge2_share_source_set_b": 0.16442557559075321,
+  "human_n_sites": 1071725,
+  "human_das_ge2_share_source_set_a": 0.0016319484942499242,
+  "human_tier_raw_pmid_rule": {
+    "BRONZE": 552519,
+    "GOLD": 519138,
+    "SILVER": 68
+  },
+  "human_tier_study_cluster_rule": {
+    "BRONZE": 607096,
+    "SILVER": 306844,
+    "GOLD": 157785
+  },
+  "human_n_sites_source_set_a": 1071725,
+  "disorder_mean_source_set_a_human": {
+    "BRONZE": 0.456056357563933,
+    "GOLD": 0.6083674837265831,
+    "SILVER": 0.48398151227547076
+  },
+  "disorder_mean_source_set_b": {
+    "human": {
+      "BRONZE": 0.5147855953379108,
+      "GOLD": 0.5566741751020111,
+      "SILVER": 0.45629167975326446
+    },
+    "mouse": {
+      "BRONZE": 0.5808004524074912,
+      "GOLD": 0.6057955974041306,
+      "SILVER": 0.5379978573991515
+    },
+    "rat": {
+      "BRONZE": 0.5872823992147008,
+      "GOLD": 0.6024865528073924,
+      "SILVER": 0.5802430802156706
+    }
+  },
+  "n_sites_with_first_year_table": 1768022,
+  "n_sites_missing_first_year": 2,
+  "n_missing_first_year_with_zero_pmids": 2,
+  "first_year_median_by_tier": {
+    "BRONZE": 2020.0,
+    "GOLD": 2005.0,
+    "SILVER": 2014.0
+  },
+  "first_year_mean_by_tier": {
+    "BRONZE": 2020.0604002477837,
+    "GOLD": 2006.5903538461089,
+    "SILVER": 2013.479527864241
+  },
+  "n_sites_absent_from_first_year_table": 46,
+  "absent_all_noncanonical": true,
+  "n_distinct_pmids": 50904,
+  "n_pmids_resolved": 43750,
+  "n_pmids_unparseable": 7154,
+  "n_pmids_over_45m": 6892,
+  "n_pmids_unresolved_valid_format": 262,
+  "unparseable_digit_lengths": {
+    "4": 3,
+    "5": 9,
+    "6": 26,
+    "7": 24,
+    "8": 5795,
+    "9": 1264,
+    "10": 33
+  },
+  "unparseable_le7_digit": 62,
+  "temporal_n_total": 1768020,
+  "temporal_split_counts": {
+    "train": 1231983,
+    "test": 536037
+  },
+  "temporal_train_proteins": 98306,
+  "temporal_test_proteins": 88025,
+  "temporal_proteins_in_both": 49863,
+  "temporal_proteins_total": 136468,
+  "temporal_clusters_in_both": 74,
+  "temporal_clusters_total": 1070,
+  "temporal_test_all_n": 536037,
+  "temporal_test_all_by_tier": {
+    "BRONZE": 498925,
+    "SILVER": 37084,
+    "GOLD": 28
+  },
+  "temporal_protein_disjoint_n": 168154,
+  "temporal_protein_disjoint_by_tier": {
+    "BRONZE": 159885,
+    "SILVER": 8265,
+    "GOLD": 4
+  },
+  "temporal_study_disjoint_n": 411,
+  "temporal_study_disjoint_by_tier": {
+    "BRONZE": 411
+  },
+  "temporal_protein_and_study_disjoint_n": 47,
+  "temporal_protein_and_study_disjoint_by_tier": {
+    "BRONZE": 47
+  },
+  "cluster_split_rows": 1768068,
+  "cluster_disjoint_test_n": 361908,
+  "cluster_disjoint_test_by_tier": {
+    "SILVER": 171874,
+    "BRONZE": 152075,
+    "GOLD": 37959
+  },
+  "protein_disjoint_test_n": 29727,
+  "protein_disjoint_test_by_tier": {
+    "BRONZE": 17968,
+    "SILVER": 11222,
+    "GOLD": 537
+  },
+  "excluded_straddling_sites": 332181,
+  "cluster_split_proteins_in_both": 52105,
+  "cluster_split_proteins_total": 136468,
+  "gold_total_mammalian": 342439,
+  "eval_sample_n": 10000,
+  "eval_sample_by_decile": {
+    "1": 1000,
+    "2": 1000,
+    "3": 1000,
+    "4": 1000,
+    "5": 1000,
+    "6": 1000,
+    "7": 1000,
+    "8": 1000,
+    "9": 1000,
+    "10": 1000
+  },
+  "eval_sample_by_label": {
+    "positive": 5000,
+    "unlabelled": 5000
+  },
+  "sei_n_proteins_mapped": 87338,
+  "sei_mean_by_species": {
+    "human": 1.9232669037225476,
+    "mouse": 1.6378225336806436,
+    "rat": 1.1007885975231242
+  },
+  "sei_median_by_species": {
+    "human": 1.8976270912904414,
+    "mouse": 1.5440680443502757,
+    "rat": 1.0
+  },
+  "temporal_train_by_tier": {
+    "SILVER": 713717,
+    "GOLD": 342409,
+    "BRONZE": 175857
+  },
+  "temporal_test_by_tier": {
+    "BRONZE": 498925,
+    "SILVER": 37084,
+    "GOLD": 28
+  },
+  "source_rate_by_species": {
+    "human": {
+      "source_PSP": 0.21990249364342532,
+      "source_PhosphoELM": 0.022602813221675337,
+      "source_dbPTM": 0.4439133173155427
+    },
+    "mouse": {
+      "source_PSP": 0.19303279762506412,
+      "source_PhosphoELM": 0.01124575570055742,
+      "source_dbPTM": 0.4580286983898803
+    },
+    "rat": {
+      "source_PSP": 0.16442006946457985,
+      "source_PhosphoELM": 0.002850145283379705,
+      "source_dbPTM": 0.7687742524537777
+    }
+  },
+  "tier_share_by_species": {
+    "human": {
+      "BRONZE": 0.4021199468147146,
+      "GOLD": 0.202244978889174,
+      "SILVER": 0.3956350742961114
+    },
+    "mouse": {
+      "BRONZE": 0.4154977295103754,
+      "GOLD": 0.18964858885232647,
+      "SILVER": 0.39485368163729817
+    },
+    "rat": {
+      "BRONZE": 0.13502409051370476,
+      "GOLD": 0.1503359099798269,
+      "SILVER": 0.7146399995064684
+    }
+  },
+  "das_ge1_share_with_dbptm": 0.9060138324686701,
+  "companion_cluster_pmids": [
+    "37582339",
+    "37582357",
+    "37582358",
+    "37582362",
+    "37582371",
+    "37619559",
+    "38359819"
+  ],
+  "companion_cluster_n_sites_human": 222623,
+  "companion_cluster_share_human": 0.2077239963610068,
+  "companion_cluster_tier_pmid_rule": {
+    "GOLD": 222623
+  },
+  "companion_cluster_tier_cluster_rule": {
+    "BRONZE": 143430,
+    "SILVER": 50032,
+    "GOLD": 29161
+  },
+  "n_study_clusters": 1113,
+  "study_cluster_top10_share": 0.6086004610682395,
+  "study_cluster_top1_share": 0.25361185203284037,
+  "study_cluster_sites_records": 1768068
+}

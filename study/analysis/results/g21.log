@@ -1,0 +1,101 @@
+S2 P-human: 100/1000 resamples, 22 s
+S2 P-human: 200/1000 resamples, 42 s
+S2 P-human: 300/1000 resamples, 62 s
+S2 P-human: 400/1000 resamples, 85 s
+S2 P-human: 500/1000 resamples, 108 s
+S2 P-human: 600/1000 resamples, 129 s
+S2 P-human: 700/1000 resamples, 153 s
+S2 P-human: 800/1000 resamples, 174 s
+S2 P-human: 900/1000 resamples, 198 s
+S2 P-human: 1000/1000 resamples, 220 s
+G21-0503 S2 P-human M1 10.1268 [9.4249, 10.9037] True
+G21-0504 S2 P-human M1s 10.6783 [9.8803, 11.5359] True
+G21-0505 S2 P-human M2 10.2878 [9.5198, 11.1321] True
+already run: S3 P-human
+S4 P-human: 100/1000 resamples, 401 s
+S4 P-human: 200/1000 resamples, 824 s
+S4 P-human: 300/1000 resamples, 1266 s
+S4 P-human: 400/1000 resamples, 2126 s
+S4 P-human: 500/1000 resamples, 2715 s
+S4 P-human: 600/1000 resamples, 3143 s
+S4 P-human: 700/1000 resamples, 3504 s
+S4 P-human: 800/1000 resamples, 3924 s
+S4 P-human: 900/1000 resamples, 4419 s
+S4 P-human: 1000/1000 resamples, 4847 s
+G21-0509 S4 P-human M1 1.2255 [1.209, 1.2426] True
+G21-0510 S4 P-human M1s 1.6346 [1.5992, 1.6726] True
+G21-0511 S4 P-human M2 1.7653 [1.7261, 1.8045] True
+already run: S2 P-human
+already run: S3 P-human
+already run: S4 P-human
+S5 P-human: 100/1000 resamples, 375 s
+S5 P-human: 200/1000 resamples, 709 s
+S5 P-human: 300/1000 resamples, 1037 s
+S5 P-human: 400/1000 resamples, 1409 s
+S5 P-human: 500/1000 resamples, 1752 s
+S5 P-human: 600/1000 resamples, 2089 s
+S5 P-human: 700/1000 resamples, 2444 s
+S5 P-human: 800/1000 resamples, 2794 s
+S5 P-human: 900/1000 resamples, 3143 s
+S5 P-human: 1000/1000 resamples, 3546 s
+G21-0512 S5 P-human M1 192.3183 [180.5803, 204.7992] True
+G21-0513 S5 P-human M1s 492.6823 [430.4763, 564.5778] True
+G21-0514 S5 P-human M2 518.8739 [451.1431, 593.6053] True
+S2 P-all: 100/1000 resamples, 36 s
+S2 P-all: 200/1000 resamples, 75 s
+S2 P-all: 300/1000 resamples, 113 s
+S2 P-all: 400/1000 resamples, 149 s
+S2 P-all: 500/1000 resamples, 186 s
+S2 P-all: 600/1000 resamples, 221 s
+S2 P-all: 700/1000 resamples, 257 s
+S2 P-all: 800/1000 resamples, 295 s
+S2 P-all: 900/1000 resamples, 333 s
+S2 P-all: 1000/1000 resamples, 369 s
+G21-0491 S2 P-all M1 9.1441 [8.5959, 9.6975] True
+G21-0492 S2 P-all M1s 9.9806 [9.4053, 10.5614] True
+G21-0493 S2 P-all M2 9.5118 [8.9592, 10.0411] True
+S3 P-all: 100/1000 resamples, 0 s
+S3 P-all: 200/1000 resamples, 0 s
+S3 P-all: 300/1000 resamples, 1 s
+S3 P-all: 400/1000 resamples, 1 s
+S3 P-all: 500/1000 resamples, 1 s
+S3 P-all: 600/1000 resamples, 1 s
+S3 P-all: 700/1000 resamples, 2 s
+S3 P-all: 800/1000 resamples, 2 s
+S3 P-all: 900/1000 resamples, 2 s
+S3 P-all: 1000/1000 resamples, 2 s
+G21-0494 S3 P-all M1 0.0453 [0.0431, 0.0475] True
+G21-0495 S3 P-all M1s 0.0688 [0.0662, 0.0714] True
+G21-0496 S3 P-all M2 0.0713 [0.0686, 0.0738] True
+S4 P-all: 100/1000 resamples, 492 s
+S4 P-all: 200/1000 resamples, 963 s
+S4 P-all: 300/1000 resamples, 1453 s
+S4 P-all: 400/1000 resamples, 1937 s
+S4 P-all: 500/1000 resamples, 2502 s
+--- resume 2026-10-05: S4,S5 P-all restart from zero (partial 500/1000 of 2026-10-04 discarded) ---
+S4 P-all: 100/1000 resamples, 454 s
+S4 P-all: 200/1000 resamples, 817 s
+S4 P-all: 300/1000 resamples, 1161 s
+S4 P-all: 400/1000 resamples, 1486 s
+S4 P-all: 500/1000 resamples, 1855 s
+S4 P-all: 600/1000 resamples, 2234 s
+S4 P-all: 700/1000 resamples, 2600 s
+S4 P-all: 800/1000 resamples, 2929 s
+S4 P-all: 900/1000 resamples, 3299 s
+S4 P-all: 1000/1000 resamples, 3717 s
+G21-0497 S4 P-all M1 1.3427 [1.3265, 1.3588] True
+G21-0498 S4 P-all M1s 1.845 [1.8093, 1.8817] True
+G21-0499 S4 P-all M2 1.9921 [1.9534, 2.0325] True
+S5 P-all: 100/1000 resamples, 354 s
+S5 P-all: 200/1000 resamples, 734 s
+S5 P-all: 300/1000 resamples, 1330 s
+S5 P-all: 400/1000 resamples, 1886 s
+S5 P-all: 500/1000 resamples, 2475 s
+S5 P-all: 600/1000 resamples, 3108 s
+S5 P-all: 700/1000 resamples, 3599 s
+S5 P-all: 800/1000 resamples, 4008 s
+S5 P-all: 900/1000 resamples, 4438 s
+S5 P-all: 1000/1000 resamples, 4867 s
+G21-0500 S5 P-all M1 160.1949 [152.2816, 167.9797] True
+G21-0501 S5 P-all M1s 485.1677 [436.4538, 536.9495] True
+G21-0502 S5 P-all M2 509.4943 [457.686, 563.2201] True

@@ -1,0 +1,61 @@
+{
+ "contrast_id": "G18-0412",
+ "block": "G18",
+ "signal": "S2",
+ "population": "P-human (S/T/Y only)",
+ "design": "D2b",
+ "index": "V50",
+ "tier_rule": "study-cluster rule (884)",
+ "null": 0.0,
+ "n_population_before_STY_restriction": 67416,
+ "n_analysis": 67404,
+ "n_gold": 49939,
+ "n_bronze": 17465,
+ "n_gene_clusters": 7965,
+ "n_proteins": 8029,
+ "resampling_unit": "gene cluster (gene_cluster)",
+ "seed": "[20260924, crc32(G18-0412)]",
+ "status": "run",
+ "estimate": 0.4481159088306036,
+ "estimate_rule": "median of 20 order replicates",
+ "replicates": {
+  "n": 20,
+  "min": 0.4443362730500515,
+  "median": 0.4481159088306036,
+  "max": 0.455045241094949,
+  "pairs_min": 17462,
+  "pairs_median": 17462.0,
+  "pairs_max": 17462,
+  "smd_min": -0.002212941091562501,
+  "smd_max": 0.014021747941122787
+ },
+ "ci": [
+  0.4340193691774294,
+  0.4622968965455223
+ ],
+ "crude": 0.4558829931692158,
+ "crude_ci": [
+  0.4424505438354229,
+  0.4695239108946141
+ ],
+ "survives": true,
+ "attenuation": 0.017037451396501695,
+ "attenuation_ci": [
+  0.003582577157593694,
+  0.030639531920121865
+ ],
+ "n_pairs": 17462.0,
+ "share_gold_matched": 0.3496665932437574,
+ "smd": 0.00604079804870698,
+ "balance_pass": true,
+ "point_outside_own_interval": false,
+ "decision_bearing": "yes",
+ "n_boot": 1000,
+ "n_boot_valid": 1000,
+ "n_boot_unfit": 0,
+ "boot_pairs_range": [
+  16560.0,
+  18278.0
+ ],
+ "seconds": 18.8
+}

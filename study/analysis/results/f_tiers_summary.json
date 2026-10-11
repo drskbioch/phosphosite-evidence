@@ -1,0 +1,99 @@
+{
+ "drop_1": {
+  "sites_dropped": 0,
+  "GOLD": 338151,
+  "SILVER": 748461,
+  "BRONZE": 681456
+ },
+ "drop_2": {
+  "sites_dropped": 130815,
+  "GOLD": 341096,
+  "SILVER": 735998,
+  "BRONZE": 560159
+ },
+ "drop_3": {
+  "sites_dropped": 334,
+  "GOLD": 341064,
+  "SILVER": 739870,
+  "BRONZE": 686800
+ },
+ "drop_4": {
+  "sites_dropped": 29482,
+  "GOLD": 341412,
+  "SILVER": 738703,
+  "BRONZE": 658471
+ },
+ "drop_5": {
+  "sites_dropped": 42462,
+  "GOLD": 341769,
+  "SILVER": 745089,
+  "BRONZE": 638748
+ },
+ "drop_6": {
+  "sites_dropped": 15997,
+  "GOLD": 341082,
+  "SILVER": 740846,
+  "BRONZE": 670143
+ },
+ "drop_7": {
+  "sites_dropped": 32101,
+  "GOLD": 341899,
+  "SILVER": 740582,
+  "BRONZE": 653486
+ },
+ "drop_8": {
+  "sites_dropped": 66,
+  "GOLD": 339911,
+  "SILVER": 753107,
+  "BRONZE": 674984
+ },
+ "drop_9": {
+  "sites_dropped": 1292,
+  "GOLD": 341574,
+  "SILVER": 750927,
+  "BRONZE": 674275
+ },
+ "drop_10": {
+  "sites_dropped": 13898,
+  "GOLD": 341147,
+  "SILVER": 741016,
+  "BRONZE": 672007
+ },
+ "drop_consortium7": {
+  "sites_dropped": 130815,
+  "GOLD": 341096,
+  "SILVER": 735998,
+  "BRONZE": 560159
+ },
+ "g8_d5_a2": {
+  "GOLD": 526413,
+  "SILVER": 566828,
+  "BRONZE": 674827
+ },
+ "g8_d5_a3": {
+  "GOLD": 510945,
+  "SILVER": 582296,
+  "BRONZE": 674827
+ },
+ "g8_d10_a2": {
+  "GOLD": 342439,
+  "SILVER": 750802,
+  "BRONZE": 674827
+ },
+ "g8_d10_a3": {
+  "GOLD": 247855,
+  "SILVER": 845386,
+  "BRONZE": 674827
+ },
+ "g8_d20_a2": {
+  "GOLD": 298332,
+  "SILVER": 794909,
+  "BRONZE": 674827
+ },
+ "g8_d20_a3": {
+  "GOLD": 130437,
+  "SILVER": 962804,
+  "BRONZE": 674827
+ },
+ "check_g8_d10_a2_equals_primary_tier": true
+}

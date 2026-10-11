@@ -1,0 +1,48 @@
+{
+ "30243273": {
+  "title": "An efficient pair natural orbital based configuration interaction scheme for the calculation of open-shell ionization potentials.",
+  "records": 3786,
+  "share_of_records": 0.0021413203564568783,
+  "by_tier": {
+   "GOLD": 3685,
+   "SILVER": 100,
+   "BRONZE": 1
+  },
+  "by_species": {
+   "human": 3786
+  },
+  "only_pmid_in_list": 0
+ },
+ "37031204": {
+  "title": "Correction to: Phospho-heavy-labeled-spiketide FAIMS stepped-CV DDA (pHASED) provides real-time phosphoproteomics data to aid in cancer drug selection.",
+  "records": 3893,
+  "share_of_records": 0.002201838390831122,
+  "by_tier": {
+   "GOLD": 3743,
+   "SILVER": 103,
+   "BRONZE": 47
+  },
+  "by_species": {
+   "mouse": 3890,
+   "human": 3
+  },
+  "only_pmid_in_list": 37
+ },
+ "14702039": {
+  "title": "Complete sequencing and characterization of 21,243 full-length human cDNAs.",
+  "records": 1864,
+  "share_of_records": 0.0010542580941457003,
+  "by_tier": {
+   "GOLD": 1851,
+   "SILVER": 13
+  },
+  "by_species": {
+   "human": 1864
+  },
+  "only_pmid_in_list": 0
+ },
+ "any_of_the_three": {
+  "records": 9388,
+  "share_of_records": 0.005309750529956993
+ }
+}

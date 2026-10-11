@@ -1,0 +1,18 @@
+| Signal         | Design                    | Experimental minus inferred (95% gene-cluster CI)   | Experimental / inferred records; gene clusters   |
+|:---------------|:--------------------------|:----------------------------------------------------|:-------------------------------------------------|
+| Domain overlap | crude                     | 1.336 (1.138 to 1.583)                              | 5,021 / 9,106; 4,522                             |
+| Domain overlap | CEM on the V50 decile     | 1.026 (0.874 to 1.229)                              | 5,021 / 9,106; 4,522                             |
+| Domain overlap | index x abundance deciles | 1.068 (0.887 to 1.243)                              | 5,003 / 9,048; 4,492                             |
+| Conservation   | crude                     | -0.1757 (-0.2166 to -0.1412)                        | 1,467 / 2,586; 1,698                             |
+| Conservation   | CEM on the V50 decile     | -0.1297 (-0.1881 to -0.0873)                        | 1,467 / 2,586; 1,698                             |
+| Conservation   | index x abundance deciles | -0.1561 (-0.2014 to -0.1098)                        | 1,463 / 2,576; 1,688                             |
+| Disorder       | crude                     | -0.0637 (-0.0797 to -0.0483)                        | 5,014 / 9,091; 4,513                             |
+| Disorder       | CEM on the V50 decile     | -0.0318 (-0.0489 to -0.0147)                        | 5,014 / 9,091; 4,513                             |
+| Disorder       | index x abundance deciles | -0.0346 (-0.0465 to -0.0123)                        | 4,999 / 9,035; 4,484                             |
+| Sequence motif | crude                     | -0.0217 (-0.0446 to -0.00004)                       | 5,021 / 9,106; 4,522                             |
+| Sequence motif | CEM on the V50 decile     | 0.0327 (0.0087 to 0.0545)                           | 5,021 / 9,106; 4,522                             |
+| Sequence motif | index x abundance deciles | 0.0383 (0.0134 to 0.0674)                           | 5,003 / 9,048; 4,492                             |
+
+Notes. Experimental and inferred refer to the evidence code (ECO) of the UniProt modified-residue annotation of the site. Estimates are experimental minus inferred, as a difference in proportion or mean score, and as an odds ratio for domain overlap; intervals are 95% gene-cluster bootstrap intervals.
+
+A limit that would print as zero at the usual number of decimals is given with more decimals so that its sign shows.

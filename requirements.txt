@@ -1,0 +1,19 @@
+# Python packages for the scripts in study/scripts/analysis/ and study/scripts/figures/ (analysis, reports, figures, number checks).
+# Versions are those installed in the Python 3.13.7 interpreter on the machine that produced the results. Every package below was installed
+# (dist-info dates) before the first result file was written on 2026-09-29. No result file records package versions, so this is the installed
+# set, not a recorded one. Direct dependencies only; pip resolves the rest.
+numpy==2.3.4
+pandas==2.3.3
+scipy==1.16.3
+statsmodels==0.14.5
+numba==0.62.1
+llvmlite==0.45.1
+pyarrow==22.0.0
+requests==2.32.5
+matplotlib==3.10.7
+pillow==12.3.0
+tabulate==0.10.0
+scikit-learn==1.6.1
+# Used only by build_si.py, scan_si.py, check_limits.py and check_release_scope.py (PDF and workbook text); no result depends on them. Installed before 2026-09-29 (dist-info dates).
+PyMuPDF==1.27.1
+openpyxl==3.1.5

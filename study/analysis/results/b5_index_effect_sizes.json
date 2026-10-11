@@ -1,0 +1,138 @@
+{
+ "n_proteins": 87338,
+ "n_boot": 1000,
+ "resampling_unit": "protein",
+ "p_values": "not reported (dropped in Rev 6; proteins share studies and n is large)",
+ "means_by_top_tier": {
+  "SEI_V0": {
+   "BRONZE": 1.8021029352390567,
+   "GOLD": 1.7502005420542808,
+   "SILVER": 1.6658471776242418
+  },
+  "SEI_V50": {
+   "BRONZE": 1.4350868488052524,
+   "GOLD": 1.371786660940363,
+   "SILVER": 1.297565379216291
+  },
+  "SEI_secondary": {
+   "BRONZE": 0.38018030684007165,
+   "GOLD": 1.5247009451219662,
+   "SILVER": 0.7478919954010167
+  }
+ },
+ "n_by_top_tier": {
+  "GOLD": 34883,
+  "SILVER": 31549,
+  "BRONZE": 20906
+ },
+ "effects": {
+  "kruskal_eta2_SEI_V0_by_top_tier": {
+   "description": "Kruskal-Wallis eta-squared of V0 (Rev 5 index) by highest tier",
+   "estimate": 0.006675470282369362,
+   "ci95": [
+    0.005668615795005212,
+    0.0077828979810258105
+   ],
+   "seed": "[20260924, crc32(B5|kruskal_eta2_SEI_V0_by_top_tier)]"
+  },
+  "rank_biserial_SEI_V0_GOLD_vs_BRONZE": {
+   "description": "rank-biserial r, V0 (Rev 5 index), GOLD vs BRONZE proteins (highest tier)",
+   "estimate": 0.045848943718184154,
+   "ci95": [
+    0.035690323729134735,
+    0.05560935943366905
+   ],
+   "seed": "[20260924, crc32(B5|rank_biserial_SEI_V0_GOLD_vs_BRONZE)]"
+  },
+  "spearman_SEI_V0_vs_secondary": {
+   "description": "Spearman rho, V0 (Rev 5 index) vs secondary index",
+   "estimate": 0.12064108171242159,
+   "ci95": [
+    0.11456788860755282,
+    0.12700300662468006
+   ],
+   "seed": "[20260924, crc32(B5|spearman_SEI_V0_vs_secondary)]"
+  },
+  "pointbiserial_annotation_SEI_V0": {
+   "description": "point-biserial r, domain-annotation presence vs V0 (Rev 5 index)",
+   "estimate": -0.15303851244081149,
+   "ci95": [
+    -0.1612478000675696,
+    -0.14353301160920662
+   ],
+   "seed": "[20260924, crc32(B5|pointbiserial_annotation_SEI_V0)]"
+  },
+  "kruskal_eta2_SEI_V50_by_top_tier": {
+   "description": "Kruskal-Wallis eta-squared of V50 (Rev 6 primary index) by highest tier",
+   "estimate": 0.004714011947431574,
+   "ci95": [
+    0.0038352242325130946,
+    0.005657327028854761
+   ],
+   "seed": "[20260924, crc32(B5|kruskal_eta2_SEI_V50_by_top_tier)]"
+  },
+  "rank_biserial_SEI_V50_GOLD_vs_BRONZE": {
+   "description": "rank-biserial r, V50 (Rev 6 primary index), GOLD vs BRONZE proteins (highest tier)",
+   "estimate": 0.04749117616526022,
+   "ci95": [
+    0.03798215219133395,
+    0.05733279175452995
+   ],
+   "seed": "[20260924, crc32(B5|rank_biserial_SEI_V50_GOLD_vs_BRONZE)]"
+  },
+  "spearman_SEI_V50_vs_secondary": {
+   "description": "Spearman rho, V50 (Rev 6 primary index) vs secondary index",
+   "estimate": 0.07559490248423502,
+   "ci95": [
+    0.06889467213873512,
+    0.08236824718878637
+   ],
+   "seed": "[20260924, crc32(B5|spearman_SEI_V50_vs_secondary)]"
+  },
+  "pointbiserial_annotation_SEI_V50": {
+   "description": "point-biserial r, domain-annotation presence vs V50 (Rev 6 primary index)",
+   "estimate": -0.12798250975561146,
+   "ci95": [
+    -0.13686262314405329,
+    -0.1193040629275001
+   ],
+   "seed": "[20260924, crc32(B5|pointbiserial_annotation_SEI_V50)]"
+  },
+  "pointbiserial_annotation_SEI_secondary": {
+   "description": "point-biserial r, domain-annotation presence vs secondary index",
+   "estimate": 0.6486363763429286,
+   "ci95": [
+    0.6438034680711946,
+    0.6536329963514609
+   ],
+   "seed": "[20260924, crc32(B5|pointbiserial_annotation_SEI_secondary)]"
+  },
+  "kruskal_eta2_SEI_secondary_by_top_tier": {
+   "description": "Kruskal-Wallis eta-squared of secondary index by highest tier",
+   "estimate": 0.7660397891589549,
+   "ci95": [
+    0.7635932648882816,
+    0.7682262528164263
+   ],
+   "seed": "[20260924, crc32(B5|kruskal_eta2_SEI_secondary_by_top_tier)]"
+  },
+  "rank_biserial_SEI_secondary_GOLD_vs_BRONZE": {
+   "description": "rank-biserial r, secondary index, GOLD vs BRONZE proteins",
+   "estimate": -0.9986308908670409,
+   "ci95": [
+    -0.9988123864501945,
+    -0.998447265376135
+   ],
+   "seed": "[20260924, crc32(B5|rank_biserial_SEI_secondary_GOLD_vs_BRONZE)]"
+  }
+ },
+ "rev5_check": {
+  "n_proteins_rev5": 87338,
+  "rev5_kruskal_eta2": 0.006675470282369362,
+  "recomputed_kruskal_eta2_V0": 0.006675470282369362,
+  "rev5_spearman_rho": 0.12064108171242159,
+  "recomputed_spearman_V0_vs_secondary": 0.12064108171242159,
+  "rev5_rank_biserial": 0.045848943718184154,
+  "recomputed_rank_biserial_V0": 0.045848943718184154
+ }
+}

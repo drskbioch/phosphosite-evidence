@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="504pt" height="338.4pt" viewBox="0 0 504 338.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-09T17:42:45.612497</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.7, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 338.4 
+L 504 338.4 
+L 504 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 66.1248 119.568 
+L 134.0892 119.568 
+Q 137.214 119.568 137.214 116.4096 
+L 137.214 59.5584 
+Q 137.214 56.4 134.0892 56.4 
+L 66.1248 56.4 
+Q 63 56.4 63 59.5584 
+L 63 116.4096 
+Q 63 119.568 66.1248 119.568 
+z
+" clip-path="url(#p7af81df1cd)" style="fill: #d9eefa; stroke: #1f6e9c; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 66.1248 166.944 
+L 134.0892 166.944 
+Q 137.214 166.944 137.214 163.7856 
+L 137.214 134.5704 
+Q 137.214 131.412 134.0892 131.412 
+L 66.1248 131.412 
+Q 63 131.412 63 134.5704 
+L 63 163.7856 
+Q 63 166.944 66.1248 166.944 
+z
+" clip-path="url(#p7af81df1cd)" style="fill: #d9eefa; stroke: #1f6e9c; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 66.1248 214.32 
+L 134.0892 214.32 
+Q 137.214 214.32 137.214 211.1616 
+L 137.214 181.9464 
+Q 137.214 178.788 134.0892 178.788 
+L 66.1248 178.788 
+Q 63 178.788 63 181.9464 
+L 63 211.1616 
+Q 63 214.32 66.1248 214.32 
+z
+" clip-path="url(#p7af81df1cd)" style="fill: #d9eefa; stroke: #1f6e9c; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 66.1248 269.592 
+L 134.0892 269.592 
+Q 137.214 269.592 137.214 266.4336 
+L 137.214 229.3224 
+Q 137.214 226.164 134.0892 226.164 
+L 66.1248 226.164 
+Q 63 226.164 63 229.3224 
+L 63 266.4336 
+Q 63 269.592 66.1248 269.592 
+z
+" clip-path="url(#p7af81df1cd)" style="fill: #d9eefa; stroke: #1f6e9c; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 155.9628 147.204 
+L 227.8332 147.204 
+Q 230.958 147.204 230.958 144.0456 
+L 230.958 63.5064 
+Q 230.958 60.348 227.8332 60.348 
+L 155.9628 60.348 
+Q 152.838 60.348 152.838 63.5064 
+L 152.838 144.0456 
+Q 152.838 147.204 155.9628 147.204 
+z
+" clip-path="url(#p7af81df1cd)" style="fill: #d3eee6; stroke: #00795a; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 155.9628 198.528 
+L 227.8332 198.528 
+Q 230.958 198.528 230.958 195.3696 
+L 230.958 160.2324 
+Q 230.958 157.074 227.8332 157.074 
+L 155.9628 157.074 
+Q 152.838 157.074 152.838 160.2324 
+L 152.838 195.3696 
+Q 152.838 198.528 155.9628 198.528 
+z
+" clip-path="url(#p7af81df1cd)" style="fill: #d3eee6; stroke-dasharray: 2.7,1.8; stroke-dashoffset: 0; stroke: #00795a; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 155.9628 277.488 
+L 227.8332 277.488 
+Q 230.958 277.488 230.958 274.3296 
+L 230.958 217.4784 
+Q 230.958 214.32 227.8332 214.32 
+L 155.9628 214.32 
+Q 152.838 214.32 152.838 217.4784 
+L 152.838 274.3296 
+Q 152.838 277.488 155.9628 277.488 
+z
+" clip-path="url(#p7af81df1cd)" style="fill: #d3eee6; stroke: #00795a; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 249.7068 277.488 
+L 352.8252 277.488 
+Q 355.95 277.488 355.95 274.3296 
+L 355.95 63.5064 
+Q 355.95 60.348 352.8252 60.348 
+L 249.7068 60.348 
+Q 246.582 60.348 246.582 63.5064 
+L 246.582 274.3296 
+Q 246.582 277.488 249.7068 277.488 
+z
+" clip-path="url(#p7af81df1cd)" style="fill: #f8e0d0; stroke: #b04a00; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 374.6988 127.464 
+L 450.4752 127.464 
+Q 453.6 127.464 453.6 124.3056 
+L 453.6 63.5064 
+Q 453.6 60.348 450.4752 60.348 
+L 374.6988 60.348 
+Q 371.574 60.348 371.574 63.5064 
+L 371.574 124.3056 
+Q 371.574 127.464 374.6988 127.464 
+z
+" clip-path="url(#p7af81df1cd)" style="fill: #e4e0f0; stroke: #5e4fa2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 374.6988 214.32 
+L 450.4752 214.32 
+Q 453.6 214.32 453.6 211.1616 
+L 453.6 138.5184 
+Q 453.6 135.36 450.4752 135.36 
+L 374.6988 135.36 
+Q 371.574 135.36 371.574 138.5184 
+L 371.574 211.1616 
+Q 371.574 214.32 374.6988 214.32 
+z
+" clip-path="url(#p7af81df1cd)" style="fill: #e4e0f0; stroke: #5e4fa2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 374.6988 277.488 
+L 450.4752 277.488 
+Q 453.6 277.488 453.6 274.3296 
+L 453.6 225.3744 
+Q 453.6 222.216 450.4752 222.216 
+L 374.6988 222.216 
+Q 371.574 222.216 371.574 225.3744 
+L 371.574 274.3296 
+Q 371.574 277.488 374.6988 277.488 
+z
+" clip-path="url(#p7af81df1cd)" style="fill: #e4e0f0; stroke-dasharray: 2.7,1.8; stroke-dashoffset: 0; stroke: #5e4fa2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: middle; fill: #1f6e9c" x="100.107" y="49.134131" transform="rotate(-0 100.107 49.134131)">Inputs</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: middle; fill: #00795a" x="191.898" y="49.134131" transform="rotate(-0 191.898 49.134131)">Site table, covariates</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: middle; fill: #b04a00" x="299.313" y="49.088194" transform="rotate(-0 299.313 49.088194)">Designs</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: middle; fill: #5e4fa2" x="410.634" y="49.13085" transform="rotate(-0 410.634 49.13085)">Inference and signals</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(84.738172 69.742055)">EPSD 2.0</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(82.018563 77.646914)">site records</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(68.597703 85.66268)">(human, mouse, rat)</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(71.313484 93.760477)">(PhosphoSitePlus,</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(64.897 101.747367)">Phospho.ELM, dbPTM</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(80.072234 109.763133)">source flags)</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(68.782 146.963539)">gene2pubmed links,</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(69.567312 154.95043)">UniProt ID mapping</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(83.764734 194.41118)">PaxDb 6.0</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(71.113328 202.316039)">protein abundance</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(89.018016 241.741734)">Pharos</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(70.145906 249.646594)">target development</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(92.909031 257.633484)">level</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(177.305734 73.870633)">Site table</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(168.160344 81.775492)">1,768,068 sites</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(165.824641 89.707367)">136,468 proteins</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(191.898 97.612227)"/>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(164.664172 105.517086)">agreement score,</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(161.357219 113.503977)">study-cluster depth,</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(175.172922 121.490867)">set-B tiers:</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(166.870266 129.395727)">GOLD, SILVER,</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(177.313391 137.300586)">BRONZE</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(156.683625 171.70575)">Check: 28 database or</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(170.312297 179.610609)">review PMIDs</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(173.606672 187.515469)">not counted</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(175.169641 231.710953)">Covariates</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(191.898 239.615813)"/>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(167.254172 247.631578)">V50 study-effort</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(165.440187 255.729375)">index (per gene),</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(174.577375 263.716266)">abundance</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 137.214 87.984 
+Q 145.026 86.01 152.079226 84.227733 
+" style="fill: none; stroke: #1a1a1a; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 149.02157 83.556362 
+L 152.079226 84.227733 
+L 149.707535 86.271036 
+z
+" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 137.214 149.178 
+Q 145.026 132.399 152.507672 116.329495 
+" style="fill: none; stroke: #1a1a1a; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 150.056671 118.276953 
+L 152.507672 116.329495 
+L 152.595037 119.458771 
+z
+" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 137.214 196.554 
+Q 145.026 217.281 152.561983 237.275665 
+" style="fill: none; stroke: #1a1a1a; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 152.884516 234.161829 
+L 152.561983 237.275665 
+L 150.264434 235.149337 
+z
+" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 137.214 247.878 
+Q 145.026 254.787 152.251757 261.177522 
+" style="fill: none; stroke: #1a1a1a; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 151.081833 258.273856 
+L 152.251757 261.177522 
+L 149.22687 260.371261 
+z
+" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 191.898 147.204 
+Q 191.898 152.139 191.898 156.291376 
+" style="fill: none; stroke-dasharray: 2.1,1.4; stroke-dashoffset: 0; stroke: #1a1a1a; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 193.298 153.491376 
+L 191.898 156.291376 
+L 190.498 153.491376 
+z
+" style="fill: #1a1a1a; stroke-dasharray: 2.1,1.4; stroke-dashoffset: 0; stroke: #1a1a1a; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(263.532719 123.05482)">GOLD against BRONZE</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(301.266 131.041711)"/>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(292.511625 138.94657)">crude</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(250.500141 146.962336)">CEM on the V50 decile (primary)</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(260.017406 154.949227)">index x abundance deciles</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(262.543422 162.854086)">abundance deciles alone</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(271.504516 170.785961)">1:1 caliper matcher</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(257.891703 178.801727)">within-gene model (M1, M2)</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(256.534359 186.788617)">non-primary PMIDs removed</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(268.002875 194.775508)">tier-definition variants</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(280.062563 202.680367)">residue strata</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(268.391156 210.585227)">leave-one-cluster-out</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(279.284906 218.490086)">tier thresholds</text>
+   </g>
+   <g id="patch_18">
+    <path d="M 230.958 103.776 
+Q 238.77 103.776 245.799376 103.776 
+" style="fill: none; stroke: #1a1a1a; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 242.999376 102.376 
+L 245.799376 103.776 
+L 242.999376 105.176 
+z
+" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 230.958 245.904 
+Q 238.77 245.904 245.799376 245.904 
+" style="fill: none; stroke: #1a1a1a; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 242.999376 244.504 
+L 245.799376 245.904 
+L 242.999376 247.304 
+z
+" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(376.015828 75.748656)">Gene-cluster bootstrap,</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(386.71325 83.680531)">1,000 resamples</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(379.916687 91.696297)">(primary); accession-</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(381.659578 99.683188)">cluster and two-way</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(387.495828 107.780984)">(protein x study)</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(385.547312 115.767875)">intervals beside it</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(401.108094 148.791305)">Signals</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(385.933953 156.778195)">decision-bearing:</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(377.375359 164.765086)">conservation, disorder,</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(388.852625 172.780852)">sequence motif</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(377.754344 180.685711)">population-dependent:</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(388.657938 188.59057)">domain overlap</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(387.493641 196.49543)">descriptive only:</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(393.717625 204.593227)">lookup motif</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(390.021297 243.604828)">Predictor audit</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(374.84825 251.620594)">(secondary): DeepPhos,</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #1a1a1a" transform="translate(377.378641 259.718391)">MusiteDeep, PhosF3C</text>
+   </g>
+   <g id="patch_20">
+    <path d="M 355.95 93.906 
+Q 363.762 93.906 370.791376 93.906 
+" style="fill: none; stroke: #1a1a1a; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 367.991376 92.506 
+L 370.791376 93.906 
+L 367.991376 95.306 
+z
+" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 355.95 170.892 
+Q 363.762 170.892 370.791376 170.892 
+" style="fill: none; stroke: #1a1a1a; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 367.991376 169.492 
+L 370.791376 170.892 
+L 367.991376 172.292 
+z
+" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 355.95 249.852 
+Q 363.762 249.852 370.791376 249.852 
+" style="fill: none; stroke: #1a1a1a; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 367.991376 248.452 
+L 370.791376 249.852 
+L 367.991376 251.252 
+z
+" style="fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 6.5px; font-family: 'Arial'; text-anchor: start; fill: #1a1a1a" x="6.048" y="335.339953" transform="rotate(-0 6.048 335.339953)">Boxes with dashed outlines are checks or secondary analyses.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7af81df1cd">
+   <rect x="63" y="40.608" width="390.6" height="260.568"/>
+  </clipPath>
+ </defs>
+</svg>
