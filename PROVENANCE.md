@@ -4,6 +4,11 @@
 - Changes made after the freeze are listed in section 15 of `study/analysis/ANALYSIS_PLAN.md`, in the entries headed "Post-freeze extension". The result files that hold estimates are byte-identical between the tag and this folder. Among the stored results, the files that differ from the tag are `claims_bindings.json`, `downloads_manifest.json` and the reports `number_source_check.md`, `number_binding_check.md` and `builder_numeric_literals.md`, together with files added after the tag (new bindings, check reports, run logs); those entries describe each.
 - This folder was built from commit `3a481f81662db3863a02633d4a855eb038e059d5` of the private working repository: the files listed in `RELEASE_SCOPE.md`, taken from that commit, with the folder and file names changed as listed under Renamed paths, and with these changes and additions: `CITATION.cff` and `.zenodo.json` (title, version 1.0.0, author), a new `README.md`, this file, `TITLE.txt`, `scripts/set_title.py` and `.gitignore`.
 - The private working repository, with its history, is not part of the archive.
+- The code and results are archived on Zenodo (DOI 10.5281/zenodo.23303699) from the GitHub repository https://github.com/drskbioch/phosphosite-evidence. Each Zenodo release has its own version DOI, and the files inside a release cannot contain that release's own version DOI.
+
+## Versions
+
+v1.0.0 (commit e5f734a): first release. Its CITATION.cff and README still held placeholder text for the repository URL and DOI, and its Zenodo description was the generic text from .zenodo.json. v1.0.1: corrects this metadata only. No script, result, figure or table differs from v1.0.0.
 
 ## Redactions
 

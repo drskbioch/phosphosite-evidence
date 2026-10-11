@@ -1,6 +1,6 @@
 {
   "title": "Analysis code and results for: Counting rules and study effort in phosphosite evidence tiers: an audit of the signals used to validate them",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "upload_type": "software",
   "access_right": "open",
   "license": "MIT",
@@ -9,5 +9,5 @@
       "name": "Ullah, Shahid"
     }
   ],
-  "description": "Analysis scripts, plan and deviation log, manifests, stored results, claims table, figure and table code, figures, and number checks for the manuscript. Inputs that are not redistributed are listed in INPUTS.md; the run order is in REPRODUCE.md."
+  "description": "<p>This archive contains the analysis code, stored results, figure and table code, and supporting files for a study of how evidence tiers for phosphorylation sites are built, and how much the signals used to validate those tiers reflect the amount of research a site or protein has received. The study uses human, mouse and rat phosphosite records.</p> <p><strong>Contents</strong></p> <ul> <li>Analysis scripts (<code>study/scripts/</code>), the analysis plan, and a log of deviations from that plan.</li> <li>Stored result files and the claims table that links every number in the manuscript to a result file.</li> <li>Code that builds the figures and tables, the figures and tables themselves, and the Supporting Information.</li> <li>Checking scripts that confirm every reported number is bound to a source file, with their reports.</li> <li><code>REPRODUCE.md</code> (run order, inputs and run times), <code>INPUTS.md</code> (source, version, retrieval date and checksum for every input) and <code>RELEASE_SCOPE.md</code> (exactly what this archive holds).</li> <li><code>phosnet</code> 0.1.0, an earlier library kept for completeness. The results in the manuscript were produced by the scripts in <code>study/scripts/analysis/</code>, not by this library.</li> </ul> <p><strong>Not included</strong></p> <p>Site-level records from EPSD, PhosphoSitePlus, Phospho.ELM and dbPTM are not redistributed. EPSD states no licence, and permission to share derived tables has been requested. The raw inputs (about 1.4 GB of processed data and about 1.1 GB of other input files) must be downloaded from the providers listed in <code>INPUTS.md</code>. No mass spectrometry data were generated in this study. Reproducing the reports, figures, tables and number checks from the stored result files does not need the raw inputs. Re-running the analysis from the raw inputs does, and one step takes many hours.</p> <p><strong>Related work</strong></p> <p>A manuscript describing this work is in preparation. This record will be updated with its reference.</p> <p><strong>Licence and citation</strong></p> <p>Code and results are released under the MIT licence. Copyright (c) 2026 Dr Shahid Ullah. Please cite this record using the citation file (<code>CITATION.cff</code>) or the Zenodo citation.</p>"
 }

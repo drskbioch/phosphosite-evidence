@@ -1,5 +1,7 @@
 # <!--title-->Counting rules and study effort in phosphosite evidence tiers: an audit of the signals used to validate them<!--/title-->
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23303699.svg)](https://doi.org/10.5281/zenodo.23303699)
+
 This archive holds the analysis code, the stored results, the figures and tables, the Supporting Information and the number checks for the study "<!--title-->Counting rules and study effort in phosphosite evidence tiers: an audit of the signals used to validate them<!--/title-->". The code compares the evidence tiers GOLD, SILVER and BRONZE of phosphosite records in the EPSD 2.0 resource (human, mouse and rat), measures how the tier assignment depends on the counting rule and on the amount of study effort behind each protein, and tests four validation signals (domain overlap, conservation, disorder and sequence motif) and three phosphorylation-site predictors against these quantities.
 
 ## What is in the archive
@@ -23,7 +25,7 @@ This archive holds the analysis code, the stored results, the figures and tables
 
 ## How to cite
 
-See `CITATION.cff`. DOI: TO BE SET AFTER RELEASE.
+See `CITATION.cff`. DOI: [10.5281/zenodo.23303699](https://doi.org/10.5281/zenodo.23303699). Repository: https://github.com/drskbioch/phosphosite-evidence.
 
 ## Author and licence
 

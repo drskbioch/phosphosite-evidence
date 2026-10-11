@@ -2,11 +2,13 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata in this file."
 type: software
 title: "Counting rules and study effort in phosphosite evidence tiers: an audit of the signals used to validate them"
-version: "1.0.0"
+version: "1.0.1"
+date-released: "2026-10-12"
 license: MIT
 authors:
   - family-names: Ullah
     given-names: Shahid
     email: drskbioch@gmail.com
     website: "https://www.habdsk.org"
-repository-code: "TO BE SET"
+repository-code: "https://github.com/drskbioch/phosphosite-evidence"
+doi: 10.5281/zenodo.23303699

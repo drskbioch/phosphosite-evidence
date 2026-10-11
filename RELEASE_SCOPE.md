@@ -400,13 +400,13 @@ Some file names in the list contain words that the figure and manuscript text av
 | `phosnet` package | `study/phosnet/src/phosnet/sei.py` | 7,925 |
 | `phosnet` package | `study/phosnet/tests/test_smoke.py` | 5,043 |
 | Root documents, requirements, licence and citation files | `.gitignore` | 320 |
-| Root documents, requirements, licence and citation files | `.zenodo.json` | 583 |
-| Root documents, requirements, licence and citation files | `CITATION.cff` | 422 |
+| Root documents, requirements, licence and citation files | `.zenodo.json` | 2,628 |
+| Root documents, requirements, licence and citation files | `CITATION.cff` | 519 |
 | Root documents, requirements, licence and citation files | `INPUTS.md` | 18,769 |
 | Root documents, requirements, licence and citation files | `LICENSE` | 1,072 |
-| Root documents, requirements, licence and citation files | `PROVENANCE.md` | 6,072 |
-| Root documents, requirements, licence and citation files | `README.md` | 3,564 |
-| Root documents, requirements, licence and citation files | `RELEASE_SCOPE.md` | 39,424 |
+| Root documents, requirements, licence and citation files | `PROVENANCE.md` | 6,651 |
+| Root documents, requirements, licence and citation files | `README.md` | 3,779 |
+| Root documents, requirements, licence and citation files | `RELEASE_SCOPE.md` | 39,426 |
 | Root documents, requirements, licence and citation files | `REPRODUCE.md` | 33,927 |
 | Root documents, requirements, licence and citation files | `TITLE.txt` | 109 |
 | Root documents, requirements, licence and citation files | `requirements.txt` | 901 |
